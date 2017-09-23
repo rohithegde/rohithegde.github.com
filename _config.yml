@@ -23,6 +23,7 @@ url: "http://abstraction.blog" # the base hostname & protocol for your site, e.g
 author: Rohit Hegde
 github_username:  rohithegde
 
+#https://www.webpagefx.com/tools/emoji-cheat-sheet/
 # Build settings
 markdown: kramdown
 theme: minima
@@ -30,12 +31,13 @@ plugins:
   - jekyll-feed
   - jekyll-analytics
   - jekyll-archives
-  - jemoji #https://www.webpagefx.com/tools/emoji-cheat-sheet/
+  - jemoji
   
 jekyll_analytics: 
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-60000051-1          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking  
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking 
+
 
 #tag_page_layout: tag_page
 #tag_page_dir: pages/tags
