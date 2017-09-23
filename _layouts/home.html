@@ -10,7 +10,7 @@ layout: default
       {% assign tags = site.tags | sort %}
       {% for tag in tags %}
       {% assign t = tag | first %}
-        <a href="{{ site.tag_page_dir }}/{{ t }}/">{{ t }}</a> | 
+        <a href="{{ site.tag_page_dir }}{{ t }}/">{{ t }}</a> | 
       {% endfor %}
     </p>
     <div class="divTable">

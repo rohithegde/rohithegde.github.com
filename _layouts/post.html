@@ -18,7 +18,7 @@ layout: default
     {% endcomment %}
 
     Tags : {% for tag in page.tags %}
-              <a href="/archives/tags/{{ tag | slugify: 'pretty' }}/">{{ tag }}</a>
+              <a href="{{site.tag_page_dir}}{{ tag | slugify: 'pretty' }}/">{{ tag }}</a>
     {% endfor %}
 
     {{ content }}
