@@ -25,6 +25,10 @@ github_username:  rohithegde
 #https://www.webpagefx.com/tools/emoji-cheat-sheet/
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 theme: jekyll-theme-cayman
 # cayman, primer, architect
 plugins:
@@ -62,6 +66,8 @@ jekyll-archives:
     day: '/archives/time/:year/:month/:day/'
     tag: '/archives/tags/:name/'
 
+# The release of Jekyll Now that you're using
+version: v3.5.2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

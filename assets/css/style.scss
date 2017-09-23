@@ -9,6 +9,14 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
 }
+.hiddenTag {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.selectedFilter {
+    font-weight: bold;
+}
 
 /* DivTable.com */
 .divTable{
