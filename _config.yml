@@ -29,7 +29,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-analytics
- # - jekyll/tagging
   - jekyll-archives
   - jemoji #https://www.webpagefx.com/tools/emoji-cheat-sheet/
   
