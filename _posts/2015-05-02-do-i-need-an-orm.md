@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Do I need an ORM ? 
-category: architecture
+#category: architecture
 tags: [database, ooad]
 ---
 

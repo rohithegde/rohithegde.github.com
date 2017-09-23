@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Blogging on Github!
-category: general
+#category: general
 tags: [github]
 ---
  
 I have wanted a technical blog for a long time now but couldn't modify my existing blogs (a non technical one + a work related one) since its a bad practise to have multiple themes for a blog as that would alienate the followers of the blog.
 I could have created another blog on Blogspot or Wordpress but Github had 1 advantage which the others didnt - an implicit connection to one's code repository which is truly invaluable. 
 
-Instead of the traditional "Hello World", I decided to have my first post as a mini **"How to setup your Github Blog"** guide.
+Instead of the traditional "Hello World", I decided to have my first post as a mini **"How to setup your Github Blog"** guide :smile: .
 
 ### Background Know-how
 - A normal blog like Wordpress requires a database from which the code base extracts the data to be shown

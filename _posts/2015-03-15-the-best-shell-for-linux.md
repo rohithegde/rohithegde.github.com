@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The best shell for Linux
-category: environment
+#category: environment
 tags: [shell, zsh, bash]
 ---
  

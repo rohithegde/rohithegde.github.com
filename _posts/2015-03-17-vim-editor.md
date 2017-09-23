@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Vim Editor
-category: editor
+#category: editor
 tags: [shell, vim]
 ---
 

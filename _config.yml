@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://abstraction.blog" # the base hostname & protocol for your site, e.g. http://example.com
 author: Rohit Hegde
-github_username:  jekyll
+github_username:  rohithegde
 
 # Build settings
 markdown: kramdown
@@ -29,18 +29,37 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-analytics
-  - jekyll/tagging
+ # - jekyll/tagging
+  - jekyll-archives
+  - jemoji #https://www.webpagefx.com/tools/emoji-cheat-sheet/
   
 jekyll_analytics: 
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-60000051-1          # Required - replace with your tracking id
     anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking  
 
-tag_page_layout: tag_page
-tag_page_dir: pages/tags
+#tag_page_layout: tag_page
+#tag_page_dir: pages/tags
 #tag_feed_layout: tag_feed
 #tag_feed_dir: tag
 #tag_permalink_style: pretty
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+    - tags
+  layouts:
+    year: year_archive
+    month: month_archive
+    day: day_archive
+    tag: tag_archive
+  permalinks:
+    year: '/archives/time/:year/'
+    month: '/archives/time/:year/:month/'
+    day: '/archives/time/:year/:month/:day/'
+    tag: '/archives/tags/:name/'
 
 
 # Exclude from processing.

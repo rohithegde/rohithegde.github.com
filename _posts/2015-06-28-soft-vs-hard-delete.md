@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Soft Delete vs Hard Delete 
-category: architecture
+#category: architecture
 tags: [database, orm]
 ---  
   
