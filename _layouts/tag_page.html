@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<h2>{{ page.tag }}</h2>
+<h2>Posts for the tag : <b>{{ page.tag }}</b></h2>
 <ul>
-{% for post in page.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li>
+{% for post in site.tags[page.tag] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
 {% endfor %}
 </ul>
 

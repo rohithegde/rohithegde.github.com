@@ -14,32 +14,32 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Abstraction.blog
-email: rohitabstract@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "http://abstraction.blog" # the base hostname & protocol for your site, e.g. http://example.com
+author: Rohit Hegde
 github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-analytics
+  - jekyll/tagging
   
 jekyll_analytics: 
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-123-456          # Required - replace with your tracking id
+    id: UA-60000051-1          # Required - replace with your tracking id
     anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking  
 
 tag_page_layout: tag_page
-tag_page_dir: tag
-tag_feed_layout: tag_feed
-tag_feed_dir: tag
+tag_page_dir: pages/tags
+#tag_feed_layout: tag_feed
+#tag_feed_dir: tag
 #tag_permalink_style: pretty
 
 
