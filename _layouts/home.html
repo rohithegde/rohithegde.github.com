@@ -1,19 +1,39 @@
 ---
 layout: default
----
-
+--- 
 <article class="post">
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
+    <p>
+      <b> Tags : </b>
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+      {% assign t = tag | first %}
+        <a href="{{ site.tag_page_dir }}/{{ t }}/">{{ t }}</a> | 
+      {% endfor %}
+    </p>
+    <div class="divTable">
+      <div class="divTableHeading">
+        <div class="divTableRow">
+          <div class="divTableHead">Posts</div>
+          <div class="divTableHead">ETA</div>
+          <div class="divTableHead">Date</div>
+        </div>
+      </div>
+      <div class="divTableBody">
+        {% for page in site.posts %}
+        <div class="divTableRow">
+          <div class="divTableCell"><a href="{{ page.url }}/">{{ page.title }}</a></div>
+          <div class="divTableCell">{% include read_time.html %}</div>
+          <div class="divTableCell">{{ page.date | date: "%B %e, %Y" }}</div>
+        </div>
+        {% endfor %}
+        
+      </div>
+    </div>
+    <p>&nbsp;</p>
     
-    {% for post in site.posts %}
-          <li>
-              <a href="{{ post.url }}/">{{ post.title }}</a>
-          </li>
-    {% endfor %}
-
-    {{ content }}
   </div>
 
 

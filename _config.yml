@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Abstraction.blog
 description: > # this means to ignore newlines until "baseurl:"
-  The computer programmer is a creator of universes for which he alone is the lawgiver
+  Valar Codilis. All men must code.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://abstraction.blog" # the base hostname & protocol for your site, e.g. http://example.com
 author: Rohit Hegde
@@ -39,7 +40,7 @@ jekyll_analytics:
 
 
 #tag_page_layout: tag_page
-#tag_page_dir: pages/tags
+tag_page_dir: '/archives/tags/'
 #tag_feed_layout: tag_feed
 #tag_feed_dir: tag
 #tag_permalink_style: pretty
@@ -51,10 +52,10 @@ jekyll-archives:
     - day
     - tags
   layouts:
-    year: year_archive
-    month: month_archive
-    day: day_archive
-    tag: tag_archive
+    year: archive_year
+    month: archive_month
+    day: archive_day
+    tag: archive_tag
   permalinks:
     year: '/archives/time/:year/'
     month: '/archives/time/:year/:month/'
