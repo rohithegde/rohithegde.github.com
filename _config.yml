@@ -78,3 +78,4 @@ permalink: /:year/:month/:day/:title
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+github: [metadata]
