@@ -1,17 +1,1 @@
-Tasks : 
-# ~~RSS support~~
-# ~~Archives (tags, time)~~
-# ~~emoji support~~
-# ~~Tag cloud~~
-# ~~Tag based dynamic post list~~
-
-# ~~Images~~
-# ~~URL Rewriting~~
-# ~~Pages~~
-# ~~Comment support~~
-# ~~Social media share~~
-# ~~Profile links~~
-# ~~Site icon~~
-# ~~Google Analytics~~
-# Code highlighting
-# Blog post validation
+Code repo to support my technical blog : http://abstraction.blog
