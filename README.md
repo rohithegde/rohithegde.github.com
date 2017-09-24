@@ -10,8 +10,8 @@ Tasks :
 # ~~Pages~~
 # ~~Comment support~~
 # ~~Social media share~~
-# Profile links
-# Site icon
+# ~~Profile links~~
+# ~~Site icon~~
 # ~~Google Analytics~~
 # Code highlighting
 # Blog post validation
