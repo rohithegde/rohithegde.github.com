@@ -16,7 +16,7 @@ However at that point in time, I didn't know how powerful vim actually could be.
 
 ## Basics : Modes
 
-![Vim Modes]({{ site.baseurl }}/images/vim_modes.png "Vim Modes")
+![Vim Modes]({{ site.baseurl }}/assets/images/vim_modes.png "Vim Modes")
 
 ## Basics : Commands
 - Mode Switching :

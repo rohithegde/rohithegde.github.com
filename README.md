@@ -5,11 +5,13 @@ Tasks :
 # ~~Tag cloud~~
 # ~~Tag based dynamic post list~~
 
-Pending : 
-# Pages
-# Comment support
+# ~~Images~~
+# ~~URL Rewriting~~
+# ~~Pages~~
+# ~~Comment support~~
+# ~~Social media share~~
 # Profile links
 # Site icon
-# Google Analytics
+# ~~Google Analytics~~
 # Code highlighting
 # Blog post validation

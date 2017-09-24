@@ -3,16 +3,52 @@
 
 @import "{{ site.theme }}";
 
+// CAYMAN THEME CUSTOMIZATIONS
 .page-header {
     padding-top: 0rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     padding-left: 1rem;
 }
 .hiddenTag {
     display: none !important;
     visibility: hidden !important;
 }
+.blog-title {
+	color: white;
+}
+.project-tagline {
+	margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+    opacity: 0.7;
+}
+.main-content {
+    max-width: 60rem;
+    padding: 1rem 1rem;
+    margin: 1 auto;
+    font-size: 1.1rem;
+}
+.header-meta {
+	width: 100%;
+}
+.header-meta-left-filler {
+	width: 42%;
+}
+.header-meta-main-filler {
+	width: 40%;
+}
+.header-meta-right-filler {
+	text-align: right;
+}
+.profile-pic {
+	width: 200px;
+}
+.about-me {
+	width: 70%;
+	vertical-align: middle;
+}
+// CUSTOM FUNCTIONALITYs
 
 .selectedFilter {
     font-weight: bold;
@@ -44,4 +80,11 @@
 }
 .divTableBody {
 	display: table-row-group;
+}
+// Share
+.facebook-share {
+	height: 20px;
+}
+.reddit-share img {
+	height: 20px;
 }

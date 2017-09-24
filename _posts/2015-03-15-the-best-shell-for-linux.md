@@ -24,7 +24,7 @@ I want to use a best shell on my local workstation for Linux OS
 ### Solution 1 - Zsh
 Has all the features of Bash & other shells + offers numerous more.
 
-![Zsh Auto Help]({{ site.baseurl }}/images/zsh.png "Zsh Auto Help")
+![Zsh Auto Help]({{ site.baseurl }}/assets/images/zsh.png "Zsh Auto Help")
 
 #### Pros
 - Provides context based command line completions (case insensitive by default)
@@ -43,7 +43,7 @@ NA
 - It is the  default interactive shell for users on most Linux and Mac OS X systems.
 - The auto completion part comes in built with Ubuntu now unlike earlier times where we had to install it. 
 
-![Bash]({{ site.baseurl }}/images/bash.png "Bash")
+![Bash]({{ site.baseurl }}/assets/images/bash.png "Bash")
 
 #### Pros
 - Default installation in the popular Ubuntu OS

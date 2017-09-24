@@ -6,7 +6,7 @@ tags: [database, ooad, orm]
 ---  
   
 ## About
-- In my [previous post](http://rohithegde.github.io/do-i-need-an-orm/), I had talked about some of the pros, cons of working with an ORM & when it can be useful.
+- In my [previous post]({{ site.url }}/do-i-need-an-orm/), I had talked about some of the pros, cons of working with an ORM & when it can be useful.
 - In this post, I take a look at some prominent PHP based ORMs & compare them. 
 
 ## Features of a Good ORM

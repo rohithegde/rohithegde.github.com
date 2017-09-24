@@ -28,20 +28,16 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
 
 theme: jekyll-theme-cayman
 # cayman, primer, architect
 plugins:
   - jekyll-feed
-  - jekyll-analytics
   - jekyll-archives
   - jemoji
   
-jekyll_analytics: 
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-60000051-1          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking 
-
+google_analytics: UA-60000051-1
 
 #tag_page_layout: tag_page
 tag_page_dir: '/archives/tags/'
@@ -68,6 +64,8 @@ jekyll-archives:
 
 # The release of Jekyll Now that you're using
 version: v3.5.2
+
+permalink: /:year/:month/:day/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
