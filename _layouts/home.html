@@ -25,7 +25,7 @@ layout: default
       <div class="divTableBody">
         {% for page in site.posts %}
         <div class="divTableRow tagRow {{ page.tags | array_to_sentence_string:',' | replace:',',' ' }}">
-          <div class="divTableCell"><a href="{{ page.url }}/">{{ page.title }}</a></div>
+          <div class="divTableCell"><a href="{{ page.url }}">{{ page.title }}</a></div>
           <div class="divTableCell">{% include read_time.html %}</div>
           <div class="divTableCell">{{ page.date | date: "%B %e, %Y" }}</div>
         </div>
