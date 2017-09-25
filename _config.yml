@@ -67,6 +67,10 @@ version: v3.5.2
 
 permalink: /:year/:month/:day/:title
 
+disqus_url: 'https://abstraction-blog.disqus.com'
+
+blog_start_year: 2015
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
