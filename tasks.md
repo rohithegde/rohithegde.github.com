@@ -4,11 +4,13 @@ Tasks :
 # ~~emoji support~~
 # ~~Tag cloud~~
 # ~~Tag based dynamic post list~~
+## http://perfectionkills.com/
 
 # ~~Images~~
 # ~~URL Rewriting~~
 # ~~Pages~~
-# ~~Comment support~~
+# ~~Comment support~~ 
+## http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html
 # ~~Social media share~~
 # ~~Profile links~~
 # ~~Site icon~~
