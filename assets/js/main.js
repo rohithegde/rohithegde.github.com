@@ -2,11 +2,14 @@ function filter (tag) {
   var selectedTags = document.getElementsByClassName('tag-link-' + tag);
   //console.log(selectedTags[0]);
   if (selectedTags[0]) {
+    // If selected tag has been selected already then un-select it & show all posts
     if (selectedTags[0].getAttribute('class').indexOf('selectedFilter') > -1) {
+        window.location.hash = '';
         //console.log('found');
         showAllRows();
         selectedTags[0].setAttribute('class', selectedTags[0].getAttribute('class').replace('selectedFilter', '').trim());
     } else {
+        window.location.hash = tag;
         var previousSelectedTags = document.getElementsByClassName('selectedFilter');
         if (previousSelectedTags[0]) {
             //console.log('found other');
@@ -43,4 +46,12 @@ function showAllRows() {
     //console.log('showHiddenRows set', lists[i].getAttribute('class').replace('hiddenTag', '').trim());
     lists[i].setAttribute('class', lists[i].getAttribute('class').replace('hiddenTag', '').trim());
   }
+}
+// Get posts of specific tag via url hash
+// JS hack since github pages does not support tag based pages easily
+var hashValue = window.location.hash.replace('#', '').trim();
+if (hashValue.length > 0) {
+  setTimeout(function() {
+    filter(hashValue);
+  }, 10); 
 }

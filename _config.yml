@@ -32,9 +32,10 @@ kramdown:
 
 theme: jekyll-theme-cayman
 # cayman, primer, architect
+
 plugins:
   - jekyll-feed
-  - jekyll-archives
+  - jekyll-seo-tag
   - jemoji
   
 google_analytics: UA-60000051-1
