@@ -11,7 +11,7 @@ permalink: /about/
 <br/>
 <div class="divTableRow">
     <div class="divTableCell profile-pic">
-        <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="rohithegde"><a class="LI-simple-link" href='https://in.linkedin.com/in/rohithegde?trk=profile-badge'>Rohit Hegde</a></div>
+        <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="rohithegde"><a class="LI-simple-link" rel="nofollow" target="_blank" href='https://in.linkedin.com/in/rohithegde?trk=profile-badge'>Rohit Hegde</a></div>
     </div>
     <div class="divTableCell about-me">
         I am a polygot programmer who has been in the open source field from the year 2007.

@@ -54,9 +54,9 @@ tags: [database, ooad]
 - For a good performance, you will have to use an opcode cache layer + a data cache layer (memcache, varnish etc) so as to offset the speed issue. If you don't want to do this, then ORM solution is not for you. 
 
 ## References 
-- <http://martinfowler.com/bliki/OrmHate.html>
-- <http://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/>
-- <http://stackoverflow.com/questions/108699/good-php-orm-library>
-- <http://stackoverflow.com/questions/7765070/redbean-orm-performance>
-- <https://philsturgeon.uk/blog/2011/06/misconceptions-about-orms/>
+- <http://martinfowler.com/bliki/OrmHate.html>{:target="_blank" rel="nofollow"}
+- <http://blog.codinghorror.com/object-relational-mapping-is-the-vietnam-of-computer-science/>{:target="_blank" rel="nofollow"}
+- <http://stackoverflow.com/questions/108699/good-php-orm-library>{:target="_blank" rel="nofollow"}
+- <http://stackoverflow.com/questions/7765070/redbean-orm-performance>{:target="_blank" rel="nofollow"}
+- <https://philsturgeon.uk/blog/2011/06/misconceptions-about-orms/>{:target="_blank" rel="nofollow"}
 

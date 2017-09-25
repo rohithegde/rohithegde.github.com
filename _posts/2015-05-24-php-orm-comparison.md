@@ -20,19 +20,19 @@ tags: [database, ooad, orm]
 - Good Documentation
 
 ## Different PHP based ORMs
-- [Doctrine](http://www.doctrine-project.org/) (DataMapper pattern)
-- [Propel](http://propelorm.org/) (ActiveRecord pattern)
-- [Redbean](https://github.com/gabordemooij/redbean/tree/RedBeanPHP4KS) (DataMapper pattern)
-- [Idiorm](https://github.com/j4mie/idiorm) (ActiveRecord pattern but oriented towards Query Language) 
-- [Paris](https://github.com/j4mie/paris) (ActiveRecord pattern & dependent on Idiorm)
-- [Spot ORM](https://github.com/vlucas/spot2) (DataMapper pattern built on top of Doctrine DBAL)
-- [Outlet](https://github.com/fgrehm/outlet-orm) (DataMapper pattern)
-- [Xyster](http://xyster.libreworks.com/) (DataMapper pattern)
-- [Leap](https://github.com/spadefoot/kohana-orm-leap) (Kohana FW)
-- [Eloquent](http://laravel.com/docs/5.0/eloquent) (Laravel FW)
-- [MicroMVC](https://github.com/Xeoncross/micromvc)
-- [Gacela](https://github.com/energylab/gacela)
-- [NotORM](https://github.com/vrana/notorm)
+- [Doctrine](http://www.doctrine-project.org/){:target="_blank" rel="nofollow"} (DataMapper pattern)
+- [Propel](http://propelorm.org/){:target="_blank" rel="nofollow"} (ActiveRecord pattern)
+- [Redbean](https://github.com/gabordemooij/redbean/tree/RedBeanPHP4KS){:target="_blank" rel="nofollow"} (DataMapper pattern)
+- [Idiorm](https://github.com/j4mie/idiorm){:target="_blank" rel="nofollow"} (ActiveRecord pattern but oriented towards Query Language) 
+- [Paris](https://github.com/j4mie/paris){:target="_blank" rel="nofollow"} (ActiveRecord pattern & dependent on Idiorm)
+- [Spot ORM](https://github.com/vlucas/spot2){:target="_blank" rel="nofollow"} (DataMapper pattern built on top of Doctrine DBAL)
+- [Outlet](https://github.com/fgrehm/outlet-orm){:target="_blank" rel="nofollow"} (DataMapper pattern)
+- [Xyster](http://xyster.libreworks.com/){:target="_blank" rel="nofollow"} (DataMapper pattern)
+- [Leap](https://github.com/spadefoot/kohana-orm-leap){:target="_blank" rel="nofollow"} (Kohana FW)
+- [Eloquent](http://laravel.com/docs/5.0/eloquent){:target="_blank" rel="nofollow"} (Laravel FW)
+- [MicroMVC](https://github.com/Xeoncross/micromvc){:target="_blank" rel="nofollow"}
+- [Gacela](https://github.com/energylab/gacela){:target="_blank" rel="nofollow"}
+- [NotORM](https://github.com/vrana/notorm){:target="_blank" rel="nofollow"}
 
 + some more which have fallen into the cracks of the internet now due to lack of maintenance.
 
@@ -55,11 +55,11 @@ tags: [database, ooad, orm]
 
 ### Community Support
 - Doctrine
-    - [Github](https://github.com/doctrine/doctrine2) Stats : 389 contributors (as of 2015-05-09)
+    - [Github](https://github.com/doctrine/doctrine2){:target="_blank" rel="nofollow"} Stats : 389 contributors (as of 2015-05-09)
 - Propel
-    - [Github](https://github.com/propelorm/Propel) Stats : 96 contributors (as of 2015-05-09)
+    - [Github](https://github.com/propelorm/Propel){:target="_blank" rel="nofollow"} Stats : 96 contributors (as of 2015-05-09)
 - Redbeans
-    - [Github](https://github.com/gabordemooij/redbean) Stats : 31 contributors (as of 2015-05-09)
+    - [Github](https://github.com/gabordemooij/redbean){:target="_blank" rel="nofollow"} Stats : 31 contributors (as of 2015-05-09)
         
 ### Configuration file format
 - Doctrine
@@ -242,19 +242,19 @@ tags: [database, ooad, orm]
 - I would prefer using Redbeans on my personal side projects since its pretty neat to work with. But I would definitely hesitate to use it with a client's project. 
 
 ## References & study material links
-- <http://stackoverflow.com/questions/2062473/php-orms-doctrine-vs-propel>
-- <http://programmers.stackexchange.com/questions/48760/should-i-choose-doctrine-2-or-propel-1-5-1-6-and-why>
-- <http://www.vertabelo.com/blog/technical-articles/side-by-side-doctrine2-and-propel-2-comparison>
+- <http://stackoverflow.com/questions/2062473/php-orms-doctrine-vs-propel>{:target="_blank" rel="nofollow"}
+- <http://programmers.stackexchange.com/questions/48760/should-i-choose-doctrine-2-or-propel-1-5-1-6-and-why>{:target="_blank" rel="nofollow"}
+- <http://www.vertabelo.com/blog/technical-articles/side-by-side-doctrine2-and-propel-2-comparison>{:target="_blank" rel="nofollow"}
 - Cheatsheets :
     - Doctrine Cheatsheet
-        - <http://www.cheat-sheets.org/saved-copy/Doctrine-Cheat-Sheet-1.1.pdf>
+        - <http://www.cheat-sheets.org/saved-copy/Doctrine-Cheat-Sheet-1.1.pdf>{:target="_blank" rel="nofollow"}
     - Propel Cheatsheet 
-        - <http://www.cheat-sheets.org/saved-copy/sfmodelfirstpartrefcard.pdf> 
-        - <http://ormcheatsheet.com/propel/>
+        - <http://www.cheat-sheets.org/saved-copy/sfmodelfirstpartrefcard.pdf>{:target="_blank" rel="nofollow"} 
+        - <http://ormcheatsheet.com/propel/>{:target="_blank" rel="nofollow"}
     - Redbeans Cheatsheet
-        - <http://www.redbeanphp.com/manual3_0/cheatsheet>
-- Using Readbeans with ZF1 : <http://richardjh.org/blog/using-redbeanphp-orm-zend-framework.php>
-- Propel business logic : <http://www.codeitive.com/0HzgPWWgqj/mvc-and-orm-which-model-logic-goes-where.html>
+        - <http://www.redbeanphp.com/manual3_0/cheatsheet>{:target="_blank" rel="nofollow"}
+- Using Readbeans with ZF1 : <http://richardjh.org/blog/using-redbeanphp-orm-zend-framework.php>{:target="_blank" rel="nofollow"}
+- Propel business logic : <http://www.codeitive.com/0HzgPWWgqj/mvc-and-orm-which-model-logic-goes-where.html>{:target="_blank" rel="nofollow"}
 
 
 

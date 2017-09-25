@@ -16,13 +16,13 @@ Instead of the traditional "Hello World", I decided to have my first post as a m
 
 ### Creating your Github Blog
 - The simplest way to setup your own Github user blog would be :
-    - Fork an existing github blog repo (eg : The template blog at [Jekkyl Now](https://github.com/barryclark/jekyll-now))
+    - Fork an existing github blog repo (eg : The template blog at [Jekkyl Now](https://github.com/barryclark/jekyll-now){:target="_blank" rel="nofollow"})
     - Rename the forked blog to your username.github.com
     - Customize the _config.yml file
     - **Advantages** 
         - Hassle free way to have your blog setup with necessary plugins (commenting, gravatar profile etc)  
 - The other way :
-    - Fork the [Jekky Bootstrap repo](https://github.com/plusjade/jekyll-bootstrap.git) 
+    - Fork the [Jekky Bootstrap repo](https://github.com/plusjade/jekyll-bootstrap.git){:target="_blank" rel="nofollow"}
     - Rename the forked blog to your username.github.com
     - **Advantages**
         - Clean blog which you get to build from scratch
@@ -33,10 +33,10 @@ The blog should now be visible at your username.github.io
 
 ### Things to do ahead
 - Publish your 1st post by adding an entry into the existing posts folder
-- Brush up your markdown language with this [guide](http://www.jekyllnow.com/Markdown-Style-Guide/)
-- Examine how beautiful your github blog can be by examining the themes templates [here](http://jekyllthemes.org/) & use them if you like them
-- Start adding more plugins like [tags](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
-- Setup the blog in your local if needed using the section 2 of this [guide](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+- Brush up your markdown language with this [guide](http://www.jekyllnow.com/Markdown-Style-Guide/){:target="_blank" rel="nofollow"}
+- Examine how beautiful your github blog can be by examining the themes templates [here](http://jekyllthemes.org/){:target="_blank" rel="nofollow"} & use them if you like them
+- Start adding more plugins like [tags](http://www.minddust.com/post/tags-and-categories-on-github-pages/){:target="_blank" rel="nofollow"}
+- Setup the blog in your local if needed using the section 2 of this [guide](http://jekyllbootstrap.com/usage/jekyll-quick-start.html){:target="_blank" rel="nofollow"}
 
 
 ### PENDING FOR ME
@@ -45,7 +45,7 @@ The blog should now be visible at your username.github.io
 
 
 ## References 
-* <http://jekyllbootstrap.com/usage/jekyll-quick-start.html>
-* <http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/>
-* <http://www.jekyllnow.com/Markdown-Style-Guide/>
-* <http://www.minddust.com/post/tags-and-categories-on-github-pages/>
+* <http://jekyllbootstrap.com/usage/jekyll-quick-start.html>{:target="_blank" rel="nofollow"}
+* <http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/>{:target="_blank" rel="nofollow"}
+* <http://www.jekyllnow.com/Markdown-Style-Guide/>{:target="_blank" rel="nofollow"}
+* <http://www.minddust.com/post/tags-and-categories-on-github-pages/>{:target="_blank" rel="nofollow"}

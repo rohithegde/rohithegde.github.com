@@ -18,8 +18,8 @@ tags: [performance,server]
         - Expected to have a price in the future (if it goes live)
     2. **Pagespeed Insight API**
         - Gives a PageSpeed score to the provided url + suggestions to improve
-        - URL : <https://developers.google.com/speed/pagespeed/insights/>
-        - Rules for grading your page : <https://developers.google.com/speed/docs/insights/rules>
+        - URL : <https://developers.google.com/speed/pagespeed/insights/>{:target="_blank" rel="nofollow"}
+        - Rules for grading your page : <https://developers.google.com/speed/docs/insights/rules>{:target="_blank" rel="nofollow"}
     3. **Pagespeed Module**
         - Open source module which runs on an Apache or Nginx server to automatically rewrite and optimize resources.
 
@@ -34,56 +34,56 @@ In this blog, I will primarily concentrate on the Pagespeed module since its the
     
 - **Entire set of features**
     - Optimize Catching
-        - [Canonicalize JavaScript Libraries](https://developers.google.com/speed/pagespeed/module/filter-canonicalize-js)
-        - [Extend Cache](https://developers.google.com/speed/pagespeed/module/filter-cache-extend)
-        - [Extend Cache PDFs](https://developers.google.com/speed/pagespeed/module/filter-cache-extend-pdfs)
-        - [Local Storage Cache](https://developers.google.com/speed/pagespeed/module/filter-local-storage-cache)
-        - [Outline CSS](https://developers.google.com/speed/pagespeed/module/filter-css-outline)
-        - [Outline JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-outline)
+        - [Canonicalize JavaScript Libraries](https://developers.google.com/speed/pagespeed/module/filter-canonicalize-js){:target="_blank" rel="nofollow"}
+        - [Extend Cache](https://developers.google.com/speed/pagespeed/module/filter-cache-extend){:target="_blank" rel="nofollow"}
+        - [Extend Cache PDFs](https://developers.google.com/speed/pagespeed/module/filter-cache-extend-pdfs){:target="_blank" rel="nofollow"}
+        - [Local Storage Cache](https://developers.google.com/speed/pagespeed/module/filter-local-storage-cache){:target="_blank" rel="nofollow"}
+        - [Outline CSS](https://developers.google.com/speed/pagespeed/module/filter-css-outline){:target="_blank" rel="nofollow"}
+        - [Outline JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-outline){:target="_blank" rel="nofollow"}
     - Minimize Round Trip Times
-        - [Combine CSS](https://developers.google.com/speed/pagespeed/module/filter-css-combine)
-        - [Flatten CSS @imports](https://developers.google.com/speed/pagespeed/module/filter-flatten-css-imports)
-        - [Inline CSS](https://developers.google.com/speed/pagespeed/module/filter-css-inline)
-        - [Inline Google Fonts API CSS](https://developers.google.com/speed/pagespeed/module/filter-css-inline-google-fonts)
-        - [Combine JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-combine)
-        - [Inline JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-inline)
-        - [Move CSS Above Scripts](https://developers.google.com/speed/pagespeed/module/filter-css-above-scripts)
-        - [Configuration file directive to shard domains](https://developers.google.com/speed/pagespeed/module/domains#shard)
-        - [Sprite Images](https://developers.google.com/speed/pagespeed/module/filter-image-sprite)
-        - [Pre-Resolve DNS](https://developers.google.com/speed/pagespeed/module/filter-insert-dns-prefetch)
+        - [Combine CSS](https://developers.google.com/speed/pagespeed/module/filter-css-combine){:target="_blank" rel="nofollow"}
+        - [Flatten CSS @imports](https://developers.google.com/speed/pagespeed/module/filter-flatten-css-imports){:target="_blank" rel="nofollow"}
+        - [Inline CSS](https://developers.google.com/speed/pagespeed/module/filter-css-inline){:target="_blank" rel="nofollow"}
+        - [Inline Google Fonts API CSS](https://developers.google.com/speed/pagespeed/module/filter-css-inline-google-fonts){:target="_blank" rel="nofollow"}
+        - [Combine JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-combine){:target="_blank" rel="nofollow"}
+        - [Inline JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-inline){:target="_blank" rel="nofollow"}
+        - [Move CSS Above Scripts](https://developers.google.com/speed/pagespeed/module/filter-css-above-scripts){:target="_blank" rel="nofollow"}
+        - [Configuration file directive to shard domains](https://developers.google.com/speed/pagespeed/module/domains#shard){:target="_blank" rel="nofollow"}
+        - [Sprite Images](https://developers.google.com/speed/pagespeed/module/filter-image-sprite){:target="_blank" rel="nofollow"}
+        - [Pre-Resolve DNS](https://developers.google.com/speed/pagespeed/module/filter-insert-dns-prefetch){:target="_blank" rel="nofollow"}
     - Minimize Request Overhead
-        - [Rewrite Domains](https://developers.google.com/speed/pagespeed/module/filter-domain-rewrite)
-        - [Configuration file directive to map domains](https://developers.google.com/speed/pagespeed/module/domains#mapping_rewrite)
+        - [Rewrite Domains](https://developers.google.com/speed/pagespeed/module/filter-domain-rewrite){:target="_blank" rel="nofollow"}
+        - [Configuration file directive to map domains](https://developers.google.com/speed/pagespeed/module/domains#mapping_rewrite){:target="_blank" rel="nofollow"}
     - Minimize Payload Size
-        - [Collapse Whitespace](https://developers.google.com/speed/pagespeed/module/filter-whitespace-collapse)
-        - [Combine Heads](https://developers.google.com/speed/pagespeed/module/filter-head-combine)
-        - [Elide Attributes](https://developers.google.com/speed/pagespeed/module/filter-attribute-elide)
-        - [Minify JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-minify)
-        - [Optimize Images](https://developers.google.com/speed/pagespeed/module/filter-image-optimize)
-        - [Prioritize Critical CSS](https://developers.google.com/speed/pagespeed/module/filter-prioritize-critical-css)
-        - [Deduplicate Inlined Images](https://developers.google.com/speed/pagespeed/module/filter-dedup-inlined-images)
-        - [Remove Comments](https://developers.google.com/speed/pagespeed/module/filter-comment-remove)
-        - [Remove Quotes](https://developers.google.com/speed/pagespeed/module/filter-quote-remove)
-        - [Rewrite CSS](https://developers.google.com/speed/pagespeed/module/filter-css-rewrite)
-        - [Rewrite Style Attributes](https://developers.google.com/speed/pagespeed/module/filter-rewrite-style-attributes)
-        - [Trim URLs](https://developers.google.com/speed/pagespeed/module/filter-trim-urls)
+        - [Collapse Whitespace](https://developers.google.com/speed/pagespeed/module/filter-whitespace-collapse){:target="_blank" rel="nofollow"}
+        - [Combine Heads](https://developers.google.com/speed/pagespeed/module/filter-head-combine){:target="_blank" rel="nofollow"}
+        - [Elide Attributes](https://developers.google.com/speed/pagespeed/module/filter-attribute-elide){:target="_blank" rel="nofollow"}
+        - [Minify JavaScript](https://developers.google.com/speed/pagespeed/module/filter-js-minify){:target="_blank" rel="nofollow"}
+        - [Optimize Images](https://developers.google.com/speed/pagespeed/module/filter-image-optimize){:target="_blank" rel="nofollow"}
+        - [Prioritize Critical CSS](https://developers.google.com/speed/pagespeed/module/filter-prioritize-critical-css){:target="_blank" rel="nofollow"}
+        - [Deduplicate Inlined Images](https://developers.google.com/speed/pagespeed/module/filter-dedup-inlined-images){:target="_blank" rel="nofollow"}
+        - [Remove Comments](https://developers.google.com/speed/pagespeed/module/filter-comment-remove){:target="_blank" rel="nofollow"}
+        - [Remove Quotes](https://developers.google.com/speed/pagespeed/module/filter-quote-remove){:target="_blank" rel="nofollow"}
+        - [Rewrite CSS](https://developers.google.com/speed/pagespeed/module/filter-css-rewrite){:target="_blank" rel="nofollow"}
+        - [Rewrite Style Attributes](https://developers.google.com/speed/pagespeed/module/filter-rewrite-style-attributes){:target="_blank" rel="nofollow"}
+        - [Trim URLs](https://developers.google.com/speed/pagespeed/module/filter-trim-urls){:target="_blank" rel="nofollow"}
     - Optimize Browser Rendering
-        - [Convert Meta Tags](https://developers.google.com/speed/pagespeed/module/filter-convert-meta-tags)
-        - [Defer Javascript](https://developers.google.com/speed/pagespeed/module/filter-js-defer)
-        - [Inline Preview Images](https://developers.google.com/speed/pagespeed/module/filter-inline-preview-images)
-        - [Lazily Load Images](https://developers.google.com/speed/pagespeed/module/filter-lazyload-images)
-        - [Move CSS to Head](https://developers.google.com/speed/pagespeed/module/filter-css-to-head)
-        - [Optimize Images](https://developers.google.com/speed/pagespeed/module/filter-image-optimize)
-        - [Convert JPEG to Progressive](https://developers.google.com/speed/pagespeed/module/filter-image-optimize#progressive)
-        - [Rewrite Style Attributes](https://developers.google.com/speed/pagespeed/module/filter-rewrite-style-attributes)
+        - [Convert Meta Tags](https://developers.google.com/speed/pagespeed/module/filter-convert-meta-tags){:target="_blank" rel="nofollow"}
+        - [Defer Javascript](https://developers.google.com/speed/pagespeed/module/filter-js-defer){:target="_blank" rel="nofollow"}
+        - [Inline Preview Images](https://developers.google.com/speed/pagespeed/module/filter-inline-preview-images){:target="_blank" rel="nofollow"}
+        - [Lazily Load Images](https://developers.google.com/speed/pagespeed/module/filter-lazyload-images){:target="_blank" rel="nofollow"}
+        - [Move CSS to Head](https://developers.google.com/speed/pagespeed/module/filter-css-to-head){:target="_blank" rel="nofollow"}
+        - [Optimize Images](https://developers.google.com/speed/pagespeed/module/filter-image-optimize){:target="_blank" rel="nofollow"}
+        - [Convert JPEG to Progressive](https://developers.google.com/speed/pagespeed/module/filter-image-optimize#progressive){:target="_blank" rel="nofollow"}
+        - [Rewrite Style Attributes](https://developers.google.com/speed/pagespeed/module/filter-rewrite-style-attributes){:target="_blank" rel="nofollow"}
     - Other
-        - [Add Head](https://developers.google.com/speed/pagespeed/module/filter-head-add)
-        - [Add Instrumentation](https://developers.google.com/speed/pagespeed/module/filter-instrumentation-add)
-        - [Include JavaScript Source Maps](https://developers.google.com/speed/pagespeed/module/filter-source-maps-include)
-        - [Inline @import to Link](https://developers.google.com/speed/pagespeed/module/filter-css-inline-import)
-        - [Insert Google Analytics Snippet](https://developers.google.com/speed/pagespeed/module/filter-insert-ga)
-        - [Make Google Analytics Async](https://developers.google.com/speed/pagespeed/module/filter-make-google-analytics-async)
-        - [Pedantic](https://developers.google.com/speed/pagespeed/module/filter-pedantic)
+        - [Add Head](https://developers.google.com/speed/pagespeed/module/filter-head-add){:target="_blank" rel="nofollow"}
+        - [Add Instrumentation](https://developers.google.com/speed/pagespeed/module/filter-instrumentation-add){:target="_blank" rel="nofollow"}
+        - [Include JavaScript Source Maps](https://developers.google.com/speed/pagespeed/module/filter-source-maps-include){:target="_blank" rel="nofollow"}
+        - [Inline @import to Link](https://developers.google.com/speed/pagespeed/module/filter-css-inline-import){:target="_blank" rel="nofollow"}
+        - [Insert Google Analytics Snippet](https://developers.google.com/speed/pagespeed/module/filter-insert-ga){:target="_blank" rel="nofollow"}
+        - [Make Google Analytics Async](https://developers.google.com/speed/pagespeed/module/filter-make-google-analytics-async){:target="_blank" rel="nofollow"}
+        - [Pedantic](https://developers.google.com/speed/pagespeed/module/filter-pedantic){:target="_blank" rel="nofollow"}
         
 - **Configuration & Filter Customization**
     - PageSpeed offers three "levels" (or modes)  to simplify configuration :
@@ -113,8 +113,8 @@ In this blog, I will primarily concentrate on the Pagespeed module since its the
         - Google provides the [Run Experiment](https://developers.google.com/speed/pagespeed/module/module-run-experiment) which can be configured. 
         - Once the results of the experiments over the past 24 hours are ready, the report (in Google Analytics) can be used to determine which filters are best for your website.
 - **Installation**    
-    - <https://developers.google.com/speed/pagespeed/module/download>
-    - If nginx is your web server, then you will have to build it from source to integrate Pagespeed with it. Here is how I did it : <https://docs.google.com/document/d/19I7RRQqeD0xgoC8IGudnhL2R8yZF3ZNZHc5tIQMEptw/edit?usp=sharing>
+    - <https://developers.google.com/speed/pagespeed/module/download>{:target="_blank" rel="nofollow"}
+    - If nginx is your web server, then you will have to build it from source to integrate Pagespeed with it. Here is how I did it : <https://docs.google.com/document/d/19I7RRQqeD0xgoC8IGudnhL2R8yZF3ZNZHc5tIQMEptw/edit?usp=sharing>{:target="_blank" rel="nofollow"}
     - Here is the basic setup I used :
         
     ```bash
@@ -196,4 +196,4 @@ In this blog, I will primarily concentrate on the Pagespeed module since its the
  
 
 ## References 
-- <https://developers.google.com/speed/pagespeed/module/filters>
+- <https://developers.google.com/speed/pagespeed/module/filters>{:target="_blank" rel="nofollow"}

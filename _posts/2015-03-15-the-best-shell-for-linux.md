@@ -68,11 +68,11 @@ NA
 
 
 ## References 
-- <http://en.wikipedia.org/wiki/Unix_shell>
-- Top 10 reasons not to use the C Shell : <http://www.grymoire.com/unix/CshTop10.txt>
-<http://zsh.sourceforge.net/FAQ/zshfaq02.html#l14>
-- <http://www.interworx.com/community/alternative-shells-for-linux/>
-- <http://friedcpu.wordpress.com/2007/07/24/zsh-the-last-shell-youll-ever-need/>
-- <https://www.ibm.com/developerworks/community/blogs/58e72888-6340-46ac-b488-d31aa4058e9c/entry/zsh_the_new_unix_shell_everyone_s_talking_about9?lang=en>
-- <https://github.com/sorin-ionescu/prezto>
-- <http://stackoverflow.com/questions/43321/worth-switching-to-zsh-for-casual-use>
+- <http://en.wikipedia.org/wiki/Unix_shell>{:target="_blank" rel="nofollow"}
+- Top 10 reasons not to use the C Shell : <http://www.grymoire.com/unix/CshTop10.txt>{:target="_blank" rel="nofollow"}
+- <http://zsh.sourceforge.net/FAQ/zshfaq02.html#l14>{:target="_blank" rel="nofollow"}
+- <http://www.interworx.com/community/alternative-shells-for-linux/>{:target="_blank" rel="nofollow"}
+- <http://friedcpu.wordpress.com/2007/07/24/zsh-the-last-shell-youll-ever-need/>{:target="_blank" rel="nofollow"}
+- <https://www.ibm.com/developerworks/community/blogs/58e72888-6340-46ac-b488-d31aa4058e9c/entry/zsh_the_new_unix_shell_everyone_s_talking_about9?lang=en>{:target="_blank" rel="nofollow"}
+- <https://github.com/sorin-ionescu/prezto>{:target="_blank" rel="nofollow"}
+- <http://stackoverflow.com/questions/43321/worth-switching-to-zsh-for-casual-use>{:target="_blank" rel="nofollow"}

@@ -86,8 +86,8 @@ tags: [database, orm]
 - Hard delete approach looks to have more  advantages than soft delete which is why it is something I recommend over soft delete.
 
 ## References & study material links
-- <http://stackoverflow.com/questions/2549839/are-soft-deletes-a-good-idea>
-- <http://stackoverflow.com/questions/378331/physical-vs-logical-soft-delete-of-database-record/26125927#26125927>
+- <http://stackoverflow.com/questions/2549839/are-soft-deletes-a-good-idea>{:target="_blank" rel="nofollow"}
+- <http://stackoverflow.com/questions/378331/physical-vs-logical-soft-delete-of-database-record/26125927#26125927>{:target="_blank" rel="nofollow"}
 
 
 
