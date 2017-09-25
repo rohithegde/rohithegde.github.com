@@ -253,8 +253,7 @@ tags: [database, ooad, orm]
         - <http://ormcheatsheet.com/propel/>{:target="_blank" rel="nofollow"}
     - Redbeans Cheatsheet
         - <http://www.redbeanphp.com/manual3_0/cheatsheet>{:target="_blank" rel="nofollow"}
-- Using Readbeans with ZF1 : <http://richardjh.org/blog/using-redbeanphp-orm-zend-framework.php>{:target="_blank" rel="nofollow"}
-- Propel business logic : <http://www.codeitive.com/0HzgPWWgqj/mvc-and-orm-which-model-logic-goes-where.html>{:target="_blank" rel="nofollow"}
+- Using Readbeans with ZF1 : <http://richardjh.org/blog/using-redbeanphp-orm-zend-framework>{:target="_blank" rel="nofollow"}
 
 
 
