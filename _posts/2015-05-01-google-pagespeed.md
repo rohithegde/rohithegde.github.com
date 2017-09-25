@@ -3,6 +3,7 @@ layout: post
 title: Looking at Google PageSpeed 
 #category: software
 tags: [performance,server]
+comments: true
 ---
 
 ## Why was I interested in PageSpeed

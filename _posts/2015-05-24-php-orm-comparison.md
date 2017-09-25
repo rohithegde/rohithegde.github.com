@@ -3,6 +3,7 @@ layout: post
 title:  PHP ORM Comparison 
 #category: architecture
 tags: [database, ooad, orm]
+comments: true
 ---  
   
 ## About

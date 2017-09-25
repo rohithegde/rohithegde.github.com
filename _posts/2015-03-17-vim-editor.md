@@ -3,6 +3,7 @@ layout: post
 title: The Vim Editor
 #category: editor
 tags: [shell, vim]
+comments: true
 ---
 
 A long time back, I had conducted an interview in which I had asked "What tool do you use to edit PHP files ?". 

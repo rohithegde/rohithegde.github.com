@@ -3,6 +3,7 @@ layout: post
 title: Blogging on Github!
 #category: general
 tags: [github]
+comments: true
 ---
  
 I have wanted a technical blog for a long time now but couldn't modify my existing blogs (a non technical one + a work related one) since its a bad practise to have multiple themes for a blog as that would alienate the followers of the blog.

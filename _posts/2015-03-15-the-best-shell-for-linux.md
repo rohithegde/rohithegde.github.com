@@ -3,6 +3,7 @@ layout: post
 title: The best shell for Linux
 #category: environment
 tags: [shell, zsh, bash]
+comments: true
 ---
  
 I had done this research a few years back. Adding to the blog now.

@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+comments: true
 ---
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <br/>
