@@ -34,6 +34,11 @@
 }
 .header-meta-left-filler {
 	width: 42%;
+	vertical-align: bottom;
+}
+.header-meta-left-filler img {
+	position: relative;
+    left: 20%;
 }
 .header-meta-main-filler {
 	width: 40%;
