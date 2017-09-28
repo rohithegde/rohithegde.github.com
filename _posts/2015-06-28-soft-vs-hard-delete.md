@@ -24,6 +24,7 @@ comments: true
 -- Database Trigger
 -- Combine the copy + delete operations in a stored procedure.
 
+!["Deleting"](https://raw.githubusercontent.com/rohithegde/rohithegde.github.com/master/assets/images/pencil_eraser.jpg "Deleting")
 
 ## Comparison Factors : 
 
@@ -32,7 +33,7 @@ comments: true
 - **Advantage : Soft Delete**
 
 ### Debugging
-- Soft Delete makes it easy to debug data issues since the deleted_flag
+- Soft Delete makes it easy to debug data issues due to the deleted_flag
 - But debugging via the Audit table is also easily possible. So its a tie.
 - **Advantage : NA**
 
