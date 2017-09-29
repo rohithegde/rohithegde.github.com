@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://abstraction.blog" # the base hostname & protocol for your site, e.g. http://example.com
 author: Rohit Hegde
 github_username:  rohithegde
+github_raw_url: https://raw.githubusercontent.com/rohithegde/rohithegde.github.com/master
 
 #https://www.webpagefx.com/tools/emoji-cheat-sheet/
 # Build settings
