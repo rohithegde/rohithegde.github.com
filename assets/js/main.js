@@ -55,3 +55,10 @@ if (hashValue.length > 0) {
     filter(hashValue);
   }, 10); 
 }
+
+function processSearchInput(e) {
+    let search = document.getElementById('search');
+    if (search.value && 13 == e.keyCode) {
+        window.location = "/search?q=" + search.value;
+    }
+}

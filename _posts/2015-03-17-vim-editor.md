@@ -105,8 +105,7 @@ However at that point in time, I didn't know how powerful vim actually could be.
 
 ## References 
 - Learn Vim : 
-    - Interactive Tutorial
-<http://blog.interlinked.org/tutorials/vim_tutorial.html>{:target="_blank" rel="nofollow"}
+    - Interactive Tutorial <http://blog.interlinked.org/tutorials/vim_tutorial.html>{:target="_blank" rel="nofollow"}
     - <http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html>{:target="_blank" rel="nofollow"}
     - Tips & Shortkeys : <http://nvie.com/posts/how-i-boosted-my-vim/>{:target="_blank" rel="nofollow"}
     - <http://stevelosh.com/blog/2010/09/coming-home-to-vim/>{:target="_blank" rel="nofollow"}

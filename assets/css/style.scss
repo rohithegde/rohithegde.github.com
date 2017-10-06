@@ -33,7 +33,6 @@
 	width: 100%;
 }
 .header-meta-left-filler {
-	width: 42%;
 	vertical-align: bottom;
 }
 .header-meta-left-filler img {
@@ -41,10 +40,7 @@
     left: 20%;
 }
 .header-meta-main-filler {
-	width: 40%;
-}
-.header-meta-right-filler {
-	text-align: right;
+	width: 35%;
 }
 .profile-pic {
 	width: 200px;
@@ -102,4 +98,15 @@
     margin-top: 2rem;
     border-top: solid 1px #eff0f1;
 	text-align: center;
+}
+.search-text-box {
+    text-align: center;
+    position: absolute;
+    top: -5%;
+    right: -6%;
+    transform-origin: left;
+    transform: rotate(50deg);
+    color: white;
+    width: 200px;
+    background-color: black;
 }
