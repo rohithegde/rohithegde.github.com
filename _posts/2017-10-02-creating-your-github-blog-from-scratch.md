@@ -83,18 +83,22 @@ comments: true
 ### Social media sharing
 - Instead of relying on sites like addthis, I decided to go with the traditional way of copying the share buttons from each popular social media & using them here.
 - You can view the code snippet for [_includes/social_media_share.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_includes/social_media_share.html){:target="_blank" rel="nofollow"} to get the whole list.
-- Including this file at the end of [_layouts/post.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_layouts/post.html){:target="_blank" rel="nofollow"} will ensure your audience will be able to share your post.
-
+- Including this file at the end of [_layouts/post.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_layouts/post.html#L31){:target="_blank" rel="nofollow"} will ensure your audience will be able to share your post.
+    ```ruby
+    {% raw %}
+    {% include social_media_share.html %}
+    {% endraw %}
+    ```
 ### Analytics
 - [Google Analytics](https://analytics.google.com){:target="_blank" rel="nofollow"} is the best way to track the popularity & stats around your blog.
 - Get your Universal Analytics tracking code at its website at : Admin > Property > Tracking Info > Tracking Code
-- Set the variable google_analytics in [_config.yml](https://github.com/rohithegde/rohithegde.github.com/blob/master/_config.yml){:target="_blank" rel="nofollow"} to your Google analytics id : 
+- Set the variable google_analytics in [_config.yml](https://github.com/rohithegde/rohithegde.github.com/blob/master/_config.yml#L37){:target="_blank" rel="nofollow"} to your Google analytics id : 
     ```yaml
     google_analytics: UA-1234567-8
     ```
 - Create the new file [_includes/analytics.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_includes/analytics.html){:target="_blank" rel="nofollow"}
-- Include the file at the end of the HEAD section of [_layouts/default.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_layouts/default.html){:target="_blank" rel="nofollow"} as :
-    ```html
+- Include the file at the end of the HEAD section of [_layouts/default.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_layouts/default.html#L13){:target="_blank" rel="nofollow"} as :
+    ```ruby
     {% raw %}
     {% include analytics.html %}
     {% endraw %}
@@ -107,7 +111,7 @@ comments: true
     ```
     <input type="text" id="search" placeholder="search" class="search-text-box" onkeypress="return processSearchInput(event)">
     ```
-- I then created [assets/js/main.js](https://github.com/rohithegde/rohithegde.github.com/blob/master/assets/js/main.js#L59-L64){:target="_blank" rel="nofollow"} with custom javascript code to redirect the user to the results page with the search term typed : 
+- I then created [assets/js/main.js](https://github.com/rohithegde/rohithegde.github.com/blob/master/assets/js/main.js#L61-L66){:target="_blank" rel="nofollow"} with custom javascript code to redirect the user to the results page with the search term typed : 
     ```javascript
     function processSearchInput(e) {
         let search = document.getElementById('search');
