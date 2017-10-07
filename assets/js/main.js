@@ -1,3 +1,4 @@
+// START : TAG SUPPORT CODE
 function filter (tag) {
   var selectedTags = document.getElementsByClassName('tag-link-' + tag);
   //console.log(selectedTags[0]);
@@ -55,6 +56,7 @@ if (hashValue.length > 0) {
     filter(hashValue);
   }, 10); 
 }
+// END : TAG SUPPORT CODE
 
 function processSearchInput(e) {
     let search = document.getElementById('search');

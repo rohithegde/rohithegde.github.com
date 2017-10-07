@@ -2,7 +2,7 @@
 layout: post
 title:  Do I need an ORM ? 
 #category: architecture
-tags: [database, ooad]
+tags: [database, orm]
 comments: true
 ---
 

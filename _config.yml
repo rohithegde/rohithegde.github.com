@@ -33,38 +33,10 @@ kramdown:
 
 theme: jekyll-theme-cayman
 # cayman, primer, architect
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jemoji
   
 google_analytics: UA-60000051-1
 
-#tag_page_layout: tag_page
-tag_page_dir: '/archives/tags/'
-#tag_feed_layout: tag_feed
-#tag_feed_dir: tag
-#tag_permalink_style: pretty
-
-jekyll-archives:
-  enabled:
-    - year
-    - month
-    - day
-    - tags
-  layouts:
-    year: archive_year
-    month: archive_month
-    day: archive_day
-    tag: archive_tag
-  permalinks:
-    year: '/archives/time/:year/'
-    month: '/archives/time/:year/:month/'
-    day: '/archives/time/:year/:month/:day/'
-    tag: '/archives/tags/:name/'
-
-# The release of Jekyll Now that you're using
+# The release of Jekyll that you're using
 version: v3.5.2
 
 permalink: /:year/:month/:day/:title

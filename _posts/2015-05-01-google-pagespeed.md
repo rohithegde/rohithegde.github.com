@@ -2,7 +2,7 @@
 layout: post
 title: Looking at Google PageSpeed 
 #category: software
-tags: [performance,server]
+tags: [performance, server, google]
 comments: true
 ---
 
