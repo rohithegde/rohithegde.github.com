@@ -7,26 +7,27 @@ comments: true
 ---
 
 ## Background story
-- In this post, I create my github blog from scratch using [Jekkyl](https://jekyllrb.com/docs/quickstart/){:target="_blank" rel="nofollow"}. I prefer this approach compared to my earlier post in which I had created my github blog from [Jekkyl Now](https://github.com/barryclark/jekyll-now){:target="_blank" rel="nofollow"}.
+- In this post, I create my github blog from scratch using [Jekkyl](https://jekyllrb.com/docs/quickstart/){:target="_blank" rel="nofollow"}. I prefer this approach compared to my [earlier post]({{ site.url }}/2015/03/14/creating-your-github-blog) in which I had created my github blog from [Jekkyl Now](https://github.com/barryclark/jekyll-now){:target="_blank" rel="nofollow"}.
 - I wanted my blog on Github since it gives me the most flexibility of modifying my blog format without the need to host the code on my own server.
 
 ## Basic setup
 - Ensure [Ruby](https://www.ruby-lang.org/en/downloads/){:target="_blank" rel="nofollow"} & [Gems](https://rubygems.org/pages/download){:target="_blank" rel="nofollow"} are installed on your system.
 - Follow the basic blog setup instructions on [Github Pages](https://pages.github.com/){:target="_blank" rel="nofollow"} & then use [Jekyll](https://jekyllrb.com/docs/quickstart/){:target="_blank" rel="nofollow"} for local setup & customizations.
 
-## Jekyll know-how
+## Jekyll blog know-how
 - A normal blog like Wordpress requires a database from which the code base extracts the data to be shown
 - Jekkyl is a open source static site generator written in Ruby by Github's founder. Jekyll takes content, renders Markdown or Textile and Liquid templates, and produces a complete, static website ready to be served without using databases. 
 - Understand the [Jekyll directory structure](https://jekyllrb.com/docs/structure/){:target="_blank" rel="nofollow"} so that you can customize your blog further.
 - Don't ever modify the contents of _site folder since it is regenerated with every build.
 - All posts go inside the _posts folder in the convention of year-month-day-name (eg : 2015-08-17-vim-editor.md).
-- All other links which need to be accessible from the main page, need to have md or html files in the root folder (Eg : [the index file ie index.md](https://github.com/rohithegde/rohithegde.github.com/blob/master/index.md){:target="_blank" rel="nofollow"}). It merely contains the layout which is a html file in the _layouts folder.
+- All other links which need to be accessible from the main page, can be placed either in the root directory (Eg : [the index file ie index.md](https://github.com/rohithegde/rohithegde.github.com/blob/master/index.md){:target="_blank" rel="nofollow"}) or in a custom folder of your choice. It can contain the markdown code as also html code OR it can contain just the layout which is a html file in the _layouts folder.
 - Global variables can be set in the [_config.yml](https://github.com/rohithegde/rohithegde.github.com/blob/master/_config.yml){:target="_blank" rel="nofollow"} file & can be accessed using the site variable. Eg :
     ```ruby
     {% raw %}
     {{ site.url }}
     {% endraw %}
     ```
+- All pages can have their own custom layout. In my case, the [the home page ie index.md](https://github.com/rohithegde/rohithegde.github.com/blob/master/index.md){:target="_blank" rel="nofollow"} has the layout as 'home' while the [home layout](https://github.com/rohithegde/rohithegde.github.com/blob/master/_layouts/home.html){:target="_blank" rel="nofollow"} itself has the [the default layout](https://github.com/rohithegde/rohithegde.github.com/blob/master/_layouts/default.html){:target="_blank" rel="nofollow"}. This ensures that each page has its own formatting along with some common format (ie header, footer etc).
 
 ## Adding features
 - Since the Github pages runs the gems in safe mode, only [certain whitelisted plugins](https://pages.github.com/versions/){:target="_blank" rel="nofollow"} are allowed. Visiting the github page of each plugin provides you instructions needed to use them.
@@ -89,6 +90,7 @@ comments: true
     {% include social_media_share.html %}
     {% endraw %}
     ```
+
 ### Analytics
 - [Google Analytics](https://analytics.google.com){:target="_blank" rel="nofollow"} is the best way to track the popularity & stats around your blog.
 - Get your Universal Analytics tracking code at its website at : Admin > Property > Tracking Info > Tracking Code
@@ -173,7 +175,11 @@ comments: true
     permalink: /:year/:month/:day/:title
     theme: jekyll-theme-cayman
     ```
-- Themes supported on Github pages : <https://pages.github.com/themes/>{:target="_blank" rel="nofollow"}
+- Other themes supported on Github pages : <https://pages.github.com/themes/>{:target="_blank" rel="nofollow"}
+
+This is how I created my technical blog on Github. I really like its current simplistic look though it is replete with a lot of features. It encourages me to blog more :relaxed:
+
+Feel free to add your thoughts, questions, doubts, suggestions as comments below.
 
 
 
