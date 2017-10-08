@@ -2,7 +2,7 @@
 layout: post
 title: Creating your Github blog from scratch
 #category: general
-tags: [github, jekyll, plugin, comment, tag, analytics, search, google]
+tags: [github, jekyll, comment, analytics, search, google]
 comments: true
 ---
 
