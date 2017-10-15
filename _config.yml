@@ -31,6 +31,9 @@ kramdown:
   syntax_highlighter: rouge
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
 
+plugins:
+  - jemoji
+  
 theme: jekyll-theme-cayman
 # cayman, primer, architect
   
