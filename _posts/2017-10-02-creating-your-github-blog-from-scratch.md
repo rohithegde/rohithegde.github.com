@@ -177,7 +177,7 @@ comments: true
     ```
 - Other themes supported on Github pages : <https://pages.github.com/themes/>{:target="_blank" rel="nofollow"}
 
-This is how I created my technical blog on Github. I really like its current simplistic look though it is replete with a lot of features. It encourages me to blog more :relaxed:
+This is how I created my technical blog on Github. I really like its current simplistic look though it is replete with a lot of features. It encourages me to blog more :simple_smile:
 
 Feel free to add your thoughts, questions, doubts, suggestions as comments below.
 
