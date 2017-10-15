@@ -178,6 +178,7 @@ comments: true
         - jemoji
     ```
 - Other themes supported on Github pages : <https://pages.github.com/themes/>{:target="_blank" rel="nofollow"}
+- Github cheat-sheet for emojis - https://gist.github.com/rxaviers/7360908
 
 This is how I created my technical blog on Github. I really like its current simplistic look though it is replete with a lot of features. It encourages me to blog more :relaxed:
 
