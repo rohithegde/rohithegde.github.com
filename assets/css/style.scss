@@ -3,11 +3,15 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background-image: url('/assets/images/code.jpg');
+}
+
 // CAYMAN THEME CUSTOMIZATIONS
 .page-header {
     padding-top: 0rem;
     padding-right: 1rem;
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
     padding-left: 1rem;
 }
 .hiddenTag {
@@ -28,6 +32,7 @@
     padding: 1rem 1rem;
     margin: 1 auto;
     font-size: 1.1rem;
+    background-color: white;
 }
 .header-meta {
 	width: 100%;
