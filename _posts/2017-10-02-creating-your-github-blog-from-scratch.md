@@ -174,6 +174,8 @@ comments: true
     # format of post url
     permalink: /:year/:month/:day/:title
     theme: jekyll-theme-cayman
+    plugins:
+        - jemoji
     ```
 - Other themes supported on Github pages : <https://pages.github.com/themes/>{:target="_blank" rel="nofollow"}
 
