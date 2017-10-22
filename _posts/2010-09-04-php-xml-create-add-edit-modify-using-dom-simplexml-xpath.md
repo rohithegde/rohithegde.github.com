@@ -21,22 +21,22 @@ Note : Since the post got quite large, I decided to only use the Tree Map style 
 !["XML"](/assets/images/xml.jpg "XML")
 
 ## Operations Performed
-1. Create XML OR Array to XML Conversion OR CDATA Element
-2. Edit XML – Edit/Modify Element Data (accessed serially)
-3. Edit XML – Edit specific Elements (accessed conditionally)
-4. Edit XML – Element Addition (to queue end)
-5. Edit XML – Element Addition (to queue start)
-6. Edit XML – Element Addition (before a specific node)
-7. Delete Elements (accessed serially)
-8. Delete Elements (accessed conditionally)
-9. Rearrange / Reorder Elements
-10. Display Required data in XML Form itself OR Remove all children nodes save one OR Copy/Clone Node Eg OR Compare/Search non numeric data (like date or time) to get result.
+1. [Create XML OR Array to XML Conversion OR CDATA Element](#1)
+2. [Edit XML – Edit/Modify Element Data (accessed serially)](#2)
+3. [Edit XML – Edit specific Elements (accessed conditionally)](#3)
+4. [Edit XML – Element Addition (to queue end)](#4)
+5. [Edit XML – Element Addition (to queue start)](#5)
+6. [Edit XML – Element Addition (before a specific node)](#6)
+7. [Delete Elements (accessed serially)](#7)
+8. [Delete Elements (accessed conditionally)](#8)
+9. [Rearrange / Reorder Elements](#9)
+10. [Display Required data in XML Form itself OR Remove all children nodes save one OR Copy/Clone Node Eg OR Compare/Search non numeric data (like date or time) to get result.](#10)
 
  Following content from [library.xml](https://github.com/rohithegde/rohithegde.github.com/blob/master/assets/others/library.xml){:target="_blank" rel="nofollow"} will be used in all operations : 
 ```xml
 {% include library.xml %}
 ```
-### 1. Create XML OR Array to XML Conversion OR CDATA Element
+### <a id="1">1.</a> Create XML OR Array to XML Conversion OR CDATA Element
 
 #### SimpleXML :
 
@@ -104,7 +104,7 @@ function fnDomCreate() {
 }
 ```
 
-### 2. Edit XML – Edit/Modify Element Data (accessed serially)
+### <a id="2">2.</a> Edit XML – Edit/Modify Element Data (accessed serially)
 
 #### SimpleXML :
 
@@ -139,7 +139,7 @@ function fnDOMEditElementSeq() {
 }
 ```
 
-### 3. Edit XML – Edit specific Elements (accessed conditionally)
+### <a id="3">3.</a> Edit XML – Edit specific Elements (accessed conditionally)
 
 #### SimpleXML :
 
@@ -176,7 +176,7 @@ function fnDOMEditElementCond() {
 }
 ```
 
-### 4. Edit XML – Element Addition (to queue end)
+### <a id="4">4.</a> Edit XML – Element Addition (to queue end)
 
 #### SimpleXML :
 
@@ -224,7 +224,7 @@ function fnDOMAddElement2End() {
 }
 ```
 
-### 5. Edit XML – Element Addition (to queue start)
+### <a id="5">5.</a> Edit XML – Element Addition (to queue start)
 
 #### SimpleXML :
 
@@ -273,7 +273,7 @@ function fnDOMAddElement2Start($dom='') {
 }
 ```
 
-### 6. Edit XML – Element Addition (before a specific node)
+### <a id="6">6.</a> Edit XML – Element Addition (before a specific node)
 
 #### SimpleXML :
 
@@ -326,7 +326,7 @@ function fnDOMAddElementCond($dom='')
 }
 ```
 
-### 7. Delete Elements (accessed serially)
+### <a id="7">7.</a> Delete Elements (accessed serially)
 
 #### SimpleXML :
 
@@ -357,7 +357,7 @@ function fnDOMDeleteSeq() {
 }
 ```
 
-### 8. Delete Elements (accessed conditionally)
+### <a id="8">8.</a> Delete Elements (accessed conditionally)
 
 #### SimpleXML :
 
@@ -393,7 +393,7 @@ function fnDOMDeleteCond() {
 }
 ```
 
-### 9. Rearrange / Reorder Elements
+### <a id="9">9.</a> Rearrange / Reorder Elements
 
 #### SimpleXML :
 
@@ -468,7 +468,7 @@ function fnDOMConvIndex($num,  $cnt) {
 }
 ```
 
-### 10. Display Required data in XML Form itself OR Remove all children nodes save one OR Copy/Clone Node Eg OR Compare/Search non numeric data (like date or time) to get result.
+### <a id="10">10.</a> Display Required data in XML Form itself OR Remove all children nodes save one OR Copy/Clone Node Eg OR Compare/Search non numeric data (like date or time) to get result.
 
 #### SimpleXML :
 
