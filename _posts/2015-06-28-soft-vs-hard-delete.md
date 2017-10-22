@@ -24,7 +24,7 @@ comments: true
 -- Database Trigger
 -- Combine the copy + delete operations in a stored procedure.
 
-!["Deleting"]({{ site.github_raw_url }}/assets/images/pencil_eraser.jpg "Deleting")
+!["Deleting"](/assets/images/pencil_eraser.jpg "Deleting")
 
 ## Comparison Factors : 
 

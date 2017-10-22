@@ -28,15 +28,15 @@ github_raw_url: https://raw.githubusercontent.com/rohithegde/rohithegde.github.c
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
 
 plugins:
   - jemoji
+  - rouge
   
 theme: jekyll-theme-cayman
 # cayman, primer, architect
-  
+highlighter: rouge
 google_analytics: UA-60000051-1
 
 # The release of Jekyll that you're using

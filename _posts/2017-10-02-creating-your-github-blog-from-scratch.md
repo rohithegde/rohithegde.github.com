@@ -169,16 +169,18 @@ comments: true
     markdown: kramdown 
     kramdown:
         input: GFM
-        syntax_highlighter: rouge
-        smart_quotes:   lsquo,rsquo,ldquo,rdquo
+        smart_quotes: lsquo,rsquo,ldquo,rdquo
     # format of post url
     permalink: /:year/:month/:day/:title
     theme: jekyll-theme-cayman
+    highlighter: rouge
     plugins:
         - jemoji
+        - rouge
     ```
 - Other themes supported on Github pages : <https://pages.github.com/themes/>{:target="_blank" rel="nofollow"}
-- Github cheat-sheet for emojis - https://gist.github.com/rxaviers/7360908
+- Github cheat-sheet for emojis - <https://gist.github.com/rxaviers/7360908>{:target="_blank" rel="nofollow"}
+- Other programming languages supported on Github pages : <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>{:target="_blank" rel="nofollow"}
 
 This is how I created my technical blog on Github. I really like its current simplistic look though it is replete with a lot of features. It encourages me to blog more :relaxed:
 
