@@ -62,6 +62,8 @@ function fnSimpleXMLCreate() {
         $book->addChild('price', $arr[$i]['price']);
     }
     
+    // header("Content-type: text/xml");
+    // echo $library->asXML();
     $library->asXML('library.xml');
 }
 ```
@@ -114,8 +116,9 @@ function fnSimpleXMLEditElementSeq() {
     $library = new SimpleXMLElement('library.xml',null,true);
     $num = count($library);
     $library->book[$num-1]->title .= ' - The Gunslinger';
-    header("Content-type: text/xml");
-    echo $library->asXML();
+    // header("Content-type: text/xml");
+    // echo $library->asXML();
+    $library->asXML('library_modified.xml');
 }
 ```
 
@@ -134,8 +137,8 @@ function fnDOMEditElementSeq() {
     
     // 3rd Way
     // $library->childNodes->item($cnt-1)->childNodes->item(0)->nodeValue .= ' Series';
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
@@ -149,8 +152,9 @@ function fnSimpleXMLEditElementCond() {
     $library = new SimpleXMLElement('library.xml',null,true);
     $book = $library->xpath('/library/book[author="J.R.R.Tolkein"]');
     $book[0]->title .= ' Series';
-    header("Content-type: text/xml");
-    echo $library->asXML();
+    // header("Content-type: text/xml");
+    // echo $library->asXML();
+    $library->asXML('library_modified.xml');
 }
 ```
 
@@ -171,8 +175,8 @@ function fnDOMEditElementCond() {
     // 2nd Way
     // $result = $xpath->query('/library/book[author="J.R.R.Tolkein"]');
     // $result->item(0)->getElementsByTagName('title')->item(0)->nodeValue .= ' Series';
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
@@ -190,8 +194,9 @@ function fnSimpleXMLAddElement2End() {
     $book->addChild('title', "To Kill a Mockingbird");
     $book->addChild('author', "Harper Lee");
     $book->addChild('price', "100");
-    header("Content-type: text/xml");
-    echo $library->asXML();
+    // header("Content-type: text/xml");
+    // echo $library->asXML();
+    $library->asXML('library_modified.xml');
 }
 ```
 
@@ -219,8 +224,8 @@ function fnDOMAddElement2End() {
     $book->appendChild($prop);
      
     $library->appendChild($book);
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
@@ -262,14 +267,14 @@ function fnDOMAddElement2Start($dom='') {
         
     $prop = $dom->createElement('title', 'To Kill a Mockingbird');
     $book->appendChild($prop);
-        $prop = $dom->createElement('author', 'Harper Lee');
+    $prop = $dom->createElement('author', 'Harper Lee');
     $book->appendChild($prop);
-        $prop = $dom->createElement('price', '100');
+    $prop = $dom->createElement('price', '100');
     $book->appendChild($prop);
         
     $library->childNodes->item(0)->parentNode->insertBefore($book, $library->childNodes->item(0));
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
@@ -321,8 +326,8 @@ function fnDOMAddElementCond($dom='')
     $xpath = new DOMXPath($dom);
     $result = $xpath->query('/library/book[@isbn="1002"]');
     $library->childNodes->item(0)->parentNode->insertBefore($book,$result->item(0));
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
@@ -336,8 +341,9 @@ function fnSimpleXMLDeleteSeq() {
     $library = new SimpleXMLElement('library.xml', null, true);
     //$library->book[1] = null; // this only empties content
     unset($library->book[1]);
-    header("Content-type: text/xml");
-    echo $library->asXML();
+    // header("Content-type: text/xml");
+    // echo $library->asXML();
+    $library->asXML('library_modified.xml');
 }
 ```
 
@@ -352,8 +358,8 @@ function fnDOMDeleteSeq() {
         
     $library->childNodes->item(0)->parentNode->removeChild($library->childNodes->item(1));
         
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
@@ -371,8 +377,9 @@ function fnSimpleXMLDeleteCond() {
     // Problem here....not able to delete parent node using unset($book[0]);
     // unset of parent node only works when accessing serially. eg : unset($library->book[0]);
         
-    //header("Content-type: text/xml");
-    //echo $library->asXML();
+    // header("Content-type: text/xml");
+    // echo $library->asXML();
+    //$library->asXML('library_modified.xml');
         
 }
 ```
@@ -388,8 +395,8 @@ function fnDOMDeleteCond() {
     $xpath = new DOMXPath($dom);
     $result = $xpath->query('/library/book[price>"200" and price<"500"]');
     $result->item(0)->parentNode->removeChild($result->item(0));
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
@@ -447,8 +454,8 @@ function fnDOMRearrange($num1,$num2,$dom=0) {
     $library->childNodes->item(0)->parentNode->insertBefore($library->childNodes->item($index1), $library->childNodes->item($index2)); // put x before y
     $library->childNodes->item(0)->parentNode->insertBefore($library->childNodes->item($index2), $library->childNodes->item($index1)); // put y before x 
  
-    header("Content-type: text/xml");
-    echo $dom->saveXML();
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 
 function fnDOMConvIndex($num,  $cnt) {
@@ -503,8 +510,8 @@ function fnDOMDisplayElementCond() {
     // Add the 1 element which is search result.
     $library->appendChild($result->item(0));
         
-    header("Content-type: text/xml");
-    echo $dom->saveXML($library);
+    //header("Content-type: text/xml");
+    $dom->save('library_modified.xml');
 }
 ```
 
