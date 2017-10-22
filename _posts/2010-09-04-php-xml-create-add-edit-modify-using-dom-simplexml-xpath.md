@@ -514,3 +514,7 @@ function fnDOMDisplayElementCond() {
 - DOM is an absolute necessity for performing complex operations on XML data. Its learning curve is higher than SimpleXML off course but once you get the hang of it , you will know its very logical.
 - Use XPath for conditional access to data. For serial access (like last book) XPath is not needed (but u can use it) since I can use normal DOM / SimpleXML node access.
 
+## Ref :
+- [IBM : XML Guide for PHP Developers – Part 2](https://www.ibm.com/developerworks/xml/library/x-xmlphp2/index.html){:target="_blank" rel="nofollow"}
+- <http://www.devx.com/webdev/Article/41975/1954>{:target="_blank" rel="nofollow"}
+
