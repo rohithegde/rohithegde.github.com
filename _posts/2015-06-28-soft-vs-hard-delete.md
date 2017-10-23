@@ -63,7 +63,7 @@ comments: true
     - In situations where JOINs are involved there will be multiple such conditions.
     - Select queries with lesser conditions are faster than those with conditions. 
     - **Advantage : Hard Delete**
-- ** Size **
+- **Size**
     - To support faster soft deletes, we need to have an index for every delete_flag in EVERY table
     - Additionally the table size keeps increasing since the table has ‘soft deleted’ data + active data.
     - Queries can get slower as table size increases.
