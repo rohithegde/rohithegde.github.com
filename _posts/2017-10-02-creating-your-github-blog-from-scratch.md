@@ -106,7 +106,7 @@ comments: true
     {% endraw %}
     ```
 
-### Search
+### Internal Search
 - I used [Google custom search](http://www.google.com/cse/){:target="_blank" rel="nofollow"} to enable search for my blog. It is very easy to setup. You can also easily configure it so that the results are seen in an overlay OR on google search itself OR next to your search box OR even in another page (I chose this option).
 - Since I only wanted the search results code, I added the custom Google code to [_layouts/search.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_layouts/search.html){:target="_blank" rel="nofollow"}.
 - I added a search box to the [_includes/header.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_includes/header.html#L21){:target="_blank" rel="nofollow"} :
@@ -146,6 +146,7 @@ comments: true
     {% include read_time.html %}
     {% endraw %}
     ```
+
 ### Github forking ribbon
 - I got the suitable code from [Github Ribbons](https://github.com/blog/273-github-ribbons){:target="_blank" rel="nofollow"} & pasted it into [_includes/header.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_includes/header.html#L23){:target="_blank" rel="nofollow"} :
     ```ruby
@@ -177,7 +178,11 @@ comments: true
     plugins:
         - jemoji
         - rouge
+        - jekyll-sitemap
+        - jekyll-feed
+        - jekyll-seo-tag
     ```
+    
 - Other themes supported on Github pages : <https://pages.github.com/themes/>{:target="_blank" rel="nofollow"}
 - Github cheat-sheet for emojis - <https://gist.github.com/rxaviers/7360908>{:target="_blank" rel="nofollow"}
 - Other programming languages supported on Github pages : <https://github.com/github/linguist/blob/master/lib/linguist/languages.yml>{:target="_blank" rel="nofollow"}
