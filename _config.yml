@@ -33,6 +33,7 @@ kramdown:
 plugins:
   - jemoji
   - rouge
+  - jekyll-sitemap
   
 theme: jekyll-theme-cayman
 # cayman, primer, architect

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating your Github blog
+title: Creating your Github blog from others
 #category: general
 tags: [github, jekyll]
 comments: true
@@ -9,7 +9,7 @@ comments: true
 ### Update : 
 This is part 1 of my [Blogging on Github]({{ site.url }}/#github) series.
 
-Initially I had gone with the option of reusing the blog template of [Jekkyl Now](https://github.com/barryclark/jekyll-now{:target="_blank" rel="nofollow"}). This post favors that approach.
+Initially I had gone with the option of reusing the blog template of [Jekkyl Now](https://github.com/barryclark/jekyll-now){:target="_blank" rel="nofollow"}. This post favors that approach.
 
 After a few years, I scrapped it & created my blog from scratch using just [Jekkyl](https://jekyllrb.com/docs/quickstart/){:target="_blank" rel="nofollow"}. You can read about it in [Part 2]({{ site.url }}/2017/10/02/creating-your-github-blog-from-scratch) of the series.
 
