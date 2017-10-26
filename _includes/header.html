@@ -5,7 +5,7 @@
           </div>
           <div class="divTableCell header-meta-main-filler">
               <h1 class="project-name"><a href="/" class="blog-title">{{ site.title | default: site.github.repository_name }}</a></h1>
-              <h3 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h3>
+              <h3 class="project-tagline">{{ site.tagline | default: site.github.project_tagline }}</h3>
           </div>
           {% if site.github.is_project_page %}
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
