@@ -20,7 +20,7 @@ comments: true
         My research, prototypes & learnings were spread across various documents.
         <br/> <br/>
         With this blog, I aim to change that. :dart:<br/> <br/>
-        I will be writing about things which revolve around a programmer's life - from problem solving to problem discovery, from architectural decisions to good old coding, from choosing the right tool to working with it, from learning to sharing & all that comes after it.
+        I will be writing about things common in a programmer's life - from problem solving to problem discovery, from general architectural decisions to good old coding, from choosing the right tool to working with it, from learning to sharing & all that comes after it.
         <br/> <br/>
         Stick around here if any of the above interests you. <br/>Feel free to drop in a comment below :black_nib:
     </div>
