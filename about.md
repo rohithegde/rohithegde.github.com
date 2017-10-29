@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 comments: true
 ---
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<br/>
 > “Intellectual growth should commence at birth and cease only at death.” 
 > ― Albert Einstein
-
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <div class="divTableRow">
     <div class="divTableCell profile-pic">
         <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="rohithegde"><a class="LI-simple-link" rel="nofollow" target="_blank" href='https://in.linkedin.com/in/rohithegde?trk=profile-badge'>Rohit Hegde</a></div>
