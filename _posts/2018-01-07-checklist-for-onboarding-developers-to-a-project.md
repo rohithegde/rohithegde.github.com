@@ -72,7 +72,6 @@ This checklist has helped me & others a lot as it brings some form of structure 
 To some extent, it also makes you organized (or atleast appear to be !).
 
 To summarize :
-
 ### Checklist for onboarding developers to a project :
 <ul class="contains-task-list">
     <input type="checkbox" class="task-list-item-checkbox" checked=""> Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)<br/>
