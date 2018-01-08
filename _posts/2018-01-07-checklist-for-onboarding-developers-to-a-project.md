@@ -75,15 +75,15 @@ To summarize :
 ### Checklist for onboarding developers to a project :
 <ul class="contains-task-list">
     <input type="checkbox" class="task-list-item-checkbox" checked=""> Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)<br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Introduction to the team <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Application walkthrough <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Architecture walkthrough <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Process walkthrough <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Grant Permissions <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Application setup <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Self Study : Understand the application <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Pair with a developer for a story <br/>
-    <input type="checkbox" class="task-list-item-checkbox" > Audit <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Introduction to the team <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Application walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Architecture walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Process walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Grant Permissions <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Application setup <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Self Study : Understand the application <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Pair with a developer for a story <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Audit <br/>
 </ul>
 
 **Feel free to suggest improvements in it !**
