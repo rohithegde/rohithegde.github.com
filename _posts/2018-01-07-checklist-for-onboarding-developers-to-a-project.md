@@ -7,7 +7,7 @@ comments: true
 ---
 
 ## Background story
-- The quest to carry out [greenfield development](https://en.wikipedia.org/wiki/Greenfield_project){:target="_blank" rel="nofollow"} - the dream of a lot of developers...especially the newcomers. I can't fault them. Most legacy applications have a bad name.
+- The quest to carry out [greenfield development](https://en.wikipedia.org/wiki/Greenfield_project){:target="_blank" rel="nofollow"} - its a dream of most developers...especially the newcomers. I can't fault them. Most legacy applications have a bad name.
 [!["Dilbert - Legacy code"](/assets/images/dilbert_legacy_dt061208.gif "Dilbert - Legacy code")](http://dilbert.com/strip/2006-12-08){:target="_blank" rel="nofollow"}
 - However, the history of the application matters. Its life time, the quality of refactoring if any, the quality of the people who have worked on it, the type of management supporting it  - all play a role in its maintenability.
 - It helps to have a smooth & structured transition. I created a checklist which I use whenever I move into a project or others move into my project.
