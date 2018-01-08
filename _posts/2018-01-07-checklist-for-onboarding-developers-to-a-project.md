@@ -10,8 +10,7 @@ comments: true
 - The quest to carry out [greenfield development](https://en.wikipedia.org/wiki/Greenfield_project){:target="_blank" rel="nofollow"} - the dream of a lot of developers...especially the newcomers. I can't fault them. Most legacy applications have a bad name.
 [!["Dilbert - Legacy code"](/assets/images/dilbert_legacy_dt061208.gif "Dilbert - Legacy code")](http://dilbert.com/strip/2006-12-08){:target="_blank" rel="nofollow"}
 - However, the history of the application matters. Its life time, the quality of refactoring if any, the quality of the people who have worked on it, the type of management supporting it  - all play a role in its maintenability.
--  Working on an existing application need not be that bad. Opportunities to refactor code for optimization, performance improvement often come up in such applications leading to a lot of learning.
-- But it helps to have a smooth & structured transition. I created a checklist which I use whenever I move into a project.
+- It helps to have a smooth & structured transition. I created a checklist which I use whenever I move into a project or others move into my project.
 
 ## Checklist
 1. **Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)**
@@ -67,13 +66,33 @@ comments: true
     - A number of good practicies, good conventions, potential performance optimizations have come out in such audits since the new developer brings a fresh perspective into the team.
     - A discussion of the points with tickets created & prioritized would be a good output for this step.
 
+The order of the list can be tweaked - just ensure the listed activities happen.
+
 This checklist has helped me & others a lot as it brings some form of structure into the knowledge transfer.
 To some extent, it also makes you organized (or atleast appear to be !).
 
+To summarize :
+
+### Checklist for onboarding developers to a project :
+<ul class="contains-task-list">
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)<br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Introduction to the team <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Application walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Architecture walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Process walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Grant Permissions <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Application setup <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Self Study : Understand the application <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Pair with a developer for a story <br/>
+    <input type="checkbox" class="task-list-item-checkbox" > Audit <br/>
+</ul>
+
 **Feel free to suggest improvements in it !**
 
-ps : The reality remains that most developers will be involved in [brownfield development](https://en.wikipedia.org/wiki/Brownfield_(software_development)){:target="_blank" rel="nofollow"} for most of their careers (probably a 80:20 ratio). 
-Make your peace with it. 
-Hence the need for all of us to have side projects :smile:
+ps : The reality remains that most developers will be involved in [brownfield development](https://en.wikipedia.org/wiki/Brownfield_(software_development)){:target="_blank" rel="nofollow"} for most of their careers (probably a 80:20 ratio).
+
+Working on an existing application can sometimes be very good. Opportunities to refactor code for optimization, performance improvement, remove bottlenecks etc often come up in such applications leading to a lot of learning. <br/>
+
+It helps to have side projects to channel your creativity & skill.
 
 [!["Dilbert - Code mocking"](/assets/images/dilbert_code_mocking_dt130224.jpg "Dilbert - Code mocking")](http://dilbert.com/strip/2013-02-24){:target="_blank" rel="nofollow"}
