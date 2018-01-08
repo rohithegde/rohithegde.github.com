@@ -77,7 +77,3 @@ Make your peace with it.
 Hence the need for all of us to have side projects :smile:
 
 [!["Dilbert - Code mocking"](/assets/images/dilbert_code_mocking_dt130224.jpg "Dilbert - Code mocking")](http://dilbert.com/strip/2013-02-24){:target="_blank" rel="nofollow"}
-
-
-Feel free to add your thoughts, questions, doubts, suggestions as comments below.
-
