@@ -2,7 +2,7 @@
 layout: post
 title: "Checklist for Onboarding Developers to a Project"
 #category: general
-tags: [career]
+tags: [job]
 comments: true
 ---
 
