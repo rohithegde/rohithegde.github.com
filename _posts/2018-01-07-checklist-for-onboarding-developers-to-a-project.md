@@ -12,7 +12,7 @@ comments: true
 - However, the history of the application matters. Its life time, the quality of refactoring if any, the quality of the people who have worked on it, the type of management supporting it  - all play a role in its maintenability.
 - It helps to have a smooth & structured transition. I created a checklist which I use whenever I move into a project or others move into my project.
 
-## Checklist in summarized form :
+## Checklist in summarized form
 <ul class="contains-task-list">
     <input type="checkbox" class="task-list-item-checkbox" checked=""> Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)<br/>
     <input type="checkbox" class="task-list-item-checkbox" checked=""> Introduction to the team <br/>
@@ -26,7 +26,7 @@ comments: true
     <input type="checkbox" class="task-list-item-checkbox" checked=""> Audit <br/>
 </ul>
 
-## Checklist with details
+## Checklist in detailed form
 1. **Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)**
     - Initiator : PM or SM or TL.
     - A friendly introduction followed by a walkthrough of the agenda to be followed (ie the rest of the checklist !)
