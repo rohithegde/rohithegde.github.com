@@ -28,18 +28,18 @@ comments: true
 
 ## Checklist with details
 1. **Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)**
-    - Inititior : PM or SM or TL.
+    - Initiator : PM or SM or TL.
     - A friendly introduction followed by a walkthrough of the agenda to be followed (ie the rest of the checklist !)
 2. **Introduction to the team**
-    - Inititior : PM or SM or TL.
+    - Initiator : PM or SM or TL.
     - The people working on an application are the most important part of it. Hence this meeting is high up on this list.
     - A friendly introduction to everyone in the team with a summary of their roles.
 3. **Application walkthrough**
-    - Inititior : Product Owner(PO) or PM or SM or TL
+    - Initiator : Product Owner(PO) or PM or SM or TL
     - The SM or the TL can give a summary about the why & what part - ie the need of this application & what it does.
     - It would be great if the Product Owner is present to explain the impact on the business.
 4. **Architecture walkthrough**
-    - Inititior : The TL or Architect or a Senior Developer
+    - Initiator : The TL or Architect or a Senior Developer
     - Assuming it is a standard web application, the walkthrough can cover :
         - Application Architecture (eg : Microservices or Monolithic structure)
         - Supporting software (eg: Docker)
@@ -52,7 +52,7 @@ comments: true
         - Cloud Infrastructure (eg: AWS)
     - Based on the role of the developer (eg : frontend developer), more details can be provided on the related technology.
 5. **Process walkthrough**
-    - Inititior : The PM or SM or TL or a Senior Developer
+    - Initiator : The PM or SM or TL or a Senior Developer
     - Framework followed (Eg : SCRUM)
     - Tools used (eg : Atlassian toolset of JIRA, Confluence, Bitbucket etc)
     - Schedule of team meetings (eg : Daily SCRUM, Planning, Sprint Demo etc)
