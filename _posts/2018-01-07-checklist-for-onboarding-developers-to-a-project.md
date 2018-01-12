@@ -57,7 +57,7 @@ comments: true
     - Tools used (eg : Atlassian toolset of JIRA, Confluence, Bitbucket etc)
     - Schedule of team meetings (eg : Daily SCRUM, Planning, Sprint Demo etc)
     - Ticket resolution (eg : who picks what, initial implementation plan to be shared, definition of done etc)
-    - Code repo branching strategy (eg : )
+    - Code repo branching strategy (eg : Github branching model)
     - Testing strategy
 6. **Grant Permissions**
     - Initiator : PM or SM or TL
