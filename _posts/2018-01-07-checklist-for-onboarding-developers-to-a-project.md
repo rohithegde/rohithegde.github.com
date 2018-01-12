@@ -12,7 +12,21 @@ comments: true
 - However, the history of the application matters. Its life time, the quality of refactoring if any, the quality of the people who have worked on it, the type of management supporting it  - all play a role in its maintenability.
 - It helps to have a smooth & structured transition. I created a checklist which I use whenever I move into a project or others move into my project.
 
-## Checklist
+## Checklist in summarized form :
+<ul class="contains-task-list">
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)<br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Introduction to the team <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Application walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Architecture walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Process walkthrough <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Grant Permissions <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Application setup <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Self Study : Understand the application <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Pair with a developer for a story <br/>
+    <input type="checkbox" class="task-list-item-checkbox" checked=""> Audit <br/>
+</ul>
+
+## Checklist with details
 1. **Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)**
     - Inititior : PM or SM or TL.
     - A friendly introduction followed by a walkthrough of the agenda to be followed (ie the rest of the checklist !)
@@ -40,6 +54,7 @@ comments: true
 5. **Process walkthrough**
     - Inititior : The PM or SM or TL or a Senior Developer
     - Framework followed (Eg : SCRUM)
+    - Tools used (eg : Atlassian toolset of JIRA, Confluence, Bitbucket etc)
     - Schedule of team meetings (eg : Daily SCRUM, Planning, Sprint Demo etc)
     - Ticket resolution (eg : who picks what, initial implementation plan to be shared, definition of done etc)
     - Code repo branching strategy (eg : )
@@ -70,21 +85,6 @@ The order of the list can be tweaked - just ensure the listed activities happen.
 
 This checklist has helped me & others a lot as it brings some form of structure into the knowledge transfer.
 To some extent, it also makes you organized (or atleast appear to be !).
-
-To summarize :
-### Checklist for onboarding developers to a project :
-<ul class="contains-task-list">
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Meeting with the Project manager(PM) / Scrum Master(SM) / Team Lead(TL)<br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Introduction to the team <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Application walkthrough <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Architecture walkthrough <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Process walkthrough <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Grant Permissions <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Application setup <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Self Study : Understand the application <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Pair with a developer for a story <br/>
-    <input type="checkbox" class="task-list-item-checkbox" checked=""> Audit <br/>
-</ul>
 
 **Feel free to suggest improvements in it !**
 
