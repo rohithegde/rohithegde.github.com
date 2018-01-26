@@ -1,7 +1,7 @@
 <section class="page-header">
         <div class="divTableRow">
           <div class="divTableCell header-meta-left-filler">
-            <img height="100" width="100"src="/assets/images/code.png"/>
+            <a href="{{ site.url }}/about/" class="btn">About</a></span>
           </div>
           <div class="divTableCell header-meta-main-filler">
               <h1 class="project-name"><a href="/" class="blog-title">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -15,8 +15,9 @@
             <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
           {% endif %}
           <div class="divTableCell">
-              <a href="{{ site.url }}/about/" class="btn">About</a></span>
+              <a href="javascript:void(0)" class="btn" onclick="displaySubscribePopup()">Subscribe</a></span>
           </div>
+          <div id="subscribe_div"></div>
         </div>
         <input type="text" id="search" placeholder="search" class="search-text-box" onkeypress="return processSearchInput(event)">
 </section>
