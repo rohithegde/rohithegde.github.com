@@ -66,5 +66,9 @@ function processSearchInput(e) {
 }
 function displaySubscribePopup() {
     console.log('displaySubscribePopup');
-    document.getElementById('subscribe_div').innerHTML = '<script type="text/javascript" src="http://downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"23a87a72b8243c8453340dc3f","lid":"8b2b833d93"}) })</script>';
+    document.getElementById("subscribe_div").style.height = "100%";
+}
+function hideSubscribePopup() {
+    console.log('hideSubscribePopup');
+    document.getElementById("subscribe_div").style.height = "0%";
 }

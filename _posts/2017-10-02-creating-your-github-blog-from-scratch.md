@@ -159,6 +159,14 @@ comments: true
     github_username:  rohithegde
     ```
 
+### Subscription / Notification
+- Adding a 3rd party site like MailChimp, it was easy to add a subscription feature to the blog.
+- Steps :
+    1. Register on [MailChimp](https://mailchimp.com/){:target="_blank" rel="nofollow"}.
+    2. [Create a MailChimp form using their templates](https://kb.mailchimp.com/lists/signup-forms/add-a-signup-form-to-your-website){:target="_blank" rel="nofollow"}
+    3. Add the code from above to the blog site [_includes/subscribe.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_includes/subscribe.html){:target="_blank" rel="nofollow"} & include it to your [_includes/header.html](https://github.com/rohithegde/rohithegde.github.com/blob/master/_includes/header.html#L18).
+    4. [Create a campaign for sharing the blog posts](https://kb.mailchimp.com/campaigns/blog-posts-in-campaigns/share-your-blog-posts-with-mailchimp>){:target="_blank" rel="nofollow"}. 
+
 ### Other configurations
 - [_config.yml](https://github.com/rohithegde/rohithegde.github.com/blob/master/_config.yml#L23){:target="_blank" rel="nofollow"} needs to have some variables set to take advantage of certain features :
     ```yaml
