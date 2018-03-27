@@ -45,4 +45,5 @@ comments: true
 - Extended contracts can lead to longer time in a single project. Development can then turn to a regular maintenance causing learning to plateau.
 
 ## Final thoughts
-Its good to experience working on both. Doing so leads to better understanding of our tastes & good practices in one can be applied to the other.
+Each path has different learnings.
+Working on both products & projects will lead to better understanding of your tastes. Good practices in one can be applied to the other too.
