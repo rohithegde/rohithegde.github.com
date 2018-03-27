@@ -6,11 +6,11 @@ tags: [career]
 comments: true
 ---
 
+[!["Choosing between the two"](/assets/images/direction.jpg "Choosing between the two")](https://efta.org/2015/11/fis-at-a-crossroads-build-or-buy-mobile-payment-apps/){:target="_blank" rel="nofollow"}
+
 ## Background story
 - I regularly meet many young developers who take on work as it comes. Trending technologies & the reputation of the company matters a lot since it adds to resume value. At times like this, I remember my uncle's words at the begining of my career "What do you want to work on ? Products or Projects ?". I didn't understand the value of this question then. But I do now.
 - While a developer should be concerned primarily with problem solving, the complexity & nature of problems matters a lot. Choosing the right type of work ensures you get what you want.
-
-[!["Choosing between the two"](/assets/images/direction.jpg "Choosing between the two")](https://efta.org/2015/11/fis-at-a-crossroads-build-or-buy-mobile-payment-apps/){:target="_blank" rel="nofollow"}
 
 ## Products
 
