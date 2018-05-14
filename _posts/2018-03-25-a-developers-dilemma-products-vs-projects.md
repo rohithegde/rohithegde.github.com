@@ -2,7 +2,7 @@
 layout: post
 title: "A Developer's dilemma : Products vs Projects"
 #category: general
-tags: [career]
+tags: [career, job]
 comments: true
 ---
 
