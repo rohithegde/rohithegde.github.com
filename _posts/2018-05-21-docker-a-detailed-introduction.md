@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Docker : a big introduction"
+title: "Docker : a detailed introduction"
 #category: general
 tags: [docker, container, tutorial, guide]
 comments: true
@@ -13,25 +13,25 @@ comments: true
 !["Docker"](/assets/images/docker.jpg "Docker")
 
 ## Agenda
-1. [About Containers](#1)
-2. [About Hypervisor](#2)
-3. [Need / World before Docker](#3)
-4. [About Docker](#4)
-5. [Timeline](#5)
-6. [Applications of Docker](#6)
-7. [Docker installation](#7)
-8. [Docker architecture](#8)
-9. [Docker components](#9)
-10. [Docker alternative : Rocket](#10)
+1. [About Containers](#container)
+2. [About Hypervisor](#hypervisor)
+3. [Need / World before Docker](#need)
+4. [About Docker](#about)
+5. [Timeline](#timeline)
+6. [Applications of Docker](#applications)
+7. [Docker installation](#installation)
+8. [Docker architecture](#architecture)
+9. [Docker components](#components)
+10. [Docker alternative : Rocket](#rkt)
 
-## <a id="1">1.</a>About Containers
+## <a id="container">1.</a>About Containers
 - A real world shipping container can be placed anywhere. It can be moved onto a truck, a ship or hoisted by a crane. Its contents remain un-affected by the outside world. 
 - Like them, software containers provide a loosely isolated environment. The isolation and security allow you to run many containers simultaneously on a given host. 
 - Containers are lightweight because they don’t need the extra load of a hypervisor, but run directly within the host machine’s kernel.
 
 !["Docker"](/assets/images/container.jpg "Docker")
 
-## <a id="2">2.</a>About Hypervisor
+## <a id="hypervisor">2.</a>About Hypervisors
 - The Hypervisor is the layer of your stack that’s doing the actual virtualization, in which it takes computing resources from the Host Operating System and use them to create fake virtual hardware that will be then consumed by Guest Operating Systems. 
 - Types :
     1. Type 1 : Can interact directly with the hardware. More efficient (eg : HyperKit in OSX, Hyper-V in Windows)
@@ -43,7 +43,7 @@ comments: true
     
     [!["Container"](/assets/images/dockerc.png "an-introduction-to-docker-by-instructor-of-o-reilly-s-docker-tutorial"){:height="50%" width="50%"}](https://www.codementor.io/atbaker/an-introduction-to-docker-by-instructor-of-o-reilly-s-docker-tutorial-9x01rz9g7){:target="_blank" rel="nofollow"}
 
-## <a id="3">3.</a>Need / World before Docker
+## <a id="need">3.</a>Need / World before Docker
 Deployment of applications has improved a lot over the years. Here are some of the methods used :
 1. Manual Configuration
     - The oldest method. Done manually via commands or via a script.
@@ -62,7 +62,7 @@ Additionally Linux Containers(LXC) were used as lightweight alternatives. They w
 
 Docker strives to strike the right balance between the two sides. It can be operational quite fast & isn't as resource heavy as a VM image.
 
-## <a id="4">4.</a>About Docker
+## <a id="about">4.</a>About Docker
 - Docker is an open-source engine that automates the deployment of applications into containers.
 - Docker's underlying components are part of a project called [Moby](https://github.com/moby/moby){:target="_blank" rel="nofollow"}.
 - Docker relies on Linux kernel features, such as namespaces and cgroups, to ensure resource isolation and to package an application along with its dependencies.
@@ -81,7 +81,7 @@ Docker strives to strike the right balance between the two sides. It can be oper
 - Docker EE has releases every 3 months.
 
 
-## <a id="5">5.</a>Timeline
+## <a id="timeline">5.</a>Timeline
 - Solomon Hykes started Docker in France as an internal project within dotCloud, a platform-as-a-service company,[15] with initial contributions by other dotCloud engineers including Andrea Luzzardi and Francois-Xavier Bourlet.
 - The software debuted to the public by dotCloud, a platform as a service company in Santa Clara at PyCon in 2013.
 - Docker was released as open source in March 2013.
@@ -89,7 +89,7 @@ Docker strives to strike the right balance between the two sides. It can be oper
 - A May 2016 analysis showed the following organizations as main contributors to Docker: The Docker team, Cisco, Google, Huawei, IBM, Microsoft, and Red Hat.
 
 
-## <a id="6">6.</a>Applications of Docker
+## <a id="applications">6.</a>Applications of Docker
 1. Running stand-alone services
     - Just like the old Java tagline 'Write once, run anywhere', an app supported by Docker can be expected to run on any environment if it works on one. 
     - This portabiity of Docker allows running stand-alone services and applications consistently across multiple environments, a concept especially useful in service-oriented architectures and deployments that rely heavily on microservices.
@@ -108,7 +108,7 @@ Docker strives to strike the right balance between the two sides. It can be oper
     - With apps running within containers, you can free your machine memory from further installations.
     - Docker allows you to specify limits on resources (eg : CPU, memory) & prevent bloating. This leads to greater control over your apps.
 
-## <a id="7">7.</a>Docker installation
+## <a id="installation">7.</a>Docker installation
 It is easiest to install Docker on a Linux OS (eg : Ubuntu).
 
 **Setup Docker for your OS using <https://docs.docker.com/>{:target="_blank" rel="nofollow"}.**
@@ -147,7 +147,7 @@ I have listed some of the tools uses to run Docker on a non Linux OS below.
     - On Windows, if you have legacy apps that need a VM, you can’t reasonably do both.
     - On Windows, volume mount performance is still quite poor, but its improving a lot with every release.
 
-## <a id="8">8.</a>Docker architecture
+## <a id="architecture">8.</a>Docker architecture
 
 [!["Docker Components"](/assets/images/engine-components-flow.png "Docker Components as represented in the documentation")](https://docs.docker.com/engine/docker-overview/#docker-engine){:target="_blank" rel="nofollow"}
 
@@ -171,7 +171,7 @@ I have listed some of the tools uses to run Docker on a non Linux OS below.
 - You can also run your own private registry.
 
 
-## <a id="9">9.</a>Docker components
+## <a id="components">9.</a>Docker components
 
 ### Images
 - Images are the building blocks of the Docker world.
@@ -207,8 +207,8 @@ I have listed some of the tools uses to run Docker on a non Linux OS below.
 - One end is plugged into the docker0 bridge, and the other end is plugged into the container.
 
 
-## <a id="10">10.</a>Docker alternative : Rocket
-- rkt (pronounced like a "rocket") is a CLI for running application containers on Linux. It was staretd in Dec 2014.
+## <a id="rkt">10.</a>Docker alternative : Rocket
+- rkt (pronounced like a "rocket") is a CLI for running application containers on Linux. It was started in Dec 2014.
 - rkt is designed to be secure, composable, and standards-based.
 - It isn't as feature rich as Docker yet. So we should probably compare it to the initial versions of Docker.
 - Differences from Docker :
