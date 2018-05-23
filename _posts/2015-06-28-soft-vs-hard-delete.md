@@ -85,7 +85,7 @@ comments: true
     - **Advantage : Hard Delete**
 
 ## Recommendation
-- Hard delete approach looks to have more  advantages than soft delete which is why it is something I recommend over soft delete.
+- Definitely Hard delete.
 
 ## References & study material links
 - <http://stackoverflow.com/questions/2549839/are-soft-deletes-a-good-idea>{:target="_blank" rel="nofollow"}
