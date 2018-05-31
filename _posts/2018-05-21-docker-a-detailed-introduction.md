@@ -207,9 +207,13 @@ I have listed some of the tools uses to run Docker on a non Linux OS below.
 - Docker uses tools specific to the OS to manage the underlying network infrastructure (Eg : configuring iptables rules on Linux).
 - Docker’s networking subsystem is pluggable, using drivers. Prominent ones :
     - Host
+        - For standalone containers, remove network isolation between the container and the Docker host, and use the host’s networking directly.
     - Overlay
+        - Overlay networks connect multiple Docker daemons together and enable swarm services to communicate with each other. 
     - Macvlan
+        - Macvlan networks allow you to assign a MAC address to a container, making it appear as a physical device on your network.
     - Bridge (default) & user defined bridge network
+        - Bridge networks are usually used when your applications run in standalone containers that need to communicate.
         - An interface is created when we installed Docker (docker0 or bridge0).
         - The docker0/bridge0 interface is a virtual Ethernet bridge that connects our containers and the local host network.
         - Every Docker container is assigned an IP address provided by the above interface.
