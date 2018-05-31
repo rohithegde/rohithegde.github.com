@@ -21,8 +21,9 @@ comments: true
 6. [Applications of Docker](#applications)
 7. [Docker installation](#installation)
 8. [Docker architecture](#architecture)
-9. [Docker components](#components)
-10. [Docker alternative : Rocket](#rkt)
+9. [Docker alternative : Rocket](#rkt)
+10. [Further reading](#references)
+
 
 ## <a id="container">1.</a>About Containers
 - A real world shipping container can be placed anywhere. It can be moved onto a truck, a ship or hoisted by a crane. Its contents remain un-affected by the outside world. 
@@ -216,7 +217,7 @@ I have listed some of the tools uses to run Docker on a non Linux OS below.
 <img src="/assets/images/network.png" alt="Docker Network" style="height: 50%; width: 50%;"/>
 
 
-## <a id="rkt">10.</a>Docker alternative : Rocket
+## <a id="rkt">9.</a>Docker alternative : Rocket
 - rkt (pronounced like a "rocket") is a CLI for running application containers on Linux. It was started in Dec 2014.
 - rkt is designed to be secure, composable, and standards-based.
 - It isn't as feature rich as Docker yet. So we should probably compare it to the initial versions of Docker.
@@ -242,7 +243,7 @@ I have listed some of the tools uses to run Docker on a non Linux OS below.
 This completes a summary of Docker basics. Hope you liked it.<br/>
 The next part will focus on the commands needed to work with Docker.
 
-## References
+## <a id="references">10.</a>Further reading / references
 - <https://en.wikipedia.org/wiki/Docker_(software)>{:target="_blank" rel="nofollow"}
 - <https://docs.docker.com/engine/docker-overview/>{:target="_blank" rel="nofollow"}
 - <https://www.codementor.io/atbaker/an-introduction-to-docker-by-instructor-of-o-reilly-s-docker-tutorial-9x01rz9g7>{:target="_blank" rel="nofollow"}
