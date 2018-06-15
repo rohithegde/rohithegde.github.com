@@ -135,6 +135,8 @@ bower_components/*
 ### 3. docker-compose.yaml
 - Docker compose is a tool for composing multiple docker containers.
 - Originally called fig which was eventually merged into the official docker package.
+- The Dockerfile is usually used to bring up a service while the Docker compose file is used to bring up an application comprising of multiple services.
+- You can use either a .yml or .yaml extension for this file. They both work.
 - Let us look at an example docker-compose.yaml file :
 <pre><code>
 version: '3'
@@ -212,6 +214,18 @@ networks:
   my-app:
 </code></pre>
 
+Let us walk through each instruction given in the file.
+
+<pre><code>
+version: '3'
+</code></pre>
+- The first instruction usually is the version number. 
+- There are currently three versions of the Compose file format:
+  1. Version 1, the legacy format. **This is specified by omitting a version key at the root of the YAML**.
+  2. Version 2.x. This is specified with a version: '2' or version: '2.1', etc., entry at the root of the YAML.
+  3. Version 3.x, the latest and recommended version, designed to be cross-compatible between Compose and the Docker Engine’s swarm mode. This is specified with a version: '3' or version: '3.1', etc., entry at the root of the YAML.
+- You will see different tutorials online using different syntax/cmds in their examples. Be aware of which Docker Compose file version they are referring. More details on upgrading here : <https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading>{:target="_blank" rel="nofollow"}.
+
 ### 4. .env
 
 ## <a id="other-commands">3.</a>Other useful commands
@@ -246,6 +260,7 @@ networks:
 
 ## <a id="references">5.</a>Further reading / references
 - <https://en.wikipedia.org/wiki/Docker_(software)>{:target="_blank" rel="nofollow"}
+- Docker compose file versioning : <https://docs.docker.com/compose/compose-file/compose-versioning/#compatibility-matrix>{:target="_blank" rel="nofollow"}
 - Docker plugins : <https://www.inovex.de/blog/docker-plugins/>{:target="_blank" rel="nofollow"}
 - Docker build cache : <https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/#build-cache>{:target="_blank" rel="nofollow"}
 - Optimizing .dockerignore : <https://blog.codeship.com/leveraging-the-dockerignore-file-to-create-smaller-images/>- Docker build cache : <https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/#build-cache>{:target="_blank" rel="nofollow"}
