@@ -10,11 +10,11 @@ comments: true
 - This is part 2 of a [2 part series]({{ site.url }}/#docker) to understand Docker & work with it.
 
 ## Agenda
-1. [Docker management commands](#management-)
-2. [Artifacts](#artifacts)
-3. [Other useful commands](#other-commands)
-4. [Tips](#tips)
-5. [Further reading](#references)
+1. [Docker management commands](#management-cmds)
+2. [Basic commands](#basic-cmds)
+3. [Artifacts](#artifacts)
+4. [Other useful commands](#other-commands)
+5. [Tips](#tips)
 
 ## <a id="management-commands">1.</a>Docker Management commands
 - Before we move on the practical example, its important to talk about Docker management cmds.
@@ -39,7 +39,69 @@ comments: true
 | service | A swarm feature which allows you to manage services.
 |===
 
-## <a id="artifacts">2.</a>Artifacts
+## <a id="basic-cmds">2.</a>Basic commands
+Lets go through the basic commands which we will use for setting up & working on our first Docker based service.
+
+- The Redis cache is one of the simplest services to activate : 
+  - `docker container run redis`
+
+    !["Redis"](/assets/images/docker-run-redis.png "Redis")
+  - The cmd does 2 things :
+    1. Pulls the `redis:latest` image from the registry (if it doesn't exist).
+    2. Creates the container from the image.
+- An improved variation of the above cmd : 
+  - **`docker container run -it --rm redis /bin/sh`**
+
+    !["Redis"](/assets/images/docker-run-it-redis.png "Redis")
+  - Docker's `-i` flag allows you to send commands to the container via standard input ("STDIN"), which means you can "interactively" type commands to the pseudo-tty/terminal created by the `-t` switch.
+  - The `/bin/sh` at the end allows us to use the Bourne shell to type.
+  - The `--rm` flag tells Docker to automatically clean up the container and remove the file system when the container exits.
+- We can view the images present with :
+  - `docker image ls`
+    !["image"](/assets/images/docker-image-ls.png "image")
+- We can view the containers present with :
+  - `docker container ls`
+    !["container"](/assets/images/docker-container-ls.png "container")
+  - As we see above, Docker has given the container a random name.
+  - Additionally no port on the host is mapped to the redis service in the container which is why no app can connect to it.
+  - Also if the container is brought down, we will lose the redis cache data.
+- An improved variation of the above cmd : 
+  - **`docker container run -it --rm -p 6379:6379 -v redis-dir:/data  --name app-redis redis /bin/sh`**
+    !["image"](/assets/images/docker-container-ls-port.png "image")
+
+  
+  - Here we have mapped the host port 6379 to the port within the container 6379 (HOST_PORT:CONTAINER_PORT).
+  - We have also given the container a name as app-redis. 
+  - NOTE : Avoid giving names to containers if you wish to scale his setup to more machines.
+  - We have mounted a volume mapping the directory redis-dir on the host to the /data container directory so as to persist redis data.
+- A daemonized variation of the above cmd so that it runs in the background : 
+  - **`docker container run -d -p 6379:6379 -v redis-dir:/data  --name app-redis redis`**
+    !["image"](/assets/images/docker-container-run-d.png "image")
+  - Here the container id (full format) is output to indicate the success in creating it.
+- We can remove the container with :
+  - Either 
+    - `docker container stop app-redis`
+    - `docker container rm app-redis`
+    !["container"](/assets/images/docker-container-rm.png "container")
+  - OR
+    - `docker container rm app-redis -f`
+  - You can either use the container name 'app-redis' or the container id.
+- Final cmd of this section would be to remove the image.
+  - `docker image rm redis`
+    !["image"](/assets/images/docker-image-rm.png "image")
+
+  - We get an error since we still seem to have containers attached to this image.
+  - `docker container ls -a`
+    !["container"](/assets/images/docker-container-ls-a.png "container")
+
+  - We see some intermediate containers still attached to this image. We can remove them using the `docker container rm` cmd. But since we plan on removing the redis image too, its easier to use the `docker image rm redis -f` cmd.
+
+    !["image"](/assets/images/docker-image-rm-f.png "image")
+
+## <a id="artifacts">3.</a>Artifacts
+The above commands are enough to setup basic apps from existing images. But for custom apps which are more complex to setup, we need to depend on some Docker artifacts. 
+
+Lets take a look at the 4 artifacts of Docker.
 
 ### 1. Dockerfile
 - The Dockerfile is used to build an image.
@@ -48,6 +110,10 @@ comments: true
 - The instructions are processed from top to the bottom leading to a new layer in the image with every instruction.
 - Note : most of these instructions can be over-riden at run time via the command line.
 - The folder in which the Dockerfile exists is the default 'build context' for Docker.
+- We use 2 commands to set up the application from this Dockerfile :
+  - **`docker image build -t test-image-name .`**
+    - This will build the image from the Dockerfile & `-t` flag will give it the name 'test-image-name'.
+  - **`docker container run -it -p 80:80 test-image-name`**
 - Let us look at a sample Dockerfile for a Node.js project.
 <pre><code>
 FROM node:6.9.1
@@ -137,6 +203,12 @@ bower_components/*
 - Originally called fig which was eventually merged into the official docker package.
 - The Dockerfile is usually used to bring up a service while the Docker compose file is used to bring up an application comprising of multiple services.
 - You can use either a .yml or .yaml extension for this file. They both work.
+- To set up the entire application from this Dockerfile :
+  - `docker-compose up`
+- To set up only 2 services(& any dependent services) from this Dockerfile :
+  - `docker-compose up backend frontend`
+- To shut down the application :
+  - `docker-compose down`
 - Let us look at an example docker-compose.yaml file :
 <pre><code>
 version: '3'
@@ -364,19 +436,37 @@ networks:
 
 ### 4. .env
 
-## <a id="other-commands">3.</a>Other useful commands
+<pre><code>
+# Postgres env
+POSTGRES_USER=test
+POSTGRES_PASSWORD=test
+POSTGRES_DB=test
+</code></pre>
+
+- This optional file can be used to store default environment variables for the Compose file.
+- Compose expects each line in an env file to be in VAR=VAL format.
+- Lines beginning with # are processed as comments and ignored.
+- Blank lines are ignored.
+- There is no special handling of quotation marks. This means that they are part of the VAL.
+
+## <a id="other-commands">4.</a>Other useful commands
 
    
 ### 2. Image
-- Typing `docker image --help` gives you a list of all possible options :
-- Lets look at some cmds which you are likely to use regularly :
-    - `docker image build -t test-image-name .`
-        - Builds the image using the instructions given in the Dockerfile present in the current folder.
-        - More details on other options : <https://docs.docker.com/engine/reference/commandline/build/#description>{:target="_blank" rel="nofollow"}
-    - `docker image ls`
-        - Lists all the images present in the host machine.
-    - `docker image test-image-name history`
-        - Lists all 
+- `docker image --help` 
+  - Gives you a list of all possible options.
+- `docker image ls`
+  - Lists all the images present in the host machine.
+- `docker image pull test-image-name`
+  - Pulls the docker image from the registry.  
+- `docker image build -t test-image-name .`
+  - Builds the image using the instructions given in the Dockerfile present in the current folder.
+- `docker image test-image-name history`
+  - Shows the history of the image.
+  !["Image history"](/assets/images/docker-image-history.png "Image history")
+- `docker image inspect test-image-name `
+  - Display detailed information on one or more images (separated by a space).
+  !["Image inspect"](/assets/images/docker-image-inspect.png "Image inspect")
 
 ### 3. Container
 ### 4. Volume
@@ -385,7 +475,7 @@ networks:
 ### 7. Entering the container
 ### 8. APIs
 
-## <a id="tips">4.</a>Tips
+## <a id="tips">5.</a>Tips
 
 - Log everything to STDOUT since Docker will pipe it to its logs.
 - Customize application behaviour with environment variables. Have separate env files for each env. You can even use different docker-compose.yaml files for each env if needed.
