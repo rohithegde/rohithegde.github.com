@@ -13,7 +13,15 @@ comments: true
 1. [Docker management commands](#management-cmds)
 2. [Basic commands](#basic-cmds)
 3. [Artifacts](#artifacts)
+    1. [Dockerfile](#Dockerfile)
+    2. [.dockerignore](#dockerignore)
+    3. [docker-compose.yaml](#docker-compose.yaml)
+    4. [.env](#env)
 4. [Other useful commands](#other-commands)
+    1. [Container](#Container)
+    2. [Volume](#Volume)
+    3. [Network](#Network)
+    4. [Logs](#Logs). 
 5. [Tips](#tips)
 
 ## <a id="management-commands">1.</a>Docker Management commands
@@ -103,7 +111,8 @@ The above commands are enough to setup basic apps from existing images. But for 
 
 Lets take a look at the 4 artifacts of Docker.
 
-### 1. Dockerfile
+### <a id="Dockerfile">1.</a>Dockerfile
+
 - The Dockerfile is used to build an image.
 - The Dockerfile contains a number of instructions with arguments. 
 - Each instruction should be in UPPERCASE followed by an argument.
@@ -188,7 +197,8 @@ CMD ["node", "app.js"]
 - We use the CMD instruction to set the default command execute when the container is run.
 - Alternatively we can set the ENTRYPOINT instruction which then ensures that all arguments passed via command line will become arguments to the command provided.
 
-### 2. .dockerignore
+### <a id="dockerignore">2.</a>.dockerignore
+
 <pre><code>
 node_modules/*
 bower_components/*
@@ -198,7 +208,7 @@ bower_components/*
 - It is newline-separated list of exclusion patterns which is placed into the build context.
 - The .dockerignore file is very useful for reducing the size of the built image.
 
-### 3. docker-compose.yaml
+### <a id="docker-compose.yaml">3.</a>docker-compose.yaml
 - Docker compose is a tool for composing multiple docker containers.
 - Originally called fig which was eventually merged into the official docker package.
 - The Dockerfile is usually used to bring up a service while the Docker compose file is used to bring up an application comprising of multiple services.
@@ -434,7 +444,7 @@ networks:
 - In this section, we define the various networks which we have used in the file which causes them to be created by Compose.
 - We can also define 'external' networks here which have been created externally as well as other network specific configuration.
 
-### 4. .env
+### <a id="env">4.</a>.env
 
 <pre><code>
 # Postgres env
@@ -468,12 +478,15 @@ POSTGRES_DB=test
   - Display detailed information on one or more images (separated by a space).
   !["Image inspect"](/assets/images/docker-image-inspect.png "Image inspect")
 
-### 3. Container
-### 4. Volume
-### 5. Network
-### 6. Logs
-### 7. Entering the container
-### 8. APIs
+### <a id="Container">3.</a>Container
+  - Entering the container
+
+### <a id="Volume">4.</a>Volume
+
+### <a id="Network">5.</a>Network
+
+### <a id="Logs">6.</a>Logs
+
 
 ## <a id="tips">5.</a>Tips
 
