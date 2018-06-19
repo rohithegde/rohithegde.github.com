@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Docker : a detailed introduction"
+title: "Docker : Part 1 - a detailed introduction"
 #category: general
 tags: [docker, container, tutorial, guide]
 comments: true

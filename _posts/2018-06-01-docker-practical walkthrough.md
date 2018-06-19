@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Docker : a practical walkthrough"
+title: "Docker : Part 2 - a practical walkthrough"
 #category: general
 tags: [docker, container, tutorial, guide]
 comments: true
@@ -145,6 +145,7 @@ services:
   backend:
     build:
       context: .
+      #image: backend:1.2
       dockerfile: Dockerfile-local
     ports:
       - "1337:1337"
@@ -166,7 +167,6 @@ services:
       - file-uploads:/srv/app/uploads/
     command: ["npm", "run", "nodemon", "--redis"]
     depends_on:
-      - redis
       - postgres
     #external_links:
     #  - postgres
@@ -226,6 +226,142 @@ version: '3'
   3. Version 3.x, the latest and recommended version, designed to be cross-compatible between Compose and the Docker Engine’s swarm mode. This is specified with a version: '3' or version: '3.1', etc., entry at the root of the YAML.
 - You will see different tutorials online using different syntax/cmds in their examples. Be aware of which Docker Compose file version they are referring. More details on upgrading here : <https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading>{:target="_blank" rel="nofollow"}.
 
+<pre><code>
+services:
+</code></pre>
+- This is part of the new Docker Compose version 3 file format.
+- Every service of the app should be listed in this section.
+- A service definition contains configuration that is applied to each container started for that service, much like passing command-line parameters to the docker container creation command.
+
+<pre><code>
+  backend:
+    build:
+      context: .
+      #image: backend:1.2
+      dockerfile: Dockerfile-local
+</code></pre>
+- We begin with the service definition of the backend service.
+- The build section specifies the configuration options that are applied at build time.
+- build can be specified either as a string containing a path to the build context or as an object (given above).
+- The context is either a path to a directory containing a Dockerfile, or a url to a git repository. When the value supplied is a relative path(eg : ./dir), it is interpreted as relative to the location of the Compose file.
+- The other optional instruction is for image (commented). If you specify image as well as build, then Compose names the built image with the 'backend' and optional tag as 1.2 built from the current directory. 
+- If the Dockerfile has a different name then we can mention the name here. In this case, I have created an environment specific Dockerfile for my local env called Dockerfile-local.
+
+<pre><code>
+    ports:
+        - "1337:1337"
+</code></pre>
+- This is the short syntax to expose ports.
+- You can specify both ports (HOST:CONTAINER as given above), or just the container port (only referenced internally within the network).
+- Note : If the port is already mapped to some other application then you might not get any error.
+
+<pre><code>
+    #network_mode: "bridge"
+    networks:
+      - my-app
+</code></pre>
+- The network mode can be specified if you want to use the default bridge network. It is commented here.
+- It is recommended to use a custom network (my-app in this case) so that we control which services interact with each other.
+- The definition of custom networks can be found towards the end of the yaml file.
+
+<pre><code>
+    environment:
+      - DB_HOST=postgres
+      #- DB_HOST=docker.for.mac.localhost # For connecting to host db
+      - DB_NAME=test
+      - DB_USER=test
+      - DB_PASSWORD=test
+      - DB_PORT=5432
+      - NODE_ENV=development
+</code></pre>
+- This section is used to define environment variables for the service.
+- Any boolean values; true, false, yes no, need to be enclosed in quotes to ensure they are not converted to True or False by the YML parser.
+- For using the local IP, you can use an alias. Depending on your OS, it can be either docker.for.mac.host.internal, docker.for.mac.localhost, docker.for.win.host.internal or docker.for.win.localhost. 
+- Environment variables given with only a key are resolved to their values on the machine Compose is running on, which can be helpful for secret or host-specific values.
+
+<pre><code>
+    volumes:
+      - .:/srv/app/
+      - backend-node-modules:/srv/app/node_modules/
+      - ${PWD}/config/local.js.sample:/srv/app/config/local.js
+      - file-uploads:/srv/app/uploads/
+</code></pre>
+- As you see, I have mounted various types of volumes in this section.
+- `.:/srv/app/` : The current host directory has been mounted onto the container app directory as an anonymous volume.
+- `backend-node-modules:/srv/app/node_modules/` : A named volume has been mounted here. This has been done so as to reuse the node modules installed during the build stage.
+- `${PWD}/config/local.js.sample:/srv/app/config/local.js` : A local config sample file present in the code repository has been mounted as a config file for the local env.
+- `file-uploads:/srv/app/uploads/` : A named volume has been mounted here. The file-uploads directory can be used for sharing with other containers as needed.
+- The volumes will be defined towards the end of the yaml file.
+
+
+<pre><code>
+    command: ["npm", "run", "nodemon", "--redis"]
+</code></pre>
+- This is used to vverride the default command of the Dockerfile.
+
+<pre><code>
+    depends_on:
+      - postgres
+</code></pre>
+- This is used to state the dependencies of the different services.
+- This ensures that the backend service is started only AFTER the postgres service is started.
+- NOTE : This does NOT mean that the backend service will wait till the postgres service is 'ready'. Its recommended to use some other custom logic to achieve this (eg : polling mechanism). More details here : <https://docs.docker.com/compose/startup-order/>{:target="_blank" rel="nofollow"}. 
+
+<pre><code>
+    #external_links:
+    #  - postgres
+    #extra_hosts:
+    # - "postgres:${DB_IP}"
+</code></pre>
+- The `external_links` commented section when enabled would allow me to Link to containers started outside this docker-compose.yml.
+- You can also specify it in the form postgres:db ie CONTAINER:ALIAS
+- Note : For compatibility with version 2 of the compose file, you might have to ensure the external container is part of the same network.
+- The `extra_hosts` commented section when enabled would allow me to add an entry to the `/etc/hosts` file.
+- Here I have used variable substitution (`${DB_IP}`) which allows me to use a variable defined in the shell directly in the compose file.
+
+<pre><code>
+  postgres:
+    image: 'postgres:9.6.8'
+    restart: always
+    ports:
+      - "5432:5432"
+    networks:
+      - my-app
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
+    volumes:
+      # For connecting to local db data
+      #- /usr/local/var/postgres:/var/lib/postgresql/data
+      - db-data:/var/lib/postgresql/data
+      #- ./scripts/:/docker-entrypoint-initdb.d/ # initialization scripts
+</code></pre>
+- The Postgres database service is defined here. Most of the settings are similar to that explained before.
+- The `restart` instruction set the conditions on which the container will restart. It can be any value from the list of no, always, on-failure, unless-stopped.
+- Since this container is formed from an existing image listed in the Docker hub, the environment variables are set in line with the information provided in Docker hub.
+- The volumes defined here are a varied lot.
+  - `/usr/local/var/postgres:/var/lib/postgresql/data` : This line when enabled, mounts the directory of the Postgres installation on the host as that in the container. This can be useful if you want to use the locally installed database within the container.
+  - `db-data:/var/lib/postgresql/data` : This allows us to mount the directory of the Postgres service as a data volume which persists even if the container isn't up (as per the nature of a volume),
+  - `./scripts/:/docker-entrypoint-initdb.d/` : This line when enabled, allows us to mount the 'scripts' folder in the host directory as the initialization script folder of Postgres service.
+
+<pre><code>
+volumes:
+  db-data:
+  file-uploads:
+  backend-node-modules:
+  frontend-node-modules:
+</code></pre>
+- In this section, we define the various named volumes which we have used in the file which causes them to be created by Compose.
+- We can also define 'external' volumes here which have been created externally as well as other volume specific configuration.
+
+<pre><code>
+networks:
+  my-app:
+</code></pre>
+- In this section, we define the various networks which we have used in the file which causes them to be created by Compose.
+- We can also define 'external' networks here which have been created externally as well as other network specific configuration.
+
 ### 4. .env
 
 ## <a id="other-commands">3.</a>Other useful commands
@@ -263,5 +399,5 @@ version: '3'
 - Docker compose file versioning : <https://docs.docker.com/compose/compose-file/compose-versioning/#compatibility-matrix>{:target="_blank" rel="nofollow"}
 - Docker plugins : <https://www.inovex.de/blog/docker-plugins/>{:target="_blank" rel="nofollow"}
 - Docker build cache : <https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/#build-cache>{:target="_blank" rel="nofollow"}
-- Optimizing .dockerignore : <https://blog.codeship.com/leveraging-the-dockerignore-file-to-create-smaller-images/>- Docker build cache : <https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/#build-cache>{:target="_blank" rel="nofollow"}
+- Optimizing .dockerignore : <https://blog.codeship.com/leveraging-the-dockerignore-file-to-create-smaller-images/>
 
