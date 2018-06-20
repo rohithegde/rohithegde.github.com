@@ -2,12 +2,12 @@
 layout: post
 title: "Docker : Part 1 - a detailed introduction"
 #category: general
-tags: [docker, container, tutorial, guide]
+tags: [docker, image, container, volume, network, tutorial, guide]
 comments: true
 ---
 
 ## Background story
-- This is part 1 of a 2 part series to understand Docker & work with it.
+- This is part 1 of a [2 part series]({{ site.url }}/#docker) to understand Docker & work with it.
 - I recently gave a session to my team at work on how an application deployment could be simplified with Docker. It was well received. I decided to convert the same to a blog so as to try to help out a larger audience.
 
 !["Docker"](/assets/images/docker.jpg "Docker")

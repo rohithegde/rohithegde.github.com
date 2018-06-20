@@ -2,7 +2,7 @@
 layout: post
 title: "Docker : Part 2 - a practical walkthrough"
 #category: general
-tags: [docker, container, tutorial, guide]
+tags: [docker, image, container, volume, network, tutorial, guide]
 comments: true
 ---
 
@@ -11,17 +11,19 @@ comments: true
 
 ## Agenda
 1. [Docker management commands](#management-cmds)
-2. [Basic commands](#basic-cmds)
+2. [Basic commands to setup a single service](#basic-cmds)
 3. [Artifacts](#artifacts)
     1. [Dockerfile](#Dockerfile)
     2. [.dockerignore](#dockerignore)
     3. [docker-compose.yaml](#docker-compose.yaml)
     4. [.env](#env)
 4. [Other useful commands](#other-commands)
-    1. [Container](#Container)
-    2. [Volume](#Volume)
-    3. [Network](#Network)
-    4. [Logs](#Logs). 
+    1. [Image](#Image)
+    2. [Container](#Container)
+    3. [Volume](#Volume)
+    4. [Network](#Network)
+    5. [System](#System)
+    6. [Logs](#Logs)
 5. [Tips](#tips)
 
 ## <a id="management-commands">1.</a>Docker Management commands
@@ -47,7 +49,7 @@ comments: true
 | service | A swarm feature which allows you to manage services.
 |===
 
-## <a id="basic-cmds">2.</a>Basic commands
+## <a id="basic-cmds">2.</a>Basic commands to setup a single service
 Lets go through the basic commands which we will use for setting up & working on our first Docker based service.
 
 - The Redis cache is one of the simplest services to activate : 
@@ -460,9 +462,9 @@ POSTGRES_DB=test
 - There is no special handling of quotation marks. This means that they are part of the VAL.
 
 ## <a id="other-commands">4.</a>Other useful commands
+Thanks to the mamagement commands, most of the commands for a image are similar to that for a container/volume/network.
 
-   
-### 2. Image
+### <a id="Image">1.</a>Image
 - `docker image --help` 
   - Gives you a list of all possible options.
 - `docker image ls`
@@ -478,24 +480,80 @@ POSTGRES_DB=test
   - Display detailed information on one or more images (separated by a space).
   !["Image inspect"](/assets/images/docker-image-inspect.png "Image inspect")
 
-### <a id="Container">3.</a>Container
-  - Entering the container
+### <a id="Container">2.</a>Container
+- `docker container --help`
+  - Gives you a list of all possible options.
+- `docker container ls`
+  - Lists all the running containers present in the host machine.
+- `docker container ls -a`
+  - Lists all the containers present in the host machine.
+- `docker container create test-image-name`
+  - Creates the container but doesnt run it yet (ie it exists in 'Created' status).
+- `docker container start test-container-name`
+  - Starts the container.
+- `docker container stop test-container-name`
+  - Stops the running container.
+- `docker container run test-image-name`
+  - Pulls the image from the registry if it doesn't exist + creates the container + starts it.  
+- `docker container exec app-redis touch test.txt`
+  - Executes the command `touch test.txt` in the running container.
+- `docker container cp app-redis:/data/test.txt ./`
+  - Copies content from the source to the destination. 
+  - You can copy content from a container as well as to a container.
+  - Here we have copied the text file from the container to the host.
+- `docker image inspect test-image-name`
+  - Display detailed information on one or more images (separated by a space).
+- `docker container rm test-container-name`
+  - Deletes the container.
+  - Throws an error if the container is still running.
+- `docker container rm test-container-name -f`
+  - Deletes the container even if it is running.
+- `docker container ls --filter=volume=test-volume-name`
+  - The filter argument used above lets you view all containers who have mounted the given volume.
 
-### <a id="Volume">4.</a>Volume
+### <a id="Volume">3.</a>Volume
+- `docker volume --help`
+  - Gives you a list of all possible options.
+- `docker volume ls`
+  - Lists all the volumes present in the host machine.
+- `docker volume inspect test-volume-name`
+  - Display detailed information on one or more volumes (separated by a space).
+- `docker volume rm test-volume-name`
+  - Deletes the volume.
+  - Throws an error if the volume is linked to a container.
+  - NOTE : You can use `-f` to force removal but be careful using it. 
 
-### <a id="Network">5.</a>Network
+### <a id="Network">4.</a>Network
+- `docker network --help`
+  - Gives you a list of all possible options.
+- `docker network ls`
+  - Lists all the volumes present in the host machine.
+- `docker network inspect test-network-name`
+  - Display detailed information on one or more volumes (separated by a space).
+- `docker network rm test-network-name`
+  - Deletes the network.
+  - Throws an error if the network is linked to a container.
+  - NOTE : You can use `-f` to force removal. 
 
-### <a id="Logs">6.</a>Logs
+### <a id="System">5.</a>System
+- `docker system --help`
+  - Gives you a list of all possible options.
+- `docker system df`
+  - Gives the memory utilization of Docker.
+  !["System df"](/assets/images/docker-system-df.png "System df")
+- `docker system info`
+  - Gives detailed information about the Docker setup on the host machine. 
 
+### <a id="Logs">5.</a>Logs
+- `docker container logs app-redis`
+  - View logs of an existing container.
 
 ## <a id="tips">5.</a>Tips
 
 - Log everything to STDOUT since Docker will pipe it to its logs.
 - Customize application behaviour with environment variables. Have separate env files for each env. You can even use different docker-compose.yaml files for each env if needed.
 - Make apps stateless ie don’t store in memory(eg: web server session) since it isn’t a scalable approach. Use fast access data stores like Redis instead
-- For your 1st experiment with Docker, make app on your own without involving Docker. Then dockerize it.
-
-
+- For your 1st experiment with Docker, setup the app on your own without involving Docker. Then dockerize it. Helps to understand the differences better.
 
 ## <a id="references">5.</a>Further reading / references
 - <https://en.wikipedia.org/wiki/Docker_(software)>{:target="_blank" rel="nofollow"}
