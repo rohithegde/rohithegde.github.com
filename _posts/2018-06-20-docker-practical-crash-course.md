@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Docker : Part 2 - a practical walkthrough"
+title: "Docker : Part 2 - a practical crash course"
 #category: general
 tags: [docker, container, tutorial, guide]
 comments: true
