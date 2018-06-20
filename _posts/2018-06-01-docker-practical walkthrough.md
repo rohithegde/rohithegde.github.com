@@ -2,7 +2,7 @@
 layout: post
 title: "Docker : Part 2 - a practical walkthrough"
 #category: general
-tags: [docker, image, container, volume, network, tutorial, guide]
+tags: [docker, container, tutorial, guide]
 comments: true
 ---
 
