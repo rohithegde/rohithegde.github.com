@@ -1,0 +1,9 @@
+{% if page.comments %}
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <h4>Add your thoughts, questions, doubts, suggestions as comments below :</h4>
+    <div class="commentbox"></div>
+    <script>
+    commentBox('{{ site.commentbox_id }}');
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
