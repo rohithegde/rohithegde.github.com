@@ -2,7 +2,7 @@
 layout: post
 title: "pgModeler : A great tool for Postgres data modeling"
 #category: general
-tags: [postgres, documentation, opensource]
+tags: [postgres, setup, opensource]
 comments: true
 ---
 
