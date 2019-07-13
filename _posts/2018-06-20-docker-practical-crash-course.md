@@ -560,5 +560,5 @@ Thanks to the mamagement commands, most of the commands for a image are similar 
 - Docker compose file versioning : <https://docs.docker.com/compose/compose-file/compose-versioning/#compatibility-matrix>{:target="_blank" rel="nofollow"}
 - Docker plugins : <https://www.inovex.de/blog/docker-plugins/>{:target="_blank" rel="nofollow"}
 - Docker build cache : <https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/#build-cache>{:target="_blank" rel="nofollow"}
-- Optimizing .dockerignore : <https://blog.codeship.com/leveraging-the-dockerignore-file-to-create-smaller-images/>
+- Optimizing .dockerignore : <https://blog.codeship.com/leveraging-the-dockerignore-file-to-create-smaller-images/>{:target="_blank" rel="nofollow"}
 
