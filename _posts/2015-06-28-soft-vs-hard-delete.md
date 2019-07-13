@@ -20,9 +20,9 @@ comments: true
 - Involves directly deleting the data row from the table.
 - Many a times, the data (or action) is copyed onto an audit table to assist in possible debugging in the future.
 - This copying can be done with one of the following options :
--- Listener code in the application (observer pattern)
--- Database Trigger
--- Combine the copy + delete operations in a stored procedure.
+    - Listener code in the application (observer pattern)
+    - Database Trigger
+    - Combine the copy + delete operations in a stored procedure.
 
 !["Deleting"](/assets/images/pencil_eraser.jpg "Deleting")
 
