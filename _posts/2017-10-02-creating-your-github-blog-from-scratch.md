@@ -30,7 +30,7 @@ bundle exec jekyll serve
 - Now browse to [http://localhost:4000](http://localhost:4000){:target="_blank" rel="nofollow"}
 
 ## Jekyll blog know-how
-- A normal blog like Wordpress requires a database from which the code base extracts the data to be shown
+- A normal blog like Wordpress requires a database from which the code base extracts the data to be shown.
 - Jekkyl is a open source static site generator written in Ruby by Github's founder. Jekyll takes content, renders Markdown or Textile and Liquid templates, and produces a complete, static website ready to be served without using databases. 
 - Understand the [Jekyll directory structure](https://jekyllrb.com/docs/structure/){:target="_blank" rel="nofollow"} so that you can customize your blog further.
 - Don't ever modify the contents of _site folder since it is regenerated with every build.
