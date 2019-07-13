@@ -10,9 +10,24 @@ comments: true
 - In this post, I create my github blog from scratch using [Jekkyl](https://jekyllrb.com/docs/quickstart/){:target="_blank" rel="nofollow"}. I prefer this approach compared to my [earlier post]({{ site.url }}/2015/03/14/creating-your-github-blog) in which I had created my github blog from [Jekkyl Now](https://github.com/barryclark/jekyll-now){:target="_blank" rel="nofollow"}.
 - I wanted my blog on Github since it gives me the most flexibility of modifying my blog format without the need to host the code on my own server.
 
-## Basic setup
+## Basic setup 
+
 - Ensure [Ruby](https://www.ruby-lang.org/en/downloads/){:target="_blank" rel="nofollow"} & [Gems](https://rubygems.org/pages/download){:target="_blank" rel="nofollow"} are installed on your system.
-- Follow the basic blog setup instructions on [Github Pages](https://pages.github.com/){:target="_blank" rel="nofollow"} & then use [Jekyll](https://jekyllrb.com/docs/quickstart/){:target="_blank" rel="nofollow"} for local setup & customizations.
+```bash
+curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+rvm list known
+rvm install ruby-2.6.3
+ruby -v
+``` 
+
+- Follow the basic blog setup instructions on [Github Pages](https://pages.github.com/){:target="_blank" rel="nofollow"}
+- Install [Jekyll](https://jekyllrb.com/docs/quickstart/){:target="_blank" rel="nofollow"} for local setup & customizations.
+```bash
+gem install jekyll bundler
+cd myblog
+bundle exec jekyll serve
+```
+- Now browse to [http://localhost:4000](http://localhost:4000){:target="_blank" rel="nofollow"}
 
 ## Jekyll blog know-how
 - A normal blog like Wordpress requires a database from which the code base extracts the data to be shown
