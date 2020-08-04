@@ -32,7 +32,7 @@ I decided to blog on the setup in Mac which worked for me so as to help others. 
 ## Setup on Mac
 
 Get the source code. I have checked out the latest version even though its not the stable master branch 
-since at this time, the mastwer branch had a bug which was resolved in the beta version.
+since at this time, the master branch had a bug which was resolved in the beta version.
 <pre><code>
 git clone https://github.com/pgmodeler/pgmodeler.git
 cd pgmodeler
