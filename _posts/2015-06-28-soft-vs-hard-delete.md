@@ -5,7 +5,7 @@ title:  Soft Delete vs Hard Delete
 tags: [database, orm]
 comments: true
 ---  
-  <!-- TOC -->
+<!-- TOC -->
 
 - [About](#about)
 - [Soft Delete](#soft-delete)
@@ -66,7 +66,7 @@ comments: true
 
 ### Querying for active data
 
-- By experience, I can state that many issues have come up when the developer has forgotten to add ‘delete_flag = 0’ condition in the select queries due to which issues came about. 
+- By experience, I can state that many issues have come up when the developer has forgotten to add "deleted_flag = '0'" condition in the select queries due to which issues came about. 
 - If you are using an ORM like Doctrine with the ‘soft delete’ plugin enabled, then this will not be an issue since the ORM takes care of adding this check.
 - **Advantage : Hard Delete**
 
@@ -85,12 +85,12 @@ comments: true
 ### Application Performance
 
 - **Speed**
-    - To support soft deletes, ALL select queries need to have a condition ‘WHERE delete_flag = 0’.
+    - To support soft deletes, ALL select queries need to have a condition "WHERE deleted_flag = '0'".
     - In situations where JOINs are involved there will be multiple such conditions.
     - Select queries with lesser conditions are faster than those with conditions. 
     - **Advantage : Hard Delete**
 - **Size**
-    - To support faster soft deletes, we need to have an index for every delete_flag in EVERY table
+    - To support faster soft deletes, we need to have an index for every deleted_flag in EVERY table
     - Additionally the table size keeps increasing since the table has ‘soft deleted’ data + active data.
     - Queries can get slower as table size increases.
     - **Advantage : Hard Delete**
