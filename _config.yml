@@ -21,7 +21,7 @@ tagline: "Valar Codilis. All men must code."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://abstraction.blog" # the base hostname & protocol for your site, e.g. http://example.com
 author: Rohit Hegde
-github_username:  rohithegde
+github_username: rohithegde
 github_raw_url: https://raw.githubusercontent.com/rohithegde/rohithegde.github.com/master
 
 #https://www.webpagefx.com/tools/emoji-cheat-sheet/
@@ -37,7 +37,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  
+
 theme: jekyll-theme-cayman
 # cayman, primer, architect
 highlighter: rouge
@@ -48,9 +48,9 @@ version: v3.5.2
 
 permalink: /:year/:month/:day/:title
 
-disqus_url: 'https://abstraction-blog.disqus.com'
+#disqus_url: "https://abstraction-blog.disqus.com"
 
-commentbox_id: '5641896604991488-proj'
+commentbox_id: "5641896604991488-proj"
 
 blog_start_year: 2015
 
