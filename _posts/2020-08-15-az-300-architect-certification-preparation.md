@@ -115,11 +115,12 @@ I did the pre-exam prep below around 30 min before the exam :
 - The practice test experience helped. I found the exam to be a lot easier than the practice tests. By the time I crossed 35 questions, I felt that I had got more than 90% of it correct.
 - At this point I made a few mistakes with the next 10 questions :
   - I forgot that the weightage of each question is different. So doing well in 35 questions before didnt actually mean that I had a good score already.
-  - There were a few case scenarios with 3 'yes/no' answer type questions on the same scenario (a multi step answer like steps involved in migration). After clicking on 'yes' for the 1st question, the 2nd question made me realize that my 1st answer was wrong. But unlike the practice tests, the exam has few sections in which you CANNOT go back. To be fair, the exam instructions in the begining proactively informs you of this rule but you only realize what it means later.
+  - There were a few case scenarios with 3 'yes/no' answer type questions (a multi step answer like steps involved in migration). After clicking on 'yes' for the 1st question, the 2nd question made me realize that my 1st answer was wrong. But unlike the practice tests, the exam has few sections in which you CANNOT go back. To be fair, the instructions in the begining proactively inform you of this rule but you only realize the impact later.
   - I answered the above type questions a bit hastily. This led me to make mistakes in around 4 questions. I realize this in hindsight.
 - I flagged the answers which I wanted to revise (not applicable to the above) and spent around 20 min on it.
 - I submitted the exam in 2 hours.
-- I immediatly received the congratulatory message page.
+- I had to fill a survey on myself and nature of the exam after this (no impact on the exam results).
+- I immediatly received the congratulatory message page for clearing the exam.
 
 The exam report with certification id arrived in 30 minutes.
 I had mixed feelings. I felt that I shouldn't have made those mistakes. At the same time, I was relieved that it was over and that I was on the right side of the fence.
