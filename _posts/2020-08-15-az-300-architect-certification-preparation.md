@@ -61,7 +61,7 @@ The websites which helped me prepare :
 ### Whizlabs practice tests
 
 - [This offering](https://www.whizlabs.com/microsoft-azure-certification-az-300/practice-tests/){:target="_blank" rel="nofollow"} helped me a lot.
-- The 5 practice tests (+ 1 free test [here](https://www.whizlabs.com/microsoft-azure-certification-az-300/free-test/){:target="_blank" rel="nofollow"} really take you the cleaners. They are actually tougher than the actual exam.
+- The 5 practice tests (+ 1 free test [here](https://www.whizlabs.com/microsoft-azure-certification-az-300/free-test/)){:target="_blank" rel="nofollow"} really take you the cleaners. They are actually tougher than the actual exam.
 - **The passing scored needed is 80% here**.
 - The duration of each test was around 2.5 hours though I completed each test within an hour.
 - My scores :
@@ -112,8 +112,8 @@ I did the pre-exam prep below around 30 min before the exam :
 
 - **It was an exam of 3 hours with 45 questions and passing score of 70%**.
 - Since I had completed the practice tests well in advance, I knew that time wasnt an issue for me.
-- The practice test experience helped. By the time I crossed 35 questions, I felt that I had got around 90% of it correct.
-- At this point I made a few mistakes :
+- The practice test experience helped. I found the exam to be a lot easier than the practice tests. By the time I crossed 35 questions, I felt that I had got more than 90% of it correct.
+- At this point I made a few mistakes with the next 10 questions :
   - I forgot that the weightage of each question is different. So doing well in 35 questions before didnt actually mean that I had a good score already.
   - There were a few case scenarios with 3 'yes/no' type answers on the same question (a multi step answer like steps involved in migration). After clicking on 'yes' for the 1st question, the 2nd question made me realize that my 1st answer was wrong. But unlike the practice tests, the exam has few sections in which you CANNOT go back. To be fair, the exam instructions in the begining proactively informs you of this rule but you only realize what it means later.
   - I answered the above type questions a bit hastily. This led me to make mistakes in around 4 questions. I realize this in hindsight.
