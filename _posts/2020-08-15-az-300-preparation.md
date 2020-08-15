@@ -16,7 +16,7 @@ In a hurry ? Please skip to the part you want with the index below.
   - [Udemy practice tests](#udemy-practice-tests)
 - [Scheduling the exam](#scheduling-the-exam)
 - [Pre-exam process](#pre-exam-process)
-- [Exam time](#exam-time)
+- [The AZ-300 exam](#the-az-300-exam)
 - [Final thoughts](#final-thoughts)
 
 <!-- /TOC -->
@@ -135,5 +135,6 @@ I had mixed feelings. I felt that I shouldn't have made those mistakes. At the s
 - Read each question and possible answers slowly and well. Its easy to make mistakes in haste.
 
 The journey was tiring but I learned a lot from it. Will be studying for AZ-301 now.
+
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
-Feel free to share your experiences. Every bit of knowledge helps :blush:
+Feel free to share your experiences. Every bit of knowledge helps :blush:.
