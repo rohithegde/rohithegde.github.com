@@ -137,4 +137,4 @@ I had mixed feelings. I felt that I shouldn't have made those mistakes. At the s
 The journey was tiring but I learned a lot from it. Will be studying for AZ-301 now.
 
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
-Feel free to share your experiences. Every bit of knowledge helps :blush:.
+<br/>Feel free to share your experiences. Every bit of knowledge helps :blush:.
