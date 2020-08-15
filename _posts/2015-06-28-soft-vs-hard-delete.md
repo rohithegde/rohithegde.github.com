@@ -5,6 +5,7 @@ title:  Soft Delete vs Hard Delete
 tags: [database, orm]
 comments: true
 ---  
+
 <!-- TOC -->
 
 - [About](#about)
