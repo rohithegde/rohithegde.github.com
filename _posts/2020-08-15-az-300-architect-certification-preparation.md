@@ -56,7 +56,7 @@ The websites which helped me prepare :
 
 - [This ebook](https://learning.oreilly.com/library/view/exam-ref-az-300/9780135881477/){:target="_blank" rel="nofollow"} was like a crash course focused on the exam.
 - I used it to revise concepts before giving the practice tests.
-- One of the authors is Timothy L. Warner. He is an Azure MVP and has many video courses on Azure out there.
+- One of the authors is Timothy L. Warner. He is a Microsoft MVP and has many video courses on Azure out there.
 
 ### Whizlabs practice tests
 
