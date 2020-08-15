@@ -25,8 +25,10 @@ In a hurry ? Please skip to the part you want with the index below.
 > “I am not telling you it is going to be easy. I am telling you it is going to be worth it” - Art Williams
 
 I have around a year's experience as an Architect and Sr DevOps engineer with Azure. I also have prior experience with GCP and AWS. As such, I thought of going for the Azure Architect certification.
+
 AZ-300 is the Azure Architect Technologies exam. Its equivalent to its famous counterpart - the `AWS Certified Solutions Architect - Associate` exam.
 If you clear AZ-300 along with AZ-301, you will become an **Azure Solutions Architect Expert**.
+
 You can visit the [official website](https://docs.microsoft.com/en-us/learn/certifications/exams/az-300){:target="_blank" rel="nofollow"} for more details.
 
 !["ERD"](/assets/images/azure-architect-path.jpg "ERD")
@@ -34,7 +36,7 @@ You can visit the [official website](https://docs.microsoft.com/en-us/learn/cert
 **Note** :
 
 - The AZ-300 and AZ-301 exams are set to retire in September 2020. Their newer versions are AZ-303 and AZ-304.
-- The newer exams are still similar to the original ones with a more focussed syllabus ie some topics have been added/removed.
+- The newer exams are still similar to the original ones with a more focused syllabus ie some topics have been added/removed.
 - I chose to give the original exams since most of the courses out there are for them. It will take some time for newer courses to arrive.
 
 ## Preparation
@@ -59,8 +61,8 @@ The websites which helped me prepare :
 ### Whizlabs practice tests
 
 - [This offering](https://www.whizlabs.com/microsoft-azure-certification-az-300/practice-tests/){:target="_blank" rel="nofollow"} helped me a lot.
-- The 5 practice tests (+ 1 free test [here](https://www.whizlabs.com/microsoft-azure-certification-az-300/free-test/)c) really take you the cleaners. They are actually tougher than the actual exam.
-- The passing scored needed is 80% here.
+- The 5 practice tests (+ 1 free test [here](https://www.whizlabs.com/microsoft-azure-certification-az-300/free-test/){:target="_blank" rel="nofollow"} really take you the cleaners. They are actually tougher than the actual exam.
+- **The passing scored needed is 80% here**.
 - The duration of each test was around 2.5 hours though I completed each test within an hour.
 - My scores :
 
@@ -106,9 +108,9 @@ I did the pre-exam prep below around 30 min before the exam :
 - Send pics from 4 directions of my surroundings (closed room).
 - After a live 360 degrees scan from the Proctor, I could start the exam.
 
-## Exam time
+## The AZ-300 exam
 
-- It was a 3 hour exam with 45 questions.
+- **It was an exam of 3 hours with 45 questions and passing score of 70%**.
 - Since I had completed the practice tests well in advance, I knew that time wasnt an issue for me.
 - The practice test experience helped. By the time I crossed 35 questions, I felt that I had got around 90% of it correct.
 - At this point I made a few mistakes :
