@@ -69,7 +69,7 @@ The websites which helped me prepare :
 | Practice test | Score | Notes |
 | --------- | ----------- | ----------- |
 | Free test | 47% | Was surprised with the level of detail expected. The review of the answers told me my weak areas. I revised them and then gave the next test.|
-| Practice test 1 | 69% | Revised the new weak areas discovered.|
+| Practice test 1 | 69% | Not happy with the marks. Immediately went for the next test.|
 | Practice test 2 | 65% | Revised the new weak areas discovered.|
 | Practice test 1 | 73% | Not happy with my progress. Decided to revise my notes one more time and then give the earlier exams again. Scored around 90% or more in each of them. |
 | Practice test 1 | 84% | Revised the new weak areas discovered.|
