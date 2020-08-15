@@ -61,7 +61,7 @@ The websites which helped me prepare :
 ### Whizlabs practice tests
 
 - [This offering](https://www.whizlabs.com/microsoft-azure-certification-az-300/practice-tests/){:target="_blank" rel="nofollow"} helped me a lot.
-- The 5 practice tests (+ 1 free test [here](https://www.whizlabs.com/microsoft-azure-certification-az-300/free-test/)){:target="_blank" rel="nofollow"} really take you the cleaners. They are actually tougher than the actual exam.
+- The 5 practice tests (+ 1 free test [here](https://www.whizlabs.com/microsoft-azure-certification-az-300/free-test/){:target="_blank" rel="nofollow"}) really take you the cleaners. They are actually tougher than the actual exam.
 - **The passing scored needed is 80% here**.
 - The duration of each test was around 2.5 hours though I completed each test within an hour.
 - My scores :
