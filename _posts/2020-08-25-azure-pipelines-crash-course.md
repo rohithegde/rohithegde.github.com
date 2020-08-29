@@ -40,7 +40,10 @@ For the problem at hand : Azure pipelines is the solution.
 
 ## Introduction
 
-- Azure Pipelines is a cloud service that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
+![Azure DevOps](/assets/images/azure-pipelines/azure-devops.png)
+
+- Azure DevOps is a project management tool from Microsoft(similar to the Atlassian suite of tools) in which you can host code repositories, create pipelines, plan sprints, manage your team etc.
+- Azure Pipelines is a cloud service in Azure DevOps that you can use to automatically build and test your code project and make it available to other users. It works with just about any language or project type.
 - Azure Pipelines combines continuous integration (CI) and continuous delivery (CD) to constantly and consistently test and build your code and ship it to any target.
 
 ## Pre-requisities
@@ -108,6 +111,8 @@ Additional details can be seen [here](https://docs.microsoft.com/en-us/azure/dev
 
 - Library is a collection of includes\_ build and release assets for a project. Assets defined in a library can be used in multiple build and release pipelines of the project. The Library tab can be accessed directly in Azure Pipelines and Team Foundation Server (TFS).
 - At present, the library contains two types of assets: variable groups and secure files.
+- You store secrets or common variables in variable groups which will be used by the yaml files.
+- Secure files can contain file containing secrets like certificates or ssh keys which can also be used by the yaml files.
 
 Additional details can be seen [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/?view=azure-devops){:target="_blank" rel="nofollow"}.
 
