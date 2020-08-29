@@ -24,7 +24,7 @@ In a hurry ? Please skip to the part you want with the index below.
 
 > “I am not telling you it is going to be easy. I am telling you it is going to be worth it” - Art Williams
 
-I have around a year's experience as an Architect and Sr DevOps engineer with Azure. I also have prior experience with GCP and AWS. As such, I thought of going for the Azure Architect certification.
+I have around a year's experience as an Architect and Sr DevOps engineer with Azure. I also have prior experience with GCP and AWS. As such, I thought of going for the Azure Architect certification on August 3, 2020.
 
 AZ-300 is the Azure Architect Technologies exam. Its equivalent to its famous counterpart - the `AWS Certified Solutions Architect - Associate` exam.
 If you clear AZ-300 along with AZ-301, you will become an **Azure Solutions Architect Expert**.
