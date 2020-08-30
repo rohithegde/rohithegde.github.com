@@ -17,7 +17,7 @@ In a hurry ? Please skip to the part you want with the index below.
 - [Concepts](#concepts)
   - [Sections of a pipeline](#sections-of-a-pipeline)
   - [Tasks](#tasks)
-  - [Pipeline Templates](#pipeline-templates)
+  - [Pipeline Template files](#pipeline-template-files)
   - [Library](#library)
   - [Service connections](#service-connections)
   - [Pipeline runs](#pipeline-runs)
@@ -95,10 +95,13 @@ Additional details can be seen [here](https://docs.microsoft.com/en-us/azure/dev
 
 ### Tasks
 
+- Tasks allow you to abstract away quite a bit of code. Eg: The GitVersion task gets you the next suitable tag number without writing custom code.
 - Azure Pipelines has various built-in tasks. See the list [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/?view=azure-devops){:target="_blank" rel="nofollow"}.
 - Additionally you can create [custom tasks](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/tasks?view=azure-devops&tabs=yaml#custom-tasks){:target="_blank" rel="nofollow"} or install a task extension from the [marketplace](https://marketplace.visualstudio.com/azuredevops){:target="_blank" rel="nofollow"}.
 
-### Pipeline Templates
+![Task](/assets/images/azure-pipelines/pwsh-task.png)
+
+### Pipeline Template files
 
 - Templates let you define reusable content, logic, and parameters.
 - You can extend from a template or insert content from a template. This saves you from having to manually include the same logic in multiple places.
@@ -113,6 +116,8 @@ Additional details can be seen [here](https://docs.microsoft.com/en-us/azure/dev
 - At present, the library contains two types of assets: variable groups and secure files.
 - You store secrets or common variables in variable groups which will be used by the yaml files.
 - Secure files can contain file containing secrets like certificates or ssh keys which can also be used by the yaml files.
+
+![Variable group](/assets/images/azure-pipelines/save-variable-group.png)
 
 Additional details can be seen [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/?view=azure-devops){:target="_blank" rel="nofollow"}.
 
@@ -131,7 +136,7 @@ Additional details can be seen [here](https://docs.microsoft.com/en-us/azure/dev
 - A pipeline run includes stages, jobs, steps, and tasks.
 - Runs power both continuous integration (CI) and continuous delivery (CD) pipelines.
 
-![YAML](/assets/images/azure-pipelines//run.png)
+![YAML](/assets/images/azure-pipelines/run.png)
 
 Additional details can be seen [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/runs?view=azure-devops){:target="_blank" rel="nofollow"}.
 
