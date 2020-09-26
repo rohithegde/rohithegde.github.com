@@ -38,7 +38,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-cayman
 # cayman, primer, architect
 highlighter: rouge
 google_analytics: UA-60000051-1
