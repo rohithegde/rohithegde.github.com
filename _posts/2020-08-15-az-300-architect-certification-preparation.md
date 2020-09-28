@@ -28,6 +28,7 @@ I have around a year's experience as an Architect and Sr DevOps engineer with Az
 
 AZ-300 is the Azure Architect Technologies exam. Its equivalent to its famous counterpart - the `AWS Certified Solutions Architect - Associate` exam.
 If you clear AZ-300 along with AZ-301, you will become an **Azure Solutions Architect Expert**.
+You can read about my prep for AZ-301 [here]({{ site.url }}/#certification).
 
 You can visit the [official website](https://docs.microsoft.com/en-us/learn/certifications/exams/az-300){:target="_blank" rel="nofollow"} for more details.
 
@@ -66,14 +67,14 @@ The websites which helped me prepare :
 - The duration of each test was around 2.5 hours though I completed each test within an hour.
 - My scores :
 
-| Practice test | Score | Notes |
-| --------- | ----------- | ----------- |
-| Free test | 47% | Was surprised with the level of detail expected. The review of the answers told me my weak areas. I revised them and then gave the next test.|
-| Practice test 1 | 69% | Not happy with the marks. Immediately went for the next test.|
-| Practice test 2 | 65% | Revised the new weak areas discovered.|
-| Practice test 1 | 73% | Not happy with my progress. Decided to revise my notes one more time and then give the earlier exams again. Scored around 90% or more in each of them. |
-| Practice test 1 | 84% | Revised the new weak areas discovered.|
-| Practice test 1 | 80% | Revised the new weak areas discovered.|
+| Practice test   | Score | Notes                                                                                                                                                  |
+|-----------------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Free test       | 47%   | Was surprised with the level of detail expected. The review of the answers told me my weak areas. I revised them and then gave the next test.          |
+| Practice test 1 | 69%   | Not happy with the marks. Immediately went for the next test.                                                                                          |
+| Practice test 2 | 65%   | Revised the new weak areas discovered.                                                                                                                 |
+| Practice test 3 | 73%   | Not happy with my progress. Decided to revise my notes one more time and then give the earlier exams again. Scored around 90% or more in each of them. |
+| Practice test 4 | 84%   | Revised the new weak areas discovered.                                                                                                                 |
+| Practice test 5 | 80%   | Revised the new weak areas discovered.                                                                                                                 |
 
 - I was confident enough to give the exam now.
 - Smaller topics which I focused on more due to the tests :
@@ -120,7 +121,7 @@ I did the pre-exam prep below around 30 min before the exam :
 - I flagged the answers which I wanted to revise (not applicable to the above) and spent around 20 min on it.
 - I submitted the exam in 2 hours.
 - I had to fill a survey on myself and nature of the exam after this (no impact on the exam results).
-- I immediatly received the congratulatory message page for clearing the exam.
+- I immediately received the congratulatory message page for clearing the exam.
 
 The exam report with certification id arrived in 30 minutes.
 I had mixed feelings. I felt that I shouldn't have made those mistakes. At the same time, I was relieved that it was over and that I was on the right side of the fence.
