@@ -81,8 +81,8 @@ I did the pre-exam prep below around 30 min before the exam :
 - I had to download a software which tested my machine for compatibility.
 - Send pics from 4 directions of my surroundings (closed room).
 - After a live 360 degrees scan from the Proctor, The exam was supposed to begin.
-- STRESS :
-  - **However here it got a bit stressful** :weary:. After waiting 15 min while being monitored by the Pearson Vue desktop app, the exam didnt begin. Instead a link came up to ask for help. The form asked for some details from me and then I had to wait for a chat to begin. Bit worried now cause the page had a Q&A which stated that if no Proctor shows up then you will have to reschedule the exam...and that it can take 5 business days. Really worried now cause AZ-301 ends in 2 days (to be replaced by AZ-304).
+- **However here it got a bit stressful** :weary:
+  - After 15 min of monitoring by the Pearson Vue desktop app, the exam didnt begin. Instead a link came up to ask for help. The form asked for some details and then I had to wait for a chat to begin. Bit worried now cause the page had a Q&A which stated that if no Proctor shows up then you will have to reschedule the exam...and that it can take 5 business days. Really worried now cause AZ-301 ends in 2 days (to be replaced by AZ-304).
   - The chat window informed me that I was 92 in the queue...and I had to wait :persevere:. By mistake I closed the original Pearson Vue app which was monitoring me. It did give me a warning that closing it might disqualify me...but I managed to open it again.
   - I waited under observation for another 15 min and then suddenly the exam began. Guess I was blessed with the presence of a Proctor...really happy that it came out of nowhere ! :smiley:
 
