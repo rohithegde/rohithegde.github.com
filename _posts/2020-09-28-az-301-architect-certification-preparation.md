@@ -22,13 +22,12 @@ In a hurry ? Please skip to the part you want with the index below.
 
 > “Learning is a treasure that will follow its owner everywhere.” - Chinese Proverb
 
+AZ-301 is the Azure Architect Design exam. I cleared the exam today ie Sep 28, 2020.
 I cleared the Azure Architect Technologies certification(AZ-300) on August 3, 2020.
 You can read about it [here]({{ site.url }}/#certification).
 
 It made a lot of sense to complete the Azure Architect series and become an **Azure Solutions Architect Expert**.
 Its equivalent to its famous counterpart - the `AWS Certified Solutions Architect - Professional`.
-AZ-301 is the Azure Architect Design exam. I cleared the exam today ie Sep 28, 2020.
-
 
 !["Azure Solutions Architect Expert"](/assets/images/az-architect.jpeg "Azure Solutions Architect Expert")
 
@@ -47,7 +46,7 @@ Couple of  websites which helped me prepare :
 
 ### Udemy
 
-- I recommend the [course from Skylines Academy's Nick Colyer](https://mckinsey.udemy.com/course/microsoft-az-301-certification-azure-architect-design)){:target="_blank" rel="nofollow"} for AZ-301.
+- I recommend the [course from Skylines Academy's Nick Colyer](https://mckinsey.udemy.com/course/microsoft-az-301-certification-azure-architect-design){:target="_blank" rel="nofollow"} for AZ-301.
 - Its well focused and short (10 hrs or so). They also provide good course material with it.
 - Note - Watch the videos really well. Some of the points made during the demos are very useful for the exam and don't always exist in the provided materials.
 
