@@ -51,7 +51,7 @@ The websites which helped me prepare :
 - The Azure courses on it are free due to their tieup with Microsoft.
 - However the duration is quite long (50+ hours) since it covers everything in the topic - basic to advanced.
 - Its probably overkill for those preparing specifically for the exam.
-- A smaller 10 hour focused course on Udemy might help more here.
+- A smaller 10-20 hour focused course on Udemy might help more here (eg: the ones from Skylines Academy or Scot Duffy).
 
 ### Exam Ref AZ-300 - O'Reilly ebook
 

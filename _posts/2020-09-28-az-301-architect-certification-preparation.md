@@ -39,7 +39,7 @@ Its equivalent to its famous counterpart - the `AWS Certified Solutions Architec
 
 ## Preparation
 
-While the syllabus given [here](https://docs.microsoft.com/en-us/learn/certifications/exams/az-301){:target="_blank" rel="nofollow"} looks different, the actual syllabus almost matches that of AZ-300.
+While the syllabus given [here](https://docs.microsoft.com/en-us/learn/certifications/exams/az-301){:target="_blank" rel="nofollow"} looks different, once you go through it you realize that it almost matches that of AZ-300.
 It builds on the topics from AZ-300 and makes you think from the Design perspective - an essential skill for an Azure Architect.
 
 Couple of  websites which helped me prepare :
@@ -48,6 +48,7 @@ Couple of  websites which helped me prepare :
 
 - I recommend the [course from Skylines Academy's Nick Colyer](https://mckinsey.udemy.com/course/microsoft-az-301-certification-azure-architect-design){:target="_blank" rel="nofollow"} for AZ-301.
 - Its well focused and short (10 hrs or so). They also provide good course material with it.
+- However - if you took the Udemy course from Scot Duffy for AZ-300(well recommended too), then it makes sense to go with same instructor for AZ-301 due to continuity.
 - Note - Watch the videos really well. Some of the points made during the demos are very useful for the exam and don't always exist in the provided materials.
 
 ### Whizlabs practice tests
