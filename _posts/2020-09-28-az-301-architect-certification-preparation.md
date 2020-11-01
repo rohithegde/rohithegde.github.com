@@ -92,7 +92,7 @@ I did the pre-exam prep below around 30 min before the exam :
 - Since I had completed the practice tests well in advance, I knew that time wasnt an issue for me.
 - The practice test experience helped. Found some similar questions from the tests.
 - **1 tip** : Whenever you encounter a difficult or confusing question, mark it for 'review'. This helps you to go back + can also tell you how much points you are likely to lose.
-- I submitted the exam in 1 hour 45 min. Completed the questions in an hour. Spent 30 min on revision my answers and another 15 min for the final case study.
+- I submitted the exam in 1 hour 45 min. Completed the questions in an hour. Spent 30 min reviewing my answers and another 15 min for the final case study.
 - I had to fill a survey on myself and nature of the exam after this (no impact on the exam results).
 - I immediately received the congratulatory message page for clearing the exam.
 
