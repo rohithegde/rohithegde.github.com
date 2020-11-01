@@ -97,6 +97,7 @@ The exam report with certification id arrived in 10 minutes.
   - Azure Stream analytics.
   - HDInsight (Hadoop, Spark, Storm, Hive, Kafka etc).
   - Data Factory and Data Bricks.
+  - [Azure reference architectures for AI](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/ai-overview){:target="_blank" rel="nofollow"}
 - Practice tests help a lot to identify chinks in your armour. Give as many as possible and multiple times if needed.
 
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
