@@ -93,7 +93,7 @@ The exam report with certification id arrived in 10 minutes.
 - Besides the main cognitive services, I focused on smaller topics which helped :
   - Azure on the Edge.
   - IoT use case.
-  - Machine learning.
+  - Machine learning concepts and tooling.
   - Azure Stream analytics.
   - HDInsight (Hadoop, Spark, Storm, Hive, Kafka etc).
   - Data Factory and Data Bricks.
