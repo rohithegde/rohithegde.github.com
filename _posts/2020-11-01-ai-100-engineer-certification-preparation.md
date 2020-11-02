@@ -28,7 +28,7 @@ This is my 3rd Azure certification. You can read about the others [here]({{ site
 I recently worked on Azure bot services for a project. It got me interested in Azure's cognitive services.
 After my employer organized a related training session on AI-100, I got the drive to go for this certifrication.
 
-<img src="/assets/images/certifications/azure-ai-engineer.png" width="300" height="300"/>
+!["Azure AI Engineer"](/assets/images/certifications/ai-100.png "Azure AI Engineer")
 
 ## Preparation
 
