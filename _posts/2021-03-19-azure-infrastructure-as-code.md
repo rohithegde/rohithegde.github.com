@@ -46,6 +46,8 @@ Some of the insightful points made in the session can be extended to newer tools
 All these tools are treated as first class citizens by Microsoft.
 Microsoft either contributes to or leads the development of these tools.
 
+Another tool [Pulumi](https://github.com/pulumi/pulumi){:target="_blank" rel="nofollow"} looks to be an interesting option as it has support for coding in Javascript, Typescript, Python, Go and .NET (C#/F#/VB.NET) but not covering it here as I am not sure of its popularity.
+
 ## Consideration Factors to chose a good IaC option for Azure
 
 ### Cloud strategy
