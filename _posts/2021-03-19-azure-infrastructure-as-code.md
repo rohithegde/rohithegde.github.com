@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "IaC for Azure"
+title: "Infrastructure as Code tool for Azure"
 #category: general
-tags: [microsoft, ignite, azure, cloud, iac, infrastructure, code, terraform, ansible, devops]
+tags: [microsoft, ignite, azure, cloud, iac, infrastructure, code, terraform, ansible, devops, biscep, arm]
 comments: true
 ---
 In a hurry ? Please skip to the part you want with the index below.
