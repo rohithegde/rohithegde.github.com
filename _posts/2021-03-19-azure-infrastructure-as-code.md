@@ -5,6 +5,7 @@ title: "Infrastructure as Code tool for Azure"
 tags: [microsoft, ignite, azure, cloud, iac, infrastructure, code, terraform, ansible, devops, biscep, arm]
 comments: true
 ---
+<br/>
 <!-- TOC -->
 
 - [Background](#background)
