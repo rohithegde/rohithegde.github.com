@@ -10,17 +10,17 @@ layout: default
   Estimated reading time : {% include read_time.html %}
 
   <div class="entry">
-    
+
     {% comment %}
-        =======================
-        The purpose of this snippet is to list all the tags you have in your site.
-        =======================
+    =======================
+    The purpose of this snippet is to list all the tags you have in your site.
+    =======================
     {% endcomment %}
 
-    Tags : | 
+    Tags : |
     {% assign tags = page.tags | sort %}
     {% for tag in tags %}
-              <a href="{{ site.url }}#{{ tag | slugify: 'pretty' }}">{{ tag }}</a> | 
+    <a href="{{ site.url }}#{{ tag | slugify: 'pretty' }}">{{ tag }}</a> |
     {% endfor %}
 
     {{ content }}
