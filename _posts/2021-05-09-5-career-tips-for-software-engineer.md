@@ -20,7 +20,7 @@ comments: true
 <!-- /TOC -->
 ## Background
 
-> “If a listener nods his head when you're explaining your program, wake him up.” — Alan Perlis
+> “Choose a job you love, and you will never have to work a day in your life." — Confucius
 
 This is a summary of learnings - those which I learnt while I on the job as also those which others shared with me.
 This is what I have would have told my younger self (assuming he doesn't freak out on seeing me :stuck_out_tongue_closed_eyes: ).
