@@ -75,6 +75,9 @@ The ideal job would have the following features :
 Unfortunately there is no such thing as an ideal job. There will always be a few hits and a few misses.
 You have to decide on which features combo works for you.
 
+The first few years are usually the ones where you will work the most.....you will struggle with maintaining a balance, keeping up with crazy deadlines..even getting 7 hrs of sleep will seem like an achievement at times.
+But it will be something you will likely look back on with pride.
+
 ### 4. Every tech/job has a shelf life. Do not ignore the signs
 
 !["Job quit"](/assets/images/engineer-lessons/job-quit.png "Job quit")
