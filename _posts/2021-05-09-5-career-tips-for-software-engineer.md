@@ -54,7 +54,7 @@ At the end of a decade, you want to have a rich experience of 10 years...not the
 
 This is the golden age of learning. With the Internet, you have so many avenues of learning - video, ebooks, blogs, books etc. No excuses for getting outdated.
 
-A handy trick to ensure this - update your resume every 6 months. If there are 2 or more times when you haven't been able to add much to your resume then you know its time to switch organizations.
+A handy trick to ensure this - update your resume every 6 months. If there are 2 or more times when you haven't been able to add much to your resume then you know its time to switch to something else.
 
 ### Every job has pros and cons. Choose wisely
 
