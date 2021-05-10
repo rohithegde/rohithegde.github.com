@@ -22,7 +22,7 @@ comments: true
 
 > “Choose a job you love, and you will never have to work a day in your life." — Confucius
 
-This is a summary of learnings - those which I learnt while I on the job as also those which I learnt from others.
+This is a summary of my learnings over the past decade - those I learnt on the job as also those which I learnt from others.
 This is what I have would have told my younger self (assuming he doesn't freak out on seeing me :stuck_out_tongue_closed_eyes: ).
 
 !["Never stop learning"](/assets/images/engineer-lessons/never-stop-learning.png "Never stop learning")
