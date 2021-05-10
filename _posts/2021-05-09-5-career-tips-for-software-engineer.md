@@ -12,7 +12,7 @@ comments: true
 - [Five major tips](#five-major-tips)
   - [Plan on moving from breadth to depth of knowledge](#plan-on-moving-from-breadth-to-depth-of-knowledge)
   - [Focus on learning every year. Let it not resemble another](#focus-on-learning-every-year-let-it-not-resemble-another)
-  - [Every job has pros/cons. Choose wisely](#every-job-has-proscons-choose-wisely)
+  - [Every job has pros and cons. Choose wisely](#every-job-has-pros-and-cons-choose-wisely)
   - [Every tech/job has a shelf life. Do not ignore the signs](#every-techjob-has-a-shelf-life-do-not-ignore-the-signs)
   - [Have a routine to maintain the balance](#have-a-routine-to-maintain-the-balance)
 - [Five minor tips](#five-minor-tips)
@@ -29,7 +29,7 @@ This is what I have would have told my younger self (assuming he doesn't freak o
 
 ## Five major tips
 
-### 1. Plan on moving from breadth to depth of knowledge
+### Plan on moving from breadth to depth of knowledge
 
 > "If you don't know where you are going, any road will get you there."  - Lewis Carroll
 
@@ -43,7 +43,7 @@ On the other hand, you can remain a generalist but its extremely hard to be well
 
 Check out [roadmap.sh](https://roadmap.sh/){:target="_blank" rel="nofollow"} to get an idea of a variety of tech paths.
 
-### 2. Focus on learning every year. Let it not resemble another
+### Focus on learning every year. Let it not resemble another
 
 > "By far the best investment you can make is in yourself."  - Warren Buffett
 
@@ -56,7 +56,7 @@ This is the golden age of learning. With the Internet, you have so many avenues 
 
 A handy trick to ensure this - update your resume every 6 months. If there are 2 or more times when you haven't been able to add much to your resume then you know its time to switch organizations.
 
-### 3. Every job has pros/cons. Choose wisely
+### Every job has pros and cons. Choose wisely
 
 [!["Dilbert Interview"](/assets/images/engineer-lessons/dilbert-interview.gif "Dilbert Interview")](https://dilbert.com/strip/2015-12-21){:target="_blank" rel="nofollow"}
 
@@ -78,7 +78,7 @@ You have to decide on which features combo works for you.
 The first few years are usually the ones where you will work the most.....you will struggle with maintaining a balance, keeping up with crazy deadlines..even getting 7 hrs of sleep will seem like an achievement at times.
 But it will be something you will likely look back on with pride. So I would always recommend learning to be the main criteria at this stage.
 
-### 4. Every tech/job has a shelf life. Do not ignore the signs
+### Every tech/job has a shelf life. Do not ignore the signs
 
 !["Job quit"](/assets/images/engineer-lessons/job-quit.png "Job quit")
 
@@ -89,7 +89,7 @@ Automation/AI has arrived. A lot of old jobs are getting redundant due to it. Yo
 
 You are your greatest investment. If your learning isn't at the right level even after repeated attempts then its time to quit.
 
-### 5. Have a routine to maintain the balance
+### Have a routine to maintain the balance
 
 > "A champion doesn't become a champion in the ring, he's merely recognized in the ring. His “becoming” happens during his daily routine" - Joe Louis
 
