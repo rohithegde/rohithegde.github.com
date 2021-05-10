@@ -6,10 +6,10 @@ comments: true
 ---
 > “Intellectual growth should commence at birth and cease only at death.”
 > ― Albert Einstein
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <div class="divTableRow">
     <div class="divTableCell profile-pic">
-        <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="rohithegde"><a class="LI-simple-link" rel="nofollow" target="_blank" href='https://in.linkedin.com/in/rohithegde?trk=profile-badge'>Rohit Hegde</a></div>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="rohithegde" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/rohithegde?trk=profile-badge">Rohit Hegde</a></div>
     </div>
     <div class="divTableCell about-me">
         I am a DevOps consultant and a polyglot programmer who has been in the open source field for more than a decade.
