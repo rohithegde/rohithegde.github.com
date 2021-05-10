@@ -82,8 +82,9 @@ But it will be something you will likely look back on with pride. So I would alw
 
 !["Job quit"](/assets/images/engineer-lessons/job-quit.png "Job quit")
 
-There are those of us who tend to stick around an organization for a long time. It can be 5 yrs for some...or 10 yrs for another. A solid reason for doing so would be to keep getting opportunities internallys to re-invent yourself ie to keep learning. Other reasons could be big changes in personal life (eg: marriage), high salaries, an established work life balance, the comfort factor etc.
+There are those of us who tend to stick around an organization for a long time. It can be 5 yrs for some...or 10 yrs for another. A solid reason could be that you are getting internal opportunities to re-invent yourself ie to keep learning. Other reasons could be big changes in personal life (eg: marriage), high salaries, an established work life balance, the comfort factor etc.
 However the likely disadvantages of sticking around for a long time are lesser learning (compared to a new job) + your salary might not be at market value anymore.
+Automation/AI has arrived. A lot of old jobs are getting redundant due to it. You can decide if you want to be brushed aside by it or gain skill sets for the new type of jobs coming up.
 
 You are your greatest investment. If your learning isn't at the right level even after repeated attempts then its time to quit.
 
