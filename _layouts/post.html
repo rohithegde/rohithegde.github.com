@@ -8,9 +8,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   Estimated reading time : {% include read_time.html %}
-
-  <div class="entry">
-
+  <div class="date">
     {% comment %}
     =======================
     The purpose of this snippet is to list all the tags you have in your site.
@@ -22,7 +20,9 @@ layout: default
     {% for tag in tags %}
     <a href="{{ site.url }}#{{ tag | slugify: 'pretty' }}">{{ tag }}</a> |
     {% endfor %}
-
+  </div>
+  <br />
+  <div class="entry">
     {{ content }}
   </div>
 
