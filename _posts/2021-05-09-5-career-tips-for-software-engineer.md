@@ -76,7 +76,7 @@ Unfortunately there is no such thing as an ideal job. There will always be a few
 You have to decide on which features combo works for you.
 
 The first few years are usually the ones where you will work the most.....you will struggle with maintaining a balance, keeping up with crazy deadlines..even getting 7 hrs of sleep will seem like an achievement at times.
-But it will be something you will likely look back on with pride.
+But it will be something you will likely look back on with pride. So I would always recommend learning to be the main criteria at this stage.
 
 ### 4. Every tech/job has a shelf life. Do not ignore the signs
 
