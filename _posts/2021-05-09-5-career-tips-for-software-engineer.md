@@ -107,7 +107,7 @@ Maintaining a journal is a good way to reinforce this habit.
 
 ## Five minor tips
 
-**6. Take pride in your contribution to work while remaining humble enough to acknowledge others**
+**6. Take pride in your contribution to work while remaining humble enough to learn from criticism**
 
 > “Try and leave this world a little better than you found it.” - Robert Stephenson Smyth Baden-Powell
 
@@ -116,6 +116,8 @@ Every work you do is a signoff from you. It represents you. As such, you would w
 
 Being proud of your work ensures a high quality. But do ensure that it doesn't have an impact on your ego. If someone points out some issues in it, then you should be humble enough to learn from it and improve further.
 
+Also do note that good quality code requires time. Pay heed to sound architecture principles (SOLID, DRY, KISS etc) while working. Tight deadlines can lead to functional but crappy code. Communicate this proactively before starting out on the project.
+
 **7. Keep it simple**
 
 The complexity of the software field with the various options out there can make things difficult.
@@ -123,9 +125,13 @@ The complexity of the software field with the various options out there can make
 We should take care that we try to keep it simple - whether its architecture or implementation or even explanations.
 If we cannot explain the concepts of the work done in a simple way then its likely that we haven't implemented it in a simple way.
 
-**8. Be part of a community for knowledge sharing**
+**8. Have mentors and be part of a community for knowledge sharing**
 
-The fastest way to learn a lot of things in a short time would be to participate in a community - meeting or online (eg: reddit group).
+> "Learn from the mistakes of others. You can't live long enough to make them all yourself." - Eleanor Roosevelt
+
+The fastest way to learn is through the experience of others. You are responsible for the decisions you take in your career. Have mentors who can guide you to take well informed decisions.
+
+To get a variety of viewpoints and knowledge in a short time - join a community(eg: reddit group or meetups). Nothing else can give you a 360 degree overview of all that is happening out there.
 
 **9. Have a side project of your own.**
 
