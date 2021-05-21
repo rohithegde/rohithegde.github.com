@@ -100,10 +100,11 @@ We usually divide our time amongst the buckets of :
 - Health
 - Sleep
 - Hobbies
+- Entertainment
 
 If you don't set limits, then your work will likely take a good chunk of time from the other buckets.
 **Having a daily routine is the single most important activity you can do to ensure all round happiness**.
-Maintaining a journal is a good way to reinforce this habit.
+Maintaining a journal is a good way to reinforce this habit while ensuring you don't spend too much time on Netflix !
 
 ## Five minor tips
 
