@@ -69,7 +69,7 @@ End to end testing (e2e) was something which we would keep manual for the test e
 - Terratest continues to suit our requirements well. Unlike most other tools, it supports unit tests too ie testing without deploying of resources.
 - Additionally we were able to merge `terraform validate` check into it since Terratest allows custom CLI cmds to be executed.
 - By establishing our custom conventions on top of it, we were able to reduce the learning curve so that new devs don't have to know Go to use Terratest.
-- I would pick other tools like ServerSpec if the org has multiple IaC tools used like Chef, Terraform as a uniform tooling experience helps in the onboarding journey.
+- I would pick a testing tool like ServerSpec if the org has multiple IaC tools used like Chef, Terraform as a uniform tooling experience helps in the onboarding journey.
 
 ## References
 
