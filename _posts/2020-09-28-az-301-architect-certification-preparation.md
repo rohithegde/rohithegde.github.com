@@ -2,7 +2,7 @@
 layout: post
 title: "AZ-301 : Preparing for the Microsoft Azure Architect Design Exam"
 #category: general
-tags: [microsoft, azure, cloud, architect, exam, certification]
+tags: [azure, cloud, certification]
 comments: true
 ---
 In a hurry ? Please skip to the part you want with the index below.

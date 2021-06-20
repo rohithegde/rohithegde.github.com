@@ -2,7 +2,7 @@
 layout: post
 title: "Azure Pipelines - a crash course"
 #category: general
-tags: [microsoft, azure, cloud, pipeline, ci, cd, guide, tutorial]
+tags: [azure, cloud, guide, tutorial]
 comments: true
 ---
 In a hurry ? Please skip to the part you want with the index below.

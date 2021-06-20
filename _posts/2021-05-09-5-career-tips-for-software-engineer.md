@@ -2,7 +2,7 @@
 layout: post
 title: "5 career tips for a new software engineer"
 #category: general
-tags: [tips, career, engineer]
+tags: [career, engineer]
 comments: true
 ---
 

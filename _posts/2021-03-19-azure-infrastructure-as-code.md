@@ -2,7 +2,7 @@
 layout: post
 title: "Infrastructure as Code tool for Azure"
 #category: general
-tags: [microsoft, ignite, azure, cloud, iac, infrastructure, code, terraform, ansible, devops, biscep, arm]
+tags: [azure, cloud, iac, terraform, ansible, devops]
 comments: true
 ---
 

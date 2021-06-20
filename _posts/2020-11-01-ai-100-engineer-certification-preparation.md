@@ -2,7 +2,7 @@
 layout: post
 title: "AI-100 : Preparing for the Microsoft Azure AI Engineer certification"
 #category: general
-tags: [microsoft, azure, cloud, ai, exam, certification]
+tags: [azure, cloud, certification]
 comments: true
 ---
 In a hurry ? Please skip to the part you want with the index below.
