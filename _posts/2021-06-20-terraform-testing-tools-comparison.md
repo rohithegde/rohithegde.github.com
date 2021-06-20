@@ -31,6 +31,8 @@ Since its been 2 years, I thought it was a good time to re-examine the decision 
 These were the top 5 tools based on community stats in GitHub. Each tool is better suited for specific use cases. Eg: If your org has plenty of Ruby devs then Serverspec or Terraform Kitchen might be easier for the DevOps initiative.
 But we had specific requirements which are given below.
 
+ps : Yes I just wanted a reason to put a pic of the "Uchihas" on my blog :stuck_out_tongue_closed_eyes:
+
 ## Requirements
 
 **Modified Test Pyramid for IaC**:
@@ -64,9 +66,10 @@ End to end testing (e2e) was something which we would keep manual for the test e
 
 ## Decision
 
-- Terratest continues to suit our requirements well.
+- Terratest continues to suit our requirements well. Unlike most other tools, it supports unit tests too ie testing without deploying of resources.
 - Additionally we were able to merge `terraform validate` check into it since Terratest allows custom CLI cmds to be executed.
 - By establishing our custom conventions on top of it, we were able to reduce the learning curve so that new devs don't have to know Go to use Terratest.
+- I would pick other tools like Kitchen if the org has multiple IaC tools used like Chef, Terraform and a uniform tooling experience helps in the onboarding journey.
 
 ## References
 
