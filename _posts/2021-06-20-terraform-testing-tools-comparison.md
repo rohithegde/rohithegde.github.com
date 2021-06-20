@@ -2,7 +2,7 @@
 layout: post
 title: "Comparing top 5 tools to test Terraform code"
 #category: general
-tags: [iac, testing, terraform]
+tags: [iac, devops, cloud, testing, terraform]
 comments: true
 ---
 
