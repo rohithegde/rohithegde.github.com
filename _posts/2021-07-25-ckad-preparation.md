@@ -29,6 +29,8 @@ I started going for cloud certifications only from last year. You can read about
 
 The k8s exams are famous for being different and more difficult than the rest.
 
+As given in the Linux Foundation website :
+
 !["k8s"](/assets/images/k8s/k8s-certs.png "k8s")
 
 ## What makes CKAD different from other exams?
