@@ -77,8 +77,8 @@ Its a **2 hour exam with 19 questions involving 4 clusters**. Details on it can 
 At this point in time, I felt spending more time on killer.sh would definitely help me in scoring more. But I decided not to go for it since my goal was just to clear the exam. Experience is gold and I had the relevant experience in k8s which nothing could replace :grinning: .
 For those new to k8s, I would highly recommend utilizing the 72 hrs on killer.sh well.
 
-- **NOTE**:
-- **You dont have to remember the yaml structure of all resources nor all the CLI commands.** Just knowing the `kubectl` commands to create a pod, deployment, service are enough. Rest can be copied from the documentation pages in short time.
+**NOTE**:
+ **You dont have to remember the yaml structure of all resources nor all the CLI commands.** Just knowing the `kubectl` commands to create a pod, deployment, service are enough. Rest can be copied from the documentation pages in short time.
 
 ps : Mumshad's **Game of Pods** section in the Udemy course is a good way to practice the daily routine of a k8s admin. Won't help you directly in the exam but its useful for those looking to manage k8s at work in the future.
 
