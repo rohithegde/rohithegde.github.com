@@ -74,6 +74,9 @@ Its a **2 hour exam with 19 questions involving 4 clusters**. Details on it can 
 | Mock Test 2 | 75%   | 60 min test. Happy with the marks since I hadnt revised at all.                                                              |
 | Killer.sh practice test 1 | 75%   | 120 min. Tougher than real exam. Happy with the score since I passed without any special prep. But I struggled in prioritising the questions to manage time better. Got careless during the 2nd half.    |
 
+At this point in time, I felt spending more time on killer.sh would definitely help me in scoring more. But I decided not to go for it since my goal was just to clear the exam. Experience is gold and I had the relevant experience in k8s which nothing could replace :grinning: .
+For those new to k8s, I would highly recommend utilizing the 72 hrs on killer.sh well.
+
 - **NOTE**:
 - **You dont have to remember the yaml structure of all resources nor all the CLI commands.** Just knowing the `kubectl` commands to create a pod, deployment, service are enough. Rest can be copied from the documentation pages in short time.
 
