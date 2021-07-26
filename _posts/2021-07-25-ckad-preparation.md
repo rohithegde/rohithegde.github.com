@@ -25,7 +25,7 @@ A brand new guide to prepare for the CKAD exam in 2021.
 > “Its the job thats never started as takes longest to finish.” - Samwise Gamgee, The Lord of the Rings
 
 I started working with Kubernetes(k8s) around 3 yrs ago. But I never went for the CKAD certificate till now.
-I started going for cloud certifications only from last year. You can read about my journey [here]({{ site.url }}/#certification). 
+I started going for cloud certifications only from last year. You can read about my journey [here]({{ site.url }}/#certification).
 
 The k8s exams are famous for being different and more difficult than the rest.
 
@@ -37,7 +37,7 @@ As given in the Linux Foundation website :
 
 !["k8s"](/assets/images/k8s/k8s-certs.png "k8s")
 
-Its a **2 hour exam with 19 questions involving 4 clusters**. Details on it can be accessed [here](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad){:target="_blank" rel="nofollow"} and [here](https://www.cncf.io/certification/ckad/){:target="_blank" rel="nofollow"}. The time constraint is the most crucial factor here. 2 hours can go away in a jiffy if you are not well versed with the necessary skills or get careless.
+Its a **2 hour exam with 19 questions involving 4 clusters with atleast 66% needed to clear it**. Details on it can be accessed [here](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad){:target="_blank" rel="nofollow"}, [here](https://www.cncf.io/certification/ckad/){:target="_blank" rel="nofollow"} and [here](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-score-is-needed-to-pass-the-exam){:target="_blank" rel="nofollow"}. The time constraint is the most crucial factor here. 2 hours can go away in a jiffy if you are not well versed with the necessary skills or get careless.
 
 ## Three focus areas for successful time management in the exam
 
@@ -100,7 +100,7 @@ ps : Mumshad's **Game of Pods** section in the Udemy course is a good way to pra
 - I used the "Flag questions" button to flag 4 questions which I wanted to check out later. I got stuck with one of them and the other 3 had too many requirements for a low weightage.
 - I was able to wrap up around 14 questions at 60 minute mark(including the flagged 4 which I didnt work on for now). At the 100 min mark I was done with the rest. So I had 20 min to go back to the flagged questions. I was able to resolve 2 of them and partially resolve 1 more. At the end of the exam, I had attempted 98% weightage worth of questions.
 - I had to fill a survey on myself and nature of the exam after this (no impact on the exam results).
-- At the end of the exam, I felt a bit disoriented since there was no pass/fail status. The results would be sent out in 24 hrs or so.
+- At the end of the exam, I felt a bit disoriented since there was no pass/fail status. The results would be sent out in 24 hrs or so. It was going to be a long wait....
 - At the 24 hour mark, I got my results - I had cleared it. Going through the portal I discovered I had got 82%. Happy with the score though I was wondering why I didnt reach the 90% mark. Probably got a bit careless with the spelling of some given resource names.
 
 ## Tips for the exam
@@ -122,8 +122,8 @@ ps : Mumshad's **Game of Pods** section in the Udemy course is a good way to pra
 9. **Prioritise your questions well.** A quick read of the question and the % weightage for it will help you decide whether you should answer it now or later. Eg : A lot of resources needed to be created for a question with weightage 3%. I skipped it and went to the next one since it had similar requirements but weightage of 7%.
 10. Each proper noun in the question(eg: resource name) gets copied on your clipboard on clicking it. Very useful feature - saves time and prevents spelling mistakes !
 
-I loved studying for CKAD exam. It was so different and practical compared to the other certifications.
-It helped me in improving my k8s CLI skills + was a good practice env since I intend to give CKA exam next.
+I loved studying for CKAD. It was so different and practical compared to the other certifications.
+It helped me in improving my k8s CLI skills + was a good practice env as I intend to give CKA exam next.
 
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
 <br/>Feel free to share your experiences. Every bit of knowledge helps :blush:.
