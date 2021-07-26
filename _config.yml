@@ -66,3 +66,5 @@ blog_start_year: 2015
 #   - vendor/gems/
 #   - vendor/ruby/
 github: [metadata]
+
+theme: jekyll-theme-hacker
