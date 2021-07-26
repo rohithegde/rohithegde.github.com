@@ -14,7 +14,7 @@ A brand new guide to prepare for the CKAD exam in 2021.
 - [What makes CKAD different from other exams?](#what-makes-ckad-different-from-other-exams)
 - [Three focus areas for successful time management in the exam](#three-focus-areas-for-successful-time-management-in-the-exam)
     - [Linux commands](#linux-commands)
-    - [Handson k8s expertise](#handson-k8s-expertise)
+    - [Hands-on k8s expertise](#hands-on-k8s-expertise)
     - [kubernetes.io documentation](#kubernetesio-documentation)
 - [The CKAD exam](#the-ckad-exam)
 - [Tips for the exam](#tips-for-the-exam)
@@ -41,7 +41,7 @@ Its a **2 hour exam with 19 questions involving 4 clusters**. Details on it can 
 
 ## Three focus areas for successful time management in the exam
 
-### 1. Linux commands
+### Linux commands
 
 - You have to be very comfortable with the Linux terminal and CLI commands since the exam is given on your browser with terminal access to an Ubuntu machine. I have been using Ubuntu and Mac for many years now so this was an easy thing to revise.
 - The commands usually needed are those involving piping output to a file or another cmd, search (ie grep) and using aliases to type lesser.
@@ -57,7 +57,7 @@ Its a **2 hour exam with 19 questions involving 4 clusters**. Details on it can 
 - Recommend going through a linux commands basics video course on YouTube or Udemy as also for Vim if you arent comfortable with CLI.
 - **This skill is an absolute must have to navigate your way through the exam**.
 
-### 2. Handson k8s expertise
+### Hands-on k8s expertise
 
 - I am very comfortable with k8s but i wasnt very quick in using the `kubectl` commands. The [Udemy course by Mumshad](https://mckinsey.udemy.com/course/certified-kubernetes-application-developer/){:target="_blank" rel="nofollow"} helped me a lot in revising my concepts as also know which commands are important.
 - Your k8s concepts have to be strong and your handson k8s skills must be be swift in order to utilize the 2 hrs exam time well.
@@ -82,7 +82,7 @@ For those new to k8s, I would highly recommend utilizing the 72 hrs on killer.sh
 
 ps : Mumshad's **Game of Pods** section in the Udemy course is a good way to practice the daily routine of a k8s admin. Won't help you directly in the exam but its useful for those looking to manage k8s at work in the future.
 
-### 3. kubernetes.io documentation
+### kubernetes.io documentation
 
 - Your knowledge of the k8s official documentation saves you a lot of time during the exams.
 - I became very comfortable with the documentation during the above practice tests.
