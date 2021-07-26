@@ -57,7 +57,7 @@ Its a **2 hour exam with 19 questions involving 4 clusters**. Details on it can 
 - Recommend going through a linux commands basics video course on YouTube or Udemy as also for Vim if you arent comfortable with CLI.
 - **This skill is an absolute must have to navigate your way through the exam**.
 
-### 2. Handson k8s expertise
+### 2. Hands-on k8s expertise
 
 - I am very comfortable with k8s but i wasnt very quick in using the `kubectl` commands. The [Udemy course by Mumshad](https://mckinsey.udemy.com/course/certified-kubernetes-application-developer/){:target="_blank" rel="nofollow"} helped me a lot in revising my concepts as also know which commands are important.
 - Your k8s concepts have to be strong and your handson k8s skills must be be swift in order to utilize the 2 hrs exam time well.
