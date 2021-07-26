@@ -67,4 +67,4 @@ blog_start_year: 2015
 #   - vendor/ruby/
 github: [metadata]
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
