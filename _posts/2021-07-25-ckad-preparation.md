@@ -29,13 +29,13 @@ I started going for cloud certifications only from last year. You can read about
 
 The k8s exams are famous for being different and more difficult than the rest.
 
-As given in the Linux Foundation website :
-
-!["k8s"](/assets/images/k8s/k8s-certs.png "k8s")
-
 ## What makes CKAD different from other exams?
 
 Cloud certs usually involve objective questions. But the k8s based certs is based on practical labs which is why its supposed to be tougher to prepare for them compared to other cloud certs. You are given problems which you are expected to solve by executing cli commands. **You do have access to the official documentation of k8s for reference during the exam but the exam time constraint makes things difficult.**
+
+As given in the Linux Foundation website :
+
+!["k8s"](/assets/images/k8s/k8s-certs.png "k8s")
 
 Its a **2 hour exam with 19 questions involving 4 clusters**. Details on it can be accessed [here](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad){:target="_blank" rel="nofollow"} and [here](https://www.cncf.io/certification/ckad/){:target="_blank" rel="nofollow"}. The time constraint is the most crucial factor here. 2 hours can go away in a jiffy if you are not well versed with the necessary skills or get careless.
 
