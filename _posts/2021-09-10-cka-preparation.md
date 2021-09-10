@@ -54,7 +54,10 @@ Its a **2 hour exam with 17 questions involving 6 clusters with atleast 66% need
 
 Please read my blog post on [preparing for CKAD]({{ site.url }}/2021/07/25/ckad-preparation) before going ahead.
 
-- The excellent Learning team of my employer (McKinsey & Company) had organized a 5 day bootcamp for the CKA exam. [Michael Bright](https://www.linkedin.com/in/mjbright/){:target="_blank" rel="nofollow"} was the trainer and he did a great job at preparing the audience for the CKA exam. The great thing about attending a live bootcamp is the to and fro Q&A which is not possible while attending an online course.
+- Training session
+  - The excellent Learning team of my employer (McKinsey & Company) had organized a 5 day bootcamp for the CKA exam. [Michael Bright](https://www.linkedin.com/in/mjbright/){:target="_blank" rel="nofollow"} was the trainer and he did a great job at preparing the audience for the CKA exam. 
+  - The great thing about attending a live bootcamp is the to and fro Q&A which is not possible while attending an online course.
+  Additionally since it was an official Linux Foundation training, the LF notes provided were quite well detailed and easy to understand.
 - Another alternative is to attend the [popular Udemy course](https://mckinsey.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/){:target="_blank" rel="nofollow"} though I didnt go for it.
 - Practice test
   - I was comfortable with the CKAD part ie the k8s resources part. But not as much with the k8s setup part since I wasnt sure of what kind of questions can come up in the exam. To fix this, I gave the practice test at [killer.sh](https://killer.sh){:target="_blank" rel="nofollow"} which you get free access to when you sign up for the CKA exam.
