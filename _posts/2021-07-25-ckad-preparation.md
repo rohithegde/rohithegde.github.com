@@ -64,15 +64,16 @@ Its a **2 hour exam with 19 questions involving 4 clusters with atleast 66% need
 - Giving practice tests help a lot in sharpening your handson k8s skills. Mumshad's Udemy course has multiple labs which help here.
 - **Additionally from this year, you get free access to a [killer.sh](https://killer.sh/){:target="_blank" rel="nofollow"} practice test when you schedule a CKAD exam**. This is the best resource for practicing. You get 2 hours to give a single practice test which is tougher than the real exam. You get 2 sessions of 36 hours each during which the cluster environment will remain alive. In these 72 hours, you can retake the same practice test multiple times.
 - Another famous resource to practice can be found at [https://github.com/dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises){:target="_blank" rel="nofollow"}. I did not take this as Udemy and killer.sh was all the help I needed.
+
 - My scores for various practices tests :
 
-| Practice test   | Score | Notes                                                                                                                   |
-|-----------------|-------|-------------------------------------------------------------------------------------------------------------------------|
-| Lightning test 1| 60%   | 30 min test. Took this test after studying to give me a short preview of the nature of questions. |
-| Lightning test 2 | 62%   | 30 min test. Timer continues to haunt me. Need to improve on Volumes and CronJobs.  |
-| Mock Test 1 | 100%   | 60 min test. Revised a bit to get it right. I nailed it ! |
-| Mock Test 2 | 75%   | 60 min test. Happy with the marks since I hadnt revised at all.                                                              |
-| Killer.sh practice test 1 | 75%   | 120 min. Tougher than real exam. Happy with the score since I passed without any special prep. But I struggled in prioritising the questions to manage time better. Got careless during the 2nd half.    |
+| Practice test             | Score | Notes                                                                                                                                                                                                 |
+|---------------------------|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Lightning test 1          | 60%   | 30 min test. Took this test after studying to give me a short preview of the nature of questions.                                                                                                     |
+| Lightning test 2          | 62%   | 30 min test. Timer continues to haunt me. Need to improve on Volumes and CronJobs.                                                                                                                    |
+| Mock Test 1               | 100%  | 60 min test. Revised a bit to get it right. I nailed it !                                                                                                                                             |
+| Mock Test 2               | 75%   | 60 min test. Happy with the marks since I hadnt revised at all.                                                                                                                                       |
+| Killer.sh practice test 1 | 75%   | 120 min. Tougher than real exam. Happy with the score since I passed without any special prep. But I struggled in prioritising the questions to manage time better. Got careless during the 2nd half. |
 
 At this point in time, I felt spending more time on killer.sh would definitely help me in scoring more. But I decided not to go for it since my goal was just to clear the exam. Experience is gold and I had the relevant experience in k8s which nothing could replace :grinning: .
 For those new to k8s, I would highly recommend utilizing the 72 hrs on killer.sh well.
