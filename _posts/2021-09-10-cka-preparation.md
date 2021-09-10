@@ -64,7 +64,7 @@ Please read my blog post on [preparing for CKAD]({{ site.url }}/2021/07/25/ckad-
 
 ## The CKA exam
 
-- While going for the exam, I kind of felt like the hitman Vincent(played really well by Tom Cruise) at the [famous club shootout scene in movie Collateral](https://www.youtube.com/watch?v=d9_n6wwkIHM){:target="_blank" rel="nofollow"} with the background 'Ready Steady Go' score. Confident and ready for the kill !
+- While going for the exam, I kind of felt like the hitman Vincent(played really well by Tom Cruise) at the [famous club shootout scene in the movie Collateral](https://www.youtube.com/watch?v=d9_n6wwkIHM){:target="_blank" rel="nofollow"} with the background 'Ready Steady Go' score. Confident and ready for the kill !
 - I logged in 15 min before the exam time as the 'Take exam' button gets enabled only then.
 - It took me 15 min to get the proctor's approval for my environment(live chat popup).
 - The old UI bug in the exam still existed - the timer UI was not working for me ie I could see the ‘time left’ label but no timer. I mentioned it to the proctor who said he/she would inform me abt time updates later. The proctor regularly did so but only during the last 15 min or so.
