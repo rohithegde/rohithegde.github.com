@@ -59,7 +59,8 @@ Please read my blog post on [preparing for CKAD]({{ site.url }}/2021/07/25/ckad-
 - Practice test
   - I was comfortable with the CKAD part ie the k8s resources part. But not as much with the k8s setup part since I wasnt sure of what kind of questions can come up in the exam. To fix this, I gave the practice test at [killer.sh](https://killer.sh){:target="_blank" rel="nofollow"} which you get free access to when you sign up for the CKA exam.
   - I didnt do well in this test(55%) but I got what I wanted. I was expecting 17 questions but the practices test had 25 questions within the 2 hrs duration....something I realized only towards the end of the exam :sweat_smile: . I got most of the CKAD part correct but had to skip the cluster setup part due to time constraints.
-  - As I strengthened my knowledge on the cluster setup and maintenance part, my confidence to ace the CKA exam grew.
+  - I spent quite a few hours playing with the killer.sh environment for the cluster maintenance questions.
+- As I strengthened my knowledge on the cluster setup and maintenance part, my confidence to ace the CKA exam grew.
 
 ## The CKA exam
 
