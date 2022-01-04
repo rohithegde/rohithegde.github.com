@@ -2,7 +2,7 @@
 layout: post
 title: "Infrastructure as Code tool for Azure"
 #category: general
-tags: [azure, cloud, iac, terraform, ansible, devops]
+tags: [azure, cloud, iac, terraform, ansible, devops, pulumi]
 comments: true
 ---
 
