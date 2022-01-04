@@ -44,10 +44,9 @@ Some of the insightful points made in the session can be extended to newer tools
 6. [Bicep](https://github.com/Azure/bicep){:target="_blank" rel="nofollow"}
 7. [Pulumi](https://github.com/pulumi/pulumi){:target="_blank" rel="nofollow"}
 
-Most of these tools are treated as first class citizens by Microsoft.
-Microsoft contributes to the development of most of these tools.
+Most of these tools are treated as first class citizens by Microsoft which is why it contributes to their development too.
 
-[Pulumi](https://github.com/pulumi/pulumi){:target="_blank" rel="nofollow"} looks to be an interesting option as it has support for coding in Javascript, Typescript, Python, Go and .NET (C#/F#/VB.NET).
+[Pulumi](https://github.com/pulumi/pulumi){:target="_blank" rel="nofollow"} looks to be an interesting option as it has support for coding in Javascript, Typescript, Python, Go and .NET (C#/F#/VB.NET) though its support in the community is not as much as Ansible and Terraform.
 
 ## Consideration Factors to chose a good IaC option for Azure
 
@@ -71,7 +70,7 @@ Microsoft contributes to the development of most of these tools.
 
 - Terraform, Biscep, ARM templates and Ansible are declarative in nature while Azure CLI, Powershell and Pulumi are imperative.
 - Its better to go imperative if you want to add plenty of custom validations or dynamic changes.
-- Extensibility, customisation are important factors too.
+- Extensibility, customisation are important factors too though simplicity and ease of use triumphs most.
 - You have to consider native tooling for each option that provides the best experience for you. Plenty of extensions in IDEs like VSCode for a lot of languages. Something like Terraform has great ecosystem for testing too (eg: Terratest).
 
 ### Language affinity
