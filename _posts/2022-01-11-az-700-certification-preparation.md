@@ -94,15 +94,15 @@ Important to know that no matter which course you go for, you will have to rely 
 - Practice Test in Scott Duffy's course
   - Around 19 questions. Completed it in 15 min.
   - I got 64%.
-  - Found out that I lacked significant gaps in the theoretical knowledge (eg: SKUs of virtual network gateway) which I needed to plug. Studied them before going to the next test.
+  - Found out significant gaps in my theoretical knowledge (eg: SKUs of virtual network gateway) which I needed to plug. Studied them before going to the next test.
 - Practice Test 1 in Alan Rodrigues's course
   - Around 50 questions. Completed it in 45 min.
   - I got 82%.
-  - Found out that I needed to study more for resources which I haven't worked on before (Eg: Azure ExpressRoute, WAN, Traffic Manager etc). Spent some time studying them before giving the next practice test.
+  - Found out that I needed to study more about resources which I haven't worked on before (Eg: Azure ExpressRoute, WAN, Traffic Manager etc). Spent some time studying them before giving the next practice test.
 - Practice Test 2 in Alan Rodrigues's course
   - Around 50 questions. Completed it in 45 min.
   - I got 73%.
-  - Found out that I needed to study the details even more for resources which I haven't worked on before :sweat_smile: (eg: Corresponding speed for a ExpressRoute scale unit).
+  - Found out that I needed to study the details even more about resources which I haven't worked on before :sweat_smile: (eg: Corresponding speed for a ExpressRoute scale unit).
 
 I was confident of doing well in the exams now.
 
