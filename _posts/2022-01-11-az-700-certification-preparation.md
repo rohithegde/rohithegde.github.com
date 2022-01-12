@@ -135,12 +135,12 @@ The certificate and transcript section of the Microsoft Learning dashboard were 
 
 ## Final thoughts
 
-- I loved studying for AZ-700. It really improves your knowledge of varfious resurcesd related to networking on Azure cloud.
+- I loved studying for AZ-700. It really improves your knowledge of various network resources on Azure cloud.
 - This was easily the toughest Azure exam I have given. What made it difficult :
-  - Time constraint of 110 minutes to tackle 51 questions. Long questions meant you had to understand the situation quickly and skim through the noise to reply to the specific question.
+  - Time constraint of 110 minutes to tackle 51 questions. Long questions meant you had to understand the situation quickly and skim through the noise to reply.
   - Focus on practical scenarios rather than standard theory. Very few questions on the theoretical part. But thankfully they did exist to give you some breathing space among the other time consuming questions :laughing:.
-  - Tricky data. Some of the data resembled each other and really had to re-look at the diagram/details to confirm. Eg : Vnet address space of 172.10.20.3 and NSG rule on 172.10.23.0 IP.
-- My knowledge and preparation on on On-prem connectivity and hub spoke helped me a lot here.
+  - Tricky data. Some of the data resembled each other and I really had to re-look at the diagram/details to confirm. Eg : Vnet address space of 172.10.20.3 and NSG rule on 172.10.23.0 IP.
+- My knowledge and preparation for On-prem connectivity and hub spoke helped me a lot here.
 - AZ-700 is one of the newer exams which came out last year. Not sure if the tight time constraint will be the trend going forward for other exams too. I am giving the exams for a bit of adrenaline rush during these WFH times due to the pandemic....but this one was a bit much even for me :sweat_smile:.
 
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
