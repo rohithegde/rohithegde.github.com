@@ -24,7 +24,7 @@ A brand new guide to prepare for the Microsoft Network Engineer certification(AZ
 
 > “Smooth seas do not make skillful sailors.” - African proverb
 
-[A7-700](https://docs.microsoft.com/en-us/learn/certifications/exams/az-700){:target="_blank" rel="nofollow"} is the Azure Network Engineer exam. I cleared the exam today ie Jan 11, 2022.
+[AZ-700](https://docs.microsoft.com/en-us/learn/certifications/exams/az-700){:target="_blank" rel="nofollow"} is the Azure Network Engineer exam. I cleared the exam today ie Jan 11, 2022.
 This is my 4th Azure certification. You can read about the others [here]({{ site.url }}/#certification).
 
 My experience as an Azure Cloud Architect gave me the confidence to go for this certification.
