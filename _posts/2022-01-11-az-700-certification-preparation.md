@@ -70,7 +70,7 @@ Important to know that no matter which course you go for, you will have to rely 
 
 ### Udemy course by Scott Duffy
 
-- I relied on [this course](https://mckinsey.udemy.com/course/az700-azure/){:target="_blank" rel="nofollow"} course.
+- I relied on [this course](https://mckinsey.udemy.com/course/az700-azure/){:target="_blank" rel="nofollow"}.
 - Its well focused and short (5.5 hours).
 - It also has a tiny practice test of 20 or so questions at the end.
 - Its ideal for those with experience in Azure and who just want a quick summary of the content.
