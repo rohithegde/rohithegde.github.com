@@ -13,7 +13,7 @@ A brand new guide to prepare for the Microsoft Network Engineer certification(AZ
   - [Udemy course by Scott Duffy](#udemy-course-by-scott-duffy)
   - [Udemy course by Alan Rodrigues](#udemy-course-by-alan-rodrigues)
   - [YouTube course by John Savill](#youtube-course-by-john-savill)
-- [Practist tests](#practist-tests)
+- [Practice tests](#practice-tests)
 - [Scheduling the exam](#scheduling-the-exam)
 - [Pre-exam process](#pre-exam-process)
 - [The AZ-700 exam](#the-az-700-exam)
@@ -89,7 +89,7 @@ Important to know that no matter which course you go for, you will have to rely 
 - The playlist consists of around 20 videos with a total duration of almost 16 hours.
 - I would recommend this playlist for those of you who want to understand the concepts really well while gaining the ammunition to clear the AZ-700 exam.
 
-## Practist tests
+## Practice tests
 
 - Practice Test in Scott Duffy's course
   - Around 19 questions. Completed it in 15 min.
