@@ -121,15 +121,15 @@ I did the pre-exam prep below around 30 min before the exam :
 
 ## The AZ-700 exam
 
-- **It was an exam of 1 hour 50 min with 51 questions and passing score of 70%**.
+- **It was an exam of 1 hour 50 min with 51 questions and you need 70% to pass**.
 - I felt a bit stressed cause the length of the questions were a lot and it took me a while to understand the context before answering the questions. 51 questions in 110 minutes ie around 2 min for each question isnt easy !
 - It took me 55 minutes to complete 25 questions. Very different from the above practice tests.
 - There werent many theoretical questions. The exam had a lot of practical questions in which you are given a scenario and expected to recommend a solution or answer a point to show that you understood it well. So definitely not something you can complete in a jiffy.
-- The final 10 questions were 2 cases studies which had a lot of content to go through. I had 30 min left. It took me 15 min each to complete each case study. The questions were such that I had to re-visit multiple tabs to understand the chain of details around the specific resource.
+- The final 10 questions involved 2 case studies which had a lot of content to read. I had 30 min left. It took me 15 min to complete each case study. The questions were such that I had to re-visit multiple tabs to understand the chain of details around the specific resource.
 - I submitted the exam with a few seconds to spare.
 - I had flagged around 7 questions whose answer I wasnt sure of. Needed bit more time to read the question better. But wasnt able to review them again due to time constraints.
 - I had to fill a survey on myself and nature of the exam after this (no impact on the exam results).
-- I immediately received the congratulatory message page for clearing the exam along with the details of my performance. I got 80%.
+- I immediately received the congratulatory message page for clearing the exam along with the details of my performance. **I got 80%.**
 
 The certificate and transcript section of the Microsoft Learning dashboard were updated in 30 minutes.
 
