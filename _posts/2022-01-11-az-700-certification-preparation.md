@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "AZ-700 : Preparing for the Microsoft Network Engineer certification"
+title: "AZ-700 : Preparing for the Microsoft Azure Network Engineer certification"
 #category: general
 tags: [azure, cloud, certification]
 comments: true
 ---
-A brand new guide to prepare for the Microsoft Network Engineer certification(AZ-700) in 2022 - my toughest Azure exam as of this date.
+A brand new guide to prepare for the Microsoft Azure Network Engineer certification(AZ-700) in 2022 - my toughest Azure exam as of this date.
 <!-- TOC -->
 
 - [Background](#background)
@@ -108,7 +108,7 @@ I was confident of doing well in the exams now.
 
 ## Scheduling the exam
 
-You can schedule the exam through the [Microsoft Certification Dashboard page](https://www.microsoft.com/en-us/learning/dashboard.aspx){:target="_blank" rel="nofollow"}.
+I scheduled the exam through the [Microsoft Certification Dashboard page](https://www.microsoft.com/en-us/learning/dashboard.aspx){:target="_blank" rel="nofollow"}.
 
 ## Pre-exam process
 
@@ -121,23 +121,22 @@ I did the pre-exam prep below around 30 min before the exam :
 
 ## The AZ-700 exam
 
-- **It was an exam of 1 hour 50 min with 51 questions and you need 70% to pass**.
+- **It was an exam of 1 hour 50 min with 51 questions and I needed 70% to pass**.
 - I felt a bit stressed cause the length of the questions were a lot and it took me a while to understand the context before answering the questions. 51 questions in 110 minutes ie around 2 min for each question isnt easy !
 - It took me 55 minutes to complete 25 questions. Very different from the above practice tests.
-- There werent many theoretical questions. The exam had a lot of practical questions in which you are given a scenario and expected to recommend a solution or answer a point to show that you understood it well. So definitely not something you can complete in a jiffy.
+- There werent many theoretical questions. The exam had a lot of practical questions in which I was given a scenario and expected to recommend a solution or answer a point to show that I understood it well. So definitely not something I could complete in a jiffy.
 - The final 10 questions involved 2 case studies which had a lot of content to read. I had 30 min left. It took me 15 min to complete each case study. The questions were such that I had to re-visit multiple tabs to understand the chain of details around the specific resource.
 - I submitted the exam with a few seconds to spare.
 - I had flagged around 7 questions whose answer I wasnt sure of. Needed bit more time to read the question better. But wasnt able to review them again due to time constraints.
 - I had to fill a survey on myself and nature of the exam after this (no impact on the exam results).
 - I immediately received the congratulatory message page for clearing the exam along with the details of my performance. **I got 80%.**
 
-The certificate and transcript section of the Microsoft Learning dashboard were updated in 30 minutes.
-
+The certificate and transcript section of the Microsoft Learning dashboard were updated in 30 minutes while the certificate was added to [Credly](https://www.credly.com/earner/earned){:target="_blank" rel="nofollow"} in 24 hours.
 ## Final thoughts
 
 - I loved studying for AZ-700. It really improves your knowledge of various network resources on Azure cloud.
 - This was easily the toughest Azure exam I have given. What made it difficult :
-  - Time constraint of 110 minutes to tackle 51 questions. Long questions meant you had to understand the situation quickly and skim through the noise to reply.
+  - Time constraint of 110 minutes to tackle 51 questions. Long questions meant I had to understand the situation quickly and skim through the noise to reply.
   - Focus on practical scenarios rather than standard theory. Very few questions on the theoretical part. But thankfully they did exist to give you some breathing space among the other time consuming questions :laughing:.
   - Tricky data. Some of the data resembled each other and I really had to re-look at the diagram/details to confirm. Eg : Vnet address space of 172.10.20.3 and NSG rule on 172.10.23.0 IP.
 - My knowledge and preparation for On-prem connectivity and hub spoke helped me a lot here.
