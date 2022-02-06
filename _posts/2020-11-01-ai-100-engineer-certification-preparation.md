@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI-100 : Preparing for the Microsoft Azure AI Engineer certification"
+title: "AI-100 : Preparing for the Azure AI Engineer certification"
 #category: general
 tags: [azure, cloud, certification]
 comments: true

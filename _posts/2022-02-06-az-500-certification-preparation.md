@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AZ-500 : Preparing for the Microsoft Azure Security Engineer certification"
+title: "AZ-500 : Preparing for the Azure Security Engineer certification"
 #category: general
 tags: [azure, cloud, certification]
 comments: true

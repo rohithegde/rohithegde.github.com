@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AZ-700 : Preparing for the Microsoft Azure Network Engineer certification"
+title: "AZ-700 : Preparing for the Azure Network Engineer certification"
 #category: general
 tags: [azure, cloud, certification]
 comments: true

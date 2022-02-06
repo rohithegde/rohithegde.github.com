@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AZ-300 : Preparing for the Microsoft Azure Architect Technologies Exam"
+title: "AZ-300 : Preparing for the Azure Architect Technologies Exam"
 #category: general
 tags: [azure, cloud, certification]
 comments: true
