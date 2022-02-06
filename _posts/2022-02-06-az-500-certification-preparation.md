@@ -87,6 +87,7 @@ Important to know that no matter which course you go for, you will have to rely 
 - I prepared with [Alan's course](https://mckinsey.udemy.com/course/exam-azure-2/){:target="_blank" rel="nofollow"}.
 - It has a duration of 19 hours and is well detailed with focus on edge cases too. Alan walks the extra mile to demo every concept - even though which are not as easy to demo (eg: Replicating VPN S2S on the cloud).
 - Additionally two practice tests are given here of 50 questions each.
+- I went through the course at 1.5x speed since I had worked on most of the required resources before (barring the Azure AD portions). But I would recommend going through it at normal 1x speed since you can catch a lot of tiny details which are useful to know for the exam.
 
 ### Practice tests
 
