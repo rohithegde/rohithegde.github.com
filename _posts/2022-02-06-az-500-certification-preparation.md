@@ -153,7 +153,7 @@ The certificate and transcript section of the Microsoft Learning dashboard were 
 
 ## Final thoughts
 
-- Studying for AZ-500 requires a lot of effort due to the vast syllabus.
+- Studying for AZ-500 requires a lot of effort due to the vast syllabus. But it is an important exam for cloud engineers since cloud and security need to go hand in hand.
 - The exam wasnt as difficult as AZ-700 but I didnt prepare as well for this exam. I gave very less time to the practice tests and learnings from them.
 - The case studies can be tough but using the whiteboard popup made it easier to navigate through.
 
