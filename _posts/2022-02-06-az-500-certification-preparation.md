@@ -32,8 +32,6 @@ This is my 5th Azure certification. You can read about the others [here]({{ site
 Studying for this exam reminded me of the Azure Cloud Architect exams as the syllabus was similar and vast. A lot of tiny details made it difficult to be truly confident to ace the exam.
 This was one preparation where I didnt give myself as much time to prepare and relied on my experience more.
 
-!["Azure Security Engineer"](/assets/images/certifications/az-500.png "Azure Security Engineer")
-
 ## Preparation
 
 [Skills measured](https://docs.microsoft.com/en-us/learn/certifications/exams/az-500){:target="_blank" rel="nofollow"} :
@@ -149,6 +147,8 @@ I did the pre-exam prep below around 30 min before the exam :
 - I immediately received the congratulatory message page for clearing the exam along with the details of my performance. **I got 77%.**  I didnt do well in the Identity section which made sense as I had lesser experience on it (PIM, Conditional Access etc).
 
 The certificate and transcript section of the Microsoft Learning dashboard were updated in 30 minutes while the certificate was added to [Credly](https://www.credly.com/earner/earned){:target="_blank" rel="nofollow"} in 24 hours.
+
+!["Azure Security Engineer"](/assets/images/certifications/az-500.png "Azure Security Engineer")
 
 ## Final thoughts
 
