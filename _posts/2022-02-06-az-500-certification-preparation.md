@@ -29,6 +29,9 @@ A brand new guide to prepare for the Microsoft Azure Security Engineer certifica
 [AZ-500](https://docs.microsoft.com/en-us/learn/certifications/exams/az-500){:target="_blank" rel="nofollow"} is the Azure Security Engineer exam. I cleared the exam today (Feb 6, 2022).
 This is my 5th Azure certification. You can read about the others [here]({{ site.url }}/#certification).
 
+My preparations for this exam were a bit delayed as I was down with Covid (Omicron mostly). Having a goal to get more certifications motivated me to make a quick recovery !
+
+I wanted to give this exam since the syllabus for the Network Engineer and the Security Engineer exams matched my experience to a good extent. So I figured that I would be able to get certified with a few days of revision.
 Studying for this exam reminded me of the Azure Cloud Architect exams as the syllabus was similar and vast. A lot of tiny details made it difficult to be truly confident to ace the exam.
 This was one preparation where I didnt give myself as much time to prepare and relied on my experience more.
 
