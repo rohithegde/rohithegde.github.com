@@ -64,19 +64,19 @@ Most of these tools are treated as first class citizens by Microsoft which is wh
 ### Bleeding edge
 
 - The speed at which innovation is adopted at an org is an important factor.
-- Usually support for newer cloud resources and features is in the descending order : ARM, Bicep < Powershell, Azure CLI < Terraform, Ansible, Pulumi.
+- Usually support for newer cloud resources and features is in the descending order : ARM, Bicep > Powershell, Azure CLI > Terraform, Ansible, Pulumi.
 
 ### Programming paradigm
 
-- Terraform, Biscep, ARM templates and Ansible are declarative in nature while Azure CLI, Powershell and Pulumi are imperative.
+- Terraform, Bicep, ARM templates and Ansible are declarative in nature while Azure CLI, Powershell and Pulumi are imperative.
 - Its better to go imperative if you want to add plenty of custom validations or dynamic changes.
 - Extensibility, customisation are important factors too though simplicity and ease of use triumphs most.
 - You have to consider native tooling for each option that provides the best experience for you. Plenty of extensions in IDEs like VSCode for a lot of languages. Something like Terraform has great ecosystem for testing too (eg: Terratest).
 
 ### Language affinity
 
-- For those with affinity towards some programming languages - Pulumi, Ansible, Powershell, Azure CLI would be a better fit.
-- For those without any such affinity - Terraform, Biscep and ARM templates would be better.
+- For those with affinity towards some programming languages - Pulumi, Ansible, Powershell would be a better fit.
+- For those without any such affinity - Terraform, Bicep, Azure CLI or ARM templates would be better.
 
 ## Example scenarios
 
