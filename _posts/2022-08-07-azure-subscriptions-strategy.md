@@ -57,6 +57,9 @@ While there are many [different strategies documented](https://docs.microsoft.co
 
 ### Application category strategy
 
+- As an organization's cloud footprint grows, more subscriptions are typically created to support applications. These applications have fundamental differences in business criticality, compliance requirements, access controls, or data protection needs.
+- Built from the initial production and nonproduction subscriptions, the subscriptions that support these application categories are organized under either the production or nonproduction management group as applicable.
+
 !["subscription-hierarchy-app-category"](/assets/images/azure/decision-guide-subscriptions-hierarchy.png "subscription-hierarchy-app-category")
 
 ### Application category strategy for Hub and Spoke
