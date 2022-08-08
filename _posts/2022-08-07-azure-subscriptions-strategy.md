@@ -37,6 +37,8 @@ Many guides out there on this topic but most of them merely borrow from Microsof
 - If you apply any access or policy at one level in the hierarchy, it propagates down to the lower levels. A resource owner or subscription owner can't alter an inherited policy. This limitation helps improve governance.
 - An Azure subscription has a trust relationship with Azure Active Directory (Azure AD). A subscription trusts Azure AD to authenticate users, services, and devices.
 
+!["subscription-azuread"](/assets/images/azure/trust-relationship-azure-ad.png "subscription-azuread")
+
 ## Factors to consider
 
 - Resource limits at subscription level
