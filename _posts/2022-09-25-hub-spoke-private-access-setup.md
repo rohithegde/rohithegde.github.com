@@ -21,6 +21,10 @@ This post serves to give a walkthrough of things to consider while creating a hu
   - [P2S and S2S](#p2s-and-s2s)
   - [Identity Access Management](#identity-access-management)
 - [Architecture](#architecture)
+  - [Private endpoints and private links](#private-endpoints-and-private-links)
+  - [Virtual Network Gateway](#virtual-network-gateway)
+  - [DNS Forwarder Virtual machine](#dns-forwarder-virtual-machine)
+  - [Azure Firewall](#azure-firewall)
 - [References](#references)
 
 <!-- /TOC -->
@@ -69,20 +73,39 @@ If you are an application developer tasked with the cloud setup, then this will 
 
 - While most of the content here deals with networks, IAM remains an extremely important part of this setup.
 - As part of [Defense in Depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)){:target="_blank" rel="nofollow"} - network isolation and RBAC are fundamental pillars of any layered security strategy on the cloud.
-- Azure AD allows us to give role based access (RBAC) of cloud resources to users and [service principals](https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object){:target="_blank" rel="nofollow"}.
+- Azure AD allows us to give [Role based access (RBAC)](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview){:target="_blank" rel="nofollow"} of cloud resources to users and [service principals](https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object){:target="_blank" rel="nofollow"}.
 
 ## Architecture
 
 !["Hub Spoke"](/assets/images/azure/hub-spoke.png "Hub Spoke")
 
-In the above diagram, I want to highlight some important things :
+Lets focus on some of the very significant parts shown or missing in the above diagram :
 
-- Virtual Network and peering
-- Virtual Network Gateway
-- Private endpoints and private links
-- Private DNS Zones
-- DNS Forwarder Virtual machine
-- Azure Firewall
+### Private endpoints and private links
+
+- Most of the applicable cloud resources (Eg: key vault, storage account, k8s etc) will have private endpoints which bring them to the desired virtual network. Eg: A storage account in hub will have a private endpoint brining it to the hub vnet.
+- Due to the [100% SLA of Private DNS Zone](https://azure.microsoft.com/en-us/support/legal/sla/dns/v1_1/){:target="_blank" rel="nofollow"}, we can have a single set of Private DNS zones in the hub itself which can support the whole setup. You can refer to this [private endpoints domain list](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns#azure-services-dns-zone-configuration){:target="_blank" rel="nofollow"} so as to know which Private DNS Zones to create.
+
+### Virtual Network Gateway
+
+- The VPN gateway supports P2S and S2S.
+- It can support certificate based access as also Azure AD based access. I personally prefer AAD based access as it gives you more control of who can access the gateway. Using AAD based RBAC or Conditional Access Policy, you can further add restrictions as to which AAD user can access the gateway.
+- It supports multiple P2S protocols - SSTP, OpenVPN and IKEv2 VPN. OpenVPN is the popular and industry recommended protocol. You can read about their comparison [here](https://www.vpnmentor.com/blog/vpn-protocol-comparison-pptp-vs-l2tp-vs-openvpn-vs-sstp-vs-ikev2/){:target="_blank" rel="nofollow"}.
+- After setting up the above private endpoint base setup, you will not be able to access the cloud resources on the Azure portal. The VPN gateway "brings you into the network" to access the cloud resources.
+
+### DNS Forwarder Virtual machine
+
+- Cloud Engineers need to be able to access various resources from their local machines. Similarly in some organisations, application developers need to access specific cloud resources like storage account in a dev environment.
+- A DNS forwarder is a Virtual Machine running on the Virtual Network linked to the Private DNS Zone that can proxy DNS queries coming from other Virtual Networks or from on-premises. 
+- A few options for DNS proxies are :
+  - Windows VM running DNS services.
+  - [Linux VM running DNS services](https://azure.microsoft.com/en-in/resources/templates/dns-forwarder/){:target="_blank" rel="nofollow"}.
+  - [Azure Firewall as DNS Proxy](https://azure.microsoft.com/en-us/blog/new-enhanced-dns-features-in-azure-firewall-now-generally-available/){:target="_blank" rel="nofollow"}.
+- You can read more about DNS forwarder [here](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder){:target="_blank" rel="nofollow"}.
+
+### Azure Firewall
+
+!["App Gw Firewall Parallel"](/assets/images/hub-spoke/app-gw-firewall-parallel.png "App Gw Firewall Parallel")
 
 !["Hub Spoke Private link"](/assets/images/azure/private-link-hub-spoke.png "Hub Spoke Private link")
 
