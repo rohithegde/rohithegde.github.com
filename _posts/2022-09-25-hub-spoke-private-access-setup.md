@@ -161,6 +161,8 @@ Lets focus on some of the very significant parts shown or missing in the above d
 
 !["Multiple Hubs"](/assets/images/hub-spoke/network-hub-spokes-cluster.png "Multiple Hubs")
 
+That completes this blog post. I tried to make it as exhaustive as possible. Let me know if you want me to add some more details or something I missed out on.
+
 ## References
 
 - [CAF - Hub Spoke best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/hub-spoke-network-topology){:target="_blank" rel="nofollow"}
