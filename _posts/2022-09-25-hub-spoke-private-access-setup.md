@@ -117,6 +117,14 @@ Lets focus on some of the very significant parts shown or missing in the above d
 - The hub vnet is peered with the vnet in each spoke (Eg: Dev, Qa, Prod spokes).
 - In some cases, you can split the hub into two vnets - Prod hub vnet to be peered with the the prod spoke vnet and the non prod hub vnet to be peered with the dev and qa vnets. This setup gives you the advantage of network isolation of prod from the non prod environments. Howver this setup will likely double your hub setup cost as various linked resources will have to created in the hub for the 2 vnets.
 
+### Firewall
+
+!["App Gw Firewall Parallel"](/assets/images/hub-spoke/app-gw-firewall-parallel.png "App Gw Firewall Parallel")
+
+- Assuming you go with an Application gateway with WAF and Azure Firewall, it can be [configured in many ways](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway){:target="_blank" rel="nofollow"}. The [Firewall and Application Gateway in parallel approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#firewall-and-application-gateway-in-parallel){:target="_blank" rel="nofollow"} is popular.
+- The Application gateway is usually placed in each spoke vnet with the Azure Firewall in the hub. Alternatively you could go with placing the Application gateway in the hub to save costs but there is a [limit of 100 active listeners](https://github.com/MicrosoftDocs/azure-docs/blob/main/includes/application-gateway-limits.md){:target="_blank" rel="nofollow"} on it. You could also split the Application gateway into prod and non prod instances in the hub assuming you have split the network for it.
+- Another recommended approach would be the [Application gateway before Firewall approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#application-gateway-before-firewall){:target="_blank" rel="nofollow"}. This follows zero-trust principles (End-to-End TLS encryption). This is relatively a complex setup as it requires SSL termination at various stages.
+
 ### Private endpoints and private links
 
 - Most of the applicable cloud resources (Eg: key vault, storage account, k8s etc) will have private endpoints which bring them to the desired virtual network. Eg: A storage account in hub will have a private endpoint brining it to the hub vnet.
@@ -145,14 +153,6 @@ Lets focus on some of the very significant parts shown or missing in the above d
   - [Linux VM running DNS services](https://azure.microsoft.com/en-in/resources/templates/dns-forwarder/){:target="_blank" rel="nofollow"}.
   - [Azure Firewall as DNS Proxy](https://azure.microsoft.com/en-us/blog/new-enhanced-dns-features-in-azure-firewall-now-generally-available/){:target="_blank" rel="nofollow"}.
 - You can read more about DNS forwarder [here](https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-dns#on-premises-workloads-using-a-dns-forwarder){:target="_blank" rel="nofollow"}.
-
-### Firewall
-
-!["App Gw Firewall Parallel"](/assets/images/hub-spoke/app-gw-firewall-parallel.png "App Gw Firewall Parallel")
-
-- Assuming you go with an Application gateway with WAF and Azure Firewall, it can be [configured in many ways](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway){:target="_blank" rel="nofollow"}. The [Firewall and Application Gateway in parallel approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#firewall-and-application-gateway-in-parallel){:target="_blank" rel="nofollow"} is popular.
-- The Application gateway is usually placed in each spoke vnet with the Azure Firewall in the hub. Alternatively you could go with placing the Application gateway in the hub to save costs but there is a [limit of 100 active listeners](https://github.com/MicrosoftDocs/azure-docs/blob/main/includes/application-gateway-limits.md){:target="_blank" rel="nofollow"} on it. You could also split the Application gateway into prod and non prod instances in the hub assuming you have split the network for it.
-- Another recommended approach would be the [Application gateway before Firewall approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#application-gateway-before-firewall){:target="_blank" rel="nofollow"}. This follows zero-trust principles (End-to-End TLS encryption). This is relatively a complex setup as it requires SSL termination at various stages.
 
 ### Disaster Recovery
 
