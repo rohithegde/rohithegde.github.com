@@ -35,6 +35,7 @@ This post serves to give a walkthrough of things to consider while creating a hu
   - [Virtual Network Gateway](#virtual-network-gateway)
   - [DNS Forwarder](#dns-forwarder)
   - [Disaster Recovery](#disaster-recovery)
+  - [Security related tools](#security-related-tools)
 
 <!-- /TOC -->
 
@@ -123,6 +124,7 @@ Lets focus on some of the very significant parts shown or missing in the above d
 - Assuming you go with an Application gateway with WAF and Azure Firewall, it can be [configured in many ways](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway){:target="_blank" rel="nofollow"}. The [Firewall and Application Gateway in parallel approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#firewall-and-application-gateway-in-parallel){:target="_blank" rel="nofollow"} is popular.
 - The Application gateway is usually placed in each spoke vnet with the Azure Firewall in the hub. Alternatively you could go with placing the Application gateway in the hub to save costs but there is a [limit of 100 active listeners](https://github.com/MicrosoftDocs/azure-docs/blob/main/includes/application-gateway-limits.md){:target="_blank" rel="nofollow"} on it. You could also split the Application gateway into prod and non prod instances in the hub assuming you have split the network for it.
 - Another recommended approach would be the [Application gateway before Firewall approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#application-gateway-before-firewall){:target="_blank" rel="nofollow"}. This follows zero-trust principles (End-to-End TLS encryption). This is relatively a complex setup as it requires SSL termination at various stages.
+- Network Security Groups (NSG) should exist on all subnets with a deny all except allowed protocols. Exceptions will be those subnets for which Azure recommends no NSG (Eg: gateway subnet). Important to know that NSGs provide layer 3-4 protection and shouldnt be considered as an alternative to Azure Firewall. You can read more about their comparison [here](https://itnext.io/choosing-between-azure-firewall-and-network-security-groups-b3ed1e6eedbd){:target="_blank" rel="nofollow"}.
 
 ### Private endpoints and private links
 
@@ -159,5 +161,14 @@ Lets focus on some of the very significant parts shown or missing in the above d
 - A [multi-hub approach](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/hub-spoke-network-topology#subscription-limits-and-multiple-hubs){:target="_blank" rel="nofollow"} supported by a global load balancing solution can work well here. Infrastructure as Code (IaC) backed solution makes it easier to deploy though the one time investment to create the code is significant but worth it !
 
 !["Multiple Hubs"](/assets/images/hub-spoke/network-hub-spokes-cluster.png "Multiple Hubs")
+
+### Security related tools
+
+Most of the content in this post focuses on network security. As a parting shot, let me just mention other tools which help in this secure setup.
+
+- Tools like Defender for Cloud and Azure Monitor should be integrated with all resources. They provide some great insight which help to plug any gaps in your security.
+- Activate regulatory policy initiatives like CIS, NIST etc by default and others like HIPAA, PCI etc based on your domain. Getting to a high regulatory compliance score takes some effort but its essential to be secure.
+- Azure DDoS Protection Basic comes built in at free of cost. But a paid feature like [Azure DDoS Protection Standard](https://learn.microsoft.com/en-in/azure/ddos-protection/ddos-protection-overview){:target="_blank" rel="nofollow"} can help for adaptive tuning, monitoring reports, access to DDoS Rapid Response (DRR) team etc if your domain is a high value target for hackers.
+
 
 That completes this blog post. I tried to make it as exhaustive as possible. Let me know if you want me to add some more details for something I missed.
