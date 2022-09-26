@@ -2,7 +2,7 @@
 layout: post
 title: "A Hub spoke setup on Azure with secure private access"
 #category: general
-tags: [azure, cloud]
+tags: [azure, architecture, cloud]
 comments: true
 ---
 
