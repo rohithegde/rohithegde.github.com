@@ -35,7 +35,6 @@ This post serves to give a walkthrough of things to consider while creating a hu
   - [Virtual Network Gateway](#virtual-network-gateway)
   - [DNS Forwarder](#dns-forwarder)
   - [Disaster Recovery](#disaster-recovery)
-- [References](#references)
 
 <!-- /TOC -->
 
@@ -60,7 +59,7 @@ If you are an application developer tasked with the cloud setup, then this will 
 - Advantages
   - **Saving on costs and efficient management** as the hub can be used for storing common resources and managing them.
   - **A separation of concerns** as the hub will be hardened to deal with public access and a spoke can benefit from the hub being the central point of external traffic for it.
-- You can read more about it [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke?tabs=cli){:target="_blank" rel="nofollow"}.
+- For more details please refer to the [Hub spoke ref architecture article](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke?tabs=cli){:target="_blank" rel="nofollow"} and the [Cloud Adoption Framework article](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/hub-spoke-network-topology){:target="_blank" rel="nofollow"} on it.
 
 ### Private endpoints
 
@@ -161,8 +160,4 @@ Lets focus on some of the very significant parts shown or missing in the above d
 
 !["Multiple Hubs"](/assets/images/hub-spoke/network-hub-spokes-cluster.png "Multiple Hubs")
 
-That completes this blog post. I tried to make it as exhaustive as possible. Let me know if you want me to add some more details or something I missed out on.
-
-## References
-
-- [CAF - Hub Spoke best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/hub-spoke-network-topology){:target="_blank" rel="nofollow"}
+That completes this blog post. I tried to make it as exhaustive as possible. Let me know if you want me to add some more details for something I missed.
