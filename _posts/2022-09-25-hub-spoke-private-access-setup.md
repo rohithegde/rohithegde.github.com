@@ -30,10 +30,10 @@ This post serves to give a walkthrough of things to consider while creating a hu
   - [Azure Firewall](#azure-firewall)
 - [Architecture](#architecture)
   - [Virtual network](#virtual-network)
+  - [Firewall](#firewall)
   - [Private endpoints and private links](#private-endpoints-and-private-links)
   - [Virtual Network Gateway](#virtual-network-gateway)
   - [DNS Forwarder](#dns-forwarder)
-  - [Firewall](#firewall)
   - [Disaster Recovery](#disaster-recovery)
 - [References](#references)
 
