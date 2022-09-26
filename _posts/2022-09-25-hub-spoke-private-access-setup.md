@@ -6,7 +6,13 @@ tags: [azure, cloud]
 comments: true
 ---
 
-This post serves to give a walkthrough of things to consider while creating a hub spoke based network topology in Azure. Highlights include :
+A secure setup on the cloud can be easy or difficult depending on who you ask.
+
+- Ask junior application developers and they will say its probably easy.
+- Ask cloud engineers and they will say its very complex.
+- Ask an experienced cloud architect and he/she will say "It depends" :grin:.
+
+This post serves to give a walkthrough of things to consider while creating a hub spoke based network topology with related resources in Azure. Highlights include :
 
 - A secure setup with the Hub controlling all public access to the spokes.
 - No public endpoints in the spoke.
@@ -20,6 +26,8 @@ This post serves to give a walkthrough of things to consider while creating a hu
   - [Private endpoints](#private-endpoints)
   - [P2S and S2S](#p2s-and-s2s)
   - [Identity Access Management](#identity-access-management)
+  - [WAF](#waf)
+  - [Azure Firewall](#azure-firewall)
 - [Architecture](#architecture)
   - [Virtual network](#virtual-network)
   - [Private endpoints and private links](#private-endpoints-and-private-links)
@@ -77,6 +85,27 @@ If you are an application developer tasked with the cloud setup, then this will 
 - As part of [Defense in Depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)){:target="_blank" rel="nofollow"} - network isolation and RBAC are fundamental pillars of any layered security strategy on the cloud.
 - Azure AD allows us to give [Role based access (RBAC)](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview){:target="_blank" rel="nofollow"} of cloud resources to users and [service principals](https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object){:target="_blank" rel="nofollow"}.
 
+### WAF
+
+!["App Gateway WAF"](/assets/images/hub-spoke/app-gw-waf.png "App Gateway WAF")
+
+- You need a Web Application Firewall (WAF) to protect HTTP endpoints.
+- WAF comes as part of 3 load balancing services of Azure. You can use either of them depending on requirements:
+  - Application Gateway for a regional level load balancing.
+  - FrontDoor for a global level load balancing across various regions.
+  - CDN (currently public preview).
+- You can read more about it [here](https://learn.microsoft.com/en-us/azure/web-application-firewall/overview){:target="_blank" rel="nofollow"}.
+
+### Azure Firewall
+
+!["Azure Firewall"](/assets/images/hub-spoke/firewall-premium.png "Azure Firewall")
+
+- It provides L3-L7 filtering.
+- It also provides Threat intelligence-based filtering which can alert and deny traffic from/to known malicious IP addresses and domains which are updated in real time to protect against new and emerging attacks.
+- It's Layer 7 filtering isnt a replacement of WAF. It is usually used with WAF for all round protection.
+- You can use it as the public interface for routing all inbound non HTTP traffic. Eg: FTP, SSH etc.
+- The most important feature of Azure Firewall is filtering outbound network calls. This is usually done by adding a route table entry to ensure outbound traffic goes to the Firewall in the hub.
+
 ## Architecture
 
 !["Hub Spoke"](/assets/images/azure/hub-spoke.png "Hub Spoke")
@@ -119,16 +148,19 @@ Lets focus on some of the very significant parts shown or missing in the above d
 
 ### Firewall
 
-- Web Application Firewall (WAF)
-- Azure Firewall
-
 !["App Gw Firewall Parallel"](/assets/images/hub-spoke/app-gw-firewall-parallel.png "App Gw Firewall Parallel")
+
+- Assuming you go with an Application gateway with WAF and Azure Firewall, it can be [configured in many ways](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway){:target="_blank" rel="nofollow"}. The [Firewall and Application Gateway in parallel approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#firewall-and-application-gateway-in-parallel){:target="_blank" rel="nofollow"} is popular.
+- The Application gateway is usually placed in each spoke vnet with the Azure Firewall in the hub. Alternatively you could go with placing the Application gateway in the hub to save costs but there is a [limit of 100 active listeners](https://github.com/MicrosoftDocs/azure-docs/blob/main/includes/application-gateway-limits.md){:target="_blank" rel="nofollow"} on it. You could also split the Application gateway into prod and non prod instances in the hub assuming you have split the network for it.
+- Another recommended approach would be the [Application gateway before Firewall approach](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/gateway/firewall-application-gateway#application-gateway-before-firewall){:target="_blank" rel="nofollow"}. This follows zero-trust principles (End-to-End TLS encryption). This is relatively a complex setup as it requires SSL termination at various stages.
 
 ### Disaster Recovery
 
-- 
+- While BCDR is a complex topic and requires a book by itself. In this blog post, I want to focus on an approach for having a resilient Hub as its often pointed out that the hub can be a single point of failure.
+- A [multi-hub approach](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/hub-spoke-network-topology#subscription-limits-and-multiple-hubs){:target="_blank" rel="nofollow"} supported by a global load balancing solution can work well here. Infrastructure as Code (IaC) backed solution makes it easier to deploy though the one time investment to create the code is significant but worth it !
+
+!["Multiple Hubs"](/assets/images/hub-spoke/network-hub-spokes-cluster.png "Multiple Hubs")
 
 ## References
 
 - [CAF - Hub Spoke best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/hub-spoke-network-topology){:target="_blank" rel="nofollow"}
-- [Hub Spoke Private Link](https://docs.microsoft.com/en-us/azure/architecture/guide/networking/private-link-hub-spoke-network){:target="_blank" rel="nofollow"}
