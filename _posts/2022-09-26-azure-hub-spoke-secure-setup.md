@@ -169,6 +169,12 @@ Most of the content in this post focuses on network security. As a parting shot,
 - Tools like Defender for Cloud and Azure Monitor should be integrated with all resources. They provide some great insight which help to plug any gaps in your security.
 - Activate regulatory policy initiatives like CIS, NIST etc by default and others like HIPAA, PCI etc based on your domain. Getting to a high regulatory compliance score takes some effort but its essential to be secure.
 - Azure DDoS Protection Basic comes built in at free of cost. But a paid feature like [Azure DDoS Protection Standard](https://learn.microsoft.com/en-in/azure/ddos-protection/ddos-protection-overview){:target="_blank" rel="nofollow"} can help for adaptive tuning, monitoring reports, access to DDoS Rapid Response (DRR) team etc if your domain is a high value target for hackers.
+- If you have a security team, you can use the cloud native SIEM called Microsoft Azure Sentinel to setup automation around security events.
 
+One final point - the cloud offers a lot of tools on security at high abstraction levels making them relatively simple to setup. However you can never expect 100% security as its an evolving battle between hackers and security teams.
 
 That completes this blog post. I tried to make it as exhaustive as possible. Let me know if you want me to add some more details for something I missed.
+
+Since you reached all the way to the end of the page, you get my fav XKCD comic on security :smile:
+!["XKCD Database"](/assets/images/hub-spoke/xkcd-database.png "XKCD database")
+<br/> Ref : <https://xkcd.com/327/>{:target="_blank" rel="nofollow"}
