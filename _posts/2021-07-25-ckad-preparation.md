@@ -12,10 +12,11 @@ A brand new guide to prepare for the CKAD exam in 2021.
 
 - [Background](#background)
 - [What makes CKAD different from other exams?](#what-makes-ckad-different-from-other-exams)
-- [Three focus areas for successful time management in the exam](#three-focus-areas-for-successful-time-management-in-the-exam)
+- [Focus areas for successful time management in the exam](#focus-areas-for-successful-time-management-in-the-exam)
     - [Linux commands](#linux-commands)
     - [Hands-on k8s expertise](#hands-on-k8s-expertise)
     - [kubernetes.io documentation](#kubernetesio-documentation)
+    - [UPDATE - New Exam UI from June 2022](#update---new-exam-ui-from-june-2022)
 - [The CKAD exam](#the-ckad-exam)
 - [Tips for the exam](#tips-for-the-exam)
 
@@ -31,15 +32,15 @@ The k8s exams are famous for being different and more difficult than the rest.
 
 ## What makes CKAD different from other exams?
 
-Cloud certs usually involve objective questions. But the k8s based certs is based on practical labs which is why its supposed to be tougher to prepare for them compared to other cloud certs. You are given problems which you are expected to solve by executing cli commands. **You do have access to the official documentation of k8s for reference during the exam but the exam time constraint makes things difficult.**
+Cloud certs usually involve objective questions. But the k8s based certs are based on practical labs which is why its supposed to be tougher to prepare for them compared to other cloud certs. You are given problems which you are expected to solve by executing cli commands. **You do have access to the official documentation of k8s for reference during the exam but the exam time constraint makes things difficult.**
 
 As given in the Linux Foundation website :
 
-!["k8s"](/assets/images/k8s/k8s-certs.png "k8s")
+!["ckad"](/assets/images/k8s/ckad.png "ckad")
 
 Its a **2 hour exam with 19 questions involving 4 clusters with atleast 66% needed to clear it**. Details on it can be accessed [here](https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad){:target="_blank" rel="nofollow"}, [here](https://www.cncf.io/certification/ckad/){:target="_blank" rel="nofollow"} and [here](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-score-is-needed-to-pass-the-exam){:target="_blank" rel="nofollow"}. The time constraint is the most crucial factor here. 2 hours can go away in a jiffy if you are not well versed with the necessary skills or get careless.
 
-## Three focus areas for successful time management in the exam
+## Focus areas for successful time management in the exam
 
 ### Linux commands
 
@@ -89,6 +90,16 @@ ps : Mumshad's **Game of Pods** section in the Udemy course is a good way to pra
 - I became very comfortable with the documentation during the above practice tests.
 - Eg : For getting the yaml structure of a Persistent Volume, I knew that the 2nd link (using Persistent Volume with a pod) was more useful than the first one (Persistent Volume) since it had lesser text and related yamls close together (PersistentVolumeClaim and Pod).
 - I read through the [kubectl cheatsheet document](https://kubernetes.io/docs/reference/kubectl/cheatsheet/){:target="_blank" rel="nofollow"} many times since it had most of the important commands in a single page. This was my main reference page during the exams. I even copied the yaml for Pod and secret from here.
+
+### UPDATE - New Exam UI from June 2022
+
+!["k8s-exam-ui"](/assets/images/k8s/k8s-exam-new-ui.png "k8s-examui")
+
+Refer to this [Killer.sh blog post](https://itnext.io/cks-cka-ckad-changed-terminal-to-remote-desktop-157a26c1d5e){:target="_blank" rel="nofollow"} and [this official post](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2/exam-user-interface/examui-performance-based-exams){:target="_blank" rel="nofollow"} for more details on the changes.
+You can count this as a extra thing to master.
+The new user interface is tricky for those who havent experienced it. They have moved from the old browser based format to a Remote Desktop based UI via a custom exam browser tool.
+
+For my own experience using it, please refer to my blog post on [CKS](http://127.0.0.1:4000/2022/11/13/cks-preparation#new-exam-ui-from-june-2022).
 
 ## The CKAD exam
 

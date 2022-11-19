@@ -12,8 +12,8 @@ A brand new guide to prepare for the CKA exam in 2021.
 
 - [Background](#background)
 - [CKAD before or after CKA ?](#ckad-before-or-after-cka-)
-  - [REASON 1 ie Syllabus overlap](#reason-1-ie-syllabus-overlap)
-  - [REASON 2 ie Natural transition](#reason-2-ie-natural-transition)
+    - [REASON 1 ie Syllabus overlap](#reason-1-ie-syllabus-overlap)
+    - [REASON 2 ie Natural transition](#reason-2-ie-natural-transition)
 - [Preparation](#preparation)
 - [The CKA exam](#the-cka-exam)
 - [Ending thoughts](#ending-thoughts)
@@ -24,7 +24,7 @@ A brand new guide to prepare for the CKA exam in 2021.
 > “An investment in knowledge always pays the best interest” - Benjamin Franklin
 
 After giving the Certified Kubernetes Application Developer (CKAD) exam recently, I went for the Certified Kubernetes Administrator(CKA) exam yesterday.
-You can read about my blog on preparing for CKAD [here]({{ site.url }}/2021/07/25/ckad-preparation).
+You can read my blog on preparing for CKAD [here]({{ site.url }}/2021/07/25/ckad-preparation).
 
 ## CKAD before or after CKA ?
 
