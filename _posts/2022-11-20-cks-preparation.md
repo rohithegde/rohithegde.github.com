@@ -15,6 +15,7 @@ g
     - [Focus on 3rd party software](#focus-on-3rd-party-software)
     - [Lesser dependency on official k8s documentation](#lesser-dependency-on-official-k8s-documentation)
     - [Validity](#validity)
+- [Preparation](#preparation)
 - [Exams](#exams)
     - [Killer.sh practice test 1](#killersh-practice-test-1)
     - [CKS - Attempt 1](#cks---attempt-1)
@@ -58,6 +59,12 @@ Besides the focus on security, there are some differences between CKS and the ot
 ### Validity
 
 While CKAD and CKA are valid for 3 years, CKS is valid for 2 years only.
+
+## Preparation
+
+- I enrolled into the [Udemy course by Kim Wüstkamp](https://www.udemy.com/course/certified-kubernetes-security-specialist/){:target="_blank" rel="nofollow"}.
+- Kim is the founder of killer.sh and he did a great job at explaining the concepts. The best thing about it was the practical tests in each chapter on Killercoda.com.
+- The free access to a [killer.sh](https://killer.sh/){:target="_blank" rel="nofollow"} practice test when you schedule a CKS exam is the best resource for practicing. You get 2 hours to give a single practice test which is tougher than the real exam. You get 2 sessions of 36 hours each during which the cluster environment will remain alive. In these 72 hours, you can retake the same practice test multiple times.
 
 ## Exams
 
@@ -145,3 +152,5 @@ It feels good to complete the triad of k8s certs. Feels like the end of a memora
 
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
 <br/>Feel free to share your experiences. Every bit of knowledge helps :blush:.
+
+Happy to share that I have completed the k8s triad of certifications by clearing the CKS exam recently. Please visit my action packed blog post on it as its the first time I had to retake the exam 😥 https://www.abstraction.blog/2022/11/20/cks-preparation?latest

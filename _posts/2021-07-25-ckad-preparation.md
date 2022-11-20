@@ -60,7 +60,7 @@ Its a **2 hour exam with 19 questions involving 4 clusters with atleast 66% need
 
 ### Hands-on k8s expertise
 
-- I am very comfortable with k8s but i wasnt very quick in using the `kubectl` commands. The [Udemy course by Mumshad](https://mckinsey.udemy.com/course/certified-kubernetes-application-developer/){:target="_blank" rel="nofollow"} helped me a lot in revising my concepts as also know which commands are important.
+- I am very comfortable with k8s but i wasnt very quick in using the `kubectl` commands. The [Udemy course by Mumshad](https://www.udemy.com/course/certified-kubernetes-application-developer/){:target="_blank" rel="nofollow"} helped me a lot in revising my concepts as also know which commands are important.
 - Your k8s concepts have to be strong and your handson k8s skills must be be swift in order to utilize the 2 hrs exam time well.
 - Giving practice tests help a lot in sharpening your handson k8s skills. Mumshad's Udemy course has multiple labs which help here.
 - **Additionally from this year, you get free access to a [killer.sh](https://killer.sh/){:target="_blank" rel="nofollow"} practice test when you schedule a CKAD exam**. This is the best resource for practicing. You get 2 hours to give a single practice test which is tougher than the real exam. You get 2 sessions of 36 hours each during which the cluster environment will remain alive. In these 72 hours, you can retake the same practice test multiple times.
