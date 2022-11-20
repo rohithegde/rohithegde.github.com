@@ -36,7 +36,7 @@ You can read about my k8s certification journey [here]({{ site.url }}/#certifica
 
 ## How is CKS compared to the CKA and CKAD exams ?
 
-!["k8s-certs"](/assets/images/k8s/k8s-certs.png "k8s-certs")
+!["k8s-certs-obtained"](/assets/images/k8s/k8s-certs-obtained.png "k8s-certs-obtained")
 
 Like CKAD and CKA, CKS is a **2 hour exam with 15-20 tasks involving as many clusters with atleast 67% needed to clear it**. Details on it can be accessed [here](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/){:target="_blank" rel="nofollow"}.
 
@@ -140,8 +140,6 @@ Some of the improvements I liked:
 - Be comfortable using Firefox as you need to use this for searching in the documentation.
 - Be comfortable with the Kubernetes.io documentation as also that of 3rd party tools.
 - Take a backup of the file before modifying the config file (Eg: Kube API Server yaml).
-
-!["k8s-certs-obtained"](/assets/images/k8s/k8s-certs-obtained.png "k8s-certs-obtained")
 
 It feels good to complete the triad of k8s certs. Feels like the end of a memorable journey. I loved the syllabus of CKS. Lots of variety. CKA syllabus felt like a mere addon to CKAD but CKS stood on its own. Plenty of tools here which I will be integrating to processes and pipelines in my line of work.
 
