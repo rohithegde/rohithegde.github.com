@@ -7,7 +7,7 @@ comments: true
 ---
 
 A brand new guide to prepare for the final exam of the k8s triad - CKS in 2022. It took me 2.5x times to clear the certification exam - thats a first ! Read on to know more !
-g
+
 <!-- TOC -->
 
 - [Background](#background)
