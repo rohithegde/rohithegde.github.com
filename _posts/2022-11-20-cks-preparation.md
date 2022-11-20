@@ -7,7 +7,7 @@ comments: true
 ---
 
 A brand new guide to prepare for the final exam of the k8s triad - CKS in 2022. It took me 2.5x times to clear the certification exam - thats a first ! Read on to know more !
-
+g
 <!-- TOC -->
 
 - [Background](#background)
@@ -141,7 +141,9 @@ Some of the improvements I liked:
 - Be comfortable with the Kubernetes.io documentation as also that of 3rd party tools.
 - Take a backup of the file before modifying the config file (Eg: Kube API Server yaml).
 
-I loved the syllabus of CKS. Lots of variety. CKA syllabus felt like a mere addon to CKAD but CKS stood on its own. Plenty of tools here which I will be integrating to processes and pipelines in my line of work.
+!["k8s-certs-obtained"](/assets/images/k8s/k8s-certs-obtained.png "k8s-certs-obtained")
+
+It feels good to complete the triad of k8s certs. Feels like the end of a memorable journey. I loved the syllabus of CKS. Lots of variety. CKA syllabus felt like a mere addon to CKAD but CKS stood on its own. Plenty of tools here which I will be integrating to processes and pipelines in my line of work.
 
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
 <br/>Feel free to share your experiences. Every bit of knowledge helps :blush:.
