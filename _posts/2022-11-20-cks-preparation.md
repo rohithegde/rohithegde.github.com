@@ -152,5 +152,3 @@ It feels good to complete the triad of k8s certs. Feels like the end of a memora
 
 I wish you the best of luck if you plan on giving this exam :thumbsup:.
 <br/>Feel free to share your experiences. Every bit of knowledge helps :blush:.
-
-Happy to share that I have completed the k8s triad of certifications by clearing the CKS exam recently. Please visit my action packed blog post on it as its the first time I had to retake the exam 😥 https://www.abstraction.blog/2022/11/20/cks-preparation?latest
