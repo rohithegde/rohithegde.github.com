@@ -7,7 +7,8 @@ comments: true
 ---
 
 Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? Which certs should I go for ?
-I started my certification journey couple of years ago. Based on my experience, I am trying to help you create a sensible certification plan which works.
+I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn to see if I could learn from their stengths as also mistakes.
+Based on my experience, I am trying to create a sensible certification plan which works for you.
 You can read about my certification journey [here]({{ site.url }}/#certification).
 <!-- TOC -->
 
@@ -28,7 +29,7 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 
 <!-- /TOC -->
 
-Note : It can take a working individual multiple years to get all of these certs...
+Note : These certs look great on the resume...but it can take multiple years for a working individual to get all of these certs...
 !["mutli-certs"](/assets/images/certifications/certs-list.drawio.png "mutli-certs")
 
 ## When certifications can help
