@@ -28,7 +28,7 @@ There are plenty of factors which can play a role in answering these questions. 
 
 <!-- /TOC -->
 
-These popular certs look tempting dont they ? It can take you years to get them all :smile:
+It can take a working individual years to get all fo these certs.
 !["mutli-certs"](/assets/images/certifications/certs-list.drawio.png "mutli-certs")
 
 ## When certifications can help
