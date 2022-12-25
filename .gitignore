@@ -5,3 +5,6 @@ _site
 .DS_Store
 .history
 Gemfile.lock
+vendor
+.vscode
+.bundle
