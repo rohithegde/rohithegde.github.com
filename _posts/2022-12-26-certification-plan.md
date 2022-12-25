@@ -35,7 +35,8 @@ These popular certs look tempting dont they ? It can take you years to get them 
 
 ### Marketing yourself
 
-Certifications help in marketing yourself as they are a visual beacon for recruiters.
+- Certifications help in marketing yourself as they are a visual beacon for recruiters.
+- Additionally they are also mentioned in the job profiles posted by top companies like Amazon, Google, Microsoft etc.
 
 ### Getting a structured introduction
 
