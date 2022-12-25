@@ -29,7 +29,7 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 
 <!-- /TOC -->
 
-Note : These certs look great on the resume...but it can take multiple years for a working individual to get all of these certs...
+Note : These certs look great on the resume...but it can take multiple years for a working individual to get all of them...
 !["mutli-certs"](/assets/images/certifications/certs-list.drawio.png "mutli-certs")
 
 ## When certifications can help
