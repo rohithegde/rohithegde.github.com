@@ -14,8 +14,8 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 
 - [When certifications can help](#when-certifications-can-help)
     - [Marketing yourself](#marketing-yourself)
-    - [Getting a structured introduction](#getting-a-structured-introduction)
-    - [Using your experience](#using-your-experience)
+    - [Getting a structured introduction to a new workstream](#getting-a-structured-introduction-to-a-new-workstream)
+    - [Using your experience to get a win with least effort](#using-your-experience-to-get-a-win-with-least-effort)
     - [Getting hands on in some cases](#getting-hands-on-in-some-cases)
 - [When certifications can be a problem](#when-certifications-can-be-a-problem)
     - [Giving you a false sense of confidence](#giving-you-a-false-sense-of-confidence)
@@ -39,14 +39,14 @@ Note : These certs look great on the resume...but it can take multiple years for
 - Certifications help in marketing yourself as they are a visual beacon for recruiters.
 - Additionally they are also mentioned in the job profiles posted by top companies like Amazon, Google, Microsoft etc.
 
-### Getting a structured introduction
+### Getting a structured introduction to a new workstream
 
 - If you are getting into a new workstream or domain, then certifications can be a well structured way to learn the concepts while serving as a foundation for your upcoming work.
 - Eg: Before building a Azure related product few years ago, I studied for an Azure certification.
 
-### Using your experience
+### Using your experience to get a win with least effort
 
-- If you have good experience on a workstream or domain (eg: Data Engineering in Azure), then a certification in it will be easier to get while marketing your knowledge on your digital profile.
+- If you have good experience on a workstream or domain (eg: Data Engineering in Azure), then a certification in it will be easier to get while gaining a new entry on your resume.
 - Eg: I now have some experience working on the data related tools in Azure (eg: Data Factory) which is why I plan to give the Azure Data Engineer exam soon.
 
 ### Getting hands on in some cases
@@ -80,8 +80,8 @@ Some certifications like those for Kubernetes are very practical in nature and r
 
 ### Let your career direct your certification plan
 
-- Let your certification plan reflect your career direction. Do NOT go for each and every certificate out there. Spend some time to plan the next one year of your career.
-- Eg: I worked on other clouds but spent the last few years digging deep into Azure. After getting my list of Azure certs, I want to now branch out to get certs from other major clouds so that it highlights my multi-cloud expertise.
+- Let your certification plan reflect your career direction. Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
+- Eg: I worked on other clouds but spent the last few years digging deep into Azure. After getting a few Azure certs, I want to now branch out to get certs from other major clouds so that it highlights my multi-cloud expertise.
 
 ### Go for depth
 
