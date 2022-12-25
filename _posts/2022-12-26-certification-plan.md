@@ -7,7 +7,7 @@ comments: true
 ---
 
 Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? Which certs should I go for ?
-There are plenty of factors which can play a role in answering these questions. This blog post helps list them out to help create a certification plan which works for you.
+There are plenty of factors which can play a role in answering these questions. This blog post lists them out to help create a certification plan which works for you.
 
 <!-- TOC -->
 
@@ -17,7 +17,7 @@ There are plenty of factors which can play a role in answering these questions. 
     - [Using your experience](#using-your-experience)
     - [Getting hands on in some cases](#getting-hands-on-in-some-cases)
 - [When certifications can be a problem](#when-certifications-can-be-a-problem)
-    - [Givjng you a false sense of confidence](#givjng-you-a-false-sense-of-confidence)
+    - [Giving you a false sense of confidence](#giving-you-a-false-sense-of-confidence)
     - [Not making the best use of your time](#not-making-the-best-use-of-your-time)
     - [Duplication of efforts](#duplication-of-efforts)
 - [Developing a balanced plan](#developing-a-balanced-plan)
@@ -54,7 +54,7 @@ Some certifications like those for Kubernetes are very practical in nature and r
 
 ## When certifications can be a problem
 
-### Givjng you a false sense of confidence
+### Giving you a false sense of confidence
 
 - Half knowledge is dangerous. Certified folks with not much handson experence are like those new to the job - full of confidence of what they know but no idea of what they dont know.
 - **Certifications cannot replace practical experience.** The confidence and attention to detail that comes from practical experience can never come from clearing an exam.
