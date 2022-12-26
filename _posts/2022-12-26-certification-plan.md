@@ -24,7 +24,7 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 - [Developing a balanced plan](#developing-a-balanced-plan)
     - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
     - [Have SMART goals](#have-smart-goals)
-    - [Radiating your strengths well](#radiating-your-strengths-well)
+    - [Radiate your strengths well](#radiate-your-strengths-well)
 
 <!-- /TOC -->
 
