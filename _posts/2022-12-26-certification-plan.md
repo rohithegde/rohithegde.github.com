@@ -22,10 +22,9 @@ You can read about my certification journey [here]({{ site.url }}/#certification
     - [Not making the best use of your time](#not-making-the-best-use-of-your-time)
     - [Duplication of efforts](#duplication-of-efforts)
 - [Developing a balanced plan](#developing-a-balanced-plan)
-    - [Radiating your strengths well](#radiating-your-strengths-well)
-    - [Go for depth rather than breadth](#go-for-depth-rather-than-breadth)
     - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
-    - [Know when to say no](#know-when-to-say-no)
+    - [Have SMART goals](#have-smart-goals)
+    - [Radiating your strengths well](#radiating-your-strengths-well)
 
 <!-- /TOC -->
 
@@ -73,24 +72,29 @@ Some certifications like those for Kubernetes are very practical in nature and r
 
 ## Developing a balanced plan
 
-### Radiating your strengths well
-
-- Your digital profile should highlight your strengths. A healthy mix of practical experience, contributing to the tech community and certifications are the best way forward.
-- Relying purely on certifications to market yourself will make you a one trick pony and potentially highlight lack of depth in the other areas.
-
-### Go for depth rather than breadth
-
-- Instead of breadth, aim for a depth of certifications. 1-6 cloud certs are more than enough for mastering a cloud (assuming you have practical exp too!) as long as they are specialised certs and not the generic ones.
-- If you plan on going deep into one cloud, then go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then go for the fundamental cert.
-- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc showcase specific skillsets in the cloud.
-
 ### Let your career direct your certification plan
 
 - Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
 - Start off small. Focus on a single cert then take it from there.
-- Eg: If you are starting off on your cloud journey then you would gain from going deep into one cloud. So you can go for a generic associate level cert and then specialised certs on that cloud while working on it. Later if you want to build multi-cloud expertise then trying out associate level certs on other clouds will help as clouds are similar to each other in many ways.
+- Instead of breadth, aim for a depth of certifications. 1-6 cloud certs are more than enough for mastering a cloud (assuming you have practical exp too!) as long as they are specialised certs and not the generic ones.
+- For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then go for the fundamental cert.
+- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc showcase specific skillsets in the cloud.
 
-### Know when to say no
+### Have SMART goals
 
+- SMART is an acronym that stands for Specific, Measurable, Achievable, Realistic, and Timely.
+- Once you have zeroed in on the certs which match your annual goals, commit to each cert via checklists with end-dates.
+- Eg : For an infra engineer experienced in k8s looking to begin his/her k8s certification journey on Jan 1 2023, the checklist could look like this :
+  - CKAD
+    - Udemy course(15 hrs) : Jan 15 (Assume it will take 30 hrs for going through the course + some prctice : 5 hrs per weekend day + 1 hr per weekday).
+    - Official Practice test 1 (2 hrs) : Jan 22 (Assume it will take you an extra week for revision).
+    - Official Practice test 2 (2 hrs) : Jan 23.
+    - Certification exam (2 hrs) : Jan 28.
+  - CKA and CKS - Similar timelines with a break of 1-2 weeks between each goal.
+
+### Radiating your strengths well
+
+- Your digital profile should highlight your strengths. A healthy mix of practical experience, contributing to the tech community and certifications are the best way forward.
+- Relying purely on certifications to market yourself will make you a one trick pony and potentially highlight lack of depth in the other areas.
 - If you arent benefiting from an existing cert then do not renew it. Especially if it takes significant time and effort.
-- Move on to other endaevours. Get cracking on that new tool you wanted to build. Enough of only being a consumer of StackOverflow...time to spend some time helping others on it. Time to mint a few blog posts with that deep expertise of yours :thumbsup:.
+- Dont forget to spend time on other endaevours too. Get cracking on that new tool you wanted to build. Enough of only being a consumer of StackOverflow...time to spend some time helping others on it. Time to mint a few blog posts with that deep expertise of yours :thumbsup:.
