@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Plannning your certification strategy"
+title: "Creating your certification plan"
 #category: general
 tags: [career, certification, plan]
 comments: true
 ---
 
 Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? Which certs should I go for ?
-I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn to see if I could learn from their stengths as also mistakes.
-Based on my experience, I am trying to create a sensible certification plan which works for you.
+I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
+Based on my experience, I am attempting to create a sensible certification plan which works.
 You can read about my certification journey [here]({{ site.url }}/#certification).
 <!-- TOC -->
 
@@ -23,8 +23,8 @@ You can read about my certification journey [here]({{ site.url }}/#certification
     - [Duplication of efforts](#duplication-of-efforts)
 - [Developing a balanced plan](#developing-a-balanced-plan)
     - [Radiating your strengths well](#radiating-your-strengths-well)
+    - [Go for depth rather than breadth](#go-for-depth-rather-than-breadth)
     - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
-    - [Go for depth](#go-for-depth)
     - [Know when to say no](#know-when-to-say-no)
 
 <!-- /TOC -->
@@ -75,18 +75,20 @@ Some certifications like those for Kubernetes are very practical in nature and r
 
 ### Radiating your strengths well
 
-- Your digital profile should radiate your strengths. A healthy mix of practical experience, contributing to the tech community and certifications are the best way forward.
-- Relying purely on certifications to market yourself will make you a one trick pony and potentially highlight lack of expertise in the other areas.
+- Your digital profile should highlight your strengths. A healthy mix of practical experience, contributing to the tech community and certifications are the best way forward.
+- Relying purely on certifications to market yourself will make you a one trick pony and potentially highlight lack of depth in the other areas.
+
+### Go for depth rather than breadth
+
+- Instead of breadth, aim for a depth of certifications. 1-6 cloud certs are more than enough for mastering a cloud (assuming you have practical exp too!) as long as they are specialised certs and not the generic ones.
+- If you plan on going deep into one cloud, then go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then go for the fundamental cert.
+- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc showcase specific skillsets in the cloud.
 
 ### Let your career direct your certification plan
 
-- Let your certification plan reflect your career direction. Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
-- Eg: I worked on other clouds but spent the last few years digging deep into Azure. After getting a few Azure certs, I want to now branch out to get certs from other major clouds so that it highlights my multi-cloud expertise.
-
-### Go for depth
-
-- Instead of breadth, aim for a depth of certifications. 1-6 cloud certs are more than enough for mastering a cloud (assuming you have practical exp too!) as long as they are specialised certs and not the generic ones.
-- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc showcase specific skillsets in the cloud.
+- Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
+- Start off small. Focus on a single cert then take it from there.
+- Eg: A person starting off on his cloud journey would gain from going deep into one cloud. So he/she can benefit from getting few generic and then specialised certs on that cloud while working on it. Later if he/she wants to build multi-cloud expertise then trying out generic certs on other clouds will help as clouds are similar to each other in many ways.
 
 ### Know when to say no
 
