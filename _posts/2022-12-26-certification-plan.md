@@ -92,7 +92,7 @@ Some certifications like those for Kubernetes are very practical in nature and r
     - Certification exam (2 hrs) : Jan 28.
   - CKA and CKS - Similar timelines with a break of 1-2 weeks between each goal.
 
-### Radiating your strengths well
+### Radiate your strengths well
 
 - Your digital profile should highlight your strengths. A healthy mix of practical experience, contributing to the tech community and certifications are the best way forward.
 - Relying purely on certifications to market yourself will make you a one trick pony and potentially highlight lack of depth in the other areas.
