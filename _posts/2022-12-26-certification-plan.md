@@ -2,13 +2,13 @@
 layout: post
 title: "Creating your certification plan"
 #category: general
-tags: [career, certification, plan]
+tags: [career, certification, checklist]
 comments: true
 ---
 
 Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS certs ? <br/>
-I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
-Based on my experience, I am attempting to create a sensible certification plan which works.
+I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.<br/>
+Based on my experience, I am attempting to create a sensible certification plan which works.<br/>
 You can read about my certification journey [here]({{ site.url }}/#certification).
 <!-- TOC -->
 
@@ -20,7 +20,7 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 - [When certifications can be a problem](#when-certifications-can-be-a-problem)
     - [Giving you a false sense of confidence](#giving-you-a-false-sense-of-confidence)
     - [Not making the best use of your time](#not-making-the-best-use-of-your-time)
-    - [Duplication of efforts](#duplication-of-efforts)
+    - [Jack of all trades](#jack-of-all-trades)
 - [Developing a balanced plan](#developing-a-balanced-plan)
     - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
     - [Have SMART goals](#have-smart-goals)
@@ -29,6 +29,7 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 <!-- /TOC -->
 
 Note : These certs look great on the resume...but it can take multiple years for a working individual to get all of them...
+
 !["mutli-certs"](/assets/images/certifications/certs-list.drawio.png "mutli-certs")
 
 ## When certifications can help
@@ -63,12 +64,13 @@ Some certifications like those for Kubernetes are very practical in nature and r
   
 - We all have limited time. Focusing on certifications whose knowledge isnt used directly anytime soon isnt a great use of time.
 - Additionally clearing certifications require a fair bit of maintenance time too as most of them need to be renewed in 1/2/3 years.
-- If you are maintaining a wall of a lot of certifications then you are sacrificing time from somewhere else - work, family or other avenues of tech community contribution(Open source contributions, technical blogs, knowledge sessions, StackOverflow posts etc).
-
-### Duplication of efforts
-
 - Aiming for all the certifications of a specific cloud may seem like a great advertisement for your profile but its very redundant and seems like an attempt to get validated by others.
-- Eg: Having an Azure Fundamentals cert while also having the top Azure Solutions Architect cert.
+  - Eg: Having an Azure Fundamentals cert while also having the top Azure Solutions Architect cert.
+- Maintaining a lot of certifications leads to sacrificing time from somewhere else - health, work, family or other avenues of tech community contribution(Open source contributions, technical blogs, knowledge sessions, StackOverflow posts etc).
+
+### Jack of all trades
+
+- It makes sense for someone new to the industry to try out a lot of technologies and gain many certs. But it need not reflect well on an experienced person to maintain a huge variety of certs. It can reflect that the profile is that of a generalist and not of a specialist. While the generalist profile of "problem solver" sounds good, many experienced job profiles out there require specialisation.
 
 ## Developing a balanced plan
 
