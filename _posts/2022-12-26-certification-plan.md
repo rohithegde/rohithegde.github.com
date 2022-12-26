@@ -88,7 +88,7 @@ Some certifications like those for Kubernetes are very practical in nature and r
 
 - Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
 - Start off small. Focus on a single cert then take it from there.
-- Eg: A person starting off on his cloud journey would gain from going deep into one cloud. So he/she can benefit from getting few generic and then specialised certs on that cloud while working on it. Later if he/she wants to build multi-cloud expertise then trying out generic certs on other clouds will help as clouds are similar to each other in many ways.
+- Eg: If you are starting off on your cloud journey then you would gain from going deep into one cloud. So you can go for a generic associate level cert and then specialised certs on that cloud while working on it. Later if you want to build multi-cloud expertise then trying out associate level certs on other clouds will help as clouds are similar to each other in many ways.
 
 ### Know when to say no
 
