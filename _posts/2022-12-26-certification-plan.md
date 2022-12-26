@@ -6,7 +6,7 @@ tags: [career, certification, plan]
 comments: true
 ---
 
-Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? Which certs should I go for ?
+Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS certs ? <br/>
 I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
 Based on my experience, I am attempting to create a sensible certification plan which works.
 You can read about my certification journey [here]({{ site.url }}/#certification).
@@ -35,8 +35,8 @@ Note : These certs look great on the resume...but it can take multiple years for
 
 ### Marketing yourself
 
-- Certifications help in marketing yourself as they are a visual beacon for recruiters.
-- Additionally they are also mentioned in the job profiles posted by top companies like Amazon, Google, Microsoft etc.
+- Certifications help in marketing yourself as they help you stand out.
+- Additionally they are also mentioned in job profiles posted by top companies like Amazon, Google, Microsoft etc.
 
 ### Getting a structured introduction to a new workstream
 
@@ -45,7 +45,7 @@ Note : These certs look great on the resume...but it can take multiple years for
 
 ### Using your experience to get a win with least effort
 
-- If you have good experience on a workstream or domain (eg: Data Engineering in Azure), then a certification in it will be easier to get while gaining a new entry on your resume.
+- If you have good experience on a workstream (eg: Data Engineering in Azure), then a certification in it will be easier to get while gaining a new entry on your resume.
 - Eg: I now have some experience working on the data related tools in Azure (eg: Data Factory) which is why I plan to give the Azure Data Engineer exam soon.
 
 ### Getting hands on in some cases
@@ -76,14 +76,14 @@ Some certifications like those for Kubernetes are very practical in nature and r
 
 - Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
 - Start off small. Focus on a single cert then take it from there.
-- Instead of breadth, aim for a depth of certifications. 1-6 cloud certs are more than enough for mastering a cloud (assuming you have practical exp too!) as long as they are specialised certs and not the generic ones.
+- Instead of breadth, aim for a depth of certifications. Assuming you have some practical cloud exp, 2-6 cloud certs are more than enough for mastering a cloud as long as they are specialised certs and not the generic ones.
 - For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then go for the fundamental cert.
 - Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc showcase specific skillsets in the cloud.
 
 ### Have SMART goals
 
 - SMART is an acronym that stands for Specific, Measurable, Achievable, Realistic, and Timely.
-- Once you have zeroed in on the certs which match your annual goals, commit to each cert via checklists with end-dates.
+- Once you have zeroed in on the certs matching your goals, commit to each cert via checklists with end-dates.
 - Eg : For an infra engineer experienced in k8s looking to begin his/her k8s certification journey on Jan 1 2023, the checklist could look like this :
   - CKAD
     - Udemy course(15 hrs) : Jan 15 (Assume it will take 30 hrs for going through the course + some prctice : 5 hrs per weekend day + 1 hr per weekday).
@@ -95,6 +95,6 @@ Some certifications like those for Kubernetes are very practical in nature and r
 ### Radiate your strengths well
 
 - Your digital profile should highlight your strengths. A healthy mix of practical experience, contributing to the tech community and certifications are the best way forward.
-- Relying purely on certifications to market yourself will make you a one trick pony and potentially highlight lack of depth in the other areas.
-- If you arent benefiting from an existing cert then do not renew it. Especially if it takes significant time and effort.
+- Relying purely on certifications to market yourself can make you a one trick pony and potentially highlight lack of depth in the other areas.
+- If you arent benefiting from an existing cert then do NOT renew it. Especially if it takes significant time and effort.
 - Dont forget to spend time on other endaevours too. Get cracking on that new tool you wanted to build. Enough of only being a consumer of StackOverflow...time to spend some time helping others on it. Time to mint a few blog posts with that deep expertise of yours :thumbsup:.
