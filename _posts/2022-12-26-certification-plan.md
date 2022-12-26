@@ -6,10 +6,11 @@ tags: [career, certification, checklist]
 comments: true
 ---
 
-Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS certs ? <br/>
+Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? <br/>
 I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.<br/>
 Based on my experience, I am attempting to create a sensible certification plan which works.<br/>
 You can read about my certification journey [here]({{ site.url }}/#certification).
+
 <!-- TOC -->
 
 - [When certifications can help](#when-certifications-can-help)
@@ -20,7 +21,6 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 - [When certifications can be a problem](#when-certifications-can-be-a-problem)
     - [Giving you a false sense of confidence](#giving-you-a-false-sense-of-confidence)
     - [Not making the best use of your time](#not-making-the-best-use-of-your-time)
-    - [Jack of all trades](#jack-of-all-trades)
 - [Developing a balanced plan](#developing-a-balanced-plan)
     - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
     - [Have SMART goals](#have-smart-goals)
@@ -66,11 +66,8 @@ Some certifications like those for Kubernetes are very practical in nature and r
 - Additionally clearing certifications require a fair bit of maintenance time too as most of them need to be renewed in 1/2/3 years.
 - Aiming for all the certifications of a specific cloud may seem like a great advertisement for your profile but its very redundant and seems like an attempt to get validated by others.
   - Eg: Having an Azure Fundamentals cert while also having the top Azure Solutions Architect cert.
+- Having a lot of certs also gives a sense of a "Jack of all trades" profile. Not ideal when we have many experienced job postings out there requiring specialist skills.
 - Maintaining a lot of certifications leads to sacrificing time from somewhere else - health, work, family or other avenues of tech community contribution(Open source contributions, technical blogs, knowledge sessions, StackOverflow posts etc).
-
-### Jack of all trades
-
-- It makes sense for someone new to the industry to try out a lot of technologies and gain many certs. But it need not reflect well on an experienced person to maintain a huge variety of certs. It can reflect that the profile is that of a generalist and not of a specialist. While the generalist profile of "problem solver" sounds good, many experienced job profiles out there require specialisation.
 
 ## Developing a balanced plan
 
