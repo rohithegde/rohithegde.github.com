@@ -51,16 +51,15 @@ Having a strategy helps in making the best use of your time rather than running 
 
 ### Giving you a false sense of confidence
 
-- Half knowledge is dangerous. Certified folks with not much handson experence are like those new to the job - full of confidence of what they know but no idea of what they dont know.
+- Half knowledge is dangerous. Certified folks with not much handson experence can be like those new to the job - full of confidence of what they know but no idea of what they dont know.
 - **Certifications cannot replace practical experience.** The confidence and attention to detail that comes from practical experience can never come from clearing an exam.
 
 ### Not making the best use of your time
   
 - We all have limited time. Focusing on certifications whose knowledge isnt used directly anytime soon isnt a great use of time.
-- Additionally clearing certifications require a fair bit of maintenance time too as most of them need to be renewed in 1/2/3 years.
+- Additionally certifications require a fair bit of maintenance time too as most of them need to be renewed in 1/2/3 years.
 - Aiming for all the certifications of a specific cloud may seem like a great advertisement for your profile but its very redundant and seems like an attempt to get validated by others.
-  - Eg: Having an Azure Fundamentals cert while also having the top Azure Solutions Architect cert.
-- Having a lot of certs also gives a sense of a "Jack of all trades" profile. Not ideal when we have many experienced job postings out there requiring specialist skills.
+- Having a lot of varied certs can give a sense of a "Jack of all trades" profile. Not ideal when we have many experienced job postings out there requiring specialist skills.
 - Maintaining a lot of certifications leads to sacrificing time from somewhere else - health, work, family or other avenues of tech community contribution(Open source contributions, technical blogs, knowledge sessions, StackOverflow posts etc).
 
 ## Developing a balanced plan
