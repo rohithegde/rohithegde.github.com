@@ -32,12 +32,12 @@ Having a strategy helps in making the best use of your time rather than running 
 
 ### Marketing yourself
 
-- Certifications help in marketing yourself as they help your digital profile stand out.
-- Additionally they are also mentioned in job profiles posted by top companies like Amazon, Google, Microsoft etc.
+- Certifications help in marketing yourself as they make your digital profile stand out.
+- Additionally job profiles posted by top companies like Amazon, Google, Microsoft etc often mention it.
 
 ### Getting a structured introduction to a new workstream
 
-- Certifications can be a structured way to learn the concepts for new upcoming work.
+- Certifications can be a well structured way to learn the concepts for new upcoming work.
 - If you are already experienced in a workstream, then it will be easier to get a certification in it.
 
 ### Knowledge is power
