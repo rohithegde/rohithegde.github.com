@@ -7,17 +7,15 @@ comments: true
 ---
 
 Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? <br/>
-I started my certification journey couple of years ago - quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.<br/>
-Based on my experience, I am attempting to create a sensible certification plan which works.<br/>
-You can read about my certification journey [here]({{ site.url }}/#certification).
+I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.<br/>
 
+Having a strategy helps in making the best use of your time rather than running after any and all certs out there. Through this post, I am attempting to create a sensible certification plan which works well.
 <!-- TOC -->
 
 - [When certifications can help](#when-certifications-can-help)
     - [Marketing yourself](#marketing-yourself)
     - [Getting a structured introduction to a new workstream](#getting-a-structured-introduction-to-a-new-workstream)
-    - [Using your experience to get a win with least effort](#using-your-experience-to-get-a-win-with-least-effort)
-    - [Getting hands on in some cases](#getting-hands-on-in-some-cases)
+    - [Knowledge is power](#knowledge-is-power)
 - [When certifications can be a problem](#when-certifications-can-be-a-problem)
     - [Giving you a false sense of confidence](#giving-you-a-false-sense-of-confidence)
     - [Not making the best use of your time](#not-making-the-best-use-of-your-time)
@@ -28,31 +26,26 @@ You can read about my certification journey [here]({{ site.url }}/#certification
 
 <!-- /TOC -->
 
-Note : These certs look great on the resume...but it can take multiple years for a working individual to get all of them...
-
 !["mutli-certs"](/assets/images/certifications/certs-list.drawio.png "mutli-certs")
 
 ## When certifications can help
 
 ### Marketing yourself
 
-- Certifications help in marketing yourself as they help you stand out.
+- Certifications help in marketing yourself as they help your digital profile stand out.
 - Additionally they are also mentioned in job profiles posted by top companies like Amazon, Google, Microsoft etc.
 
 ### Getting a structured introduction to a new workstream
 
-- If you are getting into a new workstream or domain, then certifications can be a well structured way to learn the concepts while serving as a foundation for your upcoming work.
-  - Eg: Before building a Azure related product few years ago, I studied for an Azure certification.
-- It can also help you to have a routine for gaining knowledge.
+- Certifications can be a structured way to learn the concepts for new upcoming work.
+- If you are already experienced in a workstream, then it will be easier to get a certification in it.
 
-### Using your experience to get a win with least effort
+### Knowledge is power
 
-- If you have good experience on a workstream (eg: Data Engineering in Azure), then a certification in it will be easier to get while gaining a new entry on your resume.
-- Eg: I now have some experience working on the data related tools in Azure (eg: Data Factory) which is why I plan to give the Azure Data Engineer exam soon.
-
-### Getting hands on in some cases
-
-Some certifications like those for Kubernetes are very practical in nature and require you to solve problems using k8s cli commands. Studying for it automatically gives you handson experience.
+- The journey is often better than the destination. Merely the task of studying for a certification gives you to tiny nuggets of knowledge which you wouldnt have gained otherwise.
+- Knowing the theory helps in having a variety of insightful conversations.
+- Some certifications like those for Kubernetes are very practical in nature and require you to solve problems using k8s cli commands. Studying for it automatically gives you handson experience.
+- Merely the act of pursuing certifications can help you to form a routine focused around the act of gaining knowledge.
 
 ## When certifications can be a problem
 
@@ -72,25 +65,26 @@ Some certifications like those for Kubernetes are very practical in nature and r
 
 ## Developing a balanced plan
 
+Like all things in life - aim for the balance and avoid extremes.
+
 ### Let your career direct your certification plan
 
 - Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
 - Start off small. Focus on a single cert then take it from there.
 - Instead of breadth, aim for a depth of certifications. Assuming you have some practical cloud exp, 2-6 cloud certs are more than enough for mastering a cloud as long as they are specialised certs and not the generic ones.
-- For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then go for the fundamental cert.
-- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc showcase specific skillsets in the cloud.
+- For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then only go for the fundamental cert.
+- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc help you gain specific skillsets on the cloud.
 
 ### Have SMART goals
 
 - SMART is an acronym that stands for Specific, Measurable, Achievable, Realistic, and Timely.
-- Once you have zeroed in on the certs matching your goals, commit to each cert via checklists with end-dates.
+- Once you have zeroed in on the certs matching your goals, commit to each cert with end-dates.
 - Eg : For an infra engineer experienced in k8s looking to begin his/her k8s certification journey on Jan 1 2023, the checklist could look like this :
   - CKAD
     - Udemy course(15 hrs) : Jan 15 (Assume it will take 30 hrs for going through the course + some prctice : 5 hrs per weekend day + 1 hr per weekday).
     - Official Practice test 1 (2 hrs) : Jan 22 (Assume it will take you an extra week for revision).
     - Official Practice test 2 (2 hrs) : Jan 23.
     - Certification exam (2 hrs) : Jan 28.
-  - CKA and CKS - Similar timelines with a break of 1-2 weeks between each goal.
 
 ### Radiate your strengths well
 
