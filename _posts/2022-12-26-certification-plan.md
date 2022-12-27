@@ -42,7 +42,8 @@ Note : These certs look great on the resume...but it can take multiple years for
 ### Getting a structured introduction to a new workstream
 
 - If you are getting into a new workstream or domain, then certifications can be a well structured way to learn the concepts while serving as a foundation for your upcoming work.
-- Eg: Before building a Azure related product few years ago, I studied for an Azure certification.
+  - Eg: Before building a Azure related product few years ago, I studied for an Azure certification.
+- It can also help you to have a routine for gaining knowledge.
 
 ### Using your experience to get a win with least effort
 
