@@ -64,8 +64,6 @@ Having a strategy helps in making the best use of your time rather than running 
 
 ## Developing a balanced plan
 
-Like all things in life - aim for the balance and avoid extremes.
-
 ### Let your career direct your certification plan
 
 - Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
