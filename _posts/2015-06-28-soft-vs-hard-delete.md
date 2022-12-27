@@ -4,6 +4,7 @@ title:  Soft Delete vs Hard Delete
 #category: architecture
 tags: [database, orm]
 comments: true
+popular: true
 ---  
 
 <!-- TOC -->

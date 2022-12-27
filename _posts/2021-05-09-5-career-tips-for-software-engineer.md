@@ -4,6 +4,7 @@ title: "5 career tips for a new software engineer"
 #category: general
 tags: [career, engineer]
 comments: true
+popular: true
 ---
 
 <!-- TOC -->

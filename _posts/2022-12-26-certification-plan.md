@@ -6,10 +6,10 @@ tags: [career, certification, checklist]
 comments: true
 ---
 
-Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? <br/>
-I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.<br/>
+I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
 
-Having a strategy helps in making the best use of your time rather than running after any and all certs out there. Through this post, I am attempting to create a sensible certification plan which works well.
+Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? A certification plan or strategy helps to answer these questions + ensures better use of your time. Lets dig deeper !
+
 <!-- TOC -->
 
 - [When certifications can help](#when-certifications-can-help)
@@ -38,6 +38,7 @@ Having a strategy helps in making the best use of your time rather than running 
 ### Getting a structured introduction to a new workstream
 
 - Certifications can be a well structured way to learn the concepts for new upcoming work.
+  - Eg : For an Azure data analytics project, studying for the Azure Data Engineer cert can give you a good intro into the various Azure tools for processing data.
 - If you are already experienced in a workstream, then it will be easier to get a certification in it.
 
 ### Knowledge is power
@@ -56,10 +57,11 @@ Having a strategy helps in making the best use of your time rather than running 
 
 ### Not making the best use of your time
   
-- We all have limited time. Focusing on certifications whose knowledge isnt used directly anytime soon isnt a great use of time.
-- Additionally certifications require a fair bit of maintenance time too as most of them need to be renewed in 1/2/3 years.
+- We all have limited time. Focusing on certifications which arent useful anytime soon are a waste of time.
+- Certifications have a fair bit of maintenance time too as most of them need to be renewed in 1/2/3 years.
 - Aiming for all the certifications of a specific cloud may seem like a great advertisement for your profile but its very redundant and seems like an attempt to get validated by others.
-- Having a lot of varied certs can give a sense of a "Jack of all trades" profile. Not ideal when we have many experienced job postings out there requiring specialist skills.
+  - Eg: Folks maintaining a cloud expert cert as well as the fundamental one even though its redundant.
+- Having a variety of certs can give a sense of a "Jack of all trades" profile. Not ideal when we have many experienced job postings out there requiring specialist skills.
 - Maintaining a lot of certifications leads to sacrificing time from somewhere else - health, work, family or other avenues of tech community contribution(Open source contributions, technical blogs, knowledge sessions, StackOverflow posts etc).
 
 ## Developing a balanced plan
@@ -70,7 +72,7 @@ Having a strategy helps in making the best use of your time rather than running 
 - Start off small. Focus on a single cert then take it from there.
 - Instead of breadth, aim for a depth of certifications. Assuming you have some practical cloud exp, 2-6 cloud certs are more than enough for mastering a cloud as long as they are specialised certs and not the generic ones.
 - For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then only go for the fundamental cert.
-- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Azure Data Engineer, Azure IAM Engineer, Azure Security Engineer etc help you gain specific skillsets on the cloud.
+- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Data Engineer, IAM Engineer, Security Engineer etc help you gain specific skillsets on the cloud.
 
 ### Have SMART goals
 
@@ -82,6 +84,8 @@ Having a strategy helps in making the best use of your time rather than running 
     - Official Practice test 1 (2 hrs) : Jan 22 (Assume it will take you an extra week for revision).
     - Official Practice test 2 (2 hrs) : Jan 23.
     - Certification exam (2 hrs) : Jan 28.
+  - CKA (similar)
+  - CKS (similar)
 
 ### Radiate your strengths well
 
