@@ -6,7 +6,7 @@ tags: [career, certification, checklist]
 comments: true
 ---
 
-I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I also followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
+I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
 
 Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? A certification plan or strategy helps to answer these questions + ensures better use of your time. Lets dig deeper !
 
@@ -23,10 +23,11 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
     - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
     - [Have SMART goals](#have-smart-goals)
     - [Radiate your strengths well](#radiate-your-strengths-well)
+- [Example](#example)
 
 <!-- /TOC -->
 
-!["mutli-certs"](/assets/images/certifications/certs-list.drawio.png "mutli-certs")
+!["multi-certs"](/assets/images/certifications/certs-list.drawio.png "multi-certs")
 
 ## When certifications can help
 
@@ -38,7 +39,7 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
 ### Getting a structured introduction to a new workstream
 
 - Certifications can be a well structured way to learn the concepts for new upcoming work.
-  - Eg : For an Azure data analytics project, studying for the Azure Data Engineer cert can give you a good intro into the various Azure tools for processing data.
+  - Eg : For an Azure data analytics project, studying for the Azure Data Engineer cert can give you a good intro into the Azure tools for processing data.
 - If you are already experienced in a workstream, then it will be easier to get a certification in it.
 
 ### Knowledge is power
@@ -68,9 +69,9 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
 
 ### Let your career direct your certification plan
 
-- Do NOT go for each and every certificate out there. Spend some time to atleast plan the next one year of your career.
-- Start off small. Focus on a single cert then take it from there.
-- Instead of breadth, aim for a depth of certifications. Assuming you have some practical cloud exp, 2-6 cloud certs are more than enough for mastering a cloud as long as they are specialised certs and not the generic ones.
+- Do NOT go for every certificate out there. Spend some time to atleast plan the next one year of your career.
+- Start with a goal for the year. Focus on a single cert then take it from there.
+- Instead of breadth, aim for a depth of certifications. Assuming you have some practical cloud exp, 2-6 cloud certs are enough for mastering a cloud as long as they are specialised certs.
 - For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then only go for the fundamental cert.
 - Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Data Engineer, IAM Engineer, Security Engineer etc help you gain specific skillsets on the cloud.
 
@@ -81,15 +82,19 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
 - Eg : For an infra engineer experienced in k8s looking to begin his/her k8s certification journey on Jan 1 2023, the checklist could look like this :
   - CKAD
     - Udemy course(15 hrs) : Jan 15 (Assume it will take 30 hrs for going through the course + some prctice : 5 hrs per weekend day + 1 hr per weekday).
-    - Official Practice test 1 (2 hrs) : Jan 22 (Assume it will take you an extra week for revision).
-    - Official Practice test 2 (2 hrs) : Jan 23.
-    - Certification exam (2 hrs) : Jan 28.
-  - CKA (similar)
-  - CKS (similar)
+    - Official Practice test 1 : Jan 22 (Assume it will take you an extra week for revision).
+    - Official Practice test 2 : Jan 23.
+    - Certification exam : Jan 28.
 
 ### Radiate your strengths well
 
-- Your digital profile should highlight your strengths. A healthy mix of practical experience, contributing to the tech community and certifications are the best way forward.
+- Your digital profile should highlight your strengths. A healthy mix of practical experience, contributions to the tech community and certifications are the best way forward.
 - Relying purely on certifications to market yourself can make you a one trick pony and potentially highlight lack of depth in the other areas.
 - If you arent benefiting from an existing cert then do NOT renew it. Especially if it takes significant time and effort.
 - Dont forget to spend time on other endaevours too. Get cracking on that new tool you wanted to build. Enough of only being a consumer of StackOverflow...time to spend some time helping others on it. Time to mint a few blog posts with that deep expertise of yours :thumbsup:.
+
+## Example
+
+My 2022 goal was to go deep into Azure and k8s.
+
+<img src="/assets/images/certifications/cert-plan-2022.png" width="500" height="400" />
