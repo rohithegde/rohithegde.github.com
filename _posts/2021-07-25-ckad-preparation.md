@@ -26,7 +26,7 @@ A brand new guide to prepare for the CKAD exam in 2021.
 > “Its the job thats never started as takes longest to finish.” - Samwise Gamgee, The Lord of the Rings
 
 I started working with Kubernetes(k8s) around 3 yrs ago. But I never went for the CKAD certificate till now.
-I started going for cloud certifications only from last year. You can read about my journey [here]({{ site.url }}/#certification).
+I started going for cloud certifications only from last year. You can read about my journey [here]({{ site.url }}/#certification){:target="_blank"}.
 
 The k8s exams are famous for being different and more difficult than the rest.
 

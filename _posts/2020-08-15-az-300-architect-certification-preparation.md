@@ -28,7 +28,7 @@ I have around a year's experience as an Architect and Sr DevOps engineer with Az
 
 AZ-300 is the Azure Architect Technologies exam. Its equivalent to its famous counterpart - the `AWS Certified Solutions Architect - Associate` exam.
 If you clear AZ-300 along with AZ-301, you will become an **Azure Solutions Architect Expert**.
-You can read about my prep for AZ-301 [here]({{ site.url }}/#certification).
+You can read about my prep for AZ-301 [here]({{ site.url }}/#certification){:target="_blank"}.
 
 You can visit the [official website](https://docs.microsoft.com/en-us/learn/certifications/exams/az-300){:target="_blank" rel="nofollow"} for more details.
 

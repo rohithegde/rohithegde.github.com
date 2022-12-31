@@ -24,7 +24,7 @@ In a hurry ? Please skip to the part you want with the index below.
 
 AZ-301 is the Azure Architect Design exam. I cleared the exam today ie Sep 28, 2020.
 I cleared the Azure Architect Technologies certification(AZ-300) on August 3, 2020.
-You can read about it [here]({{ site.url }}/#certification).
+You can read about it [here]({{ site.url }}/#certification){:target="_blank"}.
 
 It made a lot of sense to complete the Azure Architect series and become an **Azure Solutions Architect Expert**.
 Its equivalent to its famous counterpart - the `AWS Certified Solutions Architect - Professional`.
