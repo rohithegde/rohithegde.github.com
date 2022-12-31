@@ -95,6 +95,6 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
 
 ## Example
 
-My 2022 goal was to go deep into Azure and k8s.
+My 2022 cert goal was to go deep into Azure and k8s.
 
 <img src="/assets/images/certifications/cert-plan-2022.png" width="500" height="400" />
