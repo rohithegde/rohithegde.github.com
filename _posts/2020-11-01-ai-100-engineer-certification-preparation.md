@@ -23,7 +23,7 @@ In a hurry ? Please skip to the part you want with the index below.
 > “Knowledge is power. Knowledge shared is power multiplied.” - Robert Boyce
 
 AI-100 is the Azure AI Engineer exam. I cleared the exam today ie Nov 1, 2020.
-This is my 3rd Azure certification. You can read about the others [here]({{ site.url }}/#certification).
+This is my 3rd Azure certification. You can read about the others [here]({{ site.url }}/#certification){:target="_blank"}.
 
 I recently worked on Azure bot services for a project. It got me interested in Azure's cognitive services.
 After my employer organized a related training session on AI-100, I got the drive to go for this certifrication.

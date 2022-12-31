@@ -33,7 +33,7 @@ A brand new guide to prepare for the final exam of the k8s triad - CKS in 2022. 
 
 I started working with Kubernetes(k8s) around 4 yrs ago. I got the CKAD and CKA certifications last year but wasnt able to spend time to prepare the CKS exam for the whole year.
 Giving the 3 exams one after the other is ideal for those managing Kubernetes infrastructure. The exams require a lot of practice and preparing for one gets you in the "zone" to tackle the rest.
-You can read about my k8s certification journey [here]({{ site.url }}/#certification).
+You can read about my k8s certification journey [here]({{ site.url }}/#certification){:target="_blank"}.
 
 ## How is CKS compared to the CKA and CKAD exams ?
 

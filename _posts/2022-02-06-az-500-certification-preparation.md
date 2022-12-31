@@ -27,7 +27,7 @@ A brand new guide to prepare for the Microsoft Azure Security Engineer certifica
 > “If you spend more on coffee than on IT security, you will be hacked. What's more, you deserve to be hacked.” - Richard A. Clarke (former Cybersecurity Advisor for the White House)
 
 [AZ-500](https://docs.microsoft.com/en-us/learn/certifications/exams/az-500){:target="_blank" rel="nofollow"} is the Azure Security Engineer exam. I cleared the exam today (Feb 6, 2022).
-This is my 5th Azure certification. You can read about the others [here]({{ site.url }}/#certification).
+This is my 5th Azure certification. You can read about the others [here]({{ site.url }}/#certification){:target="_blank"}.
 
 My preparations for this exam were a bit delayed as I was down with Covid (Omicron mostly). Having a goal to get more certifications motivated me to make a quick recovery !
 
