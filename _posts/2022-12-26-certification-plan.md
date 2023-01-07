@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "Creating your certification plan"
+title: "Creating a certification plan"
 #category: general
 tags: [career, certification, checklist]
 comments: true
 ---
 
+Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? This blog post will help you answer these questions.
+
 I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
 
-Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? A certification plan or strategy helps to answer these questions + ensures better use of your time. Lets dig deeper !
+Lets dig deeper into the topic !
 
 <!-- TOC -->
 
@@ -40,12 +42,12 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
 
 - Certifications can be a well structured way to learn the concepts for new upcoming work.
   - Eg : For an Azure data analytics project, studying for the Azure Data Engineer cert can give you a good intro into the Azure tools for processing data.
-- If you are already experienced in a workstream, then it will be easier to get a certification in it.
+- If you are already experienced in a workstream, then it will be easier to get a related certification.
 
 ### Knowledge is power
 
-- The journey is often better than the destination. Merely the task of studying for a certification gives you to tiny nuggets of knowledge which you wouldnt have gained otherwise.
-- Knowing the theory helps in having a variety of insightful conversations.
+- The journey is often better than the destination. Studying for a certification gives you tiny nuggets of knowledge which you wouldnt have gained otherwise.
+- Knowing the theory helps in having a variety of insightful conversations with others.
 - Some certifications like those for Kubernetes are very practical in nature and require you to solve problems using k8s cli commands. Studying for it automatically gives you handson experience.
 - Merely the act of pursuing certifications can help you to form a routine focused around the act of gaining knowledge.
 
@@ -73,7 +75,7 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
 - Start with a goal for the year. Focus on a single cert then take it from there.
 - Instead of breadth, aim for a depth of certifications. Assuming you have some practical cloud exp, 2-6 cloud certs are enough for mastering a cloud as long as they are specialised certs.
 - For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then only go for the fundamental cert.
-- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Data Engineer, IAM Engineer, Security Engineer etc help you gain specific skillsets on the cloud.
+- Eg: For Azure, the Azure Solutions Architect cert showcases your all round Azure cloud knowledge while the specialised Azure certs like Data Engineer, IAM Engineer, AI Engineer etc help you gain specific skillsets on the cloud.
 
 ### Have SMART goals
 
@@ -89,7 +91,7 @@ Do certifications matter ? Should I be happy with that one cert ? Does it make s
 ### Radiate your strengths well
 
 - Your digital profile should highlight your strengths. A healthy mix of practical experience, contributions to the tech community and certifications are the best way forward.
-- Relying purely on certifications to market yourself can make you a one trick pony and potentially highlight lack of depth in the other areas.
+- **Relying purely on certifications to market yourself can make you a one trick pony and potentially highlight lack of depth in the other areas**.
 - If you arent benefiting from an existing cert then do NOT renew it. Especially if it takes significant time and effort.
 - Dont forget to spend time on other endaevours too. Get cracking on that new tool you wanted to build. Enough of only being a consumer of StackOverflow...time to spend some time helping others on it. Time to mint a few blog posts with that deep expertise of yours :thumbsup:.
 

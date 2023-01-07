@@ -22,20 +22,20 @@ This post serves to give a walkthrough of things to consider while creating a hu
 
 - [Audience](#audience)
 - [Important concepts](#important-concepts)
-  - [Hub Spoke](#hub-spoke)
-  - [Private endpoints](#private-endpoints)
-  - [P2S and S2S](#p2s-and-s2s)
-  - [Identity Access Management](#identity-access-management)
-  - [WAF](#waf)
-  - [Azure Firewall](#azure-firewall)
+    - [Hub Spoke](#hub-spoke)
+    - [Private endpoints](#private-endpoints)
+    - [P2S and S2S](#p2s-and-s2s)
+    - [Identity Access Management](#identity-access-management)
+    - [WAF](#waf)
+    - [Azure Firewall](#azure-firewall)
 - [Architecture](#architecture)
-  - [Virtual network](#virtual-network)
-  - [Firewall](#firewall)
-  - [Private endpoints and private links](#private-endpoints-and-private-links)
-  - [Virtual Network Gateway](#virtual-network-gateway)
-  - [DNS Forwarder](#dns-forwarder)
-  - [Disaster Recovery](#disaster-recovery)
-  - [Security related tools](#security-related-tools)
+    - [Virtual network](#virtual-network)
+    - [Firewall](#firewall)
+    - [Private endpoints and private links](#private-endpoints-and-private-links)
+    - [Virtual Network Gateway](#virtual-network-gateway)
+    - [DNS Forwarder](#dns-forwarder)
+    - [Disaster Recovery](#disaster-recovery)
+    - [Security related tools](#security-related-tools)
 
 <!-- /TOC -->
 
@@ -150,6 +150,7 @@ Lets focus on some of the very significant parts shown or missing in the above d
   - The Private DNS Zones in your hub vnet resolve the FQDN to the private IP of the cloud resource.
   - If the cloud resource is in a spoke vnet, then the peering between the hub and the spoke will ensure the access goes through.
 - A few options for DNS proxies are :
+  - **Newly released in Oct 2022** :  [Azure DNS forwarder resource](https://learn.microsoft.com/en-us/azure/dns/dns-private-resolver-overview).
   - Windows VM running DNS services.
   - [Linux VM running DNS services](https://azure.microsoft.com/en-in/resources/templates/dns-forwarder/){:target="_blank" rel="nofollow"}.
   - [Azure Firewall as DNS Proxy](https://azure.microsoft.com/en-us/blog/new-enhanced-dns-features-in-azure-firewall-now-generally-available/){:target="_blank" rel="nofollow"}.
