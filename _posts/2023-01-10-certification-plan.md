@@ -6,7 +6,7 @@ tags: [career, certification, checklist]
 comments: true
 ---
 
-Do certifications matter ? Should I be happy with that one cert ? Does it make sense to go for ALL the AWS/Azure/GCP certs ? This blog post will help you answer these questions.
+What are the pros/cons of certifications ? How do I go about it ? Does it make sense to go for multiple certs ? This blog post will help you answer these questions.
 
 I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
 
