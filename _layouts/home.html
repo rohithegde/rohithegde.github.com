@@ -1,17 +1,17 @@
 ---
 layout: default
---- 
+---
 <script src="/assets/js/main.js"></script>
 <article class="post">
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
     <p>
-      <b> Tags : </b> | 
+      <b> Tags : </b> |
       {% assign tags = site.tags | sort %}
       {% for tag in tags %}
       {% assign t = tag | first %}
-        <a href="javascript:filter('{{ t }}');" class="tag-link-{{ t }}" >{{ t }}</a> | 
+      <a href="javascript:filter('{{ t }}');" class="tag-link-{{ t }}">{{ t }}</a> |
       {% endfor %}
     </p>
     <div class="divTable">
@@ -25,16 +25,21 @@ layout: default
       <div class="divTableBody">
         {% for page in site.posts %}
         <div class="divTableRow tagRow {{ page.tags | array_to_sentence_string:',' | replace:',',' ' }}">
+          {% if page.popular %}
+          <div class="divTableCell"><a href="{{ page.url }}">{{ page.title }}</a> <img src="/assets/images/popular.jpeg"
+              width="20" height="20" /></div>
+          {% else %}
           <div class="divTableCell"><a href="{{ page.url }}">{{ page.title }}</a></div>
+          {% endif %}
           <div class="divTableCell">{% include read_time.html %}</div>
-          <div class="divTableCell">{{ page.date | date: "%B %e, %Y" }}</div>
+          <div class="divTableCell">{{ page.date | date: "%b %e, %Y" }}</div>
         </div>
         {% endfor %}
-        
+
       </div>
     </div>
     <p>&nbsp;</p>
-    
+
   </div>
 
 

@@ -4,9 +4,13 @@ title: "PHP : XML Create-Add-Edit-Modify using DOM, SimpleXML, XPath"
 #category: general
 tags: [php, xml]
 comments: true
+popular: true
+
 ---
 ****
-#### Note : 
+
+#### Note
+
 This is an old popular post from my personal blog.
 I moved it here so as to get all my technical content together.
 

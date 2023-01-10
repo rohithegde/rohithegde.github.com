@@ -4,6 +4,7 @@ title: "Infrastructure as Code tool for Azure"
 #category: general
 tags: [azure, cloud, iac, terraform, ansible, devops, pulumi]
 comments: true
+popular: true
 ---
 
 <!-- TOC -->
@@ -11,11 +12,11 @@ comments: true
 - [Background](#background)
 - [Popular IaC options for Azure](#popular-iac-options-for-azure)
 - [Consideration Factors to chose a good IaC option for Azure](#consideration-factors-to-chose-a-good-iac-option-for-azure)
-  - [Cloud strategy](#cloud-strategy)
-  - [DevOps maturity](#devops-maturity)
-  - [Bleeding edge](#bleeding-edge)
-  - [Programming paradigm](#programming-paradigm)
-  - [Language affinity](#language-affinity)
+    - [Cloud strategy](#cloud-strategy)
+    - [DevOps maturity](#devops-maturity)
+    - [Bleeding edge](#bleeding-edge)
+    - [Programming paradigm](#programming-paradigm)
+    - [Language affinity](#language-affinity)
 - [Example scenarios](#example-scenarios)
 - [Final thoughts](#final-thoughts)
 
