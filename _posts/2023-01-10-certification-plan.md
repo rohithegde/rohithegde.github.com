@@ -53,7 +53,7 @@ Plenty of certs out there...
 - The journey is often better than the destination. Studying for a certification gives you tiny nuggets of knowledge which you wouldnt have gained otherwise.
 - Knowing the theory helps in having a variety of insightful conversations with others.
 - Some certifications like those for Kubernetes are very practical in nature and require you to solve problems using k8s cli commands. Studying for it automatically gives you handson experience.
-- Merely the act of pursuing certifications can help you to form a routine focused around the act of gaining knowledge.
+- Merely the act of pursuing certifications can help you to form a routine focused around gaining knowledge.
 
 ## When certifications can be a problem
 
