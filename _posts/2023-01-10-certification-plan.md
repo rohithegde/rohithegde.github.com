@@ -6,9 +6,11 @@ tags: [career, certification, checklist]
 comments: true
 ---
 
-What are the pros/cons of certifications ? How do I go about it ? Does it make sense to go for multiple certs ? This blog post will help you answer these questions.
+I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes. Some of the questions which I am looking to answer :
 
-I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes.
+- What are the pros/cons of certifications ?
+- How do I go about it ?
+- Does it make sense to go for multiple certs ?
 
 Lets dig deeper into the topic !
 
@@ -28,6 +30,8 @@ Lets dig deeper into the topic !
 - [Example](#example)
 
 <!-- /TOC -->
+
+Plenty of certs out there...
 
 !["multi-certs"](/assets/images/certifications/certs-list.drawio.png "multi-certs")
 
