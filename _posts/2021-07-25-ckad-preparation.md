@@ -100,7 +100,7 @@ Refer to this [Killer.sh blog post](https://itnext.io/cks-cka-ckad-changed-termi
 You can count this as a extra thing to master.
 The new user interface is tricky for those who havent experienced it. They have moved from the old browser based format to a Remote Desktop based UI via a custom exam browser tool.
 
-For my own experience using it, please refer to my blog post on [CKS](http://127.0.0.1:4000/2022/11/13/cks-preparation#new-exam-ui-from-june-2022).
+For my own experience using it, please refer to my blog post on [CKS]({{ site.url }}/2022/11/20/cks-preparation#new-exam-ui-from-june-2022).
 
 ## The CKAD exam
 
