@@ -75,7 +75,9 @@ Plenty of certs out there...
 
 ### Let your career direct your certification plan
 
-- Do NOT go for every certificate out there. Spend some time to atleast plan the next one year of your career.
+- Do NOT go for every certificate out there. Spend some time to plan the next 3 years of your career.
+  - Eg: To become a multi cloud engineer, you will have to gain relevant experience by working on them. Studying for certs on the relevant clouds will help you on this journey.
+- From cryptocurrency to AI to metaverse - Cloud technology is here to stay for a number of years. But other sofware may or may not be as stable as things change a lot in technology. So atleast plan the next one year of your career.
 - Start with a goal for the year. Focus on a single cert then take it from there.
 - Instead of breadth, aim for a depth of certifications. Assuming you have some practical cloud exp, 2-6 cloud certs are enough for mastering a cloud as long as they are specialised certs.
 - For going deep into one cloud, go directly for the associate level cert. If you are new to the cloud and dont plan on going deep anytime soon then only go for the fundamental cert.
@@ -101,6 +103,8 @@ Plenty of certs out there...
 
 ## Example
 
+After working on the 3 major clouds, my current goal is to expand on my multi-cloud expertise.
 My 2022 cert goal was to go deep into Azure and k8s.
+My 2023 cert goal is to go deep into GCP and AWS.
 
-<img src="/assets/images/certifications/cert-plan-2022.png" width="500" height="400" />
+<img src="/assets/images/certifications/cert-plan.png"/>
