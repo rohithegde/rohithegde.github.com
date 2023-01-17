@@ -2,7 +2,7 @@
 layout: post
 title: "Storytelling for Software Engineers"
 #category: general
-tags: [storytelling, career]
+tags: [storytelling, engineer, career]
 comments: true
 ---
 
