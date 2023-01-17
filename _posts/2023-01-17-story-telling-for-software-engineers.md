@@ -24,7 +24,6 @@ Story telling is a life skill. This post focuses on how story telling can be pra
     - [Profile pitch](#profile-pitch)
 
 <!-- /TOC -->
-
 !["story-telling-steve-jobs"](/assets/images/story-telling-steve-jobs.jpeg "story-telling-steve-jobs")
 
 ## Why do stories matter ?
