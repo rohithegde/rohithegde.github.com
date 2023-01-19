@@ -109,7 +109,13 @@ Maintaining a journal is a good way to reinforce this habit while ensuring you d
 
 ## Five minor tips
 
-**6. Take pride in your contribution to work while remaining humble enough to learn from criticism**
+**6. Take care of your digital profile.**
+
+With the power of the internet, everything you post online is likely to exist forever and searchable. Take care to ensure a clean incident free social media presence - from LinkedIn to Facebook to Instagram to Quora. You dont have to respond to things you disagree with. Most people are likely to enter a debate with closed minds and its likely to be a waste of your time to try and change opinions.
+
+Sites like LinkedIn, StackOverflow and GitHub can help build your brand and provide insights which even your resume might struggle with.
+
+**7. Take pride in your contribution to work while remaining humble enough to learn from criticism**
 
 > “Try and leave this world a little better than you found it.” - Robert Stephenson Smyth Baden-Powell
 
@@ -120,14 +126,14 @@ Being proud of your work ensures a high quality. But do ensure that it doesn't h
 
 Also do note that good quality code requires time. Pay heed to sound architecture principles (SOLID, DRY, KISS etc) while working. Tight deadlines can lead to functional but crappy code. Communicate this proactively before starting out on the project.
 
-**7. Keep it simple**
+**8. Keep it simple**
 
 The complexity of the software field with the various options out there can make things difficult.
 
 We should take care that we try to keep it simple - whether its architecture or implementation or even explanations.
 If we cannot explain the concepts of the work done in a simple way then its likely that we haven't implemented it in a simple way.
 
-**8. Have mentors and be part of a community for knowledge sharing**
+**9. Have mentors and be part of a community for knowledge sharing**
 
 > "Learn from the mistakes of others. You can't live long enough to make them all yourself." - Eleanor Roosevelt
 
@@ -135,13 +141,11 @@ The fastest way to learn is through the experience of others. You are responsibl
 
 To get a variety of viewpoints and knowledge in a short time - join a community(eg: reddit group or meetups). Nothing else can give you a 360 degree overview of all that is happening out there.
 
-**9. Have a side project of your own.**
-
-Having a side project of your own gives you the opportunity to try out things without being bounded by work rules and to unleash your creativity and ideas on a blank slate.
+Also take some time to join the opensource community by contributing to existing projects or having your own side project. Having a project of your own gives you the opportunity to try out things without being bounded by work rules and to unleash your creativity and ideas on a blank slate.
 
 **10. Automation is the key !**
 
-Taking efforts to automate things ensures that your efforts are not wasted in mundane repitative tasks.
+Taking efforts to automate things ensures that your efforts are not wasted in mundane repetitive tasks.
 Automating things also can be a great activity to learn and give knowledge sessions on.
 
 Eg : Having an automatic dev workstation setup on your Mac like [Formation](https://github.com/minamarkham/formation){:target="_blank" rel="nofollow"}.
