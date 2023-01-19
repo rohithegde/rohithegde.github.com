@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 career tips for a new software engineer"
+title: "5 career tips for a software engineer"
 #category: general
 tags: [career, engineer]
 comments: true
@@ -11,11 +11,11 @@ popular: true
 
 - [Background](#background)
 - [Five major tips](#five-major-tips)
-  - [Plan on moving from breadth to depth of knowledge](#plan-on-moving-from-breadth-to-depth-of-knowledge)
-  - [Focus on learning every year. Let it not resemble another](#focus-on-learning-every-year-let-it-not-resemble-another)
-  - [Every job has pros and cons. Choose wisely](#every-job-has-pros-and-cons-choose-wisely)
-  - [Every tech/job has a shelf life. Do not ignore the signs](#every-techjob-has-a-shelf-life-do-not-ignore-the-signs)
-  - [Have a routine to maintain the balance](#have-a-routine-to-maintain-the-balance)
+    - [Plan on moving from breadth to depth of knowledge](#plan-on-moving-from-breadth-to-depth-of-knowledge)
+    - [Focus on learning every year. Let it not resemble another](#focus-on-learning-every-year-let-it-not-resemble-another)
+    - [Every job has pros and cons. Choose wisely](#every-job-has-pros-and-cons-choose-wisely)
+    - [Every tech/job has a shelf life. Do not ignore the signs](#every-techjob-has-a-shelf-life-do-not-ignore-the-signs)
+    - [Have a routine to maintain the balance](#have-a-routine-to-maintain-the-balance)
 - [Five minor tips](#five-minor-tips)
 
 <!-- /TOC -->
