@@ -19,7 +19,7 @@ This blog post aims to share some lessons useful for techies. My earlier post on
     - [You are not a significant contributor to the crown jewels of the org](#you-are-not-a-significant-contributor-to-the-crown-jewels-of-the-org)
     - [Your tech skills have become redundant](#your-tech-skills-have-become-redundant)
     - [Your value proposition is not known eg: new hires](#your-value-proposition-is-not-known-eg-new-hires)
-- [Tips for doing well in the tech industry over a long time](#tips-for-doing-well-in-the-tech-industry-over-a-long-time)
+- [Tips for surviving in the tech industry over a long time](#tips-for-surviving-in-the-tech-industry-over-a-long-time)
 
 <!-- /TOC -->
 
@@ -54,7 +54,8 @@ Visualisation from [Layoffs.fyi](https://layoffs.fyi/){:target="_blank" rel="nof
 
 There is no guarantee for success but there are some practices which have worked well for a lot of techies.
 
-- Join an organisation only if you get to do significant work on a core product with lots of potential. Do NOT be an invisible cog in the wheel of a big organisation.
-- Aim to switch jobs during a recession only if your current job is at risk. As they say - "A bird in the hand is worth two in the bush". You dont want to be the new person in an organisation and inherit the reduced job security which comes with it.
+- Join an organisation only if you get to do significant work on a core product with lots of potential. Do NOT be an invisible cog in the wheel of a big organisation.  
+- Aim to switch jobs during a recession ONLY if your current job is at risk. As they say - "A bird in the hand is worth two in the bush". You dont want to be the new person in an organisation and inherit the reduced job security which comes with it.
 - Big tech consultancies can be a safer bet during troubled financial times. They might not be able to match salaries at product companies but they usually have a backlog of client work which can ride out a year of financial turmoil. They also tend to avoid mass layoffs as they seek to retain some bench strength.
+- Join startups at the initial parts of your career to gain maximum learning over a short duration of time. That prepares you for most stressful situations on the job and everything else feels easy after it.
 - Region change can be a good option in some cases. Asia looks to be more resilient to economic downturns compared to others. The reduced cost of living and bigger opportunities to make an impact are big factors working in favour of Asia.
