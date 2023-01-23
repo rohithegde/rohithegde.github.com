@@ -10,7 +10,7 @@ Welcome to the tech industry. Meet your companions - high attrition rates, compe
 
 Layoffs in the past year or so have become rampant with most big organisations joining the trend. People from diverse bands have faced the axe - from freshers to highly experienced individuals.
 
-This blog post aims to share some lessons from the tech industry which arent readily available. My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer) focuses on what you can do to be a successful software engineer in the industry. This post focuses on activities which take place in the tech industry but on which you will not have much control. At best you can recognise the patterns and do a better job navigating them.
+This blog post aims to share some lessons useful for techies. My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer) focuses on **what you can do** to be a successful software engineer in the industry. **This post focuses on external factors which you do not control**. Like driving on roads, you can recognise the patterns and do a better job navigating them.
 
 ## What makes you expendible
 <!-- TOC -->
@@ -18,8 +18,8 @@ This blog post aims to share some lessons from the tech industry which arent rea
 - [What makes you expendible](#what-makes-you-expendible)
     - [You are not a significant contributor to the crown jewels of the org](#you-are-not-a-significant-contributor-to-the-crown-jewels-of-the-org)
     - [Your tech skills have become redundant](#your-tech-skills-have-become-redundant)
-    - [Your employer believes you arent as important](#your-employer-believes-you-arent-as-important)
-- [What can you do to improve your chances at surviving in the tech industry](#what-can-you-do-to-improve-your-chances-at-surviving-in-the-tech-industry)
+    - [Your value proposition is not known eg: new hires](#your-value-proposition-is-not-known-eg-new-hires)
+- [Tips for doing well in the tech industry over a long time](#tips-for-doing-well-in-the-tech-industry-over-a-long-time)
 
 <!-- /TOC -->
 
@@ -37,21 +37,24 @@ Visualisation from [Layoffs.fyi](https://layoffs.fyi/){:target="_blank" rel="nof
 
 - The tech industry is one of those workstreams where you have to keep updating yourself even when it comes to core tenets. The idiom "you snooze, you lose" is very apt here.
 - Chances of your tech skills being redundant are higher in some cases :
-  - You are a generalist problem solver with no differentiating ability compared to others.
+  - You are a generalist problem solver with skillsets matching a lot of others.
   - You rely on your people skills more than you rely on your tech skills. Its harder to quantify your achievements in an industry where the word "manager" is frowned upon.
   - Lesser opportunities for utilizing a niche skillset and you arent adapting to the new trends.
   - Its easy to replace you with a cheaper alternative in some other location (usually a developing country).
 
-### Your employer believes you arent as important
+### Your value proposition is not known (eg: new hires)
 
-- The best people I worked with are those who actively take responsibilities and become the go-to person for the tech/tool. People depend on them for solving their problems.
-- If you arent known and there are upcoming options of others filling in for you or your work getting automated, then your importance greatly diminishes in the eyes of your employer.
-- Those new to the job come in with a couple of big disadvantages making them ideal for layoffs during a recession :
-  - In the first 6 months of their job, they are still trying to make an impact.
-  - The organisation doesnt really know their worth and has survived without issues before.
+- The best people I worked with are those who actively take responsibilities while going deep into a technology to become the go-to person for the tech/tool. People depend on them for solving their problems.
+- If you arent known OR its easy to get people/automation to do your work, then your importance greatly diminishes in the eyes of your employer.
+- If you are new to the job then you come in with a couple of big disadvantages during a recession:
+  - You are still trying to make an impact in the initial probation period of your new job.
+  - The organisation doesnt really know your worth and relies on the fact that they did fine without you before.
 
-## What can you do to improve your chances at surviving in the tech industry
+## Tips for doing well in the tech industry over a long time
 
-- Join an organisation only if you get to do significant work on a core product.
-- Do not switch jobs if there are chances of a looming recession. As they say - "A bird in the hand is worth two in the bush". You dont want to be the new person in an organisation and the uncertainity in job security which comes with it.
-- This is the Asian century. Asia looks to be more resilient to economic downturns compared to others. Quite a few folks from the US have changed bases to Asian countries for access to bigger opportunities in the developing countries and it has worked well for them. The reduced cost of living and higher potential scope of work is a big factor working in favour of Asia.
+There is no guarantee for success but there are some practices which have worked well for a lot of techies.
+
+- Join an organisation only if you get to do significant work on a core product with lots of potential. Do NOT be an invisible cog in the wheel of a big organisation.
+- Aim to switch jobs during a recession only if your current job is at risk. As they say - "A bird in the hand is worth two in the bush". You dont want to be the new person in an organisation and inherit the reduced job security which comes with it.
+- Big tech consultancies can be a safer bet during troubled financial times. They might not be able to match salaries at product companies but they usually have a backlog of client work which can ride out a year of financial turmoil. They also tend to avoid mass layoffs as they seek to retain some bench strength.
+- Region change can be a good option in some cases. Asia looks to be more resilient to economic downturns compared to others. The reduced cost of living and bigger opportunities to make an impact are big factors working in favour of Asia.
