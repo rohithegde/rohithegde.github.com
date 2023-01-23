@@ -50,7 +50,7 @@ Visualisation from [Layoffs.fyi](https://layoffs.fyi/){:target="_blank" rel="nof
   - You are still trying to make an impact in the initial probation period of your new job.
   - The organisation doesnt really know your worth and relies on the fact that they did fine without you before.
 
-## Tips for doing well in the tech industry over a long time
+## Tips for surviving in the tech industry over a long time
 
 There is no guarantee for success but there are some practices which have worked well for a lot of techies.
 
