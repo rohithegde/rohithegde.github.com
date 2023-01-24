@@ -64,9 +64,10 @@ There is no guarantee for success but there are some practices which have worked
 - Join startups at the initial parts of your career to gain maximum learning over a short duration of time.
   - That prepares you for most stressful situations on the job and everything else feels easier after it.
   - But be aware of the financial situation of the startup. Stay clear of startups who dont have a solid revenue plan and rely solely on VC money to stay afloat.
-- Keep building your knowledge and your digital profile. 
+- Keep building your knowledge and your digital profile.
+  - Dont just wait to post on LinkedIn during times of need. Share your knowledge at regular times.
   - More on this in my other post - ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer).
-- Switching to a different region can be a good option for some. 
+- Switching to a different region can be a good option for some.
   - Eg: Asia looks to be more resilient to economic downturns compared to others. The reduced cost of living and bigger opportunities to make an impact are big factors working in favour of Asia.
 - Help others.
   - You can choose to believe in karma or in the act of debt. It can be something small like writing a LinkedIn testimonial or something big like helping them out with career advice. You never know when these random acts of kindness comes back to assist you in your time of need.
