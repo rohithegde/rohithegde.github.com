@@ -10,7 +10,7 @@ Welcome to the tech industry. Meet your companions - high attrition rates, compe
 
 Layoffs in the past year or so have become rampant with most big organisations joining the trend. People from diverse bands have faced the axe - from freshers to highly experienced individuals.
 
-Our office time forms a significant chunk of our lives. Its understandable that calls for empathy are being made in social media by those who have been laid off. We often forgot that the employer-employee relationship is a symbiotic one. Each one helps the other to achieve goals. Any one side can end this professional relationship.
+Our office time forms a significant chunk of our lives. Its understandable that calls for empathy are being made in social media by those who have been laid off. We often forget that the employer-employee relationship is a symbiotic one. Each one helps the other to achieve goals. Any one side can end this professional relationship.
 
 My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer) focuses on **what you can do** to be a successful software engineer in the industry. **This post focuses on external factors which you do not control**. Like driving on roads, you can recognise the patterns and do a better job navigating them.
 
