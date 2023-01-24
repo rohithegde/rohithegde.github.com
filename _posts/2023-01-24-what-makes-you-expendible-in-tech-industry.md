@@ -16,7 +16,7 @@ My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021
 
 <!-- TOC -->
 
-- [What makes you expendible](#what-makes-you-expendible)
+- [What makes you expendable](#what-makes-you-expendable)
     - [You are not a significant contributor to the crown jewels of the org](#you-are-not-a-significant-contributor-to-the-crown-jewels-of-the-org)
     - [Your tech skills have become redundant](#your-tech-skills-have-become-redundant)
     - [Your value proposition is not known eg: new hires](#your-value-proposition-is-not-known-eg-new-hires)
@@ -27,7 +27,7 @@ My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021
 Visualisation from [Layoffs.fyi](https://layoffs.fyi/){:target="_blank" rel="nofollow"}:
 !["layoffs"](/assets/images/layoffs.png "layoffs")
 
-## What makes you expendible
+## What makes you expendable
 
 ### You are not a significant contributor to the crown jewels of the org
 
