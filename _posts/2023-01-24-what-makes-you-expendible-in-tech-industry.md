@@ -14,7 +14,6 @@ Our office time forms a significant chunk of our lives. Its understandable that 
 
 My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer) focuses on **what you can do** to be a successful software engineer in the industry. **This post focuses on external factors which you do not control**. Like driving on roads, you can recognise the patterns and do a better job navigating them.
 
-## What makes you expendible
 <!-- TOC -->
 
 - [What makes you expendible](#what-makes-you-expendible)
@@ -27,6 +26,8 @@ My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021
 
 Visualisation from [Layoffs.fyi](https://layoffs.fyi/){:target="_blank" rel="nofollow"}:
 !["layoffs"](/assets/images/layoffs.png "layoffs")
+
+## What makes you expendible
 
 ### You are not a significant contributor to the crown jewels of the org
 
