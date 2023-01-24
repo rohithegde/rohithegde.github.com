@@ -54,9 +54,10 @@ Visualisation from [Layoffs.fyi](https://layoffs.fyi/){:target="_blank" rel="nof
 
 There is no guarantee for success but there are some practices which have worked well for a lot of techies.
 
-- Join an organisation only if you get to do significant work on a core product with lots of potential. Do NOT be an invisible cog in the wheel of a big organisation.  
+- Join an organisation only if you get to do significant work on a core product with lots of potential. Do NOT be an invisible cog in the wheels of a big organisation.
 - Aim to switch jobs during a recession ONLY if your current job is at risk. As they say - "A bird in the hand is worth two in the bush". You dont want to be the new person in an organisation and inherit the reduced job security which comes with it.
 - Big tech consultancies can be a safer bet during troubled financial times. They might not be able to match salaries at product companies but they usually have a backlog of client work which can ride out a year of financial turmoil. They also tend to avoid mass layoffs as they seek to retain some bench strength.
-- Join startups at the initial parts of your career to gain maximum learning over a short duration of time. That prepares you for most stressful situations on the job and everything else feels easy after it.
+- Join startups at the initial parts of your career to gain maximum learning over a short duration of time. That prepares you for most stressful situations on the job and everything else feels easier after it. But be aware of the financial situation of the startup. Stay clear of startups who dont have a solid revenue plan and rely solely on VC money to stay afloat.
+- Keep building your knowledge and your digital profile. More on this in my other post - ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer).
 - Switching to a different region can be a good option for some. Eg: Asia looks to be more resilient to economic downturns compared to others. The reduced cost of living and bigger opportunities to make an impact are big factors working in favour of Asia.
-- Help others. You can choose to believe in karma or in the act of debt. It can be something small like writing a LinkedIn testimonial or something big like helping them out with career advice. You never know when these random acts of kindness comes back to you at your time of need.
+- Help others. You can choose to believe in karma or in the act of debt. It can be something small like writing a LinkedIn testimonial or something big like helping them out with career advice. You never know when these random acts of kindness comes back to assist you in your time of need.
