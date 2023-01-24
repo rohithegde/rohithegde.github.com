@@ -72,4 +72,4 @@ There is no guarantee for success but there are some practices which have worked
 - Switching to a different region can be a good option for some.
   - Eg: Asia looks to be more resilient to economic downturns compared to others. The reduced cost of living and bigger opportunities to make an impact are factors working in favour of Asia.
 - Help others.
-  - You can choose to believe in karma or in the act of debt. It can be something small like writing a LinkedIn testimonial or something big like helping them out with career advice. You never know when a random act of kindness comes back to assist you in your time of need.
+  - You can choose to believe in karma or in the act of debt. It can be something small like writing a LinkedIn testimonial or something big like helping out with career advice. You never know when a random act of kindness comes back to assist you in your time of need.
