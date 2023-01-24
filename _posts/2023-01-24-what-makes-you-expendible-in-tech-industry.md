@@ -12,7 +12,7 @@ Layoffs in the past year or so have become rampant with most big organisations j
 
 Our office time forms a significant chunk of our lives. Its understandable that calls for empathy are being made in social media by those who have been laid off. We often forget that the employer-employee relationship is a symbiotic one. Each one helps the other to achieve goals. Any one side can end this professional relationship.
 
-My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer) focuses on **what you can do** to be a successful software engineer in the industry. **This post focuses on external factors which you do not control**. Like driving on roads, you can recognise the patterns and do a better job navigating them.
+My earlier post on ["5 career tips for a software engineer"]({{ site.url }}/2021/05/09/5-career-tips-for-software-engineer) focuses on **how you can improve yourself** to be a successful software engineer in the industry. **This post focuses on adapting to external factors which you do not control**. Like driving on roads, you can recognise the patterns and do a better job navigating them.
 
 <!-- TOC -->
 
