@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What makes you expendible in the tech industry"
+title: "What makes you expendable in the tech industry"
 #category: general
 tags: [software, engineer, career]
 comments: true
