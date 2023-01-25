@@ -17,6 +17,11 @@ popular: true
     - [Every tech/job has a shelf life. Do not ignore the signs](#every-techjob-has-a-shelf-life-do-not-ignore-the-signs)
     - [Have a routine to maintain the balance](#have-a-routine-to-maintain-the-balance)
 - [Five minor tips](#five-minor-tips)
+    - [Take care of your digital profile](#take-care-of-your-digital-profile)
+    - [Take pride in your contribution to work while remaining humble enough to learn from criticism](#take-pride-in-your-contribution-to-work-while-remaining-humble-enough-to-learn-from-criticism)
+    - [Keep it simple](#keep-it-simple)
+    - [Have mentors and be part of a community for knowledge sharing](#have-mentors-and-be-part-of-a-community-for-knowledge-sharing)
+    - [Automation is the key](#automation-is-the-key)
 
 <!-- /TOC -->
 ## Background
@@ -109,13 +114,13 @@ Maintaining a journal is a good way to reinforce this habit while ensuring you d
 
 ## Five minor tips
 
-**6. Take care of your digital profile.**
+### Take care of your digital profile
 
 With the power of the internet, everything you post online is likely to exist forever and searchable. Take care to ensure a clean incident free social media presence - from LinkedIn to Facebook to Instagram to Quora. You dont have to respond to things you disagree with. Most people are likely to enter a debate with closed minds and its likely to be a waste of your time to try and change opinions.
 
 Sites like LinkedIn, StackOverflow and GitHub can help build your brand and provide insights which even your resume might struggle with.
 
-**7. Take pride in your contribution to work while remaining humble enough to learn from criticism**
+### Take pride in your contribution to work while remaining humble enough to learn from criticism
 
 > “Try and leave this world a little better than you found it.” - Robert Stephenson Smyth Baden-Powell
 
@@ -126,14 +131,14 @@ Being proud of your work ensures a high quality. But do ensure that it doesn't h
 
 Also do note that good quality code requires time. Pay heed to sound architecture principles (SOLID, DRY, KISS etc) while working. Tight deadlines can lead to functional but crappy code. Communicate this proactively before starting out on the project.
 
-**8. Keep it simple**
+### Keep it simple
 
 The complexity of the software field with the various options out there can make things difficult.
 
 We should take care that we try to keep it simple - whether its architecture or implementation or even explanations.
 If we cannot explain the concepts of the work done in a simple way then its likely that we haven't implemented it in a simple way.
 
-**9. Have mentors and be part of a community for knowledge sharing**
+### Have mentors and be part of a community for knowledge sharing
 
 > "Learn from the mistakes of others. You can't live long enough to make them all yourself." - Eleanor Roosevelt
 
@@ -143,7 +148,7 @@ To get a variety of viewpoints and knowledge in a short time - join a community(
 
 Also take some time to join the opensource community by contributing to existing projects or having your own side project. Having a project of your own gives you the opportunity to try out things without being bounded by work rules and to unleash your creativity and ideas on a blank slate.
 
-**10. Automation is the key !**
+### Automation is the key
 
 Taking efforts to automate things ensures that your efforts are not wasted in mundane repetitive tasks.
 Automating things also can be a great activity to learn and give knowledge sessions on.
