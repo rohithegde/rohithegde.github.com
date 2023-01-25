@@ -60,9 +60,10 @@ There is no guarantee for success but there are some practices which have worked
 - Join an organisation only if you get to do significant work on a core product.
 - Aim to switch jobs during a recession ONLY if your current job is at risk.
   - As they say - "A bird in the hand is worth two in the bush". You dont want to be the new person in an organisation and inherit the reduced job security which comes with it.
-- Big tech consultancies can be a safer bet during troubled financial times.
-  - They might not be able to match salaries at product companies but they usually have a backlog of client work which can ride out a year of financial turmoil.
-  - They also tend to avoid mass layoffs as they seek to retain some bench strength.
+- Big tech consultancies or regulated companies can be safer bets during troubled financial times.
+  - Consultancies might not be able to match salaries at product companies but they usually have a backlog of client work which can ride out a year of financial turmoil.
+  - Consultancies also tend to avoid mass layoffs as they seek to retain some bench strength.
+  - Additionally regulated industries like banking, healthcare, insurance, utilities, automative etc with inhouse tech teams are usually starved of talent and need people at most times.
 - Join startups at the initial parts of your career to gain maximum learning over a short duration of time.
   - That prepares you for most stressful situations on the job and everything else feels easier after it.
   - Stay clear of startups who dont have a solid revenue plan and rely solely on VC money to stay afloat.
