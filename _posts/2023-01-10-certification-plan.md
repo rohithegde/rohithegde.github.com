@@ -4,6 +4,7 @@ title: "Creating a certification plan"
 #category: general
 tags: [career, certification, checklist]
 comments: true
+popular: true
 ---
 
 I started my [certification journey]({{ site.url }}/#certification) quite late in my career. I followed the top certified folks on LinkedIn for a while to see if I could learn from their stengths as also mistakes. Some of the questions which I am looking to answer :
