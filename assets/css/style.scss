@@ -83,9 +83,9 @@ body {
 .divTableRow {
   display: table-row;
 }
-
-.divTableHeading {
-  display: table-header-group;
+.divTableRowEven {
+  background-color: #EEE;
+  display: table-row;
 }
 
 .divTableCell,
@@ -95,7 +95,7 @@ body {
 }
 
 .divTableHeading {
-  background-color: #EEE;
+  background-color: rgb(247, 214, 151);
   display: table-header-group;
   font-weight: bold;
 }

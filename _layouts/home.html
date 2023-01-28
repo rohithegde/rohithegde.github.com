@@ -24,7 +24,14 @@ layout: default
       </div>
       <div class="divTableBody">
         {% for page in site.posts %}
-        <div class="divTableRow tagRow {{ page.tags | array_to_sentence_string:',' | replace:',',' ' }}">
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 0 %}
+            <!-- even -->
+            <div class="divTableRowEven tagRow {{ page.tags | array_to_sentence_string:',' | replace:',',' ' }}">
+        {% else %}
+            <!-- odd -->
+            <div class="divTableRow tagRow {{ page.tags | array_to_sentence_string:',' | replace:',',' ' }}">
+        {% endif %}
           {% if page.popular %}
           <div class="divTableCell"><a href="{{ page.url }}">{{ page.title }}</a> <img src="/assets/images/popular.jpeg"
               width="20" height="20" /></div>
