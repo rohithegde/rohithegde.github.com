@@ -82,8 +82,11 @@ body {
 .Column {
   display: table-cell;
 }
-.headerAboutDiv, .headerHomeDiv, .headerHomeFeed {
+.headerAboutDiv, .headerHomeDiv {
   width: 8%;
+}
+.headerHomeFeed {
+  width: 15%;
 }
 .divTableCell,
 .divTableHead {
