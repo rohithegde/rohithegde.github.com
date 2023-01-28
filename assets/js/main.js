@@ -1,25 +1,25 @@
 // START : TAG SUPPORT CODE
-function filter (tag) {
+function filter(tag) {
   var selectedTags = document.getElementsByClassName('tag-link-' + tag);
   //console.log(selectedTags[0]);
   if (selectedTags[0]) {
     // If selected tag has been selected already then un-select it & show all posts
     if (selectedTags[0].getAttribute('class').indexOf('selectedFilter') > -1) {
-        window.location.hash = '';
-        //console.log('found');
-        showAllRows();
-        selectedTags[0].setAttribute('class', selectedTags[0].getAttribute('class').replace('selectedFilter', '').trim());
+      window.location.hash = '';
+      //console.log('found');
+      showAllRows();
+      selectedTags[0].setAttribute('class', selectedTags[0].getAttribute('class').replace('selectedFilter', '').trim());
     } else {
-        window.location.hash = tag;
-        var previousSelectedTags = document.getElementsByClassName('selectedFilter');
-        if (previousSelectedTags[0]) {
-            //console.log('found other');
-            previousSelectedTags[0].setAttribute('class', previousSelectedTags[0].getAttribute('class').replace('selectedFilter', '').trim());
-        }
-       // console.log('not found');
-        selectedTags[0].setAttribute('class', selectedTags[0].getAttribute('class') + ' selectedFilter');
-        hideAllTagRows();
-        showSelectedTagRow(tag);
+      window.location.hash = tag;
+      var previousSelectedTags = document.getElementsByClassName('selectedFilter');
+      if (previousSelectedTags[0]) {
+        //console.log('found other');
+        previousSelectedTags[0].setAttribute('class', previousSelectedTags[0].getAttribute('class').replace('selectedFilter', '').trim());
+      }
+      // console.log('not found');
+      selectedTags[0].setAttribute('class', selectedTags[0].getAttribute('class') + ' selectedFilter');
+      hideAllTagRows();
+      showSelectedTagRow(tag);
     }
   }
 }
@@ -52,23 +52,28 @@ function showAllRows() {
 // JS hack since github pages does not support tag based pages easily
 var hashValue = window.location.hash.replace('#', '').trim();
 if (hashValue.length > 0) {
-  setTimeout(function() {
+  setTimeout(function () {
     filter(hashValue);
-  }, 10); 
+  }, 10);
+}
+// Above code doesnt seem to work. Adding below code as backup fix.
+if (location.hash) {
+  let target = location.hash;
+  window.scrollTop = document.querySelector(target).offsetTop;
 }
 // END : TAG SUPPORT CODE
 
 function processSearchInput(e) {
-    let search = document.getElementById('search');
-    if (search.value && 13 == e.keyCode) {
-        window.location = "/search?q=" + search.value;
-    }
+  let search = document.getElementById('search');
+  if (search.value && 13 == e.keyCode) {
+    window.location = "/search?q=" + search.value;
+  }
 }
 function displaySubscribePopup() {
-    console.log('displaySubscribePopup');
-    document.getElementById("subscribe_div").style.height = "100%";
+  console.log('displaySubscribePopup');
+  document.getElementById("subscribe_div").style.height = "100%";
 }
 function hideSubscribePopup() {
-    console.log('hideSubscribePopup');
-    document.getElementById("subscribe_div").style.height = "0%";
+  console.log('hideSubscribePopup');
+  document.getElementById("subscribe_div").style.height = "0%";
 }
