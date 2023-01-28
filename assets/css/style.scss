@@ -14,7 +14,7 @@ body {
   padding-top: 0rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
-  padding-left: 1rem;
+  //padding-left: 1rem;
 }
 
 .hiddenTag {
@@ -41,23 +41,6 @@ body {
   font-size: 1.2rem;
   background-color: white;
   margin-top: 0.5rem;
-}
-
-.header-meta-left-filler {
-  position: relative;
-  left: 30%;
-}
-.header-meta-left-filler2 {
-  position: relative;
-  left: 30%;
-}
-.header-meta-main-filler {
-  position: relative;
-  left: 45%;
-}
-.header-meta-right-filler {
-  position: relative;
-  left: 75%;
 }
 
 .profile-pic {
@@ -88,7 +71,20 @@ body {
   background-color: #EEE;
   display: table-row;
 }
-
+.Row {
+  display: table;
+  width: 80%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+  position: relative;
+  left: 5%
+}
+.Column {
+  display: table-cell;
+}
+.headerAboutDiv, .headerHomeDiv, .headerHomeFeed {
+  width: 10%;
+}
 .divTableCell,
 .divTableHead {
   display: table-cell;

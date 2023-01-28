@@ -1,12 +1,12 @@
 <section class="page-header">
-  <div class="divTableRow">
-    <div class="divTableCell header-meta-left-filler">
+  <div class="Row">
+    <div class="Column headerAboutDiv">
       <a href="{{ site.url }}/about/" class="btn">About</a></span>
     </div>
-    <div class="divTableCell header-meta-left-filler2">
+    <div class="Column headerHomeDiv">
       <a href="{{ site.url }}" class="btn">Home</a></span>
     </div>
-    <div class="divTableCell header-meta-main-filler">
+    <div class="Column">
       <h1 class="project-name"><a href="/" class="blog-title">{{ site.title | default: site.github.repository_name
           }}</a></h1>
       <h3 class="project-tagline">{{ site.tagline | default: site.github.project_tagline }}</h3>
@@ -18,7 +18,7 @@
     <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
     <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
     {% endif %}
-    <div class="divTableCell header-meta-right-filler">
+    <div class="Column headerHomeFeed">
       <!-- <a href="#subscribe" class="btn">Subscribe</a></span>-->
       <a href="{{ site.url }}/feed" class="feed">
         <img title="Add the blog's RSS feed to your client to get automatic notifications of new posts."
