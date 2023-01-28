@@ -48,18 +48,16 @@ function showAllRows() {
     lists[i].setAttribute('class', lists[i].getAttribute('class').replace('hiddenTag', '').trim());
   }
 }
-// Get posts of specific tag via url hash
-// JS hack since github pages does not support tag based pages easily
-var hashValue = window.location.hash.replace('#', '').trim();
-if (hashValue.length > 0) {
-  setTimeout(function () {
-    filter(hashValue);
-  }, 10);
-}
-// Above code doesnt seem to work. Adding below code as backup fix.
-if (location.hash) {
-  let target = location.hash;
-  window.scrollTop = document.querySelector(target).offsetTop;
+function moveWindow() {
+  //window.location.hash = "mylocation";
+  // Get posts of specific tag via url hash
+  // JS hack since github pages does not support tag based pages easily
+  var hashValue = window.location.hash.replace('#', '').trim();
+  if (hashValue.length > 0) {
+    setTimeout(function () {
+      filter(hashValue);
+    }, 10);
+  }
 }
 // END : TAG SUPPORT CODE
 
