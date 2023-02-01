@@ -66,3 +66,5 @@ blog_start_year: 2015
 github: [metadata]
 
 theme: jekyll-theme-cayman
+
+timezone: Asia/Kolkata
