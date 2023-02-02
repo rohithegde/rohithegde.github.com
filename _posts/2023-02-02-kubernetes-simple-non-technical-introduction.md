@@ -52,9 +52,10 @@ The **target audience for this post are those absolutely new to Kubernetes - eve
 
 ### Container Orchaestrators
 
-- Just like an orchestrator manages the playing of musical instruments, Container Orchestrators are tools to manage, scale, and maintain containers.
+- Container Orchestrators are tools to manage, scale, and maintain containers.
   - Simple eg : Its an automated tool which takes your "zip file" and deploys it to any number of suitable machine for making it functional, scalable and accessible.  
-  - Real world eg : You can compare it to a hotel which enables you to function by taking care of you (and your travel bag!). It provides you security, support, scalability (more rooms!), ease of maintenance, easy access to the rooms (networking!) etc.
+  - Real world eg 1 : You can compare it to a hotel which enables you to function by taking care of you (and your travel bag!). It provides you security, support, scalability (more rooms!), ease of maintenance, easy access to the rooms (networking!) etc.
+  - Real world eg 2 : You can compare it to an orchaestrator who knows and manages the playing or various music instruments in the suitable sequence to create a beautiful symphony.  
 - Popular container orchestrators are Kubernetes, tools built on top of Kubernetes(Rancher, OpenShift, VMware Tanzu) and cloud managed services (GKE, AKS, EKS), HashiCorp Nomad, Apache Mesos and other container hosting services on the cloud (AWS Fargate, ECS, Azure Container Instance, Google Cloud Run) etc.
 - Kubernetes is also known as the operating system of the cluster.
 
