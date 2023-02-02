@@ -64,6 +64,8 @@ With a ship on top of it, the famous Marina Bay Sands hotel of Singapore can be 
 
 ## Why is Kubernetes needed ?
 
+Kubernetes is complex but it needs to be as it has MANY responsibilities ! For more details, you can refer to the [Robusta.Dev](https://home.robusta.dev/blog/kubernetes-is-complex-because-you-want-complex-things){:target="_blank" rel="nofollow"} post on it.
+
 Some advantages of Kubernetes:
 
 - Simplifies application development and deployment.
@@ -108,6 +110,5 @@ Below are the scenarios for which k8s can be a bad idea. For real-world incident
 - [CERN](https://kubernetes.io/case-studies/cern/){:target="_blank" rel="nofollow"}
 - [Tinder](https://medium.com/tinder/tinders-move-to-kubernetes-cda2a6372f44){:target="_blank" rel="nofollow"}
 - [Adidas](https://kubernetes.io/case-studies/adidas/){:target="_blank" rel="nofollow"}
-
 
 Stay tuned for [more posts on Kubernetes]({{ site.url }}/#kubernetes) !
