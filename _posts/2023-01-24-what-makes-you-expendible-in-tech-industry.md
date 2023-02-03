@@ -44,6 +44,7 @@ Visualisation from [Layoffs.fyi](https://layoffs.fyi/){:target="_blank" rel="nof
   - You rely on your people skills more than you rely on your tech skills. Its harder to quantify your achievements in an industry where the word "manager" is frowned upon.
   - Lesser opportunities for utilizing a niche skillset and you arent adapting to the new trends.
   - Its easy to replace you with a cheaper alternative in some other location (usually a developing country).
+  - You have met your goals in the current org but arent moving on to the next one due to inertia.
 
 ### Your value proposition is not known (eg: new hires)
 
