@@ -127,6 +127,8 @@ Read this section only if you are really curious on what makes k8s work. Not nec
 
 ## Kubernetes objects
 
+This is a basic list of k8s resources. There are plenty of resources not mentioned here (jobs, cronjobs, daemonsets, crd etc) but which are needed for advanced scenarios and thus out of scope of this guide.
+
 ### Namespace
 
 - Similar to namespaces in other programming languages - Namespaces are a way to divide cluster resources between multiple users or environments. However they don't provide any isolation for the running objects. For isolation, you will have to use more complex resources like [network policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/){:target="_blank" rel="nofollow"}.
