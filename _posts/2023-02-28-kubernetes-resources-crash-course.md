@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A crash course on Kubernetes Resources"
+title: "A crash course on Kubernetes resources"
 #category: general
 tags: [container, guide, kubernetes, software]
 comments: true
@@ -127,7 +127,7 @@ Read this section only if you are really curious on what makes k8s work. Not nec
 
 ## Kubernetes objects
 
-This is a basic list of k8s resources. There are plenty of resources not mentioned here (jobs, cronjobs, daemonsets, crd etc) but which are needed for advanced scenarios and thus out of scope of this guide.
+This is a basic list of k8s resources. There are plenty of resources not mentioned here (jobs, cronjobs, daemonsets, crd etc) but which are needed for advanced scenarios and thus out of scope of this guide.g
 
 ### Namespace
 
