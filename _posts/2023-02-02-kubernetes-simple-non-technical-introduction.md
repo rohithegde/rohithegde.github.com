@@ -105,7 +105,7 @@ Below are the scenarios for which k8s can be a bad idea. For real-world incident
 [Many organisations](https://kubernetes.io/case-studies/){:target="_blank" rel="nofollow"} are using k8s. Some prominent ones:
 
 - [Mercedes and its 900 k8s clusters](https://www.infoworld.com/article/3664052/why-mercedes-benz-runs-on-900-kubernetes-clusters.html){:target="_blank" rel="nofollow"}
-- [OpenAI](https://kubernetes.io/case-studies/openai/){:target="_blank" rel="nofollow"}
+- [OpenAI](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/){:target="_blank" rel="nofollow"}
 - [US Department of Defense](https://www.cncf.io/blog/2020/05/07/with-kubernetes-the-u-s-department-of-defense-is-enabling-devsecops-on-f-16s-and-battleships/){:target="_blank" rel="nofollow"}
 - [CERN](https://kubernetes.io/case-studies/cern/){:target="_blank" rel="nofollow"}
 - [Tinder](https://medium.com/tinder/tinders-move-to-kubernetes-cda2a6372f44){:target="_blank" rel="nofollow"}
