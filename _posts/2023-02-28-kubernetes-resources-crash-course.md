@@ -49,6 +49,41 @@ Before going into the internal k8s objects, you will need a k8s cluster to try o
 6. Install k8s using a Platform as a Service (PaaS) offering like [OpenShift](https://docs.openshift.com/container-platform/latest/installing/installing-preparing.html){:target="_blank" rel="nofollow"}.
 7. Install k8s on a barebones virtual machine by [installing KubeAdm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/){:target="_blank" rel="nofollow"} and [using KubeAdm to create the cluster](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/){:target="_blank" rel="nofollow"}.
 
+## Kubernetes Architecture
+
+Read this section only if you are really curious on what makes k8s work. Not necessary if you just want to deploy your app on the cluster.
+
+!["k8s-architecture"](/assets/images/k8s/k8s-architecture.drawio.png "k8s-architecture")
+
+### Control Plane
+
+- The Control Plane is what controls the cluster and makes it function. 
+- In a managed k8s cluster, you will not be able to access this part as its controlled by the clodu provider.
+- You can remember the different parts of the control pane with the acronym **CASE**:
+  - Controller
+    - It replicates apps, keeping track of worker nodes, handling node failures, and so on.
+  - API Server
+    - This is the endpoint which every resource in k8s communicates with. You can see the mediator design pattern in play here.
+    - The API server itself communicates on its own to some parts of the cluster too.
+  - Scheduler
+    - It schedules your apps by assigning thr suitable node to it.
+  - etcd
+    - This is the persistent data store which stores the cluster state.
+    - Its a [popular open source tool](https://github.com/etcd-io/etcd){:target="_blank" rel="nofollow"}.
+
+### Worker Nodes
+
+- Nodes are the compute resources which power the cluster. But generally, when we talk about nodes, we consider them as worker nodes ie distinct from nodes which power the control plane.
+- The worker nodes are the machines that run your containerized applications (right side of the diagram)
+- The different parts of the worker node are :
+  - Kubelet
+    - This talks to the API server and manages containers on this node.
+  - Kube proxy
+    - This is the k8s service proxy which load balances network traffic between application components.
+  - Container runtime
+    - This runs the containers.
+    - Towards the end of 2020, [Docker as an underlying runtime was deprecated](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/){:target="_blank" rel="nofollow"} in favor of runtimes like containerd that use the Container Runtime Interface (CRI). Don't worry if your app image was created via Docker though. It will continue to work in k8s as its an OCI (Open Container Initiative) image.
+
 ### Kubectl
 
 Install [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl){:target="_blank" rel="nofollow"} if you plan to run CLI commands from your local machine against the k8s cluster.
@@ -89,41 +124,6 @@ metadata:
 ```bash
 kubectl apply -f ns.yaml
 ```
-
-## Kubernetes Architecture
-
-Read this section only if you are really curious on what makes k8s work. Not necessary if you just want to deploy your app on the cluster.
-
-!["k8s-architecture"](/assets/images/k8s/k8s-architecture.drawio.png "k8s-architecture")
-
-### Control Plane
-
-- The Control Plane is what controls the cluster and makes it function. 
-- In a managed k8s cluster, you will not be able to access this part as its controlled by the clodu provider.
-- You can remember the different parts of the control pane with the acronym **CASE**:
-  - Controller
-    - It replicates apps, keeping track of worker nodes, handling node failures, and so on.
-  - API Server
-    - This is the endpoint which every resource in k8s communicates with. You can see the mediator design pattern in play here.
-    - The API server itself communicates on its own to some parts of the cluster too.
-  - Scheduler
-    - It schedules your apps by assigning thr suitable node to it.
-  - etcd
-    - This is the persistent data store which stores the cluster state.
-    - Its a [popular open source tool](https://github.com/etcd-io/etcd){:target="_blank" rel="nofollow"}.
-
-### Worker Nodes
-
-- Nodes are the compute resources which power the cluster. But generally, when we talk about nodes, we consider them as worker nodes ie distinct from nodes which power the control plane.
-- The worker nodes are the machines that run your containerized applications (right side of the diagram)
-- The different parts of the worker node are :
-  - Kubelet
-    - This talks to the API server and manages containers on this node.
-  - Kube proxy
-    - This is the k8s service proxy which load balances network traffic between application components.
-  - Container runtime
-    - This runs the containers.
-    - Towards the end of 2020, [Docker as an underlying runtime was deprecated](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/){:target="_blank" rel="nofollow"} in favor of runtimes like containerd that use the Container Runtime Interface (CRI). Don't worry if your app image was created via Docker though. It will continue to work in k8s as its an OCI (Open Container Initiative) image.
 
 ## Kubernetes objects
 
