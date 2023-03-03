@@ -14,12 +14,13 @@ This is part of my [Kubernetes series]({{ site.url }}/#kubernetes) of posts.
 
 - [Using a Kubernetes cluster](#using-a-kubernetes-cluster)
     - [Cluster setup](#cluster-setup)
-    - [Kubectl](#kubectl)
-        - [Imperative approach](#imperative-approach)
-        - [Declarative approach](#declarative-approach)
 - [Kubernetes Architecture](#kubernetes-architecture)
     - [Control Plane](#control-plane)
     - [Worker Nodes](#worker-nodes)
+- [Approach](#approach)
+    - [Kubectl](#kubectl)
+        - [Imperative approach](#imperative-approach)
+        - [Declarative approach](#declarative-approach)
 - [Kubernetes objects](#kubernetes-objects)
     - [Namespace](#namespace)
     - [Pod](#pod)
@@ -83,6 +84,8 @@ Read this section only if you are really curious on what makes k8s work. Not nec
   - Container runtime
     - This runs the containers.
     - Towards the end of 2020, [Docker as an underlying runtime was deprecated](https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/){:target="_blank" rel="nofollow"} in favor of runtimes like containerd that use the Container Runtime Interface (CRI). Don't worry if your app image was created via Docker though. It will continue to work in k8s as its an OCI (Open Container Initiative) image.
+
+## Interacting with the cluster
 
 ### Kubectl
 
