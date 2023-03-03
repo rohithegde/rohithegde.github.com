@@ -393,6 +393,8 @@ spec:
 
 ## Related tools
 
+There are a [LOT of tools in the k8s ecosystem](https://github.com/topics/kubernetes){:target="_blank" rel="nofollow"}. But we will focus on 2 of them in the initial part of our k8s journey.
+
 ### Helm
 
 - Helm is the package manager for Kubernetes.
