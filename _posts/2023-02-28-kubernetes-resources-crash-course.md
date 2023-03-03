@@ -17,7 +17,7 @@ This is part of my [Kubernetes series]({{ site.url }}/#kubernetes) of posts.
 - [Kubernetes Architecture](#kubernetes-architecture)
     - [Control Plane](#control-plane)
     - [Worker Nodes](#worker-nodes)
-- [Approach](#approach)
+- [Interacting with the cluster](#interacting-with-the-cluster)
     - [Kubectl](#kubectl)
         - [Imperative approach](#imperative-approach)
         - [Declarative approach](#declarative-approach)
@@ -98,7 +98,7 @@ alias k='kubectl'
 
 Depending on the type of cluster you have installed above, there are different commands to setup a connection to the cluster. If you are connecting from your local terminal, the credentials will likely be stored in the `~/.kubeconfig` file. Read [this article for more details on kubeconfig](https://ahmet.im/blog/mastering-kubeconfig/){:target="_blank" rel="nofollow"}.
 
-#### Imperative approach
+### Imperative approach
 
 Kubernetes objects can quickly be created, updated, and deleted directly using imperative commands built into the kubectl command-line tool. For more details, you can visit [the official docs on it](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/imperative-command/){:target="_blank" rel="nofollow"}. Eg:
 
@@ -106,7 +106,7 @@ Kubernetes objects can quickly be created, updated, and deleted directly using i
 kubectl get nodes
 ```
 
-#### Declarative approach
+### Declarative approach
 
 - Kubernetes objects can be created, updated, and deleted by storing multiple object configuration files in a directory and using `kubectl apply` to recursively create and update those objects as needed. Such config files are called manifests.
 - Kubernetes resources are usually created by posting a JSON or YAML manifest to the Kubernetes REST API endpoint.
