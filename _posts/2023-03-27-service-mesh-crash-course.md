@@ -92,7 +92,7 @@ Isovalent's [Cilium service mesh architecture](https://isovalent.com/blog/post/2
 
 ## Comparison of different service meshes
 
-The below table compares the 4 prominent service meshes. For others you can look at <https://servicemesh.es/>{:target="\_blank" rel="nofollow"}(very detailed with a bit of outdated info and lesser meshes) or <https://layer5.io/service-mesh-landscape>{:target="\_blank" rel="nofollow"}.
+The below table compares 4 prominent service meshes. For others you can look at <https://servicemesh.es/>{:target="\_blank" rel="nofollow"}(very detailed with a bit of outdated info and lesser meshes) or <https://layer5.io/service-mesh-landscape>{:target="\_blank" rel="nofollow"}.
 
 | Factor                                 | Istio                                                                      | Linkerd2                                                                             | Consul Connect                                                                  | Cilium                                                                       |
 | -------------------------------------- | :------------------------------------------------------------------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ | :--------------------------------------------------------------------------- |
