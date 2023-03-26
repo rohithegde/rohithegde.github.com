@@ -2,11 +2,11 @@
 layout: post
 title: "Kubernetes - a simple non technical introduction"
 #category: general
-tags: [container, guide, kubernetes, software]
+tags: [container, guide, kubernetes, software, tutorial]
 comments: true
 ---
 
-This post was long overdue. I have been working with Kubernetes for 5+ years now. This is an attempt to explain Kubernetes to people of all ages in a simple understandable manner. If you are a kid, then [CNCF's illustrated guide](https://www.cncf.io/phippy/the-childrens-illustrated-guide-to-kubernetes/){:target="_blank" rel="nofollow"} might be a better fit.
+This post was long overdue. I have been working with Kubernetes for 5+ years now. This is an attempt to explain Kubernetes to people of all ages in a simple understandable manner. If you are a kid, then [CNCF's illustrated guide](https://www.cncf.io/phippy/the-childrens-illustrated-guide-to-kubernetes/){:target="\_blank" rel="nofollow"} might be a better fit.
 
 The **target audience for this post are those absolutely new to Kubernetes - even if you are from a non technical background**. The other parts of [my Kubernetes series]({{ site.url }}/#kubernetes) are meant for a technical audience.
 
@@ -14,9 +14,9 @@ The **target audience for this post are those absolutely new to Kubernetes - eve
 
 - [Where did Kubernetes come from ?](#where-did-kubernetes-come-from-)
 - [What is Kubernetes?](#what-is-kubernetes)
-    - [World before containers](#world-before-containers)
-    - [What are containers ?](#what-are-containers-)
-    - [Container Orchaestrators](#container-orchaestrators)
+  - [World before containers](#world-before-containers)
+  - [What are containers ?](#what-are-containers-)
+  - [Container Orchaestrators](#container-orchaestrators)
 - [Why is Kubernetes needed ?](#why-is-kubernetes-needed-)
 - [When can Kubernetes be a bad idea ?](#when-can-kubernetes-be-a-bad-idea-)
 - [Who is using Kubernetes ?](#who-is-using-kubernetes-)
@@ -25,13 +25,13 @@ The **target audience for this post are those absolutely new to Kubernetes - eve
 
 ## Where did Kubernetes come from ?
 
-- Kubernetes was announced by Google in mid-2014. It was inspired by Google's internal tool [Borg](https://research.google/pubs/pub43438/){:target="_blank" rel="nofollow"} which has been in use for more than a decade.
+- Kubernetes was announced by Google in mid-2014. It was inspired by Google's internal tool [Borg](https://research.google/pubs/pub43438/){:target="\_blank" rel="nofollow"} which has been in use for more than a decade.
 - Kubernetes is often abbreviated as k8s, counting the eight letters between the "K" and the "s".
 - Kubernetes means "helmsman," "pilot," or "governor". Sticking to its ship analogy, most tools in the Kubernetes ecosystem have been named after some ship related concept or part.
-- The creators of Kubernetes (and Borg) were inspired by the popular [Star Trek series](https://en.wikipedia.org/wiki/Star_Trek){:target="_blank" rel="nofollow"}:
-  - The orginal tool was named after [the Borg](https://en.wikipedia.org/wiki/Borg){:target="_blank" rel="nofollow"} - the hive-mind alien species which are a recurring antagonist in the series.
-  - Kubernetes was originally called "Project 7" after the Star Trek ex-Borg character [Seven of Nine](https://en.wikipedia.org/wiki/Seven_of_Nine){:target="_blank" rel="nofollow"} and gave its logo a seven-spoked wheel.
-  
+- The creators of Kubernetes (and Borg) were inspired by the popular [Star Trek series](https://en.wikipedia.org/wiki/Star_Trek){:target="\_blank" rel="nofollow"}:
+  - The orginal tool was named after [the Borg](https://en.wikipedia.org/wiki/Borg){:target="\_blank" rel="nofollow"} - the hive-mind alien species which are a recurring antagonist in the series.
+  - Kubernetes was originally called "Project 7" after the Star Trek ex-Borg character [Seven of Nine](https://en.wikipedia.org/wiki/Seven_of_Nine){:target="\_blank" rel="nofollow"} and gave its logo a seven-spoked wheel.
+
 ## What is Kubernetes?
 
 ### World before containers
@@ -48,14 +48,14 @@ The **target audience for this post are those absolutely new to Kubernetes - eve
 - A container is a software package which bundles an application’s code together with the related configuration files, libraries and dependencies.
   - Simple eg : Conceptually its similar to a large zip file having everything needed for the application to run.
   - Real world eg: you can compare it to your large travel bag which has everything you need to function in another place.
-- Though [containers existed for many years before](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016){:target="_blank" rel="nofollow"}, Docker made it famous in 2013 by simplifying its usage with an ecosystem of related tools. You can refer to [my blog posts on Docker]({{ site.url }}/#docker) if you want to learn more.
+- Though [containers existed for many years before](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016){:target="\_blank" rel="nofollow"}, Docker made it famous in 2013 by simplifying its usage with an ecosystem of related tools. You can refer to [my blog posts on Docker]({{ site.url }}/#docker) if you want to learn more.
 
 ### Container Orchaestrators
 
 - Container Orchestrators are tools to manage, scale, and maintain containers.
-  - Simple eg : Its an automated tool which takes your "zip file" and deploys it to any number of suitable machine for making it functional, scalable and accessible.  
+  - Simple eg : Its an automated tool which takes your "zip file" and deploys it to any number of suitable machine for making it functional, scalable and accessible.
   - Real world eg 1 : You can compare it to a hotel which enables you to function by taking care of you (and your travel bag!). It provides you security, support, scalability (more rooms!), ease of maintenance, easy access to the rooms (networking!) etc.
-  - Real world eg 2 : You can compare it to an orchaestrator who knows and manages the playing or various music instruments in the suitable sequence to create a beautiful symphony.  
+  - Real world eg 2 : You can compare it to an orchaestrator who knows and manages the playing or various music instruments in the suitable sequence to create a beautiful symphony.
 - Popular container orchestrators are Kubernetes, tools built on top of Kubernetes(Rancher, OpenShift, VMware Tanzu) and cloud managed services (GKE, AKS, EKS), HashiCorp Nomad, Apache Mesos and other container hosting services on the cloud (AWS Fargate, ECS, Azure Container Instance, Google Cloud Run) etc.
 - Kubernetes is also known as the operating system of the cluster.
 
@@ -64,7 +64,7 @@ With a ship on top of it, the famous Marina Bay Sands hotel of Singapore can be 
 
 ## Why is Kubernetes needed ?
 
-Kubernetes is complex but it needs to be as it has MANY responsibilities ! For more details, you can refer to the [Robusta.Dev](https://home.robusta.dev/blog/kubernetes-is-complex-because-you-want-complex-things){:target="_blank" rel="nofollow"} post on it.
+Kubernetes is complex but it needs to be as it has MANY responsibilities ! For more details, you can refer to the [Robusta.Dev](https://home.robusta.dev/blog/kubernetes-is-complex-because-you-want-complex-things){:target="\_blank" rel="nofollow"} post on it.
 
 Some advantages of Kubernetes:
 
@@ -86,7 +86,7 @@ Some advantages of Kubernetes:
 
 ## When can Kubernetes be a bad idea ?
 
-Below are the scenarios for which k8s can be a bad idea. For real-world incidents, please visit the infamous [k8s.af](https://k8s.af/){:target="_blank" rel="nofollow"}.
+Below are the scenarios for which k8s can be a bad idea. For real-world incidents, please visit the infamous [k8s.af](https://k8s.af/){:target="\_blank" rel="nofollow"}.
 
 - You just want to host a small web application.
   - Kubernetes was built for scale. Its power is clearly seen when you have a bunch of microservices accessed by a large audience while supported by hundreds of virtual machines.
@@ -102,13 +102,13 @@ Below are the scenarios for which k8s can be a bad idea. For real-world incident
 
 ## Who is using Kubernetes ?
 
-[Many organisations](https://kubernetes.io/case-studies/){:target="_blank" rel="nofollow"} are using k8s. Some prominent ones:
+[Many organisations](https://kubernetes.io/case-studies/){:target="\_blank" rel="nofollow"} are using k8s. Some prominent ones:
 
-- [Mercedes and its 900 k8s clusters](https://www.infoworld.com/article/3664052/why-mercedes-benz-runs-on-900-kubernetes-clusters.html){:target="_blank" rel="nofollow"}
-- [OpenAI](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/){:target="_blank" rel="nofollow"}
-- [US Department of Defense](https://www.cncf.io/blog/2020/05/07/with-kubernetes-the-u-s-department-of-defense-is-enabling-devsecops-on-f-16s-and-battleships/){:target="_blank" rel="nofollow"}
-- [CERN](https://kubernetes.io/case-studies/cern/){:target="_blank" rel="nofollow"}
-- [Tinder](https://medium.com/tinder/tinders-move-to-kubernetes-cda2a6372f44){:target="_blank" rel="nofollow"}
-- [Adidas](https://kubernetes.io/case-studies/adidas/){:target="_blank" rel="nofollow"}
+- [Mercedes and its 900 k8s clusters](https://www.infoworld.com/article/3664052/why-mercedes-benz-runs-on-900-kubernetes-clusters.html){:target="\_blank" rel="nofollow"}
+- [OpenAI](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/){:target="\_blank" rel="nofollow"}
+- [US Department of Defense](https://www.cncf.io/blog/2020/05/07/with-kubernetes-the-u-s-department-of-defense-is-enabling-devsecops-on-f-16s-and-battleships/){:target="\_blank" rel="nofollow"}
+- [CERN](https://kubernetes.io/case-studies/cern/){:target="\_blank" rel="nofollow"}
+- [Tinder](https://medium.com/tinder/tinders-move-to-kubernetes-cda2a6372f44){:target="\_blank" rel="nofollow"}
+- [Adidas](https://kubernetes.io/case-studies/adidas/){:target="\_blank" rel="nofollow"}
 
 Stay tuned for [more posts on Kubernetes]({{ site.url }}/#kubernetes) !

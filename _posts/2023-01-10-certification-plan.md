@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a certification plan"
 #category: general
-tags: [career, certification, checklist]
+tags: [career, certification, checklist, guide, tutorial]
 comments: true
 popular: true
 ---
@@ -18,16 +18,16 @@ Lets dig deeper into the topic !
 <!-- TOC -->
 
 - [When certifications can help](#when-certifications-can-help)
-    - [Marketing yourself](#marketing-yourself)
-    - [Getting a structured introduction to a new workstream](#getting-a-structured-introduction-to-a-new-workstream)
-    - [Knowledge is power](#knowledge-is-power)
+  - [Marketing yourself](#marketing-yourself)
+  - [Getting a structured introduction to a new workstream](#getting-a-structured-introduction-to-a-new-workstream)
+  - [Knowledge is power](#knowledge-is-power)
 - [When certifications can be a problem](#when-certifications-can-be-a-problem)
-    - [Giving you a false sense of confidence](#giving-you-a-false-sense-of-confidence)
-    - [Not making the best use of your time](#not-making-the-best-use-of-your-time)
+  - [Giving you a false sense of confidence](#giving-you-a-false-sense-of-confidence)
+  - [Not making the best use of your time](#not-making-the-best-use-of-your-time)
 - [Developing a balanced plan](#developing-a-balanced-plan)
-    - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
-    - [Have SMART goals](#have-smart-goals)
-    - [Radiate your strengths well](#radiate-your-strengths-well)
+  - [Let your career direct your certification plan](#let-your-career-direct-your-certification-plan)
+  - [Have SMART goals](#have-smart-goals)
+  - [Radiate your strengths well](#radiate-your-strengths-well)
 - [Example](#example)
 
 <!-- /TOC -->
@@ -64,7 +64,7 @@ Plenty of certs out there...
 - **Certifications cannot replace practical experience.** The confidence and attention to detail that comes from practical experience can never come from clearing an exam.
 
 ### Not making the best use of your time
-  
+
 - We all have limited time. Focusing on certifications which arent useful anytime soon are a waste of time.
 - Certifications have a fair bit of maintenance time too as most of them need to be renewed in 1/2/3 years.
 - Aiming for all the certifications of a specific cloud may seem like a great advertisement for your profile but its very redundant and seems like an attempt to get validated by others.

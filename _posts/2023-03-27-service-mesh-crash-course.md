@@ -2,7 +2,8 @@
 layout: post
 title: "A crash course on Service Mesh"
 #category: general
-tags: [kubernetes, guide, istio, linkerd, microservices, network, proxy]
+tags:
+  [kubernetes, guide, istio, linkerd, microservices, network, proxy, tutorial]
 comments: true
 ---
 
