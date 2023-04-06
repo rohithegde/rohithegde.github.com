@@ -18,9 +18,9 @@ This is related to my [Kubernetes series]({{ site.url }}/#kubernetes) of posts.
 - [Service mesh cons](#service-mesh-cons)
 - [Service mesh vs Event mesh](#service-mesh-vs-event-mesh)
 - [Service mesh architecture types](#service-mesh-architecture-types)
-  - [Sidecar proxy](#sidecar-proxy)
-  - [Host based proxy](#host-based-proxy)
-  - [eBPF based](#ebpf-based)
+    - [Sidecar proxy](#sidecar-proxy)
+    - [Host based proxy](#host-based-proxy)
+    - [eBPF based](#ebpf-based)
 - [Comparison of different service meshes](#comparison-of-different-service-meshes)
 - [References](#references)
 

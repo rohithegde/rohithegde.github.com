@@ -7,12 +7,34 @@ layout: default
 
   <div class="entry">
     <p>
-      <b> Tags : </b> |
-      {% assign tags = site.tags | sort %}
-      {% for tag in tags %}
-      {% assign t = tag | first %}
-      <a href="javascript:filter('{{ t }}');" class="tag-link-{{ t }}">{{ t }}</a> |
+      <b> Tags : </b> 
+     <!--
+      Below tag cloud code ref : https://www.gungorbudak.com/blog/2017/12/08/tags-cloud-sorted-by-post-count-for-jekyll-blogs-without-plugins/
+      -->
+    {% capture tags %}
+      {% for tag in site.tags %}
+        {{ tag[1].size | plus: -10000 }}###{{ tag[0] | replace: ' ', '##' }}###{{ tag[1].size }}
       {% endfor %}
+    {% endcapture %}
+    {% assign sorted_tags = tags | split: ' ' | sort %}
+    {% for sorted_tag in sorted_tags %}
+        {% assign items = sorted_tag | split: '###' %}
+        {% assign tag = items[1] | replace: '##', ' ' %}
+        {% assign count = items[2] | plus: 0 %}
+        {% if count > 9 %}
+            {% assign size = 5 %}
+        {% elsif count < 2 %}
+            {% assign size = 1 %}
+        {% else %} 
+            {% assign size = count | divided_by: 2 | plus: 1 %}
+        {% endif %}
+        {% if count > 1 %}
+        <span>
+          | <a href="javascript:filter('{{ tag }}');" class="tag-link-{{ tag }} tag-size-{{ size }}">{{ tag }}</a>
+        </span>
+        {% endif %}
+    {% endfor %}
+    |
     </p>
     <div class="divTable">
       <div class="divTableHeading">
