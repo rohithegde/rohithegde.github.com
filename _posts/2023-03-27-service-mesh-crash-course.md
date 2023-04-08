@@ -5,6 +5,7 @@ title: "A crash course on Service Mesh"
 tags:
   [kubernetes, guide, istio, linkerd, microservices, network, proxy, tutorial]
 comments: true
+popular: true
 ---
 
 Like Kubernetes, the topic of service meshes can get quite complex once you get into the details of implementation. Based on my 3 years of experience with service meshes, I am attempting to simplify the journey of someone looking to makes sense of this vast topic.
@@ -18,9 +19,9 @@ This is related to my [Kubernetes series]({{ site.url }}/#kubernetes) of posts.
 - [Service mesh cons](#service-mesh-cons)
 - [Service mesh vs Event mesh](#service-mesh-vs-event-mesh)
 - [Service mesh architecture types](#service-mesh-architecture-types)
-    - [Sidecar proxy](#sidecar-proxy)
-    - [Host based proxy](#host-based-proxy)
-    - [eBPF based](#ebpf-based)
+  - [Sidecar proxy](#sidecar-proxy)
+  - [Host based proxy](#host-based-proxy)
+  - [eBPF based](#ebpf-based)
 - [Comparison of different service meshes](#comparison-of-different-service-meshes)
 - [References](#references)
 
