@@ -16,6 +16,7 @@ Many guides out there on this topic but most of them merely borrow from Microsof
 - [Different strategies](#different-strategies)
   - [Application category strategy](#application-category-strategy)
   - [Application category strategy for Hub and Spoke](#application-category-strategy-for-hub-and-spoke)
+  - [Application strategy for Hub and Spoke](#application-strategy-for-hub-and-spoke)
   - [Functional strategy](#functional-strategy)
   - [Geographic strategy](#geographic-strategy)
   - [Mix subscription strategies](#mix-subscription-strategies)
@@ -23,6 +24,7 @@ Many guides out there on this topic but most of them merely borrow from Microsof
 - [References](#references)
 
 <!-- /TOC -->
+
 ## What is a Subscription ?
 
 !["subscription"](/assets/images/azure/scope-levels.png "subscription")
@@ -55,7 +57,7 @@ Many guides out there on this topic but most of them merely borrow from Microsof
 
 ## Different strategies
 
-While there are many [different strategies documented](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/){:target="_blank" rel="nofollow"}, here are the main ones which we see in the industry.
+While there are many [different strategies documented](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/){:target="\_blank" rel="nofollow"}, here are the main ones which we see in the industry.
 
 ### Application category strategy
 
@@ -72,6 +74,15 @@ While there are many [different strategies documented](https://docs.microsoft.co
 - The segregation of different environments via subscriptions allows for additional abstraction between environments.
 
 !["subscription-hierarchy-hub-spoke"](/assets/images/azure/subscription-hierarchy-hub-spoke.drawio.png "subscription-hierarchy-hub-spoke")
+
+### Application strategy for Hub and Spoke
+
+- A newer strategy which has arisen is one in which each subscription is used for a single application (eg: set of microservices supporting a hotel booking app) or landing zone.
+- This is especially suitable for those huge workloads which are better off segregated with their own set of resources.
+- It can also be combined with the hub and spoke architecture above to ensure each part of tbe hub has its own subscription.
+- This is not recommended for those having low degree of automation. You will need fair number of processes/automation to manage so many subscriptions including their creation.
+
+!["subscription-hierarchy-hub-spoke-app"](/assets/images/azure/subscription-hierarchy-hub-spoke-application.drawio.png "subscription-hierarchy-hub-spoke-app")
 
 ### Functional strategy
 
@@ -97,7 +108,7 @@ As you see, the hierarchy you go for will depend based on your organisation and 
 
 ## References
 
-- [CAF - Subscriptions decision guide](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/){:target="_blank" rel="nofollow"}
-- [CAF - Subscription limits](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions){:target="_blank" rel="nofollow"}
-- [Subscriptions](https://docs.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide#subscriptions){:target="_blank" rel="nofollow"}
-- [Subscriptions - AzureAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory){:target="_blank" rel="nofollow"}
+- [CAF - Subscriptions decision guide](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/subscriptions/){:target="\_blank" rel="nofollow"}
+- [CAF - Subscription limits](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/resource-org-subscriptions){:target="\_blank" rel="nofollow"}
+- [Subscriptions](https://docs.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide#subscriptions){:target="\_blank" rel="nofollow"}
+- [Subscriptions - AzureAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory){:target="\_blank" rel="nofollow"}
