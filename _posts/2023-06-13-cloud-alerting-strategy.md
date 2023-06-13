@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Alerting strategy for the cloud"
+title: "An Alerting strategy for the cloud"
 #category: general
 tags: [cloud, azure, aws, gcp, monitoring, strategy]
 comments: true
