@@ -7,7 +7,7 @@ comments: true
 popular: false
 ---
 
-There arent much articles out there on alerting strategies. I found that out few years ago when I was developing one myself. Couple of years down the line and not much has changed. Some gems of knowledge on alerting remain in books but not widely published on the internet. This article is an attempt to address that gap.
+There arent much articles out there on alerting strategies. I found that out when I was developing one myself to implement a robust alerting system. Its been a couple of years since then and not much has changed. Some gems of knowledge on alerting remain in books but not widely published on the internet. This article is an attempt to address that gap.
 
 <!-- TOC -->
 
