@@ -133,14 +133,14 @@ Prioritisation allows the right alerts to show up as notifications and reduce th
   - SecOps
     - Cloud Security Leads
     - Cloud Security Engineers
-- Based on the real world teams which exist, the right "owners" can be set for the different alerts. Its the responsibility of the "owners" to follow through with the process and respond to the alerts.
+- Based on the real world teams which exist, the right "owners" can be set for the different alerts. Its the responsibility of the "owners" to follow through with the process and respond to the alerts. Eg: Budget alerts can go to the FinOps team.
 
 ## Use case
 
 !["Hub Spoke"](/assets/images/azure/hub-spoke.png "Hub Spoke")
 
 - An effective alerting strategy should be in line with the architecture of the cloud setup. If you take the below Hub spoke setup as an example, you can see which resources are critical for the uptime of the application.
-- Examine each resource in this flow and identify what can go wrong with it - from the Firewall in the left all the way to the VM in the right. Thus for each resource, you can:
+- Examine each resource in this flow and apply the dimensions we discussed above. So examine each resource from left to the right - ie from the Firewall and VPN to the network peering to eventually the Virtual machine and database. Thus for each resource, you can:
   - Identity alerts for each resource. Plenty of docs available for this.
   - Prioritise the alerts. SLA can be used to determine this.
   - Assign the right channel based on priority. Eg: Assign the critical ones to something like PagerDuty or Slack or Teams to ensure timely response.
@@ -165,6 +165,8 @@ The following points should be considered when configuring alerts:
   E.g. Configuring an alert for a virtual machine with a threshold of 1 minute for unavailability before an alert is triggered.
 - Use an automated alerting solution instead of having people actively look for issues.
 - Add a group email address rather than specific persons so as to reduce the need to update the notification settings with every team member's changes.
+
+Takeaway - Use the steps given above to formulate a solid alerting strategy for your cloud setup. A "horses for courses" approach works really well to ensure a steady flow of alerts which isnt noisy.
 
 ## References
 
