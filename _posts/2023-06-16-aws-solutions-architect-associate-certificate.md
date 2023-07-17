@@ -27,7 +27,7 @@ A brand new guide to prepare for the AWS Certified Solutions Architect Associate
 
 ## Background
 
-> “Surpass your limits. The path will open up for you" - Yami Sukehiro from the Black Clover anime.
+> “Surpass your limits. The path will open up for you" - Yami Sukehiro from the anime "Black Clover".
 
 I have been working on Azure cloud infrastructure for the past 3 years which enabled me to go really deep into it. Azure certs allowed me to explore further. I am now interested in refreshing my past experience with the other 2 major clouds. Certifications in them seems to be the logical next step of my journey :smile:.
 
