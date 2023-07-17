@@ -35,6 +35,8 @@ The introductory cloud certs like [AWS Cloud Practioner](https://aws.amazon.com/
 
 I decided to pursue the "Architect" cloud certification path as it matched my line of work and I had [already achieved this path for Azure cloud]({{ site.url }}/#certification){:target="\_blank"}. So here is my journey to get the [AWS Solutions Architect Associate cert](https://aws.amazon.com/certification/certified-solutions-architect-associate/){:target="\_blank" rel="nofollow"}.
 
+!["AWS Solutions Architect Associate"](/assets/images/certifications/aws-aschitect-associate.png "AWS Solutions Architect Associate"){:height="30%" width="30%"}
+
 ## Preparation
 
 - The [AWS exam guide for this cert](https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf){:target="\_blank" rel="nofollow"} lists the weightage of the 5 main topics but that isnt very helpful as there can be overlap of resources between them. Eg : Design High-Performing Architectures vs Design Cost-Optimized Architectures.
@@ -112,8 +114,6 @@ At this point in time I was confident of clearing the exam.
   ```
 
 - Due to this, there was no way to predict my marks. I might have done well with those 15 questions and not so well in the ones that mattered. Oh well, atleast I got the shiny certification logo :smile:.
-
-!["AWS Solutions Architect Associate"](/assets/images/certifications/aws-aschitect-associate.png "AWS Solutions Architect Associate"){:height="30%" width="30%"}
 
 ## Final thoughts
 
