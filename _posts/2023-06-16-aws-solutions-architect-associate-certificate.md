@@ -42,7 +42,7 @@ I decided to pursue the "Architect" cloud certification path as it matched my li
 
 ### Udemy course by Stephane Maarek
 
-- I prepared with [Stephane Maarek's course](https://mckinsey.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/){:target="\_blank" rel="nofollow"} as it was one of the most popular ones for AWS certs.
+- I prepared with [Stephane Maarek's course](https://mckinsey.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/){:target="\_blank" rel="nofollow"} as it was the most popular course for this AWS cert.
 - It has a duration of 27 hours and is well detailed with focus on edge cases too. Stephane has gone the extra mile to try to help us by covering plenty of topics from the exam point of view.
 - Additionally one practice test is given here with 65 questions.
 - I went through the course at 1.5x speed to save some time.
