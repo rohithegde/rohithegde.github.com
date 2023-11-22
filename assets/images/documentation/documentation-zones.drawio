@@ -1,0 +1,63 @@
+<mxfile host="Electron" modified="2023-11-20T14:47:02.422Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="FZMSzg32nR01BU6JX8RB" version="22.1.2" type="device">
+  <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
+    <mxGraphModel dx="1026" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ec97bd9e5d20128-1" value="" style="line;strokeWidth=2;html=1;fillColor=none;fontSize=28;fontColor=#004D99;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="150" y="400" width="890" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-5" value="Negligible" style="shape=offPageConnector;whiteSpace=wrap;html=1;fontSize=15;size=0.5093750000000015;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="80" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-9" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="150" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="400" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="660" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4ec97bd9e5d20128-13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="910" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-22" value="Low" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontSize=15;size=0.5093750000000015;verticalAlign=top;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="330" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-24" value="Medium" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=15;size=0.5093750000000015;verticalAlign=top;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-25" value="High" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=15;size=0.5093750000000015;verticalAlign=top;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="840" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-26" value="Usually orgs just starting out. Could also be those with an unhealthy dev culture." style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-30" value="Usually orgs with small teams and lightweight apps." style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-31" value="The&amp;nbsp;Goldilocks&amp;nbsp;zone of documentation. A good balance for larger apps that scales well with time." style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-32" value="Usually orgs with complex apps which have existed over a long time or those with an excessive tendency to document everything." style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-33" value="Documentation levels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="385" y="250" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="590" as="sourcePoint" />
+            <mxPoint x="920" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrAjjL_khw6ZOwsqpg2C-37" value="Time and effort" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GrAjjL_khw6ZOwsqpg2C-36">
+          <mxGeometry x="0.1077" y="-1" relative="1" as="geometry">
+            <mxPoint x="-24" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
