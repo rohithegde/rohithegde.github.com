@@ -2,7 +2,7 @@
 layout: post
 title: "An intuitive documentation strategy"
 #category: general
-tags: [cloud, documentation, guide, strategy]
+tags: [cloud, documentation, guide, strategy, azure, aws, gcp, kubernetes]
 comments: true
 ---
 
