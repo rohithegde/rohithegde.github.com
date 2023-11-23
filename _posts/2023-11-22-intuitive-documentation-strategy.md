@@ -31,7 +31,7 @@ I wrote this blog post to share some of my learnings on creating intuitive docum
 
 > “I have some paperwork to catch up. If I am not back in two days, organize a search and rescue team!" - Stanley Parker from The Better Half comic.
 
-This blog post is focused on creating an intuitive documentation which can scale for a large product. So it focuses on the balanced approach - between the low and high documentation levels below.
+This post is focused on creating an intuitive documentation which scales for a large product. So it focuses on the balanced approach - between the low and high documentation levels below.
 
 !["Documentation zones"](/assets/images/documentation/documentation-zones.drawio.png "Documentation zones")
 
@@ -55,7 +55,7 @@ Good intuitive documentation can be helpful in many ways. It can:
 
 ## How to create intuitive documentation
 
-My playbook for creating intuitive documentation consists of 4 steps :
+My playbook for creating intuitive documentation :
 
 1. Creating a simple manifesto/vision.
 2. Creating a intuitive folder structure.
@@ -70,7 +70,7 @@ Translating the vision of the core engineers for the rest of the team is easier 
   - Good documentation comes from empathy ie the desire to share the knowledge and enable a smooth onboarding experience.
   - Involve technical writers and analysts only if the audience are not engineers.
 - New documentation should ALWAYS be reviewed.
-  - Pull Request(PR) if its a code repo, [Automated review process](https://confluence.atlassian.com/confeval/confluence-evaluator-resources/confluence-workflows-approval){:target="\_blank" rel="nofollow"} if Atlassian's Confluence or a simple people process to ensure engineers always tag reviewers on their documentation.
+  - PR if its a code repo, [Automated review process](https://confluence.atlassian.com/confeval/confluence-evaluator-resources/confluence-workflows-approval){:target="\_blank" rel="nofollow"} if Atlassian's Confluence or a simple people process to ensure engineers always tag reviewers on their documentation.
 - Simplify learning experience for engineers.
   - Keep it as visual as possible. Use the [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model){:target="\_blank" rel="nofollow"} OR [C4 model](https://c4model.com/){:target="\_blank" rel="nofollow"} to show different perspectives.
   - Use a layered approach to explain complex concepts and avoid overwhelming the audience. Use pre-read or post-read sections in a document to recommend a user journey.
@@ -78,7 +78,7 @@ Translating the vision of the core engineers for the rest of the team is easier 
 
 ### Folder structure
 
-Having an intuitive folder structure or hierarchy is extremely essential for navigating through the documentation with ease. Dont worry about the documents given in them. I have explained that in the documents section next. Lets go through couple of examples below.
+Having an intuitive folder structure or hierarchy is extremely essential for navigating through the documentation with ease. Dont worry about the documents given in them. I have explained that in the documents section next. Lets go through few examples below.
 
 Note : I have considered a documentation repo consisting of markdown files. You can assume similar structure for other tools like Confluence or Google drive or Sharepoint.
 
@@ -214,7 +214,7 @@ Eg:
 
 #### Features watch list
 
-- This document aids product maintenance. Taking the example of a cloud based product, you can visit the new features or updates made by the specific cloud provider(eg: Azure) for the last one year(depending on the frequency of the exercise) and prioritise specific ones which you want to bring into your product. Same applies for any tech - whether its a cloud or a frontend framework.
+- This document aids product maintenance. Taking the example of a cloud based product, you can view the new features of a specific cloud provider for the last one year(depending on the frequency of the exercise) and prioritise specific ones. Same applies for any tech - whether its a cloud product or a frontend framework.
 - It can have different sections of "General Availability" and "Public preview" with top 10 features in each that you want to add to your product. The ones in "Public Preview" are prioritised ONLY if its absolutely needed.
 
 Eg:
@@ -223,7 +223,7 @@ Eg:
 
 #### Specialist path guides
 
-Last but not least - this set of documents define the personas which are needed for the team. It can contain a list of certifications or custom list of skills/tech or some combo of the two so that it sets up the new team member for success in the team and maybe even his/her career.
+This set of documents define the personas which are needed for the team. It can contain a list of certifications or custom list of skills/tech or some combo of the two so that it sets up the new team member for success in the team and maybe even his/her career.
 
 Eg of certifications for an Azure cloud engineer :
 
@@ -235,16 +235,17 @@ Eg of knowledge needed to master a specific k8s cluster setup :
 
 ### Automation
 
-Some of the documentation can be auto generated as long as they follow specific conventions or templates.
-Examples include API docs, Change logs, Release docs etc.
-You can even automate generation of the tech aspects of the README.md of a repo as also tag creation using simple bash.
+Some of the documentation can be auto generated as long as they follow specific conventions or templates.Eg: API docs, Change logs, Release docs etc.
 
-- There are some tools out there like [Docusaurus](https://docusaurus.io/docs/playground){:target="\_blank" rel="nofollow"} which offer an easy to use opinionated documentation structure and website. Do note that they merely focus on the high level folder structure and setup aspects.
+- Automate generation of the tech aspects of the README.md of a repo as also tag creation using simple bash.
+- Tools like [Docusaurus](https://docusaurus.io/docs/playground){:target="\_blank" rel="nofollow"} which offer an easy to use opinionated documentation structure and website. Do note that they merely focus on the high level folder structure and setup aspects.
 - Tools like [Slate](https://github.com/slatedocs/slate?utm_source=abstraction.blog){:target="\_blank" rel="nofollow"} provides beautiful static documentation for your API.
 - Tools like Spotify's [Backstage](https://backstage.io/){:target="\_blank" rel="nofollow"} help you create a developer portal and catalog of your services. Plenty of addons allow you to add a great number of automations and customisations.
 
 ## Final thoughts
 
-While automation can help offboard some of the document generation, an interesting document will still need imagination and ingenuity from a human who cares (or generative AI?).
+After all this - you might say "This looks to be good doc strategy. But whats the point if the team doesnt update it ?". You resolve it through processes. Make reviews part of the process. Dont approve the PR if the docs arent reviewed.
+
+Additionally - while automation can help offboard some of the document generation but an interesting document will still need imagination and ingenuity from a human who cares (or generative AI?).
 
 <br/>Feel free to share your experiences. Every bit of knowledge helps :blush:.
