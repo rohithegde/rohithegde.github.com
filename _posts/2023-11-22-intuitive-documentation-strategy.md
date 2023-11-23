@@ -145,7 +145,7 @@ Note : I have considered a documentation repo consisting of markdown files. You 
 - Important to have year based folders for easier segregation of ADR like documents which will keep getting created for the lifetime of a product.
 - Essential to have the latest state of the architecture in one place as it provides a high level technical overview of the entire product.
 - The guides folder has onboarding journeys which have to be seen by every new team member.
-- The development folder contains implementation details.
+- The development folder contains implementation details. The folder above contains some of the main pillars of a cloud setup.
 - The rfc folder is optional. I used it to seperate research documentation from actual implementation. It helped me easily transfer implementation documentation to clients.
 
 #### Eg - Process
