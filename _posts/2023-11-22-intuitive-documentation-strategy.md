@@ -85,7 +85,7 @@ Note : I have considered a documentation repo consisting of markdown files. You 
 #### Eg - Cloud product
 
 ```bash
-📁 aws
+📁 azure
    ├ 📁 architecture
    │    ├ 📁 architecture-decision-records
    │    │    ├ 📁 2023
@@ -141,7 +141,7 @@ Note : I have considered a documentation repo consisting of markdown files. You 
 
 ```
 
-- Above folder structure is for AWS cloud but it can be extended for multi-cloud. Have a folder for each cloud and a common folder for documentation which is cloud agnostic.
+- Above folder structure is for Azure cloud but it can be extended for multi-cloud. Have a folder for each cloud and a common folder for documentation which is cloud agnostic.
 - Important to have year based folders for easier segregation of ADR like documents which will keep getting created for the lifetime of a product.
 - Essential to have the latest state of the architecture in one place as it provides a high level technical overview of the entire product.
 - The guides folder has onboarding journeys which have to be seen by every new team member.
