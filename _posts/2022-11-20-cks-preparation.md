@@ -12,49 +12,50 @@ A brand new guide to prepare for the final exam of the k8s triad - CKS in 2022. 
 
 - [Background](#background)
 - [How is CKS compared to the CKA and CKAD exams ?](#how-is-cks-compared-to-the-cka-and-ckad-exams-)
-    - [Focus on 3rd party software](#focus-on-3rd-party-software)
-    - [Lesser dependency on official k8s documentation](#lesser-dependency-on-official-k8s-documentation)
-    - [Validity](#validity)
+  - [Focus on 3rd party software](#focus-on-3rd-party-software)
+  - [Lesser dependency on official k8s documentation](#lesser-dependency-on-official-k8s-documentation)
+  - [Validity](#validity)
 - [Preparation](#preparation)
 - [Exams](#exams)
-    - [Killer.sh practice test 1](#killersh-practice-test-1)
-    - [CKS - Attempt 1](#cks---attempt-1)
-        - [New Exam UI from June 2022](#new-exam-ui-from-june-2022)
-        - [Exam experience](#exam-experience)
-    - [Killer.sh practice test 2](#killersh-practice-test-2)
-    - [CKS attempt 2](#cks-attempt-2)
-    - [CKS attempt 3](#cks-attempt-3)
+  - [Killer.sh practice test 1](#killersh-practice-test-1)
+  - [CKS - Attempt 1](#cks---attempt-1)
+    - [New Exam UI from June 2022](#new-exam-ui-from-june-2022)
+    - [Exam experience](#exam-experience)
+  - [Killer.sh practice test 2](#killersh-practice-test-2)
+  - [CKS attempt 2](#cks-attempt-2)
+  - [CKS attempt 3](#cks-attempt-3)
 - [Tips for the exam](#tips-for-the-exam)
 
 <!-- /TOC -->
+
 ## Background
 
 > “I may not have gone where I intended to go, but I think I have ended up where I intended to be.” - Douglas Adams
 
 I started working with Kubernetes(k8s) around 4 yrs ago. I got the CKAD and CKA certifications last year but wasnt able to spend time to prepare the CKS exam for the whole year.
 Giving the 3 exams one after the other is ideal for those managing Kubernetes infrastructure. The exams require a lot of practice and preparing for one gets you in the "zone" to tackle the rest.
-You can read about my k8s certification journey [here]({{ site.url }}/#certification){:target="_blank"}.
+You can read about my k8s certification journey [here]({{ site.url }}/#certification){:target="\_blank"}.
 
 ## How is CKS compared to the CKA and CKAD exams ?
 
 !["k8s-certs-obtained"](/assets/images/k8s/k8s-certs-obtained.png "k8s-certs-obtained")
 
-Like CKAD and CKA, CKS is a **2 hour exam with 15-20 tasks involving as many clusters with atleast 67% needed to clear it**. Details on it can be accessed [here](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/){:target="_blank" rel="nofollow"}.
+Like CKAD and CKA, CKS is a **2 hour exam with 15-20 tasks involving as many clusters with atleast 67% needed to clear it**. Details on it can be accessed [here](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/){:target="\_blank" rel="nofollow"}.
 
 Besides the focus on security, there are some differences between CKS and the other k8s certifications:
 
 ### Focus on 3rd party software
 
-- K8s has always depended on multiple tools ([etcd](https://github.com/etcd-io/etcd){:target="_blank" rel="nofollow"}, [containerd](https://github.com/containerd/containerd){:target="_blank" rel="nofollow"}, [helm](https://github.com/helm/helm){:target="_blank" rel="nofollow"}) for its working. Barring etcd in the CKA exam, there wasnt much focus on the individual tools. That changes in this exam.
-- Plenty of popular tools from the k8s ecosystem introduced here - [Kube-bench](https://github.com/aquasecurity/kube-bench){:target="_blank" rel="nofollow"}, [Kubesec](https://github.com/controlplaneio/kubectl-kubesec){:target="_blank" rel="nofollow"}, [gVisor](https://github.com/google/gvisor){:target="_blank" rel="nofollow"}, [AppArmor](https://apparmor.net/){:target="_blank" rel="nofollow"}, [Seccomp](https://github.com/seccomp/libseccomp){:target="_blank" rel="nofollow"}, [Trivy](https://github.com/aquasecurity/trivy){:target="_blank" rel="nofollow"}, [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper){:target="_blank" rel="nofollow"}, [Falcon](https://www.crowdstrike.com/blog/tech-center/integrate-with-your-siem/){:target="_blank" rel="nofollow"}, [Sysdig](https://github.com/draios/sysdig){:target="_blank" rel="nofollow"} etc.
-- Additionally unix based tools like [strace](https://github.com/strace/strace){:target="_blank" rel="nofollow"}, ps, lsof, netstat, systemctl are needed for troubleshooting quite a bit.
+- K8s has always depended on multiple tools ([etcd](https://github.com/etcd-io/etcd){:target="\_blank" rel="nofollow"}, [containerd](https://github.com/containerd/containerd){:target="\_blank" rel="nofollow"}, [helm](https://github.com/helm/helm){:target="\_blank" rel="nofollow"}) for its working. Barring etcd in the CKA exam, there wasnt much focus on the individual tools. That changes in this exam.
+- Plenty of popular tools from the k8s ecosystem introduced here - [Kube-bench](https://github.com/aquasecurity/kube-bench){:target="\_blank" rel="nofollow"}, [Kubesec](https://github.com/controlplaneio/kubectl-kubesec){:target="\_blank" rel="nofollow"}, [gVisor](https://github.com/google/gvisor){:target="\_blank" rel="nofollow"}, [AppArmor](https://apparmor.net/){:target="\_blank" rel="nofollow"}, [Seccomp](https://github.com/seccomp/libseccomp){:target="\_blank" rel="nofollow"}, [Trivy](https://github.com/aquasecurity/trivy){:target="\_blank" rel="nofollow"}, [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper){:target="\_blank" rel="nofollow"}, [Falcon](https://www.crowdstrike.com/blog/tech-center/integrate-with-your-siem/){:target="\_blank" rel="nofollow"}, [Sysdig](https://github.com/draios/sysdig){:target="\_blank" rel="nofollow"} etc.
+- Additionally unix based tools like [strace](https://github.com/strace/strace){:target="\_blank" rel="nofollow"}, ps, lsof, netstat, systemctl are needed for troubleshooting quite a bit.
 
 ### Lesser dependency on official k8s documentation
 
 - For CKAD and CKA exams, one can rely on kubernetes.io documentation to bail you out.
 - For CKS, you need to visit documentation of the 3rd party tools.
-- Additionally until the exam moves to k8s v1.25, the deprecated resource `PodSecurityPolicy` will continue to be in the syllabus while [not having much documentation support](https://kubernetes.io/docs/concepts/security/pod-security-policy/){:target="_blank" rel="nofollow"}. This is mitigated to some extent by using existing psp resources to create your own psp in the cluster.
-- As of Nov 2022, [CKS exam is conducted with k8s v1.24](https://github.com/cncf/curriculum){:target="_blank" rel="nofollow"}. Expect this to be upgraded in a couple of months.
+- Additionally until the exam moves to k8s v1.25, the deprecated resource `PodSecurityPolicy` will continue to be in the syllabus while [not having much documentation support](https://kubernetes.io/docs/concepts/security/pod-security-policy/){:target="\_blank" rel="nofollow"}. This is mitigated to some extent by using existing psp resources to create your own psp in the cluster.
+- As of Nov 2022, [CKS exam is conducted with k8s v1.24](https://github.com/cncf/curriculum){:target="\_blank" rel="nofollow"}. Expect this to be upgraded in a couple of months.
 
 ### Validity
 
@@ -62,9 +63,9 @@ While CKAD and CKA are valid for 3 years, CKS is valid for 2 years only.
 
 ## Preparation
 
-- I enrolled into the [Udemy course by Kim Wüstkamp](https://www.udemy.com/course/certified-kubernetes-security-specialist/){:target="_blank" rel="nofollow"}.
+- I enrolled into the [Udemy course by Kim Wüstkamp](https://www.udemy.com/course/certified-kubernetes-security-specialist/){:target="\_blank" rel="nofollow"}. UPDATE: Its not available on Udemy anymore. Its available as a free course now - [Youtube course by Kim Wüstkamp](https://www.youtube.com/watch?v=d9xfB5qaOfg){:target="\_blank" rel="nofollow"}.
 - Kim is the founder of killer.sh and he did a great job at explaining the concepts. The best thing about it was the practical tests in each chapter on Killercoda.com.
-- The free access to a [killer.sh](https://killer.sh/){:target="_blank" rel="nofollow"} practice test when you schedule a CKS exam is the best resource for practicing. You get 2 hours to give a single practice test which is tougher than the real exam. You get 2 sessions of 36 hours each during which the cluster environment will remain alive. In these 72 hours, you can retake the same practice test multiple times.
+- The free access to a [killer.sh](https://killer.sh/){:target="\_blank" rel="nofollow"} practice test when you schedule a CKS exam is the best resource for practicing. You get 2 hours to give a single practice test which is tougher than the real exam. You get 2 sessions of 36 hours each during which the cluster environment will remain alive. In these 72 hours, you can retake the same practice test multiple times.
 
 ## Exams
 
@@ -80,7 +81,7 @@ While CKAD and CKA are valid for 3 years, CKS is valid for 2 years only.
 
 !["k8s-exam-ui"](/assets/images/k8s/k8s-exam-new-ui.png "k8s-examui")
 
-Refer to this [Killer.sh blog post](https://itnext.io/cks-cka-ckad-changed-terminal-to-remote-desktop-157a26c1d5e){:target="_blank" rel="nofollow"} and [this official post](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2/exam-user-interface/examui-performance-based-exams){:target="_blank" rel="nofollow"} for more details on the changes.
+Refer to this [Killer.sh blog post](https://itnext.io/cks-cka-ckad-changed-terminal-to-remote-desktop-157a26c1d5e){:target="\_blank" rel="nofollow"} and [this official post](https://docs.linuxfoundation.org/tc-docs/certification/lf-handbook2/exam-user-interface/examui-performance-based-exams){:target="\_blank" rel="nofollow"} for more details on the changes.
 You can count this as a extra thing to master.
 The new user interface is tricky for those who havent experienced it. They have moved from the old browser based format to a Remote Desktop based UI via a custom exam browser tool. The practice test helps in getting used to this new UI but its far easier as its browser based compared to the Remote Desktop based new UI.
 
@@ -106,7 +107,7 @@ Some of the improvements I liked:
 
 - I was confident about the core parts of the exam but was a bit uncertain about the 3rd party tools and implementation of admission controllers as I hadnt worked on them before. Learning about all of them in a short while had made it fuzzy in my head.
 - I installed the new custom browser tool and started it. The validation was done in 10 min and the exam started.
-- I was surprised to see that the `kubectl` alias didnt work by default. Its supposed to exist as per the [official exam documentation](https://docs.linuxfoundation.org/tc-docs/certification/important-instructions-cks#cks-environment){:target="_blank" rel="nofollow"}. I had to add it manually.
+- I was surprised to see that the `kubectl` alias didnt work by default. Its supposed to exist as per the [official exam documentation](https://docs.linuxfoundation.org/tc-docs/certification/important-instructions-cks#cks-environment){:target="\_blank" rel="nofollow"}. I had to add it manually.
 - I started the exam. Was slowed down as I wasnt comfortable using the Firefox browser to search within the page. I was also used to the "ctrl-c" and "ctrl-v" ways to copy paste. Using mouse right click was a pain. With the limited space, you have to prioritise which window to view. Having the browser in a tab behind the terminal window made me forget for a few minutes that I could search the documentation.
 - With a total of 15 questions to solve in 2 hours time, I had to take on 4 questions per 30 min to ensure I make it in time. It was a definite struggle with not much practice. I was able to solve around 75% of the questions in 2 hrs. The remaining 25% confused me a bit as they were on topics I wasnt strong on.
 - The results came out around 23 hours after the start of the exam. I had got 59% ie 8 marks short of the passing score (67%). I wasnt surprised at the outcome. The silver lining was that I had got 59/75 with very short prep time.
@@ -122,10 +123,10 @@ Some of the improvements I liked:
 ### CKS attempt 2
 
 - I gave the exam again at the end of the 2 week extension.
-- 15 questions in 2 hrs ie around 4 questions per 30 min. I went in with full confidence. I skipped the big or complex questions for later and attacked the smaller ones. It was going very well. I felt I knew the answers to every question ! Later on, I had 35 minutes remaining with 5 questions to go. 
+- 15 questions in 2 hrs ie around 4 questions per 30 min. I went in with full confidence. I skipped the big or complex questions for later and attacked the smaller ones. It was going very well. I felt I knew the answers to every question ! Later on, I had 35 minutes remaining with 5 questions to go.
 - I attempted a big question worth of 11%. I was about to hit "enter" on the final part of the answer ...and then disaster struck. The CLI stopped working. But the camera remained active as I could see myself in the video part of the UI. I tried to ping the supervisor and motioned to the camera but to no avail. The UI wasnt responding. I waited for 5 minutes but nothing changed. I couldn't even restart the app as everything on my screen had frozen. I called the US number. After a wait of 5 min, I got through to a person. He patiently heard me out and asked me follow up questions (exam code, my device type, my name etc). He said that the error logs indicate a network lag due to which the exam got stuck. But he couldn't say why the UI wasnt responsive enough to indicate the same. He asked me to restart the application. Suddenly the app became alive again and I could see things working again. The timer showed me that I had 8 min left.
 - I asked for a re-take as I had a similar experience during a cloud certification a year ago. He said he will look into it and got me transferred to another executive after providing me the ticket number. After a wait of 10 min, the lady said that I would have to make this request to the LinuxFoundation organisation.
-- Felt quite dejected. I didnt have much hope this time. It looked like I would have to shell out the fees again for a retake. As a final move, I created [a support ticket](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/15){:target="_blank" rel="nofollow"} with LinuxFoundation explaning the situation and providing them the support ticket number from my earlier conversation.
+- Felt quite dejected. I didnt have much hope this time. It looked like I would have to shell out the fees again for a retake. As a final move, I created [a support ticket](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/15){:target="\_blank" rel="nofollow"} with LinuxFoundation explaning the situation and providing them the support ticket number from my earlier conversation.
 - The exam results came out in 23 hours. I had got 62% out of the 75% questions or so I had attempted. There were chances that I could have reached the 67% cutoff if I had used the 8 min remaining time...but no guarantees. So some regret here.
 - There was no response for 2 days. However on the 3rd day, I got a response...they had decided to provide me a one time exception to retake the CKS exam again within the next 1 month !!! I was overjoyed ! Finally a positive twist in the tale !
 
