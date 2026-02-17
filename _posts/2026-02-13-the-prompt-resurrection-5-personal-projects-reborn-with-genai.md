@@ -96,9 +96,10 @@ A career tracking app for those working as well as those searching for jobs. Som
 
 An app which brings the previous apps together. Some of the features it includes are:
 
-- Weather reporting
+- Maslow's hierarchy of needs mapped to the other apps with scoring
 - Reminders across all apps
 - Motivation quotes (random)
+- Weather reporting
 - (More to come)
 
 ## Tech stack
