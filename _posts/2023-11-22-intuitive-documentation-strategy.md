@@ -4,6 +4,7 @@ title: "An intuitive documentation strategy"
 #category: general
 tags: [cloud, documentation, guide, strategy, azure, aws, gcp, kubernetes]
 comments: true
+popular: true
 ---
 
 I wrote this blog post to share some of my learnings on creating intuitive documentation for products and projects over the past decade or so. This post is for those of you looking to make your documentation interesting enough for the audience to keep coming back for more.
