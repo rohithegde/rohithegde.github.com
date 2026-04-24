@@ -17,6 +17,9 @@ source "https://rubygems.org"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
 
+# Faraday v2 moved retry middleware to a separate gem.
+gem "faraday-retry"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed"

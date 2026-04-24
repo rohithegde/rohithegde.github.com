@@ -2,23 +2,13 @@
 layout: post
 title: "The Prompt Resurrection - 5 personal projects reborn with GenAI"
 #category: general
-tags: [genai, cursor, llm, python]
+tags: [genai, cursor, llm, python, vue, postgres, database, app]
 comments: true
 ---
 
 > "If I'm not back in five minutes, just wait longer." — Ace Ventura: Pet Detective
 
 I am writing this blog after a break of two years due to milestones on the personal front which kept me busy.
-
-The arrival of GenAI has lead to an unending stream of predictions for the future. From job loss to universal basic income...from SaaSpocalypse to having opensource projects overrun by agents...from getting cures for all diseases to getting wiped out by the Terminators.
-
-Its important not to lose track of the present for an uncertain future. I chose to focus on the now and use GenAI to improve myself.
-
-<!--
-
-A lot has happened since then. GenAI has swept into almost every tech discussion. Every blog and social media post seems to be AI generated. Its hard to scroll LinkedIn now.
-Am using the #NoAIUsed tag to indicate that I wrote this post. It took me a few hours but its worth it. A creative outlet of sorts which I am proud to truly call my own.
--->
 
 <!-- TOC -->
 
@@ -32,6 +22,13 @@ Am using the #NoAIUsed tag to indicate that I wrote this post. It took me a few 
   - [Frontend](#frontend)
   - [Backend](#backend)
   - [Architecture](#architecture)
+- [Lessons learnt using GenAI for coding](#lessons-learnt-using-genai-for-coding)
+- [Final thoughts](#final-thoughts)
+
+<!-- /TOC -->](#frontend)
+
+- [Backend](#backend)
+- [Architecture](#architecture)
 - [Lessons learnt using GenAI for coding](#lessons-learnt-using-genai-for-coding)
 - [Final thoughts](#final-thoughts)
 
