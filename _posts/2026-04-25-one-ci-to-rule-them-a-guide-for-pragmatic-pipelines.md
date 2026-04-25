@@ -45,7 +45,7 @@ I have been talking to few young app developers on quality gates. Felt that thei
 ## Application CI pipelines
 
 A Continuous Integration(CI) pipeline is an automated approach to ensure quality of the code.
-You can read about the basics on [the GitLab blog](https://about.gitlab.com/topics/ci-cd/){:target="\_blank" rel="nofollow"}. Rest of the blog focuses on visual examples to keep things interesting.
+For those new to CI, you can read about the basics on [the GitLab blog](https://about.gitlab.com/topics/ci-cd/){:target="\_blank" rel="nofollow"}. Rest of the blog focuses on visual examples with a tiny bit of supporting theory.
 
 Note:
 
