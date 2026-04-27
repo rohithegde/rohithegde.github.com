@@ -56,7 +56,7 @@ Note:
 
 !["App CI pipeline starter kit"](/assets/images/ci-pipeline/app-ci-starter.drawio.png "App CI pipeline  starter kit")
 
-This is an absolute basic CI pipeline. Ok not as basic as some of the answers I got while taking interviews. There are some startups whose pipeline consists of just linting and building images since their main priority is to ship software asap. Everything else takes a backseat.
+This is an absolute basic CI pipeline. Ok not as basic as some of the answers I got while conducting interviews. There are some startups whose pipeline consists of just building images since their main priority is to ship software asap. Everything else takes a backseat.
 
 But I recommend having atleast a security scan and a license scan. This will safeguard the app from a security and legal lens. Also cost. There are [cases](https://www.reddit.com/r/googlecloud/comments/1reqtvi/82000_in_48_hours_from_stolen_gemini_api_key_my/){:target="\_blank" rel="nofollow"} out there where startups have gone bankrupt due to leaked API keys.
 
@@ -109,7 +109,7 @@ This pipeline detects environment specific integration issues, bigger architectu
 
 ## IaC CI pipelines
 
-Creating IaC involves some upfront effort and needs a high degree of maintenance. Something that startups are unlikely to invest in atleast in their initial stages. So I havent shared a starter kit for IaC CI pipelines here.
+Creating Infrastructure as Code(IaC) involves some upfront effort and needs a high degree of maintenance. Something that startups are unlikely to invest in atleast in their initial stages. So I don't see much point in having a starter kit for IaC CI pipelines.
 
 ### IaC CI pipeline - fully loaded
 
